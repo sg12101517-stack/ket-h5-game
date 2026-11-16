@@ -2130,398 +2130,1513 @@ window.KET_DATA = {
 };
 
 
-// === ui_templates.js ===
-// 自动从 ~/h5src/ui/P01-P21_*.html 提取的高保真 DOM 模板与全局 SVG 符号库
-window.KET_TEMPLATES = {
-  "SVG_SYMBOLS": "<svg width=\"0\" height=\"0\" style=\"position:absolute;overflow:hidden\" aria-hidden=\"true\"><defs><symbol id=\"ico-flame\" viewBox=\"0 0 20 20\">\n        <path d=\"M10.5 1.5 C11.5 5.2,16.5 6.8,16.5 11.8 C16.5 15.6,13.6 18.5,10 18.5 C6.4 18.5,3.5 15.6,3.5 11.8 C3.5 8.8,5.4 6.5,6.8 5.2 C6.5 7.4,8 8.2,8.2 8.2 C7.6 5.5,9 3,10.5 1.5 Z\" fill=\"#FF4769\" stroke=\"#FFFBEB\" stroke-width=\"1\"/>\n        <path d=\"M10.2 8.2 C11.4 10,13.2 11,13.2 13.4 C13.2 15.2,11.8 16.6,10 16.6 C8.2 16.6,6.8 15.2,6.8 13.4 C6.8 11.6,8.5 10,10.2 8.2 Z\" fill=\"#FEF08A\"/>\n      </symbol><symbol id=\"ico-chest\" viewBox=\"0 0 20 20\">\n        <rect x=\"2.5\" y=\"7.5\" width=\"15\" height=\"10\" rx=\"3\" fill=\"#D97706\" stroke=\"#FFFBEB\" stroke-width=\"1.2\"/>\n        <path d=\"M2.5 8.5 C2.5 4.8,17.5 4.8,17.5 8.5 Z\" fill=\"#FBBF24\" stroke=\"#FFFBEB\" stroke-width=\"1.2\"/>\n        <rect x=\"8.2\" y=\"7\" width=\"3.6\" height=\"4.5\" rx=\"1.2\" fill=\"#FEF08A\" stroke=\"#92400E\" stroke-width=\"0.9\"/>\n      </symbol><symbol id=\"ico-star\" viewBox=\"0 0 20 20\">\n        <polygon points=\"10,1.8 12.6,7 18.2,7.8 14.1,11.8 15.1,17.4 10,14.7 4.9,17.4 5.9,11.8 1.8,7.8 7.4,7\" fill=\"#FEF08A\" stroke=\"#B45309\" stroke-width=\"1.1\"/>\n      </symbol><symbol id=\"ico-speaker\" viewBox=\"0 0 20 20\">\n        <path d=\"M3 7.5 H6.5 L11.5 3.5 V16.5 L6.5 12.5 H3 A1.5 1.5 0 0 1 1.5 11 V9 A1.5 1.5 0 0 1 3 7.5 Z\" fill=\"currentColor\"/>\n        <path d=\"M14.2 6.8 A4.8 4.8 0 0 1 14.2 13.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n      </symbol></defs></svg>",
-  "PAGES": {
-    "P01": {
-      "id": "P01",
-      "file": "P01_品牌启动首页与今日3步微任务.html",
-      "title": "P01 品牌启动首页与今日3步微任务 · 正常态（微任务2/3）",
-      "caption": "P01 品牌启动首页与今日3步微任务 · 正常态（微任务2/3）",
-      "screenClass": "phone-screen page-P01",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"48\" cy=\"116\" r=\"32\" fill=\"#FFFFFF\" opacity=\"0.26\"/>\n          <circle cx=\"342\" cy=\"110\" r=\"38\" fill=\"#FFE4EA\" opacity=\"0.24\"/>\n          <ellipse cx=\"195\" cy=\"186\" rx=\"170\" ry=\"38\" fill=\"#6EE7B7\" opacity=\"0.22\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-titles\">\n              <h1 class=\"hud-main-title\">荔枝KET词卡助手</h1>\n              <span class=\"hud-sub-title\">前2关免费 · 100组同义替换</span>\n            </div>\n            <span class=\"streak-pill gummy-shine\">\n              <svg class=\"ico\"><use href=\"#ico-flame\"/></svg>\n              <span>连胜 7天</span>\n            </span>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <section class=\"hero-card\" aria-label=\"小船长迎宾与今日核心词\">\n            <div class=\"hero-top\">\n              <svg class=\"captain-buddy\" viewBox=\"0 0 88 88\" role=\"img\" aria-label=\"3D软胶荔枝小船长\">\n                <ellipse cx=\"44\" cy=\"54\" rx=\"30\" ry=\"26\" fill=\"#C81E45\"/>\n                <ellipse cx=\"44\" cy=\"50\" rx=\"30\" ry=\"25\" fill=\"#FFFBEB\" stroke=\"#FDE68A\" stroke-width=\"2\"/>\n                <path d=\"M14 38 C14 14,74 14,74 38 Z\" fill=\"#FF4769\" stroke=\"#FFC2CE\" stroke-width=\"1.5\"/>\n                <rect x=\"11\" y=\"34\" width=\"66\" height=\"9\" rx=\"4.5\" fill=\"#1E3A8A\"/>\n                <circle cx=\"31\" cy=\"33\" r=\"8\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"3\"/>\n                <circle cx=\"57\" cy=\"33\" r=\"8\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"3\"/>\n                <circle cx=\"33\" cy=\"52\" r=\"4\" fill=\"#0F172A\"/><circle cx=\"55\" cy=\"52\" r=\"4\" fill=\"#0F172A\"/>\n                <path d=\"M37 60 Q44 66 51 60\" fill=\"none\" stroke=\"#9A3412\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n              </svg>\n              <div class=\"hero-meta\">\n                <div>\n                  <span class=\"rank-badge gummy-shine\">\n                    <svg class=\"ico\"><use href=\"#ico-star\"/></svg>\n                    <span>荔枝见习小水手 · 6/33星</span>\n                  </span>\n                </div>\n                <h2 class=\"hero-title\">第2关 · 罗盘迷宫岛</h2>\n              </div>\n            </div>\n            <div class=\"word-spotlight\">\n              <span class=\"word-main-en\">immediately</span>\n              <span class=\"word-sub-syn\">= right away / at once · 立刻/马上</span>\n            </div>\n          </section>\n\n          <section class=\"daily-quest-bar\" aria-label=\"今日3步微任务\">\n            <div class=\"quest-head\">\n              <h2 class=\"quest-title\">\n                <svg class=\"ico-lg\"><use href=\"#ico-chest\"/></svg>\n                <span>今日微任务 (2/3)</span>\n              </h2>\n              <span class=\"lock-cloud-tag\">差1步开箱</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"2\" max=\"3\" aria-label=\"今日微任务进度 2/3\"></progress>\n            <ul class=\"quest-list\">\n              <li class=\"quest-item\">\n                <span>① 闯过任意 1 个关卡阶段</span>\n                <span class=\"quest-badge\">已完成</span>\n              </li>\n              <li class=\"quest-item\">\n                <span>② 错题强化营消灭 3 道错词</span>\n                <span class=\"quest-badge\">已完成</span>\n              </li>\n              <li class=\"quest-item is-todo\">\n                <span>③ 完成 1 张 5 题默写卡</span>\n                <span class=\"quest-badge todo\">待完成</span>\n              </li>\n            </ul>\n            <p class=\"quest-foot\">\n              <span>7天复习打卡 Day 1</span>\n              <span>连胜断签1天清零（补签待补充）</span>\n            </p>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部主按钮与导航 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">继续闯关：第2关 罗盘迷宫岛 ▶</button>\n          </div>\n          <nav class=\"bottom-nav\" aria-label=\"底部主导航\">\n            <button type=\"button\" class=\"btn-gummy nav-tab is-active\">群岛</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">宝典</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">错题</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">默写</button>\n          </nav>\n        </footer>"
-    },
-    "P02": {
-      "id": "P02",
-      "file": "P02_首屏3秒发光小手破冰引导.html",
-      "title": "P02 首屏3秒发光小手破冰引导 · 首次进入聚光引导态",
-      "caption": "P02 首屏3秒发光小手破冰引导 · 首次进入聚光引导态",
-      "screenClass": "phone-screen is-deep page-P02",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"52\" cy=\"118\" r=\"28\" fill=\"#38BDF8\" opacity=\"0.18\"/>\n          <circle cx=\"338\" cy=\"126\" r=\"34\" fill=\"#F59E0B\" opacity=\"0.16\"/>\n          <ellipse cx=\"195\" cy=\"760\" rx=\"180\" ry=\"42\" fill=\"#1E40AF\" opacity=\"0.25\"/>\n        </svg>\n        <div class=\"coach-mask\" aria-hidden=\"true\"></div>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">第1关 · 滴答钟表岛</h1>\n                <span class=\"hud-sub-title\">阶段① 晶石配对 · 3秒直玩破冰</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部聚光破冰区（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <section class=\"spotlight-stage\" aria-label=\"首屏聚光引导核心词对\">\n            <div class=\"stage-head\">\n              <h2 class=\"stage-title\">点按配对同义晶石</h2>\n              <span class=\"lock-cloud-tag\">#001 时间与日期类</span>\n            </div>\n\n            <div class=\"pair-focus\">\n              <div class=\"gem-card is-word is-focus gummy-shine\">\n                <span class=\"gem-en-main\">immediately</span>\n                <span class=\"gem-tag\">核心原词</span>\n              </div>\n              <div class=\"gem-card is-syn is-focus gummy-shine\">\n                <span class=\"gem-en-syn\">right away / at once</span>\n                <span class=\"gem-tag is-syn-tag\">同义替换</span>\n              </div>\n\n              <!-- 3D 软胶发光小手 SVG -->\n              <svg class=\"gummy-hand-pointer\" viewBox=\"0 0 68 68\" role=\"img\" aria-label=\"发光软胶小手点击引导\">\n                <circle cx=\"26\" cy=\"18\" r=\"15\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/>\n                <circle cx=\"26\" cy=\"18\" r=\"7\" fill=\"#FEF08A\" opacity=\"0.75\"/>\n                <path d=\"M26 16 C29 16,31 19,31 23 L31 32 C39 32,48 36,48 46 C48 55,40 61,29 61 C19 61,13 54,13 45 L13 36 C13 33,17 33,19 36 L21 39 L21 23 C21 19,23 16,26 16 Z\" fill=\"#FFFBEB\" stroke=\"#F59E0B\" stroke-width=\"2.5\"/>\n                <ellipse cx=\"26\" cy=\"22\" rx=\"3\" ry=\"5\" fill=\"#FFFFFF\"/>\n              </svg>\n            </div>\n\n            <div class=\"dim-grid\" aria-hidden=\"true\">\n              <div class=\"dim-gem\">eventually</div>\n              <div class=\"dim-gem\">fortnight</div>\n            </div>\n          </section>\n\n          <aside class=\"captain-bubble-card\" aria-label=\"小船长破冰提示气泡\">\n            <svg class=\"captain-buddy\" viewBox=\"0 0 72 72\" role=\"img\" aria-label=\"荔枝小船长\">\n              <ellipse cx=\"36\" cy=\"44\" rx=\"25\" ry=\"21\" fill=\"#FFFBEB\" stroke=\"#F59E0B\" stroke-width=\"2\"/>\n              <path d=\"M12 32 C12 12,60 12,60 32 Z\" fill=\"#FF4769\"/>\n              <rect x=\"9\" y=\"29\" width=\"54\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n              <circle cx=\"26\" cy=\"28\" r=\"6.5\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"2.5\"/>\n              <circle cx=\"46\" cy=\"28\" r=\"6.5\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"2.5\"/>\n              <circle cx=\"27\" cy=\"43\" r=\"3.5\" fill=\"#0F172A\"/><circle cx=\"45\" cy=\"43\" r=\"3.5\" fill=\"#0F172A\"/>\n              <path d=\"M30 50 Q36 55 42 50\" fill=\"none\" stroke=\"#9A3412\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n            </svg>\n            <div class=\"bubble-txt\">\n              <span>原来如此！看到 <b>right away / at once</b> 就是 <b>immediately</b>（立刻/马上）！</span>\n              <span class=\"bubble-ex\">He answered the phone immediately.</span>\n            </div>\n          </aside>\n        </div>\n\n        <!-- 文字块 4：底部操作区 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">点按发光晶石 · 立即配对爆破 ▶</button>\n          </div>\n          <p class=\"footer-note\">零长文弹窗 · 剑桥 A2 Key 考纲真题词对</p>\n        </footer>"
-    },
-    "P03": {
-      "id": "P03",
-      "file": "P03_奇幻糖果群岛大地图（上篇L1–L6）.html",
-      "title": "P03 奇幻糖果群岛大地图（上篇L1–L6） · L1–L2免费巡航+L3–L6内购云雾锁",
-      "caption": "P03 奇幻糖果群岛大地图（上篇L1–L6） · L1–L2免费巡航+L3–L6内购云雾锁",
-      "screenClass": "phone-screen page-P03",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <path d=\"M95 240 C260 280,110 420,285 470 C140 530,270 630,195 690\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"4\" stroke-dasharray=\"10 8\" opacity=\"0.45\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回首页\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">奇幻糖果群岛 · 上篇</h1>\n                <span class=\"hud-sub-title\">L1–L2免费 · L3–L6内购解锁</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部大地图（文字块 2：巡航横幅 + 文字块 3：L1–L6 岛屿矩阵） -->\n        <div class=\"zone-board\">\n          <section class=\"sail-banner\" aria-label=\"小船长帆船巡航状态\">\n            <svg class=\"captain-buddy\" viewBox=\"0 0 64 64\" role=\"img\" aria-label=\"荔枝小船长帆船\">\n              <path d=\"M8 44 L56 44 L48 56 L16 56 Z\" fill=\"#D97706\" stroke=\"#FEF08A\" stroke-width=\"2\"/>\n              <path d=\"M32 10 L32 44 M32 12 L52 36 L32 36 Z\" fill=\"#FF4769\" stroke=\"#FFF\" stroke-width=\"2\"/>\n              <circle cx=\"24\" cy=\"34\" r=\"9\" fill=\"#FFFBEB\" stroke=\"#F59E0B\" stroke-width=\"2\"/>\n            </svg>\n            <div class=\"sail-info\">\n              <div class=\"sail-word-row\">\n                <span class=\"sail-word\">nearby</span>\n                <span class=\"sail-syn\">= close to / not far from</span>\n              </div>\n              <span class=\"sail-sub\">第2关 罗盘迷宫岛（#011–#020）· ★ 6/33</span>\n            </div>\n          </section>\n\n          <section class=\"island-grid\" aria-label=\"L1至L6六座主题糖果岛\">\n            <!-- L1 滴答钟表岛 -->\n            <article class=\"island-card\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L1滴答钟表岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#38BDF8\"/>\n                  <rect x=\"15\" y=\"12\" width=\"18\" height=\"24\" rx=\"5\" fill=\"#F59E0B\"/>\n                  <circle cx=\"24\" cy=\"22\" r=\"6\" fill=\"#FFFBEB\"/>\n                </svg>\n                <span class=\"star-ticks\">★★★</span>\n              </div>\n              <h2 class=\"island-name\">L1 滴答钟表岛</h2>\n              <span class=\"island-meta\">#001–#010 免费</span>\n            </article>\n\n            <!-- L2 罗盘迷宫岛 -->\n            <article class=\"island-card is-active\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L2罗盘迷宫岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#10B981\"/>\n                  <circle cx=\"24\" cy=\"22\" r=\"12\" fill=\"#FBBF24\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n                  <polygon points=\"24,13 28,22 24,31 20,22\" fill=\"#FF4769\"/>\n                </svg>\n                <span class=\"star-ticks\">★★★</span>\n              </div>\n              <h2 class=\"island-name\">L2 罗盘迷宫岛</h2>\n              <span class=\"island-meta\">#011–#020 巡航中</span>\n            </article>\n\n            <!-- L3 金币宝藏岛 -->\n            <article class=\"island-card is-locked gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L3金币宝藏岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#FBBF24\"/>\n                  <rect x=\"13\" y=\"16\" width=\"22\" height=\"18\" rx=\"5\" fill=\"#FF4769\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L3 金币宝藏岛</h2>\n              <span class=\"island-meta\">#021–#030 内购</span>\n            </article>\n\n            <!-- L4 奇幻游乐岛 -->\n            <article class=\"island-card is-locked gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L4奇幻游乐岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#60A5FA\"/>\n                  <circle cx=\"24\" cy=\"21\" r=\"11\" fill=\"none\" stroke=\"#FB7185\" stroke-width=\"4\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L4 奇幻游乐岛</h2>\n              <span class=\"island-meta\">#031–#040 内购</span>\n            </article>\n\n            <!-- L5 星光人物岛 -->\n            <article class=\"island-card is-locked gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L5星光人物岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#8B5CF6\"/>\n                  <ellipse cx=\"24\" cy=\"21\" rx=\"9\" ry=\"12\" fill=\"#F43F5E\" stroke=\"#FEF08A\" stroke-width=\"2\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L5 星光人物岛</h2>\n              <span class=\"island-meta\">#041–#050 内购</span>\n            </article>\n\n            <!-- L6 彩虹心情岛 -->\n            <article class=\"island-card is-locked gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L6彩虹心情岛\">\n                  <path d=\"M10 34 A14 14 0 0 1 38 34\" fill=\"none\" stroke=\"#FBBF24\" stroke-width=\"5\"/>\n                  <ellipse cx=\"24\" cy=\"36\" rx=\"18\" ry=\"6\" fill=\"#FFFBEB\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L6 彩虹心情岛</h2>\n              <span class=\"island-meta\">#051–#060 内购</span>\n            </article>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部主按钮与待补充项 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">登岛闯关：L2 罗盘迷宫岛 ▶</button>\n          </div>\n          <p class=\"footer-note\">L3–L11内购单套定价：待补充（家长监护确认解锁）</p>\n        </footer>"
-    },
-    "P04": {
-      "id": "P04",
-      "file": "P04_奇幻糖果群岛大地图（下篇L7–L11）.html",
-      "title": "P04 奇幻糖果群岛大地图（下篇L7–L11） · L7–L11云雾锁+底部110px防遮挡态",
-      "caption": "P04 奇幻糖果群岛大地图（下篇L7–L11） · L7–L11云雾锁+底部110px防遮挡态",
-      "screenClass": "phone-screen is-deep page-P04",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <path d=\"M95 190 C270 250,110 360,285 430 L195 540\" fill=\"none\" stroke=\"#FDE047\" stroke-width=\"4\" stroke-dasharray=\"9 7\" opacity=\"0.38\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"上滚至L1–L6\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">奇幻糖果群岛 · 下篇</h1>\n                <span class=\"hud-sub-title\">L7–L11 黄金王冠海域 · 内购解锁</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部大地图（文字块 2：L7–L10 岛屿 + 文字块 3：L11 黄金王冠圣殿） -->\n        <div class=\"zone-board map-scroll-safe\">\n          <section class=\"island-grid-4\" aria-label=\"L7至L10主题岛屿\">\n            <!-- L7 蒸汽列车岛 -->\n            <article class=\"island-card gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L7蒸汽列车岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#0EA5E9\"/>\n                  <rect x=\"12\" y=\"18\" width=\"24\" height=\"16\" rx=\"4\" fill=\"#EF4444\"/>\n                  <circle cx=\"18\" cy=\"34\" r=\"4\" fill=\"#FEF08A\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#FEF08A\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L7 蒸汽列车岛</h2>\n              <span class=\"island-meta\">#061–#070 交通出行</span>\n            </article>\n\n            <!-- L8 魔法学院岛 -->\n            <article class=\"island-card gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L8魔法学院岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#A855F7\"/>\n                  <polygon points=\"24,8 36,28 12,28\" fill=\"#2563EB\" stroke=\"#FEF08A\" stroke-width=\"2\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L8 魔法学院岛</h2>\n              <span class=\"island-meta\">#071–#080 学校学习</span>\n            </article>\n\n            <!-- L9 缤纷集市岛 -->\n            <article class=\"island-card gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L9缤纷集市岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#FEF3C7\"/>\n                  <rect x=\"12\" y=\"16\" width=\"24\" height=\"18\" rx=\"4\" fill=\"#F97316\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L9 缤纷集市岛</h2>\n              <span class=\"island-meta\">#081–#090 购物消费</span>\n            </article>\n\n            <!-- L10 皇家法则岛 -->\n            <article class=\"island-card gummy-shine\">\n              <div class=\"island-top\">\n                <svg class=\"island-diorama\" viewBox=\"0 0 48 48\" aria-label=\"L10皇家法则岛\">\n                  <ellipse cx=\"24\" cy=\"38\" rx=\"20\" ry=\"7\" fill=\"#3B82F6\"/>\n                  <path d=\"M14 14 H34 V26 C34 33,24 37,24 37 C24 37,14 33,14 26 Z\" fill=\"#F59E0B\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n                </svg>\n                <span class=\"lock-cloud-tag\">¥9.9 云雾锁</span>\n              </div>\n              <h2 class=\"island-name\">L10 皇家法则岛</h2>\n              <span class=\"island-meta\">#091–#100 限制修饰</span>\n            </article>\n          </section>\n\n          <section class=\"sanctuary-card gummy-shine\" aria-label=\"终极第11关黄金王冠圣殿\">\n            <div class=\"sanctuary-row\">\n              <svg class=\"island-diorama\" style=\"width:58px;height:58px\" viewBox=\"0 0 56 56\" role=\"img\" aria-label=\"L11黄金王冠圣殿\">\n                <ellipse cx=\"28\" cy=\"46\" rx=\"24\" ry=\"8\" fill=\"#6D28D9\" stroke=\"#FDE047\" stroke-width=\"2\"/>\n                <path d=\"M12 36 L16 16 L24 25 L28 12 L32 25 L40 16 L44 36 Z\" fill=\"#FDE047\" stroke=\"#B45309\" stroke-width=\"2\"/>\n              </svg>\n              <div>\n                <span class=\"lock-cloud-tag\">终极关 · 20题全真巩固测验</span>\n                <h2 class=\"sanctuary-title\">L11 黄金王冠圣殿</h2>\n              </div>\n            </div>\n            <div class=\"sanctuary-word-row\">\n              <span class=\"sanctuary-word\">depart</span>\n              <span class=\"sanctuary-syn\">= leave / set off · 出发</span>\n            </div>\n            <p class=\"sanctuary-desc\">通关 L10 开启 · 答对 ≥12/20（60%）加冕黄金王冠</p>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部四栏导航与解锁按钮 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">家长确认 · 解锁 L3–L11 全部关卡 ▶</button>\n          </div>\n          <nav class=\"bottom-nav\" aria-label=\"底部四栏主导航\">\n            <button type=\"button\" class=\"btn-gummy nav-tab is-active\">群岛</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">宝典</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">错题</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">默写</button>\n          </nav>\n        </footer>"
-    },
-    "P05": {
-      "id": "P05",
-      "file": "P05_关卡详情与四阶选关准备弹窗.html",
-      "title": "P05 关卡详情与四阶选关准备弹窗 · 选关准备模态弹窗态",
-      "caption": "P05 关卡详情与四阶选关准备弹窗 · 选关准备模态弹窗态",
-      "screenClass": "phone-screen page-P05",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"56\" cy=\"148\" r=\"34\" fill=\"#FFFFFF\" opacity=\"0.24\"/>\n          <circle cx=\"332\" cy=\"136\" r=\"38\" fill=\"#FDE68A\" opacity=\"0.22\"/>\n          <ellipse cx=\"195\" cy=\"720\" rx=\"170\" ry=\"44\" fill=\"#38BDF8\" opacity=\"0.24\"/>\n        </svg>\n        <div class=\"modal-backdrop\" aria-hidden=\"true\"></div>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"关闭弹窗\">✕</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">选关准备 · 第1关</h1>\n                <span class=\"hud-sub-title\">01 时间与日期类 (#001–#010)</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部模态弹窗（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <section class=\"prep-modal\" role=\"dialog\" aria-modal=\"true\" aria-label=\"第1关滴答钟表岛四阶选关弹窗\">\n            <div class=\"modal-head\">\n              <svg class=\"island-diorama\" viewBox=\"0 0 56 56\" role=\"img\" aria-label=\"L1滴答钟表岛\">\n                <ellipse cx=\"28\" cy=\"44\" rx=\"24\" ry=\"8\" fill=\"#38BDF8\"/>\n                <rect x=\"17\" y=\"14\" width=\"22\" height=\"28\" rx=\"6\" fill=\"#F59E0B\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n                <circle cx=\"28\" cy=\"26\" r=\"7\" fill=\"#FFFBEB\"/>\n              </svg>\n              <div>\n                <h2 class=\"modal-title\">滴答钟表岛</h2>\n                <span class=\"lock-cloud-tag\">前2关免费体验</span>\n              </div>\n            </div>\n\n            <div class=\"star-ticks-bar\">\n              <span class=\"star-ticks\">★ ≥60%达标</span>\n              <span class=\"star-ticks\">★★ ≥80%良好</span>\n              <span class=\"star-ticks\">★★★ ≥95%满星</span>\n            </div>\n\n            <div class=\"word-preview\">\n              <span class=\"word-en\">immediately</span>\n              <span class=\"word-syn\">= right away / at once</span>\n            </div>\n\n            <div class=\"stage-btn-list\" role=\"group\" aria-label=\"四阶选关按钮\">\n              <button type=\"button\" class=\"btn-gummy stage-select-btn gummy-shine\">\n                <span>① 3D晶石配对消除</span>\n                <span class=\"stage-status-tag\">✓ 已完成</span>\n              </button>\n              <button type=\"button\" class=\"btn-gummy stage-select-btn gummy-shine\">\n                <span>② 语境慧眼单选</span>\n                <span class=\"stage-status-tag\">✓ 90%</span>\n              </button>\n              <button type=\"button\" class=\"btn-gummy stage-select-btn gummy-shine\">\n                <span>③ 魔法拼写工坊</span>\n                <span class=\"stage-status-tag\">✓ 已完成</span>\n              </button>\n              <button type=\"button\" class=\"btn-gummy stage-select-btn is-boss gummy-shine\">\n                <span>④ 守关挑战（15s快反）</span>\n                <span class=\"stage-status-tag boss\">去突破 ▶</span>\n              </button>\n            </div>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部主 CTA -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">四阶连闯 · 冲击 3 星满星 ▶</button>\n          </div>\n          <p class=\"footer-note\">单练仅记绿勾 · 四阶连闯全达标授星并解锁下一关</p>\n        </footer>"
-    },
-    "P06": {
-      "id": "P06",
-      "file": "P06_阶段① 3D晶石配对消除.html",
-      "title": "P06 阶段① 3D晶石配对消除 · 2×5双色晶石阵+中心吸附爆破态",
-      "caption": "P06 阶段① 3D晶石配对消除 · 2×5双色晶石阵+中心吸附爆破态",
-      "screenClass": "phone-screen is-deep page-P06",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"48\" cy=\"128\" r=\"30\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"344\" cy=\"118\" r=\"36\" fill=\"#F59E0B\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"760\" rx=\"175\" ry=\"40\" fill=\"#1E40AF\" opacity=\"0.22\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">阶段① 晶石配对</h1>\n                <span class=\"hud-sub-title\">第1关 滴答钟表岛 · 第1/2波</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部 2×5 双色晶石阵与中心爆破区（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <section class=\"burst-stage\" aria-label=\"中心吸附星尘爆破与配对进度\">\n            <div class=\"burst-top\">\n              <div class=\"burst-left\">\n                <span class=\"burst-word\">fortnight</span>\n                <span class=\"burst-syn\">= two weeks / 14 days</span>\n              </div>\n              <span class=\"streak-pill gummy-shine\">连击 ×4</span>\n              <svg class=\"burst-svg\" viewBox=\"0 0 56 56\" role=\"img\" aria-label=\"中心吸附星尘粒子爆裂\">\n                <circle cx=\"28\" cy=\"28\" r=\"22\" fill=\"#FEF08A\" opacity=\"0.45\"/>\n                <polygon points=\"28,4 33,20 49,16 38,28 49,40 33,36 28,52 23,36 7,40 18,28 7,16 23,20\" fill=\"#F59E0B\" stroke=\"#FFF\" stroke-width=\"1.5\"/>\n                <circle cx=\"10\" cy=\"10\" r=\"3.5\" fill=\"#FF4769\"/><circle cx=\"46\" cy=\"12\" r=\"3\" fill=\"#38BDF8\"/>\n                <circle cx=\"48\" cy=\"44\" r=\"3.5\" fill=\"#10B981\"/><circle cx=\"12\" cy=\"46\" r=\"3\" fill=\"#F59E0B\"/>\n              </svg>\n            </div>\n            <div class=\"tray-head\">\n              <span>本波配对进度 4 / 5 组 · 纯英文防母语拐杖</span>\n              <span>80%</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"4\" max=\"5\" aria-label=\"本波配对进度 4/5\"></progress>\n          </section>\n\n          <section class=\"gem-matrix\" role=\"group\" aria-label=\"2乘5双色晶石配对矩阵\">\n            <!-- Row 1: #001 已消除 -->\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-word is-cleared\">immediately</button>\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-syn is-cleared\">right away / at once</button>\n            <!-- Row 2: #002 已消除 -->\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-word is-cleared\">eventually</button>\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-syn is-cleared\">in the end / finally</button>\n            <!-- Row 3: #003 已消除 -->\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-word is-cleared\">at present</button>\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-syn is-cleared\">currently / right now</button>\n            <!-- Row 4: #004 中心吸附爆破态 -->\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-word is-bursting gummy-shine\">fortnight ✦</button>\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-syn is-bursting gummy-shine\">two weeks / 14 days</button>\n            <!-- Row 5: #005 待配对 -->\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-word gummy-shine\">annual</button>\n            <button type=\"button\" class=\"btn-gummy gem-card gem-btn is-syn gummy-shine\">yearly / once a year</button>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部操作与待补充项 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">继续消除 · 进入第 2/2 波 ▶</button>\n          </div>\n          <p class=\"footer-note\">离线MP3分包体积预算：待补充（仅录100组词对）</p>\n        </footer>"
-    },
-    "P07": {
-      "id": "P07",
-      "file": "P07_阶段② 语境慧眼单选（正向题）.html",
-      "title": "P07 阶段② 语境慧眼单选（正向题） · 答对翠绿态+1.5s速记镜面卡+中场宝箱",
-      "caption": "P07 阶段② 语境慧眼单选（正向题） · 答对翠绿态+1.5s速记镜面卡+中场宝箱",
-      "screenClass": "phone-screen page-P07",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"48\" cy=\"126\" r=\"32\" fill=\"#FFFFFF\" opacity=\"0.24\"/>\n          <circle cx=\"342\" cy=\"118\" r=\"36\" fill=\"#FDE68A\" opacity=\"0.22\"/>\n          <ellipse cx=\"195\" cy=\"740\" rx=\"175\" ry=\"42\" fill=\"#38BDF8\" opacity=\"0.24\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">阶段② 语境单选</h1>\n                <span class=\"hud-sub-title\">第1关 滴答钟表岛 · 第 5/10 题</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\" aria-label=\"小程序胶囊\">\n              <span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span>\n            </div>\n          </div>\n        </header>\n\n        <!-- 中部答题区（文字块 2：伴学题干与选项 + 文字块 3：速记镜面卡） -->\n        <div class=\"zone-board\">\n          <article class=\"quiz-main-card\" aria-label=\"伴学进度与正向题干主卡 #001\">\n            <div class=\"companion-bar\">\n              <svg class=\"captain-mini\" viewBox=\"0 0 48 48\" role=\"img\" aria-label=\"荔枝小船长伴学\">\n                <ellipse cx=\"24\" cy=\"30\" rx=\"16\" ry=\"14\" fill=\"#FFFBEB\" stroke=\"#F59E0B\" stroke-width=\"2\"/>\n                <path d=\"M8 21 C8 8,40 8,40 21 Z\" fill=\"#FF4769\"/>\n                <circle cx=\"18\" cy=\"19\" r=\"4\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"1.8\"/>\n                <circle cx=\"30\" cy=\"19\" r=\"4\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"1.8\"/>\n              </svg>\n              <div class=\"tray-col\">\n                <div class=\"tray-meta\">\n                  <span>中场宝箱就绪 (5/10)</span>\n                  <span style=\"color:#FEF08A\">Combo ×5 · ★60%</span>\n                </div>\n                <progress class=\"ui-progress\" value=\"5\" max=\"10\" aria-label=\"阶段2进度 5/10\"></progress>\n              </div>\n              <svg class=\"mid-chest-svg\" viewBox=\"0 0 48 48\" role=\"img\" aria-label=\"第5题中场激励小宝箱\">\n                <rect x=\"6\" y=\"18\" width=\"36\" height=\"24\" rx=\"6\" fill=\"#D97706\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n                <path d=\"M6 20 C6 10,42 10,42 20 Z\" fill=\"#FBBF24\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n                <rect x=\"20\" y=\"16\" width=\"8\" height=\"10\" rx=\"2.5\" fill=\"#FEF08A\" stroke=\"#92400E\" stroke-width=\"1.5\"/>\n              </svg>\n            </div>\n            <div class=\"word-banner gummy-shine\">\n              <span class=\"gem-word-text\">immediately</span>\n              <span class=\"lock-cloud-tag\">#001 选同义替换</span>\n            </div>\n            <p class=\"example-strip\">\n              He answered the phone <span class=\"example-hl\">immediately</span>.\n            </p>\n          </article>\n\n          <div class=\"opt-stack\" role=\"group\" aria-label=\"四选一选项\">\n            <button type=\"button\" class=\"btn-gummy quiz-opt-btn is-correct gummy-shine\">\n              <span>A. right away / at once</span>\n              <span class=\"opt-tag\">✓ 答对</span>\n            </button>\n            <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n              <span>B. in the end / finally</span>\n            </button>\n            <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n              <span>C. two weeks / 14 days</span>\n            </button>\n            <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n              <span>D. put off / delay</span>\n            </button>\n          </div>\n\n          <aside class=\"mirror-scroll-card\" aria-label=\"真题语境速记镜面卡\">\n            <div class=\"mirror-eq\">immediately = right away / at once · 立刻/马上</div>\n            <p class=\"mirror-sub\">常考 immediately 与 right away 同义互换 · 1.5s自动收起</p>\n          </aside>\n        </div>\n\n        <!-- 文字块 4：底部主按钮 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-square-gummy gummy-shine\" aria-label=\"播放英音词对\">\n              <svg class=\"ico-lg\"><use href=\"#ico-speaker\"/></svg>\n            </button>\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">开中场小宝箱 · 下一题 ▶</button>\n          </div>\n          <p class=\"footer-note\">剑桥 en-GB 离线词对发音 · 点击镜面卡可立即跳过</p>\n        </footer>"
-    },
-    "P08": {
-      "id": "P08",
-      "file": "P08_阶段② 语境慧眼单选（反向题）.html",
-      "title": "P08 阶段② 语境慧眼单选（反向题）",
-      "caption": "P08 阶段② 语境慧眼单选（反向题） · 例句挖空防泄题+答错柔和琥珀轻抖态",
-      "screenClass": "phone-screen screen-p08 page-P08",
-      "html": "<!-- 滴答钟表岛背景层 SVG（含黄铜齿轮与钟楼远景） -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"52\" cy=\"126\" r=\"36\" fill=\"#FFFFFF\" opacity=\"0.24\"/>\n        <circle cx=\"338\" cy=\"118\" r=\"42\" fill=\"#FFFFFF\" opacity=\"0.2\"/>\n        <circle cx=\"328\" cy=\"190\" r=\"38\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"8\" stroke-dasharray=\"10 6\" opacity=\"0.35\"/>\n        <path d=\"M296 220 L312 152 L328 220 Z\" fill=\"#F59E0B\" opacity=\"0.26\"/>\n        <ellipse cx=\"195\" cy=\"196\" rx=\"160\" ry=\"38\" fill=\"#6EE7B7\" opacity=\"0.22\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD 与伴学进度条 -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">语境慧眼单选</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"companion-tray\">\n          <svg class=\"captain-buddy\" width=\"42\" height=\"42\" viewBox=\"0 0 64 64\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" aria-hidden=\"true\">\n            <ellipse cx=\"32\" cy=\"38\" rx=\"22\" ry=\"19\" fill=\"#FDE68A\"/>\n            <path d=\"M10 28 C10 11, 54 11, 54 28 Z\" fill=\"#FF4769\"/>\n            <ellipse cx=\"22\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.65\" transform=\"rotate(-15 22 18)\"/>\n            <rect x=\"8\" y=\"25\" width=\"48\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n            <circle cx=\"23\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"41\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"23\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/><circle cx=\"41\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/>\n          </svg>\n          <div class=\"tray-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>第 6 / 10 题 · 滴答钟表岛</span>\n              <span style=\"color:#FEF08A;\">≥60% 达标</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"6\" max=\"10\"></progress>\n          </div>\n        </div>\n      </header>\n\n      <!-- 中部棋盘（文字块 2：反向题干与选项 + 文字块 3：纠错镜面卡） -->\n      <main class=\"zone-board\">\n        <article class=\"quiz-main-card\" style=\"padding:12px 14px;\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:#9A3412;\">#006 · 超过(时间)</span>\n            <span class=\"badge-corner\" style=\"background:#FFF7ED;color:#9A3412;border:1.5px solid #FDBA74;\">听英音选核心词</span>\n          </div>\n          <div class=\"gem-syn-plaque gummy-shine\">\n            <span class=\"gem-syn-text\">after</span>\n            <span class=\"badge-corner\" style=\"background:#9A3412;color:#FFFBEB;\">同义替换词</span>\n          </div>\n          <p class=\"body-text\" style=\"color:#1E293B;\">\n            It is ten <span class=\"blank-slot\">______</span> eight (8:10).\n          </p>\n        </article>\n\n        <div class=\"quiz-options-stack\" role=\"group\" aria-label=\"反向题选项\">\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn is-warn gummy-shine\">\n            <span>A. before</span>\n            <span class=\"badge-corner\" style=\"background:#92400E;color:#FEF9C3;\">再想想</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn is-correct gummy-shine\">\n            <span>B. past</span>\n            <span class=\"badge-corner\" style=\"background:#064E3B;color:#FEF08A;\">正确答案 ✓</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>C. annual</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>D. fortnight</span>\n          </button>\n        </div>\n\n        <aside class=\"mirror-warn-card\">\n          <div class=\"body-text\" style=\"font-weight:900;\">past = after · 超过(时间)</div>\n          <div class=\"sub-text\">It is ten past eight (8:10). · 7:10 即 10 past 7</div>\n        </aside>\n      </main>\n\n      <!-- 文字块 4：底部主操作按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">记入错题营 · 下一题 ▶</button>\n      </footer>"
-    },
-    "P09": {
-      "id": "P09",
-      "file": "P09_阶段③ 魔法拼写工坊（拼写中）.html",
-      "title": "P09 阶段③ 魔法拼写工坊（拼写中）",
-      "caption": "P09 阶段③ 魔法拼写工坊（拼写中） · 14字符防断词字母槽+符文键帽飞入态",
-      "screenClass": "phone-screen screen-p09 page-P09",
-      "html": "<!-- 奇幻游乐岛糖果摩天轮远景 SVG -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"320\" cy=\"150\" r=\"46\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"6\" stroke-dasharray=\"8 6\" opacity=\"0.28\"/>\n        <circle cx=\"320\" cy=\"150\" r=\"10\" fill=\"#FB7185\" opacity=\"0.35\"/>\n        <circle cx=\"64\" cy=\"140\" r=\"34\" fill=\"#FFFFFF\" opacity=\"0.22\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD 与伴学进度条 -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">魔法拼写工坊</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"companion-tray\">\n          <svg class=\"captain-buddy\" width=\"42\" height=\"42\" viewBox=\"0 0 64 64\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" aria-hidden=\"true\">\n            <ellipse cx=\"32\" cy=\"38\" rx=\"22\" ry=\"19\" fill=\"#FDE68A\"/>\n            <path d=\"M10 28 C10 11, 54 11, 54 28 Z\" fill=\"#FF4769\"/>\n            <ellipse cx=\"22\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.65\" transform=\"rotate(-15 22 18)\"/>\n            <rect x=\"8\" y=\"25\" width=\"48\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n            <circle cx=\"23\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"41\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"23\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/><circle cx=\"41\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/>\n          </svg>\n          <div class=\"tray-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>第 4 关 · 奇幻游乐岛（3 / 10）</span>\n              <span style=\"color:#FEF08A;\">听音拼出核心原词</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"3\" max=\"10\"></progress>\n          </div>\n        </div>\n      </header>\n\n      <!-- 中部棋盘（文字块 2：题干提示卡 + 文字块 3：14字符单行防断词槽与3D符文键帽） -->\n      <main class=\"zone-board\">\n        <article class=\"quiz-main-card\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:#9A3412;\">#031 · 04 活动与休闲类</span>\n            <span class=\"badge-corner\" style=\"background:#DBEAFE;color:#1E40AF;\">双词词组 · 13字母</span>\n          </div>\n          <div class=\"gem-syn-plaque gummy-shine\">\n            <span class=\"word-display\" style=\"font-size:24px;color:var(--c-syn-txt);\">take part in / join</span>\n            <span class=\"body-text\" style=\"color:#9A3412;\">参加</span>\n          </div>\n        </article>\n\n        <!-- #031 participate in：11字母组 + 2字母组同排 nowrap 防断词 -->\n        <div class=\"spell-slot-tray\" aria-label=\"participate in 拼写字母槽\">\n          <div class=\"spell-word-group\">\n            <span class=\"slot-cell\">p</span><span class=\"slot-cell\">a</span><span class=\"slot-cell\">r</span>\n            <span class=\"slot-cell\">t</span><span class=\"slot-cell\">i</span><span class=\"slot-cell\">c</span>\n            <span class=\"slot-cell\">i</span><span class=\"slot-cell\">p</span><span class=\"slot-cell\">a</span>\n            <span class=\"slot-cell is-active\">t</span><span class=\"slot-cell is-empty\">_</span>\n          </div>\n          <div class=\"spell-word-group\">\n            <span class=\"slot-cell is-empty\">_</span><span class=\"slot-cell is-empty\">_</span>\n          </div>\n        </div>\n\n        <!-- 3D 软胶水晶键帽池 + 抛物线飞入轨迹 SVG -->\n        <div class=\"keycap-grid\" role=\"group\" aria-label=\"水晶符文键帽\">\n          <svg class=\"fly-arc-svg\" viewBox=\"0 0 362 140\" aria-hidden=\"true\">\n            <path d=\"M 180 78 Q 202 8 222 -14\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"3.5\" stroke-dasharray=\"6 5\" stroke-linecap=\"round\"/>\n            <circle cx=\"222\" cy=\"-14\" r=\"6\" fill=\"#FEF08A\"/>\n          </svg>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">p</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">a</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-flying gummy-shine\">t</button>\n          <button type=\"button\" class=\"btn-gummy rune-key gummy-shine\">e</button>\n          <button type=\"button\" class=\"btn-gummy rune-key gummy-shine\">i</button>\n          <button type=\"button\" class=\"btn-gummy rune-key gummy-shine\">n</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">r</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">c</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">i</button>\n          <button type=\"button\" class=\"btn-gummy rune-key is-used\">p</button>\n        </div>\n      </main>\n\n      <!-- 文字块 4：底部退格与确认操作栏 -->\n      <footer class=\"zone-footer\">\n        <div style=\"display:grid;grid-template-columns:1fr 1.6fr;gap:12px;\">\n          <button type=\"button\" class=\"btn-gummy gummy-shine\" style=\"background:linear-gradient(180deg,#60A5FA,#2563EB);color:#FFF;border:2px solid #BFDBFE;border-radius:18px;box-shadow:0 5px 0 #1E40AF;\">⌫ 退格重填</button>\n          <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">确认拼写 ▶</button>\n        </div>\n      </footer>"
-    },
-    "P10": {
-      "id": "P10",
-      "file": "P10_阶段③ 魔法拼写工坊（拼对揭晓）.html",
-      "title": "P10 阶段③ 魔法拼写工坊（拼对揭晓）",
-      "caption": "P10 阶段③ 魔法拼写工坊（拼对揭晓） · 满槽翠绿跳金光+揭晓例句与提醒态",
-      "screenClass": "phone-screen screen-p10 page-P10",
-      "html": "<!-- 滴答钟表岛星芒金光背景 SVG -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"56\" cy=\"134\" r=\"36\" fill=\"#FFFFFF\" opacity=\"0.24\"/>\n        <circle cx=\"332\" cy=\"182\" r=\"40\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"8\" stroke-dasharray=\"10 6\" opacity=\"0.38\"/>\n        <polygon points=\"42,320 46,332 58,336 46,340 42,352 38,340 26,336 38,332\" fill=\"#FEF08A\" opacity=\"0.85\"/>\n        <polygon points=\"348,290 352,302 364,306 352,310 348,322 344,310 332,306 344,302\" fill=\"#FEF08A\" opacity=\"0.85\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD 与第5题中场小宝箱进度 -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">魔法拼写工坊</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"companion-tray\">\n          <svg class=\"captain-buddy\" width=\"42\" height=\"42\" viewBox=\"0 0 64 64\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" aria-hidden=\"true\">\n            <ellipse cx=\"32\" cy=\"38\" rx=\"22\" ry=\"19\" fill=\"#FDE68A\"/>\n            <path d=\"M10 28 C10 11, 54 11, 54 28 Z\" fill=\"#FF4769\"/>\n            <ellipse cx=\"22\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.65\" transform=\"rotate(-15 22 18)\"/>\n            <rect x=\"8\" y=\"25\" width=\"48\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n            <circle cx=\"23\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"41\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"23\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/><circle cx=\"41\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/>\n          </svg>\n          <div class=\"tray-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>第 1 关 · 滴答钟表岛（5 / 10）</span>\n              <span style=\"color:#FEF08A;\">拼写全对 · Combo ×5</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"5\" max=\"10\"></progress>\n          </div>\n          <svg class=\"mid-chest-svg\" width=\"36\" height=\"36\" viewBox=\"0 0 48 48\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" aria-label=\"第5题中场激励小宝箱\">\n            <rect x=\"6\" y=\"18\" width=\"36\" height=\"22\" rx=\"6\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"2\"/>\n            <path d=\"M6 20 C6 10, 42 10, 42 20 Z\" fill=\"#FBBF24\" stroke=\"#FEF08A\" stroke-width=\"2\"/>\n            <rect x=\"20\" y=\"17\" width=\"8\" height=\"10\" rx=\"3\" fill=\"#FEF08A\" stroke=\"#92400E\" stroke-width=\"1.5\"/>\n          </svg>\n        </div>\n      </header>\n\n      <!-- 中部棋盘（文字块 2：题干与满槽翠绿跳金光 + 文字块 3：揭晓例句与提醒镜面卡） -->\n      <main class=\"zone-board\">\n        <article class=\"quiz-main-card\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:#9A3412;\">#001 · 立刻/马上</span>\n            <span class=\"badge-corner\" style=\"background:#DCFCE7;color:#065F46;\">零失误拼对 ✓</span>\n          </div>\n          <div class=\"gem-syn-plaque gummy-shine\">\n            <span class=\"word-display\" style=\"font-size:25px;color:var(--c-syn-txt);\">right away / at once</span>\n          </div>\n        </article>\n\n        <!-- 满槽翠绿跳金光拼写槽（#001 immediately 11字符） -->\n        <div class=\"spell-pass-tray\" aria-label=\"immediately 满槽翠绿发光\">\n          <div class=\"spell-word-group\">\n            <span class=\"pass-slot\">i</span><span class=\"pass-slot\">m</span><span class=\"pass-slot\">m</span>\n            <span class=\"pass-slot\">e</span><span class=\"pass-slot\">d</span><span class=\"pass-slot\">i</span>\n            <span class=\"pass-slot\">a</span><span class=\"pass-slot\">t</span><span class=\"pass-slot\">e</span>\n            <span class=\"pass-slot\">l</span><span class=\"pass-slot\">y</span>\n          </div>\n          <div class=\"word-display\" style=\"color:#FEF08A;\">immediately ✓</div>\n        </div>\n\n        <!-- 拼对后揭晓原版例句与替换识别提醒（逐字照抄 10_source.md） -->\n        <aside class=\"mirror-scroll-card\" aria-label=\"拼对揭晓镜面卡\">\n          <div class=\"eq-badge\">\n            <span class=\"body-text\" style=\"color:var(--c-word-txt);font-weight:900;\">immediately = right away / at once</span>\n            <span class=\"badge-corner\" style=\"background:#064E3B;color:#FEF08A;\">英音已朗读</span>\n          </div>\n          <p class=\"body-text\" style=\"color:#064E3B;\">\n            He answered the phone immediately.\n          </p>\n          <p class=\"sub-text\" style=\"color:#065F46;\">\n            替换识别提醒：常考 immediately 与 right away 同义互换\n          </p>\n        </aside>\n      </main>\n\n      <!-- 文字块 4：底部下一题主按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">开中场宝箱 · 下一题 (6/10) ▶</button>\n      </footer>"
-    },
-    "P11": {
-      "id": "P11",
-      "file": "P11_阶段④ 守关挑战（激光竞技场）.html",
-      "title": "P11 阶段④ 守关挑战（激光竞技场）",
-      "caption": "P11 阶段④ 守关挑战（激光竞技场） · 双角色激光对轰+Fever×5框+15s红光预警",
-      "screenClass": "phone-screen screen-p11 page-P11",
-      "html": "<div class=\"fever-frame\" aria-hidden=\"true\"></div>\n\n      <!-- 文字块 1：顶部 HUD（守关挑战标题 + 10 格能量盾 + 04s 红光倒计时环） -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">守关挑战</h1>\n          </div>\n          <span class=\"badge-corner\" style=\"background:linear-gradient(180deg,#FEF08A,#F59E0B);color:#78350F;border:1.5px solid #FFFBEB;box-shadow:0 3px 0 #B45309;\">FEVER ×5</span>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"shield-bar-box\">\n          <div class=\"shield-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>挑战进度 7 / 10</span>\n              <span style=\"color:#FEF08A;\">≥6 格完成突破</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"7\" max=\"10\"></progress>\n          </div>\n          <div class=\"progress-ring-wrapper\" title=\"每题限时 15 秒\">\n            <progress class=\"progress-ring\" value=\"27\" max=\"100\"></progress>\n            <span class=\"ring-text\">04s</span>\n          </div>\n        </div>\n      </header>\n\n      <!-- 中部激光竞技场（双角色对轰 SVG + 文字块 2：题干投影卡 + 文字块 3：2×2 守关激光按钮） -->\n      <main class=\"zone-board\">\n        <div class=\"arena-stage\">\n          <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 362 164\" role=\"img\" aria-label=\"小船长炮台发射激光对轰时光发条怪\">\n            <ellipse cx=\"64\" cy=\"144\" rx=\"48\" ry=\"12\" fill=\"#1E3A8A\" stroke=\"#60A5FA\" stroke-width=\"1.5\"/>\n            <ellipse cx=\"272\" cy=\"136\" rx=\"64\" ry=\"14\" fill=\"#1E1B4B\" stroke=\"#F59E0B\" stroke-width=\"1.8\"/>\n            <line x1=\"96\" y1=\"112\" x2=\"236\" y2=\"66\" stroke=\"#FF4769\" stroke-width=\"14\" stroke-linecap=\"round\" opacity=\"0.38\"/>\n            <line x1=\"96\" y1=\"112\" x2=\"236\" y2=\"66\" stroke=\"#FEF08A\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n            <!-- 左下：.captain-turret 3D 软胶小船长激光炮台 -->\n            <g class=\"captain-turret\" style=\"filter:var(--sh-svg-drop);\">\n              <ellipse cx=\"52\" cy=\"122\" rx=\"22\" ry=\"18\" fill=\"#FDE68A\"/>\n              <path d=\"M30 112 C30 94, 74 94, 74 112 Z\" fill=\"#FF4769\"/>\n              <circle cx=\"44\" cy=\"108\" r=\"4\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.2\"/>\n              <circle cx=\"58\" cy=\"108\" r=\"4\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.2\"/>\n              <circle cx=\"45\" cy=\"120\" r=\"2.6\" fill=\"#0F172A\"/><circle cx=\"59\" cy=\"120\" r=\"2.6\" fill=\"#0F172A\"/>\n              <rect x=\"64\" y=\"106\" width=\"36\" height=\"20\" rx=\"9\" fill=\"#E11D48\" stroke=\"#FFE4EA\" stroke-width=\"1.5\" transform=\"rotate(-18 82 116)\"/>\n            </g>\n            <!-- 右上：3D 软胶时光发条怪 SVG -->\n            <g transform=\"translate(212, 10)\" style=\"filter:var(--sh-svg-drop);\">\n              <circle cx=\"48\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"4\"/>\n              <circle cx=\"72\" cy=\"8\" r=\"7\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"4\"/>\n              <rect x=\"20\" y=\"18\" width=\"80\" height=\"80\" rx=\"38\" fill=\"#2563EB\" stroke=\"#DBEAFE\" stroke-width=\"2\"/>\n              <ellipse cx=\"42\" cy=\"30\" rx=\"10\" ry=\"4\" fill=\"#FFFFFF\" opacity=\"0.58\" transform=\"rotate(-15 42 30)\"/>\n              <circle cx=\"44\" cy=\"44\" r=\"4\" fill=\"#FEF08A\"/><circle cx=\"76\" cy=\"44\" r=\"4\" fill=\"#FEF08A\"/>\n              <circle cx=\"60\" cy=\"72\" r=\"17\" fill=\"#FFFBEB\" stroke=\"#F59E0B\" stroke-width=\"3.5\"/>\n              <line x1=\"60\" y1=\"72\" x2=\"60\" y2=\"61\" stroke=\"#1E3A8A\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n              <line x1=\"60\" y1=\"72\" x2=\"70\" y2=\"72\" stroke=\"#FF4769\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n            </g>\n            <circle cx=\"236\" cy=\"66\" r=\"15\" fill=\"#FEF08A\" opacity=\"0.65\"/>\n            <rect x=\"116\" y=\"10\" width=\"122\" height=\"28\" rx=\"14\" fill=\"#C81E45\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <text x=\"177\" y=\"29\" text-anchor=\"middle\" fill=\"#FFFFFF\" font-size=\"14\" font-weight=\"900\">-1 格 · CRIT!</text>\n          </svg>\n        </div>\n\n        <article class=\"quiz-main-card\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:#9A3412;\">#009 · 推迟/延期</span>\n            <span class=\"badge-corner\" style=\"background:#FFF7ED;color:#9A3412;border:1.5px solid #FDBA74;\">限时 15s · 暴击破盾</span>\n          </div>\n          <div class=\"gem-syn-plaque gummy-shine\">\n            <span class=\"word-display\" style=\"font-size:25px;color:var(--c-syn-txt);\">put off / delay</span>\n          </div>\n          <p class=\"body-text\" style=\"color:#1E293B;\">\n            The match has been <span class=\"blank-slot\">______</span>.\n          </p>\n        </article>\n\n        <div class=\"laser-grid\" role=\"group\" aria-label=\"2乘2守关挑战选项\">\n          <button type=\"button\" class=\"btn-gummy boss-laser-btn is-hit gummy-shine\">postpone ✓</button>\n          <button type=\"button\" class=\"btn-gummy boss-laser-btn gummy-shine\">eventually</button>\n          <button type=\"button\" class=\"btn-gummy boss-laser-btn gummy-shine\">fortnight</button>\n          <button type=\"button\" class=\"btn-gummy boss-laser-btn gummy-shine\">immediately</button>\n        </div>\n      </main>\n\n      <!-- 文字块 4：底部下一题主按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">激光命中 · 下一题 (8/10) ▶</button>\n      </footer>"
-    },
-    "P12": {
-      "id": "P12",
-      "file": "P12_局末错题即刻复活战.html",
-      "title": "P12 局末错题即刻复活战",
-      "caption": "P12 局末错题即刻复活战 · 本局错词当场复仇清零冲3星态",
-      "screenClass": "phone-screen screen-p12 page-P12",
-      "html": "<!-- 翡翠绿复仇流光背景 SVG -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"195\" cy=\"280\" r=\"150\" fill=\"#10B981\" opacity=\"0.14\"/>\n        <polygon points=\"48,180 52,192 64,196 52,200 48,212 44,200 32,196 44,192\" fill=\"#FEF08A\" opacity=\"0.8\"/>\n        <polygon points=\"342,220 346,232 358,236 346,240 342,252 338,240 326,236 338,232\" fill=\"#6EE7B7\" opacity=\"0.85\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD 与晋升 3 星进度条 -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">局末错题复活战</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"revive-tray\">\n          <svg class=\"captain-buddy\" width=\"42\" height=\"42\" viewBox=\"0 0 64 64\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" aria-hidden=\"true\">\n            <ellipse cx=\"32\" cy=\"38\" rx=\"22\" ry=\"19\" fill=\"#FDE68A\"/>\n            <path d=\"M10 28 C10 11, 54 11, 54 28 Z\" fill=\"#FF4769\"/>\n            <ellipse cx=\"22\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.65\" transform=\"rotate(-15 22 18)\"/>\n            <rect x=\"8\" y=\"25\" width=\"48\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n            <circle cx=\"23\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"41\" cy=\"24\" r=\"5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.5\"/>\n            <circle cx=\"23\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/><circle cx=\"41\" cy=\"38\" r=\"3.2\" fill=\"#0F172A\"/>\n          </svg>\n          <div class=\"revive-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>本局错词清零 2 / 2</span>\n              <span style=\"color:#FEF08A;\">2星 → 3星满星晋升!</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"10\" max=\"10\"></progress>\n          </div>\n        </div>\n      </header>\n\n      <!-- 中部棋盘（文字块 2：#004 fortnight 主卡与选项 + 文字块 3：.wrong-clear-fx 清零流光条） -->\n      <main class=\"zone-board\">\n        <article class=\"quiz-main-card\" style=\"padding:12px 14px;\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:var(--c-word-txt);\">#004 · 01 时间与日期类</span>\n            <span class=\"badge-corner\" style=\"background:#DBEAFE;color:#1E40AF;\">错题复仇 2/2</span>\n          </div>\n          <div class=\"gem-word-plaque gummy-shine\">\n            <span class=\"gem-word-text\">fortnight</span>\n            <span class=\"body-text\" style=\"color:var(--c-word-txt);\">两周</span>\n          </div>\n          <p class=\"body-text\" style=\"color:#1E293B;\">\n            We stayed in Paris for a fortnight.\n          </p>\n        </article>\n\n        <div class=\"quiz-options-stack\" role=\"group\" aria-label=\"复活战单选选项\">\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn is-correct gummy-shine\">\n            <span>A. two weeks / 14 days</span>\n            <span class=\"badge-corner\" style=\"background:#064E3B;color:#FEF08A;\">复仇成功 ✓</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>B. right away / at once</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>C. yearly / once a year</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>D. put off / delay</span>\n          </button>\n        </div>\n\n        <aside class=\"wrong-clear-fx\" aria-label=\"错词清零流光提示\">\n          <div class=\"clear-copy\">\n            <div class=\"body-text\" style=\"font-weight:900;\">fortnight 相当于 two weeks</div>\n            <div class=\"sub-text\" style=\"color:#065F46;\">本局错词已清零，直达 3 星满星评价</div>\n          </div>\n          <span class=\"badge-corner\" style=\"background:#064E3B;color:#FEF08A;\">3星达成</span>\n        </aside>\n      </main>\n\n      <!-- 文字块 4：底部领取 3 星主按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">领取 3 星满星奖励 ▶</button>\n      </footer>"
-    },
-    "P13": {
-      "id": "P13",
-      "file": "P13_第11关「黄金王冠圣殿」巩固测验.html",
-      "title": "P13 第11关「黄金王冠圣殿」巩固测验",
-      "caption": "P13 第11关「黄金王冠圣殿」巩固测验 · 20题全真三选一作答+原版解析态",
-      "screenClass": "phone-screen screen-p13 page-P13",
-      "html": "<!-- 星空紫晶阶梯与浮空黄金加冕圣殿背景 SVG -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"195\" cy=\"180\" r=\"140\" fill=\"#FDE047\" opacity=\"0.12\"/>\n        <path d=\"M95 230 L135 190 L255 190 L295 230 Z\" fill=\"#A855F7\" opacity=\"0.18\"/>\n        <rect x=\"130\" y=\"138\" width=\"14\" height=\"52\" rx=\"4\" fill=\"#FDE047\" opacity=\"0.22\"/>\n        <rect x=\"246\" y=\"138\" width=\"14\" height=\"52\" rx=\"4\" fill=\"#FDE047\" opacity=\"0.22\"/>\n        <polygon points=\"48,140 52,152 64,156 52,160 48,172 44,160 32,156 44,152\" fill=\"#FEF08A\" opacity=\"0.75\"/>\n        <polygon points=\"342,160 346,172 358,176 346,180 342,192 338,180 326,176 338,172\" fill=\"#C084FC\" opacity=\"0.75\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD（圣殿标题 + 3D金冠 SVG + 1/20 进度条） -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回\">‹</button>\n            <h1 class=\"page-title\">黄金王冠圣殿</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n        <div class=\"sanctuary-tray\">\n          <svg width=\"42\" height=\"42\" viewBox=\"0 0 48 48\" style=\"filter:var(--sh-svg-drop);flex-shrink:0;\" role=\"img\" aria-label=\"黄金圣殿金冠\">\n            <path d=\"M6 38 L10 14 L20 24 L24 10 L28 24 L38 14 L42 38 Z\" fill=\"#FBBF24\" stroke=\"#FEF9C3\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n            <ellipse cx=\"16\" cy=\"22\" rx=\"4\" ry=\"1.8\" fill=\"#FFFFFF\" opacity=\"0.7\" transform=\"rotate(-20 16 22)\"/>\n            <circle cx=\"24\" cy=\"29\" r=\"3.5\" fill=\"#FF4769\"/>\n            <circle cx=\"15\" cy=\"30\" r=\"2.5\" fill=\"#38BDF8\"/>\n            <circle cx=\"33\" cy=\"30\" r=\"2.5\" fill=\"#10B981\"/>\n          </svg>\n          <div class=\"sanctuary-info\">\n            <div style=\"display:flex;justify-content:space-between;\" class=\"sub-text\">\n              <span>全真巩固测验 1 / 20</span>\n              <span style=\"color:#FEF08A;\">≥12/20 通关加冕</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"1\" max=\"20\"></progress>\n          </div>\n        </div>\n      </header>\n\n      <!-- 中部棋盘（文字块 2：第1题原版题干与三选一按钮 + 文字块 3：原版解析卡） -->\n      <main class=\"zone-board\">\n        <article class=\"quiz-main-card\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"sub-text\" style=\"color:#78350F;\">第 1 题 · 关联词卡 #009</span>\n            <span class=\"badge-corner\" style=\"background:#FEF3C7;color:#92400E;\">全真三选一</span>\n          </div>\n          <div class=\"crown-plaque gummy-shine\">\n            <span class=\"word-display\" style=\"font-size:25px;color:#92400E;\">put off = postponed</span>\n          </div>\n          <p class=\"body-text\" style=\"color:#0F172A;\">\n            1. The football match was put off because of heavy rain.\n          </p>\n        </article>\n\n        <div class=\"quiz-options-stack\" role=\"group\" aria-label=\"三选一选项\">\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>A. cancelled</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn is-correct gummy-shine\">\n            <span>B. postponed</span>\n            <span class=\"badge-corner\" style=\"background:#064E3B;color:#FEF08A;\">正确答案 B</span>\n          </button>\n          <button type=\"button\" class=\"btn-gummy quiz-opt-btn gummy-shine\">\n            <span>C. stopped</span>\n          </button>\n        </div>\n\n        <!-- 原版解析卡（逐字照抄 10_source.md） -->\n        <aside class=\"explain-card\" aria-label=\"原版解析\">\n          <div class=\"body-text\" style=\"font-weight:900;\">正确答案：B</div>\n          <div class=\"body-text\">解析：put off 意为推迟，等同于 postponed。</div>\n        </aside>\n      </main>\n\n      <!-- 文字块 4：底部下一题主按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">下一题 (2 / 20) ▶</button>\n      </footer>"
-    },
-    "P14": {
-      "id": "P14",
-      "file": "P14_通关星级结算页（3星达标）.html",
-      "title": "P14 通关星级结算页（3星达标）",
-      "caption": "P14 通关星级结算页（3星达标） · 3星满星砸落态+彩带置底防挡字",
-      "screenClass": "phone-screen screen-p14 page-P14",
-      "html": "<!-- 底层彩带背景层 SVG（z-index: 0 严格置底防挡字） -->\n      <svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n        <circle cx=\"195\" cy=\"220\" r=\"160\" fill=\"#FBBF24\" opacity=\"0.16\"/>\n        <rect x=\"42\" y=\"96\" width=\"14\" height=\"6\" rx=\"3\" fill=\"#FF4769\" transform=\"rotate(25 42 96)\" opacity=\"0.75\"/>\n        <rect x=\"332\" y=\"110\" width=\"16\" height=\"6\" rx=\"3\" fill=\"#34D399\" transform=\"rotate(-30 332 110)\" opacity=\"0.75\"/>\n        <rect x=\"68\" y=\"290\" width=\"14\" height=\"6\" rx=\"3\" fill=\"#FEF08A\" transform=\"rotate(-18 68 290)\" opacity=\"0.7\"/>\n        <rect x=\"318\" y=\"310\" width=\"15\" height=\"6\" rx=\"3\" fill=\"#38BDF8\" transform=\"rotate(32 318 310)\" opacity=\"0.7\"/>\n        <rect x=\"36\" y=\"540\" width=\"14\" height=\"6\" rx=\"3\" fill=\"#C084FC\" transform=\"rotate(15 36 540)\" opacity=\"0.65\"/>\n        <rect x=\"340\" y=\"520\" width=\"14\" height=\"6\" rx=\"3\" fill=\"#FF8FA3\" transform=\"rotate(-22 340 520)\" opacity=\"0.65\"/>\n      </svg>\n\n      <!-- 文字块 1：顶部 HUD 通关标题 -->\n      <header class=\"zone-hud\">\n        <div class=\"hud-row\">\n          <div class=\"hud-left\">\n            <button type=\"button\" class=\"btn-back-gummy\" aria-label=\"返回地图\">‹</button>\n            <h1 class=\"page-title\">滴答钟表岛 · 通关!</h1>\n          </div>\n          <div class=\"wx-capsule\"><span>•••</span><span>|</span><span>◎</span></div>\n        </div>\n      </header>\n\n      <!-- 中部结算台（3D琥珀金三星 SVG + 文字块 2：四阶成绩汇总卡 + 文字块 3：本关代表词卡） -->\n      <main class=\"zone-board\">\n        <div class=\"stars-stage\">\n          <svg width=\"260\" height=\"82\" viewBox=\"0 0 260 82\" style=\"filter:var(--sh-svg-drop);\" role=\"img\" aria-label=\"3D琥珀金三星满星砸落\">\n            <defs>\n              <linearGradient id=\"goldStar\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                <stop offset=\"0%\" stop-color=\"#FEF08A\"/>\n                <stop offset=\"100%\" stop-color=\"#F59E0B\"/>\n              </linearGradient>\n            </defs>\n            <g transform=\"translate(18, 10) rotate(-10 30 30)\">\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"#B45309\" transform=\"translate(0,5)\"/>\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"url(#goldStar)\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n              <ellipse cx=\"24\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.68\" transform=\"rotate(-15 24 18)\"/>\n            </g>\n            <g transform=\"translate(96, 0) scale(1.12)\">\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"#B45309\" transform=\"translate(0,5)\"/>\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"url(#goldStar)\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n              <ellipse cx=\"24\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.68\" transform=\"rotate(-15 24 18)\"/>\n            </g>\n            <g transform=\"translate(182, 10) rotate(10 30 30)\">\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"#B45309\" transform=\"translate(0,5)\"/>\n              <polygon points=\"30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20\" fill=\"url(#goldStar)\" stroke=\"#FFFBEB\" stroke-width=\"2\"/>\n              <ellipse cx=\"24\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.68\" transform=\"rotate(-15 24 18)\"/>\n            </g>\n          </svg>\n          <div class=\"body-text\" style=\"color:#FEF08A;\">3 星满星达标（≥95% / 错词清零）</div>\n        </div>\n\n        <!-- 四阶成绩汇总卡 -->\n        <article class=\"quiz-main-card\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"body-text\" style=\"color:#0F172A;\">四阶闯关成绩汇总</span>\n            <span class=\"badge-corner\" style=\"background:#DCFCE7;color:#065F46;\">4 阶全通</span>\n          </div>\n          <div class=\"score-grid\">\n            <div class=\"score-box\">\n              <span class=\"sub-text\" style=\"color:#475569;\">① 晶石配对</span>\n              <span class=\"body-text\" style=\"color:#065F46;\">10 / 10 完成 ✓</span>\n            </div>\n            <div class=\"score-box\">\n              <span class=\"sub-text\" style=\"color:#475569;\">② 语境单选</span>\n              <span class=\"body-text\" style=\"color:#065F46;\">10 / 10 (100%)</span>\n            </div>\n            <div class=\"score-box\">\n              <span class=\"sub-text\" style=\"color:#475569;\">③ 魔法拼写</span>\n              <span class=\"body-text\" style=\"color:#065F46;\">10 / 10 完成 ✓</span>\n            </div>\n            <div class=\"score-box\">\n              <span class=\"sub-text\" style=\"color:#475569;\">④ 守关挑战</span>\n              <span class=\"body-text\" style=\"color:#065F46;\">10 / 10 突破 ✓</span>\n            </div>\n          </div>\n        </article>\n\n        <!-- 本关核心词掌握展示 -->\n        <aside class=\"mastered-banner\">\n          <div style=\"display:flex;justify-content:space-between;align-items:center;gap:12px;\">\n            <span class=\"word-display\" style=\"color:var(--c-word-txt);\">immediately</span>\n            <span class=\"badge-corner\" style=\"background:#FEF08A;color:#78350F;\">#001–#010 已掌握</span>\n          </div>\n          <div class=\"body-text\">= right away / at once · 立刻/马上</div>\n        </aside>\n      </main>\n\n      <!-- 文字块 4：底部解锁下一关主按钮 -->\n      <footer class=\"zone-footer\">\n        <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">免费解锁第 2 关 · 罗盘迷宫岛 ▶</button>\n      </footer>"
-    },
-    "P15": {
-      "id": "P15",
-      "file": "P15_守关挑战未达标结算页（0星回炉）.html",
-      "title": "P15 守关挑战未达标结算页（0星回炉）",
-      "caption": "P15 守关挑战未达标结算页（0星回炉） · &lt;60% 0星禁彩带鼓励态+单练绿勾对照",
-      "screenClass": "phone-screen is-deep page-P15",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"56\" cy=\"128\" r=\"28\" fill=\"#38BDF8\" opacity=\"0.14\"/>\n          <circle cx=\"336\" cy=\"142\" r=\"34\" fill=\"#F59E0B\" opacity=\"0.12\"/>\n          <ellipse cx=\"195\" cy=\"700\" rx=\"180\" ry=\"44\" fill=\"#1E3A8A\" opacity=\"0.35\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-gummy btn-back-gummy\" aria-label=\"返回地图\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">守关挑战结算</h1>\n                <span class=\"hud-sub-title\">第1关 · 滴答钟表岛</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：0星灰槽 + 荔枝小船长鼓励插画（0星严禁播彩带） -->\n          <section class=\"retry-hero-card\" aria-label=\"守关挑战未达标鼓励\">\n            <div class=\"zero-star-row\" aria-label=\"0星灰槽\">\n              <svg class=\"star-slot-svg\" viewBox=\"0 0 48 48\"><polygon points=\"24,4 30,16 44,18 34,28 36,42 24,35 12,42 14,28 4,18 18,16\" fill=\"#1E293B\" stroke=\"#64748B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"19\" cy=\"15\" rx=\"4\" ry=\"1.8\" fill=\"#94A3B8\" opacity=\"0.45\" transform=\"rotate(-15 19 15)\"/></svg>\n              <svg class=\"star-slot-svg\" viewBox=\"0 0 48 48\"><polygon points=\"24,4 30,16 44,18 34,28 36,42 24,35 12,42 14,28 4,18 18,16\" fill=\"#1E293B\" stroke=\"#64748B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"19\" cy=\"15\" rx=\"4\" ry=\"1.8\" fill=\"#94A3B8\" opacity=\"0.45\" transform=\"rotate(-15 19 15)\"/></svg>\n              <svg class=\"star-slot-svg\" viewBox=\"0 0 48 48\"><polygon points=\"24,4 30,16 44,18 34,28 36,42 24,35 12,42 14,28 4,18 18,16\" fill=\"#1E293B\" stroke=\"#64748B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"19\" cy=\"15\" rx=\"4\" ry=\"1.8\" fill=\"#94A3B8\" opacity=\"0.45\" transform=\"rotate(-15 19 15)\"/></svg>\n            </div>\n            <svg class=\"captain-buddy\" width=\"76\" height=\"72\" viewBox=\"0 0 76 72\" style=\"filter:var(--sh-svg-drop)\" role=\"img\" aria-label=\"荔枝小船长鼓励插画\">\n              <ellipse cx=\"38\" cy=\"44\" rx=\"24\" ry=\"21\" fill=\"#FFFBEB\" stroke=\"#FDE68A\" stroke-width=\"2\"/>\n              <path d=\"M13 32 C13 12, 63 12, 63 32 Z\" fill=\"#FF4769\"/>\n              <rect x=\"10\" y=\"29\" width=\"56\" height=\"7\" rx=\"3.5\" fill=\"#1E3A8A\"/>\n              <circle cx=\"27\" cy=\"27\" r=\"6\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"2.5\"/>\n              <circle cx=\"49\" cy=\"27\" r=\"6\" fill=\"#38BDF8\" stroke=\"#F59E0B\" stroke-width=\"2.5\"/>\n              <circle cx=\"28\" cy=\"43\" r=\"3.5\" fill=\"#0F172A\"/><circle cx=\"48\" cy=\"43\" r=\"3.5\" fill=\"#0F172A\"/>\n              <path d=\"M31 52 Q38 57 45 52\" fill=\"none\" stroke=\"#D97706\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n            </svg>\n            <h2 class=\"hero-title\">守关挑战未达标，再接再厉</h2>\n            <span class=\"hero-score-pill\">本次突破 5 / 10 (50%) · 满60%点亮星章</span>\n          </section>\n\n          <!-- 文字块 3：柔和琥珀回炉词卡（#004）与单练绿勾对照条 -->\n          <article class=\"warn-review-card\" aria-label=\"回炉词卡与授星规则对照\">\n            <div class=\"warn-card-head\">\n              <span>本局薄弱同义替换已入错题营</span>\n              <span class=\"warn-badge\">#004 重点回炉</span>\n            </div>\n            <div class=\"word-focus-grid\">\n              <div class=\"word-en-gem gummy-shine\">fortnight</div>\n              <div class=\"word-syn-gem gummy-shine\">\n                <span>two weeks / 14 days</span>\n                <span>两周</span>\n              </div>\n            </div>\n            <div class=\"stage-check-box\">\n              <div class=\"stage-check-grid\">\n                <span class=\"stage-pill\">①配对 ✓</span>\n                <span class=\"stage-pill\">②单选 ✓</span>\n                <span class=\"stage-pill\">③拼写 ✓</span>\n                <span class=\"stage-pill is-retry\">④守关 50%</span>\n              </div>\n              <p class=\"chain-rule-txt\">单阶段自由练仅亮绿勾 · 四阶连闯达标才授海岛星章</p>\n            </div>\n          </article>\n        </div>\n\n        <!-- 文字块 4：底部操作按钮区 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-secondary-gummy gummy-shine\">重玩本关</button>\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">去错题强化营巩固 ▶</button>\n          </div>\n          <div class=\"home-bar\"></div>\n        </footer>"
-    },
-    "P16": {
-      "id": "P16",
-      "file": "P16_家长监护内购解锁弹窗.html",
-      "title": "P16 家长监护内购解锁弹窗",
-      "caption": "P16 家长监护内购解锁弹窗 · 第3–11关虚拟支付家长确认弹窗态",
-      "screenClass": "phone-screen page-P16",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"64\" cy=\"130\" r=\"36\" fill=\"#FBBF24\" opacity=\"0.28\"/>\n          <circle cx=\"328\" cy=\"160\" r=\"42\" fill=\"#FF4769\" opacity=\"0.22\"/>\n          <ellipse cx=\"195\" cy=\"240\" rx=\"160\" ry=\"42\" fill=\"#F59E0B\" opacity=\"0.24\"/>\n        </svg>\n        <div class=\"modal-backdrop-layer\" aria-hidden=\"true\"></div>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-gummy btn-back-gummy\" aria-label=\"关闭弹窗\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">第3关 · 金币宝藏岛</h1>\n                <span class=\"hud-sub-title\">前2关免费 · L3–L11内购</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"payDialogTitle\">\n          <!-- 文字块 2：黄金宝箱怪 SVG + 弹窗标题 + #021 双色晶石词对预览 -->\n          <section class=\"pay-hero-card\">\n            <div class=\"pay-hero-head\">\n              <svg width=\"74\" height=\"70\" viewBox=\"0 0 74 70\" style=\"filter:var(--sh-svg-drop);flex-shrink:0\" role=\"img\" aria-label=\"3D软胶黄金宝箱怪\">\n                <rect x=\"8\" y=\"26\" width=\"58\" height=\"36\" rx=\"10\" fill=\"#D97706\" stroke=\"#FEF08A\" stroke-width=\"2.5\"/>\n                <path d=\"M8 30 C8 10, 66 10, 66 30 Z\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"2.5\"/>\n                <ellipse cx=\"22\" cy=\"18\" rx=\"6\" ry=\"2.5\" fill=\"#FFFFFF\" opacity=\"0.65\" transform=\"rotate(-14 22 18)\"/>\n                <circle cx=\"26\" cy=\"24\" r=\"4.5\" fill=\"#0F172A\"/><circle cx=\"48\" cy=\"24\" r=\"4.5\" fill=\"#0F172A\"/>\n                <polygon points=\"37,28 43,35 37,42 31,35\" fill=\"#FF4769\" stroke=\"#FFFFFF\" stroke-width=\"1.5\"/>\n                <circle cx=\"22\" cy=\"46\" r=\"6\" fill=\"#FEF08A\"/><circle cx=\"52\" cy=\"46\" r=\"6\" fill=\"#FEF08A\"/>\n              </svg>\n              <div class=\"pay-title-col\">\n                <span class=\"pay-badge\">一次解锁 · 零概率抽卡</span>\n                <h2 id=\"payDialogTitle\" class=\"pay-main-title\">解锁第3–11关完整题库</h2>\n              </div>\n            </div>\n            <div class=\"preview-pair-grid\">\n              <div class=\"preview-word-gem gummy-shine\">\n                <span class=\"preview-word-meta\">#021 · 便宜的</span>\n                <span class=\"preview-word-en\">inexpensive</span>\n              </div>\n              <div class=\"preview-syn-gem gummy-shine\">\n                <span class=\"preview-word-meta\" style=\"color:#9A3412\">同义替换表达</span>\n                <span class=\"preview-word-syn\">cheap / low-priced</span>\n              </div>\n            </div>\n          </section>\n\n          <!-- 文字块 3：内购完整权益说明 + 家长算术确认条 -->\n          <section class=\"perk-gate-card\">\n            <div class=\"perk-list\">\n              <div>✓ 解锁第3–10关八大岛屿（#021–#100词卡）</div>\n              <div>✓ 开启第11关黄金圣殿20题测验+20张默写卡</div>\n              <div class=\"perk-sub\">微信虚拟支付商品参数：待补充 · 监护人确认无重复扣费</div>\n            </div>\n            <div class=\"parent-math-bar\">\n              <span>家长监护确认：8 + 7 = ?</span>\n              <span class=\"math-ans-box\">15 ✓</span>\n            </div>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部内购确认按钮区 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cancel-pill gummy-shine\">暂不解锁</button>\n            <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">¥9.9 家长确认支付 ▶</button>\n          </div>\n          <div class=\"home-bar\"></div>\n        </footer>"
-    },
-    "P17": {
-      "id": "P17",
-      "file": "P17_荔枝错题强化营.html",
-      "title": "P17 荔枝错题强化营",
-      "caption": "P17 荔枝错题强化营 · 全渠道错频降序列表+零失误清零流光态",
-      "screenClass": "phone-screen is-deep page-P17",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"52\" cy=\"118\" r=\"30\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"338\" cy=\"136\" r=\"36\" fill=\"#10B981\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"710\" rx=\"175\" ry=\"40\" fill=\"#1E3A8A\" opacity=\"0.32\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">荔枝错题强化营</h1>\n                <span class=\"hud-sub-title\">错频降序 · 零失误清零</span>\n              </div>\n            </div>\n            <span class=\"streak-pill gummy-shine\">待清 3词</span>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：待清高频错词降序列表（#009 / #021 / #011） -->\n          <section class=\"wrong-group-card\" role=\"list\" aria-label=\"错频降序待清错题\">\n            <article class=\"wrong-item-card\" role=\"listitem\">\n              <div class=\"wrong-item-top\">\n                <span class=\"wrong-id-tag\">#009 · 推迟/延期（守关挑战+测验）</span>\n                <span class=\"freq-badge\">累计错 4 次</span>\n              </div>\n              <div class=\"wrong-pair-row\">\n                <span class=\"wrong-w\">postpone</span>\n                <span class=\"wrong-s\">= put off / delay</span>\n              </div>\n            </article>\n\n            <article class=\"wrong-item-card\" role=\"listitem\">\n              <div class=\"wrong-item-top\">\n                <span class=\"wrong-id-tag\">#021 · 便宜的（默写卡01+单选）</span>\n                <span class=\"freq-badge\">累计错 3 次</span>\n              </div>\n              <div class=\"wrong-pair-row\">\n                <span class=\"wrong-w\">inexpensive</span>\n                <span class=\"wrong-s\">= cheap / low-priced</span>\n              </div>\n            </article>\n\n            <article class=\"wrong-item-card\" role=\"listitem\">\n              <div class=\"wrong-item-top\">\n                <span class=\"wrong-id-tag\">#011 · 在附近（阶段②单选）</span>\n                <span class=\"freq-badge\">累计错 2 次</span>\n              </div>\n              <div class=\"wrong-pair-row\">\n                <span class=\"wrong-w\">nearby</span>\n                <span class=\"wrong-s\">= close to / not far from</span>\n              </div>\n            </article>\n          </section>\n\n          <!-- 文字块 3：#001 immediately 零失误翡翠绿流光消散态 -->\n          <article class=\"wrong-clear-fx\" aria-label=\"零失误清零移出词卡\">\n            <div class=\"wrong-item-top\">\n              <span class=\"wrong-id-tag\" style=\"color:#064E3B\">#001 · 立刻/马上</span>\n              <span class=\"clear-badge\">✓ 零失误清零移出</span>\n            </div>\n            <div class=\"wrong-pair-row\">\n              <span class=\"wrong-w\" style=\"color:#064E3B\">immediately</span>\n              <span class=\"wrong-s\" style=\"color:#064E3B\">= right away / at once</span>\n            </div>\n          </article>\n        </div>\n\n        <!-- 文字块 4：底部主按钮与四栏导航 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">一键专练高频错词 (3词) ▶</button>\n          </div>\n          <nav class=\"bottom-nav\" aria-label=\"底部主导航\">\n            <button type=\"button\" class=\"btn-gummy nav-tab\">群岛</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">宝典</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab is-active\">错题</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">默写</button>\n          </nav>\n        </footer>"
-    },
-    "P18": {
-      "id": "P18",
-      "file": "P18_100词速查宝典与家长双遮罩抽背屋.html",
-      "title": "P18 100词速查宝典与家长双遮罩抽背屋",
-      "caption": "P18 100词速查宝典与家长双遮罩抽背屋 · 双遮罩抽背开启态+单卡点击揭晓态",
-      "screenClass": "phone-screen is-deep page-P18",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"54\" cy=\"116\" r=\"32\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"338\" cy=\"128\" r=\"36\" fill=\"#F59E0B\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"705\" rx=\"175\" ry=\"40\" fill=\"#1E3A8A\" opacity=\"0.32\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">100词速查与抽背屋</h1>\n                <span class=\"hud-sub-title\">双遮罩防偷瞄 · 点单卡独立揭晓</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：10大场景筛选胶囊 + 家长抽背 3 步法（逐字取自 10_source.md） -->\n          <section class=\"guide-filter-panel\" aria-label=\"场景筛选与家长抽背3步法\">\n            <div class=\"scene-filter-bar\" aria-label=\"10大场景筛选\">\n              <span class=\"scene-chip is-on\">01 时间与日期类</span>\n              <span class=\"scene-chip\">02 地点方位</span>\n              <span class=\"scene-chip\">03 价格费用</span>\n            </div>\n            <div>\n              <div class=\"guide-title\">家长抽背 3 步法：</div>\n              <div>1. 报原词求替换：家长读出核心原词（如 cheap），孩子须 3 秒内说出 inexpensive / low-priced。</div>\n              <div>2. 报场景求意思：家长读出考场例句，孩子快速翻译句子并说明替换点。</div>\n              <div>3. 默写卡二次核对：让孩子完成对应天数的 5 题默写卡，查漏补缺。</div>\n            </div>\n          </section>\n\n          <!-- 文字块 3：#001 单卡已揭晓态 + #002 双遮罩抽背态 -->\n          <section class=\"vocab-stack\" aria-label=\"词卡抽背对照\">\n            <article class=\"vocab-card\">\n              <div class=\"vc-head\">\n                <span>#001 立刻/马上 · He answered the phone immediately.</span>\n                <span class=\"vc-tag\">已揭晓</span>\n              </div>\n              <div class=\"vc-pair-grid\">\n                <div class=\"vc-word gummy-shine\">immediately</div>\n                <div class=\"vc-syn gummy-shine\">right away / at once</div>\n              </div>\n              <div class=\"kd-reminder\">替换识别提醒：常考 immediately 与 right away 同义互换</div>\n            </article>\n\n            <article class=\"vocab-card mask-quiz-card\">\n              <div class=\"vc-head\">\n                <span>#002 最终/终于 · Eventually, they reached the top of the hill.</span>\n                <span class=\"vc-tag is-wait\">待抽背</span>\n              </div>\n              <div class=\"vc-pair-grid\">\n                <div class=\"vc-word gummy-shine\">eventually</div>\n                <div class=\"vc-syn\">点击揭晓同义替换</div>\n              </div>\n              <div class=\"kd-reminder\">替换识别提醒已同步遮挡（点击揭晓）</div>\n            </article>\n          </section>\n        </div>\n\n        <!-- 文字块 4：底部双遮罩切换按钮与主导航 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">遮挡同义词与提醒：开启中 ✓</button>\n          </div>\n          <nav class=\"bottom-nav\" aria-label=\"底部主导航\">\n            <button type=\"button\" class=\"btn-gummy nav-tab\">群岛</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab is-active\">宝典</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">错题</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">默写</button>\n          </nav>\n        </footer>"
-    },
-    "P19": {
-      "id": "P19",
-      "file": "P19_20张在线填空默写工坊.html",
-      "title": "P19 20张在线填空默写工坊",
-      "caption": "P19 20张在线填空默写工坊 · 默写卡01批改+漏首字母判对+「换一个」态",
-      "screenClass": "phone-screen is-deep page-P19",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"52\" cy=\"118\" r=\"30\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"338\" cy=\"136\" r=\"36\" fill=\"#F59E0B\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"708\" rx=\"175\" ry=\"40\" fill=\"#1E3A8A\" opacity=\"0.32\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">20张填空默写工坊</h1>\n                <span class=\"hud-sub-title\">漏首字母判对 · 同义词提示换一个</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：默写卡切换胶囊（使用3D软胶金锁SVG替代裸Emoji） -->\n          <div class=\"dict-card-tabs\" aria-label=\"默写卡切换\">\n            <span class=\"dict-tab is-current\">默写卡 01 (免费)</span>\n            <span class=\"dict-tab\">默写卡 02 (免费)</span>\n            <span class=\"dict-tab\">\n              <span>03–20</span>\n              <svg class=\"ico\" viewBox=\"0 0 20 20\" aria-label=\"内购锁\"><rect x=\"4\" y=\"9\" width=\"12\" height=\"9\" rx=\"2.5\" fill=\"#F59E0B\" stroke=\"#FEF08A\" stroke-width=\"1.2\"/><path d=\"M6.5 9 V6.5 A3.5 3.5 0 0 1 13.5 6.5 V9\" fill=\"none\" stroke=\"#FEF08A\" stroke-width=\"1.8\"/></svg>\n            </span>\n          </div>\n\n          <!-- 文字块 3：默写卡 01 五题批改卷（逐字照抄 10_source.md） -->\n          <article class=\"dict-sheet-card\" aria-label=\"默写卡01五题批改\">\n            <div class=\"sheet-head\">\n              <span class=\"sheet-title\">默写卡 01 (时间与价格类)</span>\n              <span class=\"sheet-sub\">容错细则：待补充</span>\n            </div>\n            <div class=\"q-row\">\n              <div class=\"q-prompt\">1. <span class=\"q-lead-word\">immediately</span> = r______ a______ / at once (立刻)</div>\n              <div class=\"q-ans-bar\">\n                <span class=\"input-slot\">right away</span>\n                <span class=\"status-pill\">✓ 标准答案</span>\n              </div>\n            </div>\n            <div class=\"q-row\">\n              <div class=\"q-prompt\">2. cheap = i______ (便宜的)</div>\n              <div class=\"q-ans-bar\">\n                <span class=\"input-slot\">[i]nexpensive</span>\n                <span class=\"status-pill\">✓ 漏首字母判对</span>\n              </div>\n            </div>\n            <div class=\"q-row\">\n              <div class=\"q-prompt\">3. expensive = c______ (昂贵的) · 参考答案: costly</div>\n              <div class=\"q-ans-bar\">\n                <span class=\"input-slot is-warn\">high-priced</span>\n                <span class=\"status-pill is-swap\">同义词 · 换一个(c开头)</span>\n              </div>\n            </div>\n            <div class=\"q-row\">\n              <div class=\"q-prompt\">4. free = at no c______ (免费的) · 5. postponed = p______ o______ (推迟)</div>\n              <div class=\"q-ans-bar\">\n                <span class=\"input-slot\">4. cost · 5. put off</span>\n                <span class=\"status-pill\">✓ 4–5题全对</span>\n              </div>\n            </div>\n          </article>\n        </div>\n\n        <!-- 文字块 4：底部提交按钮与主导航 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-main gummy-shine\">提交批改 · 订正第3题 ▶</button>\n          </div>\n          <nav class=\"bottom-nav\" aria-label=\"底部主导航\">\n            <button type=\"button\" class=\"btn-gummy nav-tab\">群岛</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">宝典</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab\">错题</button>\n            <button type=\"button\" class=\"btn-gummy nav-tab is-active\">默写</button>\n          </nav>\n        </footer>"
-    },
-    "P20": {
-      "id": "P20",
-      "file": "P20_家长端掌握率总览与7天复习打卡表.html",
-      "title": "P20 家长端掌握率总览与7天复习打卡表",
-      "caption": "P20 家长端掌握率总览与7天复习打卡表 · 首期学情总览看板+7天打卡表原文态",
-      "screenClass": "phone-screen is-deep page-P20",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"54\" cy=\"116\" r=\"30\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"336\" cy=\"132\" r=\"36\" fill=\"#F59E0B\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"706\" rx=\"175\" ry=\"40\" fill=\"#1E3A8A\" opacity=\"0.32\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-gummy btn-back-gummy\" aria-label=\"返回首页\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">学情与7天打卡表</h1>\n                <span class=\"hud-sub-title\">家长助教看板 · 每日抽背与默写</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：100词掌握率总览卡（含二期P2待补充说明） -->\n          <section class=\"mastery-summary-card\" aria-label=\"100词掌握率总览\">\n            <div class=\"summary-top\">\n              <span class=\"summary-word-en\">immediately</span>\n              <span class=\"summary-stat\">已掌握 20 / 100 (20%)</span>\n            </div>\n            <progress class=\"ui-progress\" value=\"20\" max=\"100\" aria-label=\"100词总掌握率 20%\"></progress>\n            <div class=\"summary-note\">二期P2雷达图与Canvas海报裂变参数：待补充</div>\n          </section>\n\n          <!-- 文字块 3：7天速查复习打卡表（逐字对应 10_source.md 第五部分） -->\n          <article class=\"checkin-table-card\" aria-label=\"7天速查复习打卡表\">\n            <div class=\"table-head\">\n              <span class=\"table-title\">7天速查复习打卡表</span>\n              <span class=\"table-badge\">家长复盘签字确认</span>\n            </div>\n            <div class=\"day-grid\">\n              <div class=\"day-row is-done\">\n                <span>Day 1 · 卡片 001 - 020</span>\n                <div class=\"day-meta\"><span>默写卡 01, 02</span><span class=\"day-tag\">✓ 90%以上</span></div>\n              </div>\n              <div class=\"day-row is-done\">\n                <span>Day 2 · 卡片 021 - 040</span>\n                <div class=\"day-meta\"><span>默写卡 03, 04</span><span class=\"day-tag\">✓ 90%以上</span></div>\n              </div>\n              <div class=\"day-row\">\n                <span>Day 3 · 卡片 041 - 060</span>\n                <div class=\"day-meta\"><span>默写卡 05, 06</span><span class=\"day-tag\">90%以上</span></div>\n              </div>\n              <div class=\"day-row\">\n                <span>Day 4 · 卡片 061 - 080</span>\n                <div class=\"day-meta\"><span>默写卡 07, 08</span><span class=\"day-tag\">90%以上</span></div>\n              </div>\n              <div class=\"day-row\">\n                <span>Day 5 · 卡片 081 - 100</span>\n                <div class=\"day-meta\"><span>默写卡 09, 10</span><span class=\"day-tag\">90%以上</span></div>\n              </div>\n              <div class=\"day-row\">\n                <span>Day 6 · 默写卡 11 - 20</span>\n                <div class=\"day-meta\"><span>综合大通关</span><span class=\"day-tag\">90%以上</span></div>\n              </div>\n              <div class=\"day-row is-full\">\n                <span>Day 7 · 20题同义替换全真巩固刷题</span>\n                <span class=\"day-tag\">100%全对</span>\n              </div>\n            </div>\n          </article>\n        </div>\n\n        <!-- 文字块 4：底部家长签字确认按钮 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-cta-gold gummy-shine\">家长复盘签字 · 确认今日打卡 ✓</button>\n          </div>\n          <div class=\"home-bar\"></div>\n        </footer>"
-    },
-    "P21": {
-      "id": "P21",
-      "file": "P21_设置、离线英音分包与儿童隐私保护.html",
-      "title": "P21 设置、离线英音分包与儿童隐私保护",
-      "caption": "P21 设置、离线英音分包与儿童隐私保护 · 设置面板+重置本机记录二次确认弹窗态",
-      "screenClass": "phone-screen is-deep page-P21",
-      "html": "<svg class=\"island-backdrop\" viewBox=\"0 0 390 844\" aria-hidden=\"true\">\n          <circle cx=\"52\" cy=\"118\" r=\"30\" fill=\"#38BDF8\" opacity=\"0.16\"/>\n          <circle cx=\"338\" cy=\"136\" r=\"36\" fill=\"#10B981\" opacity=\"0.14\"/>\n          <ellipse cx=\"195\" cy=\"708\" rx=\"175\" ry=\"40\" fill=\"#1E3A8A\" opacity=\"0.32\"/>\n        </svg>\n\n        <!-- 文字块 1：顶栏 HUD -->\n        <header class=\"zone-hud\">\n          <div class=\"hud-row\">\n            <div class=\"hud-left\">\n              <button type=\"button\" class=\"btn-gummy btn-back-gummy\" aria-label=\"返回\">‹</button>\n              <div class=\"hud-titles\">\n                <h1 class=\"hud-main-title\">设置与隐私保护</h1>\n                <span class=\"hud-sub-title\">离线英音分包 · 100%本机存储</span>\n              </div>\n            </div>\n            <div class=\"wx-capsule\"><span>•••</span><span class=\"wx-capsule-line\"></span><span>◎</span></div>\n          </div>\n        </header>\n\n        <!-- 中部棋盘（文字块 2 + 文字块 3） -->\n        <div class=\"zone-board\">\n          <!-- 文字块 2：离线 MP3 分包、SFX 自动闪避与儿童隐私本地存储声明 -->\n          <section class=\"setting-privacy-panel\" aria-label=\"音效与隐私保护设置\">\n            <div class=\"setting-row\">\n              <span>剑桥英音试听：<strong class=\"audio-word-demo\">immediately</strong></span>\n              <span class=\"toggle-pill\">en-GB 已缓存</span>\n            </div>\n            <div class=\"setting-row\">\n              <span>播英音时音效自动闪避压至 30%</span>\n              <span class=\"toggle-pill\">已开启 ✓</span>\n            </div>\n            <div class=\"privacy-box\">\n              <div class=\"privacy-title\">儿童个人信息保护与本地存储声明</div>\n              <div>采用 100% 本地存储（wx.setStorageSync），零上传手机号、头像昵称或定位。</div>\n              <div class=\"privacy-sub\">ICP备案号与《用户隐私保护指引》完整正文：待补充</div>\n            </div>\n          </section>\n\n          <!-- 文字块 3：重置本机记录二次确认模态框（柔和琥珀警示） -->\n          <article class=\"confirm-modal-card\" role=\"alertdialog\" aria-modal=\"true\" aria-labelledby=\"resetModalTitle\">\n            <div class=\"modal-head-row\">\n              <h2 id=\"resetModalTitle\" class=\"modal-title\">确认重置本机学习记录？</h2>\n              <span class=\"modal-tag\">二次确认</span>\n            </div>\n            <p class=\"modal-desc\">将清空本机保存的星章进度、错题本与默写记录（已内购解锁权益不受影响）。</p>\n          </article>\n        </div>\n\n        <!-- 文字块 4：底部二次确认双按钮 -->\n        <footer class=\"zone-footer\">\n          <div class=\"cta-bar\">\n            <button type=\"button\" class=\"btn-gummy btn-keep-safe gummy-shine\">取消 · 保留记录</button>\n            <button type=\"button\" class=\"btn-gummy btn-warn-reset gummy-shine\">确认重置</button>\n          </div>\n          <div class=\"home-bar\"></div>\n        </footer>"
-    }
-  }
-};
+// === voice_manifest.js ===
+// AUTO-GENERATED BY src/gen_voice.py - DO NOT EDIT MANUALLY
+window.KET_VOICE_MANIFEST = {"version":"3.1","voice":"en-GB-SoniaNeural","basePath":"assets/voice/","count":300,"totalBytes":4357692,"files":{"001_word":"001_word.mp3","001_syn":"001_syn.mp3","001_full":"001_full.mp3","002_word":"002_word.mp3","002_syn":"002_syn.mp3","002_full":"002_full.mp3","003_word":"003_word.mp3","003_syn":"003_syn.mp3","003_full":"003_full.mp3","004_word":"004_word.mp3","004_syn":"004_syn.mp3","004_full":"004_full.mp3","005_word":"005_word.mp3","005_syn":"005_syn.mp3","005_full":"005_full.mp3","006_word":"006_word.mp3","006_syn":"006_syn.mp3","006_full":"006_full.mp3","007_word":"007_word.mp3","007_syn":"007_syn.mp3","007_full":"007_full.mp3","008_word":"008_word.mp3","008_syn":"008_syn.mp3","008_full":"008_full.mp3","009_word":"009_word.mp3","009_syn":"009_syn.mp3","009_full":"009_full.mp3","010_word":"010_word.mp3","010_syn":"010_syn.mp3","010_full":"010_full.mp3","011_word":"011_word.mp3","011_syn":"011_syn.mp3","011_full":"011_full.mp3","012_word":"012_word.mp3","012_syn":"012_syn.mp3","012_full":"012_full.mp3","013_word":"013_word.mp3","013_syn":"013_syn.mp3","013_full":"013_full.mp3","014_word":"014_word.mp3","014_syn":"014_syn.mp3","014_full":"014_full.mp3","015_word":"015_word.mp3","015_syn":"015_syn.mp3","015_full":"015_full.mp3","016_word":"016_word.mp3","016_syn":"016_syn.mp3","016_full":"016_full.mp3","017_word":"017_word.mp3","017_syn":"017_syn.mp3","017_full":"017_full.mp3","018_word":"018_word.mp3","018_syn":"018_syn.mp3","018_full":"018_full.mp3","019_word":"019_word.mp3","019_syn":"019_syn.mp3","019_full":"019_full.mp3","020_word":"020_word.mp3","020_syn":"020_syn.mp3","020_full":"020_full.mp3","021_word":"021_word.mp3","021_syn":"021_syn.mp3","021_full":"021_full.mp3","022_word":"022_word.mp3","022_syn":"022_syn.mp3","022_full":"022_full.mp3","023_word":"023_word.mp3","023_syn":"023_syn.mp3","023_full":"023_full.mp3","024_word":"024_word.mp3","024_syn":"024_syn.mp3","024_full":"024_full.mp3","025_word":"025_word.mp3","025_syn":"025_syn.mp3","025_full":"025_full.mp3","026_word":"026_word.mp3","026_syn":"026_syn.mp3","026_full":"026_full.mp3","027_word":"027_word.mp3","027_syn":"027_syn.mp3","027_full":"027_full.mp3","028_word":"028_word.mp3","028_syn":"028_syn.mp3","028_full":"028_full.mp3","029_word":"029_word.mp3","029_syn":"029_syn.mp3","029_full":"029_full.mp3","030_word":"030_word.mp3","030_syn":"030_syn.mp3","030_full":"030_full.mp3","031_word":"031_word.mp3","031_syn":"031_syn.mp3","031_full":"031_full.mp3","032_word":"032_word.mp3","032_syn":"032_syn.mp3","032_full":"032_full.mp3","033_word":"033_word.mp3","033_syn":"033_syn.mp3","033_full":"033_full.mp3","034_word":"034_word.mp3","034_syn":"034_syn.mp3","034_full":"034_full.mp3","035_word":"035_word.mp3","035_syn":"035_syn.mp3","035_full":"035_full.mp3","036_word":"036_word.mp3","036_syn":"036_syn.mp3","036_full":"036_full.mp3","037_word":"037_word.mp3","037_syn":"037_syn.mp3","037_full":"037_full.mp3","038_word":"038_word.mp3","038_syn":"038_syn.mp3","038_full":"038_full.mp3","039_word":"039_word.mp3","039_syn":"039_syn.mp3","039_full":"039_full.mp3","040_word":"040_word.mp3","040_syn":"040_syn.mp3","040_full":"040_full.mp3","041_word":"041_word.mp3","041_syn":"041_syn.mp3","041_full":"041_full.mp3","042_word":"042_word.mp3","042_syn":"042_syn.mp3","042_full":"042_full.mp3","043_word":"043_word.mp3","043_syn":"043_syn.mp3","043_full":"043_full.mp3","044_word":"044_word.mp3","044_syn":"044_syn.mp3","044_full":"044_full.mp3","045_word":"045_word.mp3","045_syn":"045_syn.mp3","045_full":"045_full.mp3","046_word":"046_word.mp3","046_syn":"046_syn.mp3","046_full":"046_full.mp3","047_word":"047_word.mp3","047_syn":"047_syn.mp3","047_full":"047_full.mp3","048_word":"048_word.mp3","048_syn":"048_syn.mp3","048_full":"048_full.mp3","049_word":"049_word.mp3","049_syn":"049_syn.mp3","049_full":"049_full.mp3","050_word":"050_word.mp3","050_syn":"050_syn.mp3","050_full":"050_full.mp3","051_word":"051_word.mp3","051_syn":"051_syn.mp3","051_full":"051_full.mp3","052_word":"052_word.mp3","052_syn":"052_syn.mp3","052_full":"052_full.mp3","053_word":"053_word.mp3","053_syn":"053_syn.mp3","053_full":"053_full.mp3","054_word":"054_word.mp3","054_syn":"054_syn.mp3","054_full":"054_full.mp3","055_word":"055_word.mp3","055_syn":"055_syn.mp3","055_full":"055_full.mp3","056_word":"056_word.mp3","056_syn":"056_syn.mp3","056_full":"056_full.mp3","057_word":"057_word.mp3","057_syn":"057_syn.mp3","057_full":"057_full.mp3","058_word":"058_word.mp3","058_syn":"058_syn.mp3","058_full":"058_full.mp3","059_word":"059_word.mp3","059_syn":"059_syn.mp3","059_full":"059_full.mp3","060_word":"060_word.mp3","060_syn":"060_syn.mp3","060_full":"060_full.mp3","061_word":"061_word.mp3","061_syn":"061_syn.mp3","061_full":"061_full.mp3","062_word":"062_word.mp3","062_syn":"062_syn.mp3","062_full":"062_full.mp3","063_word":"063_word.mp3","063_syn":"063_syn.mp3","063_full":"063_full.mp3","064_word":"064_word.mp3","064_syn":"064_syn.mp3","064_full":"064_full.mp3","065_word":"065_word.mp3","065_syn":"065_syn.mp3","065_full":"065_full.mp3","066_word":"066_word.mp3","066_syn":"066_syn.mp3","066_full":"066_full.mp3","067_word":"067_word.mp3","067_syn":"067_syn.mp3","067_full":"067_full.mp3","068_word":"068_word.mp3","068_syn":"068_syn.mp3","068_full":"068_full.mp3","069_word":"069_word.mp3","069_syn":"069_syn.mp3","069_full":"069_full.mp3","070_word":"070_word.mp3","070_syn":"070_syn.mp3","070_full":"070_full.mp3","071_word":"071_word.mp3","071_syn":"071_syn.mp3","071_full":"071_full.mp3","072_word":"072_word.mp3","072_syn":"072_syn.mp3","072_full":"072_full.mp3","073_word":"073_word.mp3","073_syn":"073_syn.mp3","073_full":"073_full.mp3","074_word":"074_word.mp3","074_syn":"074_syn.mp3","074_full":"074_full.mp3","075_word":"075_word.mp3","075_syn":"075_syn.mp3","075_full":"075_full.mp3","076_word":"076_word.mp3","076_syn":"076_syn.mp3","076_full":"076_full.mp3","077_word":"077_word.mp3","077_syn":"077_syn.mp3","077_full":"077_full.mp3","078_word":"078_word.mp3","078_syn":"078_syn.mp3","078_full":"078_full.mp3","079_word":"079_word.mp3","079_syn":"079_syn.mp3","079_full":"079_full.mp3","080_word":"080_word.mp3","080_syn":"080_syn.mp3","080_full":"080_full.mp3","081_word":"081_word.mp3","081_syn":"081_syn.mp3","081_full":"081_full.mp3","082_word":"082_word.mp3","082_syn":"082_syn.mp3","082_full":"082_full.mp3","083_word":"083_word.mp3","083_syn":"083_syn.mp3","083_full":"083_full.mp3","084_word":"084_word.mp3","084_syn":"084_syn.mp3","084_full":"084_full.mp3","085_word":"085_word.mp3","085_syn":"085_syn.mp3","085_full":"085_full.mp3","086_word":"086_word.mp3","086_syn":"086_syn.mp3","086_full":"086_full.mp3","087_word":"087_word.mp3","087_syn":"087_syn.mp3","087_full":"087_full.mp3","088_word":"088_word.mp3","088_syn":"088_syn.mp3","088_full":"088_full.mp3","089_word":"089_word.mp3","089_syn":"089_syn.mp3","089_full":"089_full.mp3","090_word":"090_word.mp3","090_syn":"090_syn.mp3","090_full":"090_full.mp3","091_word":"091_word.mp3","091_syn":"091_syn.mp3","091_full":"091_full.mp3","092_word":"092_word.mp3","092_syn":"092_syn.mp3","092_full":"092_full.mp3","093_word":"093_word.mp3","093_syn":"093_syn.mp3","093_full":"093_full.mp3","094_word":"094_word.mp3","094_syn":"094_syn.mp3","094_full":"094_full.mp3","095_word":"095_word.mp3","095_syn":"095_syn.mp3","095_full":"095_full.mp3","096_word":"096_word.mp3","096_syn":"096_syn.mp3","096_full":"096_full.mp3","097_word":"097_word.mp3","097_syn":"097_syn.mp3","097_full":"097_full.mp3","098_word":"098_word.mp3","098_syn":"098_syn.mp3","098_full":"098_full.mp3","099_word":"099_word.mp3","099_syn":"099_syn.mp3","099_full":"099_full.mp3","100_word":"100_word.mp3","100_syn":"100_syn.mp3","100_full":"100_full.mp3"},"textMap":{"immediately":"001_word","right away, at once":"001_syn","immediately. right away, at once":"001_full","eventually":"002_word","in the end, finally":"002_syn","eventually. in the end, finally":"002_full","at present":"003_word","currently, right now":"003_syn","at present. currently, right now":"003_full","fortnight":"004_word","two weeks, 14 days":"004_syn","fortnight. two weeks, 14 days":"004_full","annual":"005_word","yearly, once a year":"005_syn","annual. yearly, once a year":"005_full","past":"006_word","after":"006_syn","past. after":"006_full","to":"007_word","before":"007_syn","to. before":"007_full","previously":"008_word","before, in the past":"008_syn","previously. before, in the past":"008_full","postpone":"009_word","put off, delay":"009_syn","postpone. put off, delay":"009_full","on time":"010_word","on time, in time":"010_syn","on time. on time, in time":"010_full","nearby":"011_word","close to, not far from":"011_syn","nearby. close to, not far from":"011_full","opposite":"012_word","across from":"012_syn","opposite. across from":"012_full","next to":"013_word","beside, by the side of":"013_syn","next to. beside, by the side of":"013_full","place to go":"014_word","final place, final stop":"014_syn","place to go. final place, final stop":"014_full","inside":"015_word","within, indoors":"015_syn","inside. within, indoors":"015_full","abroad":"016_word","in a foreign country":"016_syn","abroad. in a foreign country":"016_full","centre":"017_word","middle, heart of town":"017_syn","centre. middle, heart of town":"017_full","entrance":"018_word","way in, door":"018_syn","entrance. way in, door":"018_full","exit":"019_word","way out":"019_syn","exit. way out":"019_full","surrounding":"020_word","around, nearby area":"020_syn","surrounding. around, nearby area":"020_full","inexpensive":"021_word","cheap, low-priced":"021_syn","inexpensive. cheap, low-priced":"021_full","costly":"022_word","expensive, high-priced":"022_syn","costly. expensive, high-priced":"022_full","free":"023_word","at no cost, without pay":"023_syn","free. at no cost, without pay":"023_full","discount":"024_word","price reduction, off":"024_syn","discount. price reduction, off":"024_full","fare":"025_word","ticket price, fee":"025_syn","fare. ticket price, fee":"025_full","reasonable":"026_word","fair, not too high":"026_syn","reasonable. fair, not too high":"026_full","bargain":"027_word","good buy, low price":"027_syn","bargain. good buy, low price":"027_full","refund":"028_word","money back":"028_syn","refund. money back":"028_full","fee":"029_word","charge, cost":"029_syn","fee. charge, cost":"029_full","valuable":"030_word","precious, worth much":"030_syn","valuable. precious, worth much":"030_full","participate in":"031_word","take part in, join":"031_syn","participate in. take part in, join":"031_full","annual trip":"032_word","yearly outing":"032_syn","annual trip. yearly outing":"032_full","hike":"033_word","long walk in nature":"033_syn","hike. long walk in nature":"033_full","exhibition":"034_word","show, display":"034_syn","exhibition. show, display":"034_full","contest":"035_word","competition, match":"035_syn","contest. competition, match":"035_full","performance":"036_word","show, play":"036_syn","performance. show, play":"036_full","gather":"037_word","meet, assemble":"037_syn","gather. meet, assemble":"037_full","spectator":"038_word","viewer, audience":"038_syn","spectator. viewer, audience":"038_full","celebrate":"039_word","mark an occasion":"039_syn","celebrate. mark an occasion":"039_full","relax":"040_word","take it easy, rest":"040_syn","relax. take it easy, rest":"040_full","intelligent":"041_word","clever, smart":"041_syn","intelligent. clever, smart":"041_full","friendly":"042_word","kind, welcoming":"042_syn","friendly. kind, welcoming":"042_full","generous":"043_word","giving, helpful":"043_syn","generous. giving, helpful":"043_full","courageous":"044_word","brave, fearless":"044_syn","courageous. brave, fearless":"044_full","honest":"045_word","truthful, sincere":"045_syn","honest. truthful, sincere":"045_full","polite":"046_word","courteous, well-mannered":"046_syn","polite. courteous, well-mannered":"046_full","stranger":"047_word","unknown person":"047_syn","stranger. unknown person":"047_full","toddler":"048_word","young child":"048_syn","toddler. young child":"048_full","elderly":"049_word","old, senior":"049_syn","elderly. old, senior":"049_full","famous":"050_word","well-known":"050_syn","famous. well-known":"050_full","delighted":"051_word","very happy, pleased":"051_syn","delighted. very happy, pleased":"051_full","nervous":"052_word","worried, a little afraid":"052_syn","nervous. worried, a little afraid":"052_full","terrified":"053_word","very scared, frightened":"053_syn","terrified. very scared, frightened":"053_full","exhausted":"054_word","very tired":"054_syn","exhausted. very tired":"054_full","satisfied":"055_word","pleased, content":"055_syn","satisfied. pleased, content":"055_full","furious":"056_word","very angry":"056_syn","furious. very angry":"056_full","miserable":"057_word","very unhappy, sad":"057_syn","miserable. very unhappy, sad":"057_full","confident":"058_word","sure of oneself":"058_syn","confident. sure of oneself":"058_full","disappointed":"059_word","sad about result":"059_syn","disappointed. sad about result":"059_full","curious":"060_word","eager to know":"060_syn","curious. eager to know":"060_full","depart":"061_word","leave, set off":"061_syn","depart. leave, set off":"061_full","arrive":"062_word","reach, get to":"062_syn","arrive. reach, get to":"062_full","delay":"063_word","hold up, make late":"063_syn","delay. hold up, make late":"063_full","cancel":"064_word","call off":"064_syn","cancel. call off":"064_full","passenger":"065_word","traveler, rider":"065_syn","passenger. traveler, rider":"065_full","route":"066_word","way, path":"066_syn","route. way, path":"066_full","commute":"067_word","travel to work":"067_syn","commute. travel to work":"067_full","vehicle":"068_word","car, bus, transport":"068_syn","vehicle. car, bus, transport":"068_full","luggage":"069_word","bags, suitcases":"069_syn","luggage. bags, suitcases":"069_full","ferry":"070_word","passenger boat":"070_syn","ferry. passenger boat":"070_full","assignment":"071_word","homework, task":"071_syn","assignment. homework, task":"071_full","curriculum":"072_word","subjects studied":"072_syn","curriculum. subjects studied":"072_full","attend":"073_word","go to, be present at":"073_syn","attend. go to, be present at":"073_full","revise":"074_word","review, study again":"074_syn","revise. review, study again":"074_full","achieve":"075_word","reach, gain":"075_syn","achieve. reach, gain":"075_full","register":"076_word","sign up, enroll":"076_syn","register. sign up, enroll":"076_full","laboratory":"077_word","science room, lab":"077_syn","laboratory. science room, lab":"077_full","librarian":"078_word","library worker":"078_syn","librarian. library worker":"078_full","certificate":"079_word","official diploma":"079_syn","certificate. official diploma":"079_full","absent":"080_word","not present, away":"080_syn","absent. not present, away":"080_full","purchase":"081_word","buy":"081_syn","purchase. buy":"081_full","receipt":"082_word","proof of payment":"082_syn","receipt. proof of payment":"082_full","guarantee":"083_word","warranty, promise":"083_syn","guarantee. warranty, promise":"083_full","item":"084_word","thing, product":"084_syn","item. thing, product":"084_full","store":"085_word","shop":"085_syn","store. shop":"085_full","fitting room":"086_word","changing room":"086_syn","fitting room. changing room":"086_full","cash":"087_word","paper money and coins":"087_syn","cash. paper money and coins":"087_full","credit card":"088_word","plastic payment card":"088_syn","credit card. plastic payment card":"088_full","trolley":"089_word","shopping cart":"089_syn","trolley. shopping cart":"089_full","brand":"090_word","company name, mark":"090_syn","brand. company name, mark":"090_full","permitted":"091_word","allowed":"091_syn","permitted. allowed":"091_full","forbidden":"092_word","not allowed, banned":"092_syn","forbidden. not allowed, banned":"092_full","required":"093_word","needed, necessary":"093_syn","required. needed, necessary":"093_full","optional":"094_word","not compulsory, choice":"094_syn","optional. not compulsory, choice":"094_full","essential":"095_word","very important, vital":"095_syn","essential. very important, vital":"095_full","maximum":"096_word","most, highest limit":"096_syn","maximum. most, highest limit":"096_full","minimum":"097_word","least, lowest limit":"097_syn","minimum. least, lowest limit":"097_full","suitable":"098_word","right, fitting":"098_syn","suitable. right, fitting":"098_full","temporary":"099_word","for a short time only":"099_syn","temporary. for a short time only":"099_full","permanent":"100_word","lasting forever":"100_syn","permanent. lasting forever":"100_full"}};
 
 
-// === audio.js ===
-// 荔枝KET词卡助手 v1 - 离线音效与剑桥英音（en-GB）分包控制器（含 30% 自动闪避与防泄题门禁）
+// === svg_art.js ===
+// 荔枝KET词卡助手 v3 - Toy-Core Gummy 3D 矢量资产库（3D软胶荔枝小船长、11座奇幻糖果浮岛、11只专属守关怪兽与软胶图标）
 (function () {
-  var ctx = null;
-  var isSpeaking = false;
+  var SVG_SYMBOLS = [
+    '<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true">',
+    "  <defs>",
+    '    <symbol id="ico-flame" viewBox="0 0 20 20">',
+    '      <path d="M10.5 1.5 C11.5 5.2,16.5 6.8,16.5 11.8 C16.5 15.6,13.6 18.5,10 18.5 C6.4 18.5,3.5 15.6,3.5 11.8 C3.5 8.8,5.4 6.5,6.8 5.2 C6.5 7.4,8 8.2,8.2 8.2 C7.6 5.5,9 3,10.5 1.5 Z" fill="#FF4769" stroke="#FFFBEB" stroke-width="1"/>',
+    '      <path d="M10.2 8.2 C11.4 10,13.2 11,13.2 13.4 C13.2 15.2,11.8 16.6,10 16.6 C8.2 16.6,6.8 15.2,6.8 13.4 C6.8 11.6,8.5 10,10.2 8.2 Z" fill="#FEF08A"/>',
+    "    </symbol>",
+    '    <symbol id="ico-chest" viewBox="0 0 20 20">',
+    '      <rect x="2.5" y="7.5" width="15" height="10" rx="3" fill="#D97706" stroke="#FFFBEB" stroke-width="1.2"/>',
+    '      <path d="M2.5 8.5 C2.5 4.8,17.5 4.8,17.5 8.5 Z" fill="#FBBF24" stroke="#FFFBEB" stroke-width="1.2"/>',
+    '      <rect x="8.2" y="7" width="3.6" height="4.5" rx="1.2" fill="#FEF08A" stroke="#92400E" stroke-width="0.9"/>',
+    "    </symbol>",
+    '    <symbol id="ico-star" viewBox="0 0 20 20">',
+    '      <polygon points="10,1.8 12.6,7 18.2,7.8 14.1,11.8 15.1,17.4 10,14.7 4.9,17.4 5.9,11.8 1.8,7.8 7.4,7" fill="#FEF08A" stroke="#B45309" stroke-width="1.1"/>',
+    "    </symbol>",
+    '    <symbol id="ico-speaker" viewBox="0 0 20 20">',
+    '      <path d="M3 7.5 H6.5 L11.5 3.5 V16.5 L6.5 12.5 H3 A1.5 1.5 0 0 1 1.5 11 V9 A1.5 1.5 0 0 1 3 7.5 Z" fill="currentColor"/>',
+    '      <path d="M14.2 6.8 A4.8 4.8 0 0 1 14.2 13.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+    '      <path d="M16.6 4.6 A8 8 0 0 1 16.6 15.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity="0.75"/>',
+    "    </symbol>",
+    '    <symbol id="ico-lock" viewBox="0 0 20 20">',
+    '      <rect x="4" y="9" width="12" height="9" rx="2.8" fill="#F59E0B" stroke="#FEF08A" stroke-width="1.2"/>',
+    '      <path d="M6.5 9 V6.5 A3.5 3.5 0 0 1 13.5 6.5 V9" fill="none" stroke="#FEF08A" stroke-width="1.9" stroke-linecap="round"/>',
+    '      <circle cx="10" cy="13.5" r="1.4" fill="#78350F"/>',
+    "    </symbol>",
+    '    <symbol id="ico-gear" viewBox="0 0 20 20">',
+    '      <circle cx="10" cy="10" r="6.5" fill="#60A5FA" stroke="#FFFBEB" stroke-width="1.4" stroke-dasharray="3.2 2"/>',
+    '      <circle cx="10" cy="10" r="3" fill="#1E3A8A" stroke="#FEF08A" stroke-width="1.2"/>',
+    "    </symbol>",
+    '    <symbol id="ico-parent" viewBox="0 0 20 20">',
+    '      <path d="M10 2 L17 5.2 V10.2 C17 14.5,13.8 17.4,10 18.5 C6.2 17.4,3 14.5,3 10.2 V5.2 Z" fill="#FBBF24" stroke="#FFFBEB" stroke-width="1.3"/>',
+    '      <path d="M7.2 10.2 L9.2 12.2 L13.2 8.2" fill="none" stroke="#78350F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>',
+    "    </symbol>",
+    "  </defs>",
+    "</svg>"
+  ].join("\n");
 
-  function getCtx() {
-    if (!ctx) {
-      var AudioCtx = window.AudioContext || window.webkitAudioContext;
-      if (AudioCtx) {
-        try { ctx = new AudioCtx(); } catch (e) { ctx = null; }
-      }
+  /**
+   * 规范 v2 原创吉祥物：3D 软胶荔枝小船长 (.captain-buddy)
+   * 珊瑚粉高光船长帽 + 深海蓝帽檐 + 黄铜青光护目镜 + 奶白软胶荔枝圆脸 + 厚挤压底座
+   */
+  function captainBuddy(mood, sizePx) {
+    var m = mood || "idle";
+    var sz = sizePx || 76;
+    var eyes =
+      '<g class="cap-eyes">' +
+      '<circle cx="33" cy="52" r="4" fill="#0F172A"/><circle cx="31.6" cy="50.5" r="1.4" fill="#FFFFFF"/>' +
+      '<circle cx="55" cy="52" r="4" fill="#0F172A"/><circle cx="53.6" cy="50.5" r="1.4" fill="#FFFFFF"/>' +
+      "</g>";
+    var mouth = '<path d="M37 60 Q44 66 51 60" fill="none" stroke="#9A3412" stroke-width="3" stroke-linecap="round"/>';
+    var extras = "";
+
+    if (m === "cheer") {
+      eyes =
+        '<path d="M28 53 Q33 47 38 53" fill="none" stroke="#0F172A" stroke-width="3.2" stroke-linecap="round"/>' +
+        '<path d="M50 53 Q55 47 60 53" fill="none" stroke="#0F172A" stroke-width="3.2" stroke-linecap="round"/>';
+      mouth = '<path d="M35 58 Q44 69 53 58 Z" fill="#FF4769" stroke="#9A3412" stroke-width="2"/>';
+      extras =
+        '<ellipse cx="12" cy="48" rx="6" ry="5" fill="#FFFBEB" stroke="#FDE68A" stroke-width="2"/>' +
+        '<ellipse cx="76" cy="48" rx="6" ry="5" fill="#FFFBEB" stroke="#FDE68A" stroke-width="2"/>' +
+        '<polygon points="12,16 14,21 19,22 14,24 12,29 10,24 5,22 10,21" fill="#FEF08A"/>' +
+        '<polygon points="77,14 79,19 84,20 79,22 77,27 75,22 70,20 75,19" fill="#FEF08A"/>';
+    } else if (m === "encourage") {
+      mouth = '<path d="M37 61 Q44 65 51 61" fill="none" stroke="#D97706" stroke-width="3" stroke-linecap="round"/>';
+      extras = '<ellipse cx="24" cy="63" rx="6.5" ry="5" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>';
+    } else if (m === "crown") {
+      extras =
+        '<path d="M28 16 L32 4 L40 11 L44 2 L48 11 L56 4 L60 16 Z" fill="#FDE047" stroke="#B45309" stroke-width="1.8" stroke-linejoin="round"/>';
     }
-    if (ctx && ctx.state === "suspended") {
-      try { ctx.resume(); } catch (e) {}
-    }
-    return ctx;
+
+    return [
+      '<svg class="captain-buddy captain-mood-' + m + '" width="' + sz + '" height="' + sz + '" viewBox="0 0 88 88" role="img" aria-label="3D软胶荔枝小船长">',
+      '  <ellipse cx="44" cy="55" rx="30" ry="25" fill="#C81E45"/>',
+      '  <ellipse cx="44" cy="50" rx="30" ry="25" fill="#FFFBEB" stroke="#FDE68A" stroke-width="2.2"/>',
+      '  <ellipse cx="25" cy="56" rx="4.8" ry="2.8" fill="#FDA4AF" opacity="0.72"/>',
+      '  <ellipse cx="63" cy="56" rx="4.8" ry="2.8" fill="#FDA4AF" opacity="0.72"/>',
+      '  <path d="M14 38 C14 13,74 13,74 38 Z" fill="#FF4769" stroke="#FFC2CE" stroke-width="1.6"/>',
+      '  <ellipse cx="30" cy="22" rx="9" ry="3.4" fill="#FFFFFF" opacity="0.7" transform="rotate(-15 30 22)"/>',
+      '  <rect x="11" y="34" width="66" height="9" rx="4.5" fill="#1E3A8A"/>',
+      '  <circle cx="31" cy="33" r="8" fill="#38BDF8" stroke="#F59E0B" stroke-width="3"/>',
+      '  <circle cx="28.5" cy="30.5" r="2.2" fill="#FFFFFF" opacity="0.85"/>',
+      '  <circle cx="57" cy="33" r="8" fill="#38BDF8" stroke="#F59E0B" stroke-width="3"/>',
+      '  <circle cx="54.5" cy="30.5" r="2.2" fill="#FFFFFF" opacity="0.85"/>',
+      "  " + eyes,
+      "  " + mouth,
+      "  " + extras,
+      "</svg>"
+    ].join("");
   }
 
-  function getGainMultiplier() {
-    var st = window.KET_STATE ? window.KET_STATE.get() : null;
-    if (st && st.settings && st.settings.muted) return 0;
-    var ducking = !st || !st.settings || st.settings.audioDucking !== false;
-    return (isSpeaking && ducking) ? 0.30 : 1.0;
+  /**
+   * P03 群岛巡航小船长软胶帆船
+   */
+  function captainSailboatSvg() {
+    return [
+      '<svg class="captain-buddy" width="58" height="58" viewBox="0 0 64 64" role="img" aria-label="荔枝小船长巡航帆船">',
+      '  <ellipse cx="32" cy="57" rx="26" ry="5" fill="#0EA5E9" opacity="0.45"/>',
+      '  <path d="M7 43 L57 43 L48 56 L16 56 Z" fill="#D97706" stroke="#FEF08A" stroke-width="2" stroke-linejoin="round"/>',
+      '  <line x1="33" y1="8" x2="33" y2="43" stroke="#FEF08A" stroke-width="2.5" stroke-linecap="round"/>',
+      '  <path d="M34 10 L55 36 L34 36 Z" fill="#FF4769" stroke="#FFE4EA" stroke-width="1.8" stroke-linejoin="round"/>',
+      '  <ellipse cx="40" cy="22" rx="4.5" ry="2" fill="#FFFFFF" opacity="0.65" transform="rotate(-20 40 22)"/>',
+      '  <circle cx="22" cy="34" r="9.5" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>',
+      '  <path d="M13 29 C13 20,31 20,31 29 Z" fill="#FF4769"/>',
+      '  <rect x="12" y="27.5" width="20" height="3.2" rx="1.6" fill="#1E3A8A"/>',
+      '  <circle cx="19" cy="35" r="1.6" fill="#0F172A"/><circle cx="25" cy="35" r="1.6" fill="#0F172A"/>',
+      "</svg>"
+    ].join("");
   }
 
-  function playTone(freq, durationMs, type, startDelayMs) {
-    var mult = getGainMultiplier();
-    if (mult <= 0) return;
-    var c = getCtx();
-    if (!c) return;
-    try {
-      var osc = c.createOscillator();
-      var gain = c.createGain();
-      var now = c.currentTime + (startDelayMs || 0) / 1000;
-      var dur = (durationMs || 90) / 1000;
-      osc.type = type || "sine";
-      osc.frequency.setValueAtTime(freq, now);
-      gain.gain.setValueAtTime(0.12 * mult, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + dur);
-      osc.connect(gain);
-      gain.connect(c.destination);
-      osc.start(now);
-      osc.stop(now + dur);
-    } catch (e) {}
-  }
+  /**
+   * 规范 v2 第五节：11 座奇幻糖果微缩浮岛 (.island-diorama)
+   */
+  function islandDioramaSvg(levelNo, isLocked, sizePx) {
+    var lv = Number(levelNo) || 1;
+    var sz = sizePx || 48;
+    var body = "";
 
-  var PENTATONIC = [523.25, 587.33, 659.25, 783.99, 1046.50]; // C5, D5, E5, G5, C6
-
-  window.KET_AUDIO = {
-    tap: function () {
-      playTone(440, 55, "triangle", 0);
-    },
-    playClick: function () {
-      this.tap();
-    },
-    playKey: function () {
-      playTone(523.25, 45, "sine", 0);
-    },
-    burst: function () {
-      playTone(587.33, 80, "sine", 0);
-      playTone(880.0, 110, "triangle", 55);
-    },
-    playMatch: function (combo) {
-      this.correct(combo);
-    },
-    correct: function (combo) {
-      var idx = Math.max(0, Math.min(4, (combo || 1) - 1));
-      var base = PENTATONIC[idx];
-      playTone(base, 95, "sine", 0);
-      playTone(base * 1.25, 130, "triangle", 65);
-    },
-    playCorrect: function (combo) {
-      this.correct(combo);
-    },
-    wrong: function () {
-      // 柔和琥珀木琴低音
-      playTone(293.66, 120, "sine", 0);
-      playTone(246.94, 160, "sine", 80);
-    },
-    playWrong: function () {
-      this.wrong();
-    },
-    laser: function () {
-      playTone(987.77, 70, "sawtooth", 0);
-      playTone(659.25, 110, "triangle", 45);
-    },
-    playLaser: function () {
-      this.laser();
-    },
-    chest: function () {
-      playTone(523.25, 80, "sine", 0);
-      playTone(659.25, 80, "sine", 70);
-      playTone(783.99, 140, "triangle", 140);
-    },
-    star: function () {
-      playTone(659.25, 90, "sine", 0);
-      playTone(880.0, 120, "sine", 80);
-      playTone(1046.5, 180, "triangle", 160);
-    },
-    playFanfare: function () {
-      this.star();
-    },
-    speakCard: function (card, mode) {
-      return this.speakVocab(card, mode);
-    },
-    /**
-     * 播放词对离线英音（仅覆盖 100 组 word / syn 词对，不读 example 例句）
-     * @param {Object} card 词卡对象 { id, word, syn }
-     * @param {string} mode 'word_only' | 'syn_only' | 'pair'
-     */
-    speakVocab: function (card, mode) {
-      if (!card) return "";
-      var st = window.KET_STATE ? window.KET_STATE.get() : null;
-      if (st && st.settings && st.settings.muted) return "";
-      // 严守反向题防泄题铁律：作答前 mode === 'syn_only' 仅播 syn
-      var textToSpeak = "";
-      if (mode === "syn_only") {
-        textToSpeak = card.syn;
-      } else if (mode === "word_only") {
-        textToSpeak = card.word;
-      } else {
-        textToSpeak = card.word + ", " + card.syn;
-      }
-      isSpeaking = true;
-      try {
-        if ("speechSynthesis" in window && window.SpeechSynthesisUtterance) {
-          window.speechSynthesis.cancel();
-          var u = new window.SpeechSynthesisUtterance(textToSpeak.replace(/\//g, " or "));
-          u.lang = "en-GB";
-          u.rate = 0.95;
-          u.onend = function () { isSpeaking = false; };
-          u.onerror = function () { isSpeaking = false; };
-          window.speechSynthesis.speak(u);
-        }
-      } catch (e) {}
-      setTimeout(function () { isSpeaking = false; }, 1200);
-      return textToSpeak;
+    switch (lv) {
+      case 1: // L1 滴答钟表岛：黄铜齿轮 + 薄荷糖霜钟楼
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#0284C7"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#38BDF8" stroke="#BAE6FD" stroke-width="1.4"/>' +
+          '<circle cx="36" cy="24" r="7" fill="none" stroke="#FDE047" stroke-width="3" stroke-dasharray="3 2"/>' +
+          '<rect x="14" y="12" width="18" height="24" rx="5" fill="#F59E0B" stroke="#FFFBEB" stroke-width="1.6"/>' +
+          '<path d="M12 14 L23 5 L34 14 Z" fill="#34D399" stroke="#FFFBEB" stroke-width="1.4" stroke-linejoin="round"/>' +
+          '<circle cx="23" cy="23" r="6" fill="#FFFBEB" stroke="#B45309" stroke-width="1.4"/>' +
+          '<path d="M23 19 V23 H26.5" fill="none" stroke="#1E3A8A" stroke-width="1.8" stroke-linecap="round"/>';
+        break;
+      case 2: // L2 罗盘迷宫岛：翡翠抹茶树篱迷宫 + 悬浮黄金罗盘
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#047857"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#10B981" stroke="#A7F3D0" stroke-width="1.4"/>' +
+          '<circle cx="24" cy="21" r="12" fill="#FBBF24" stroke="#FFFBEB" stroke-width="2"/>' +
+          '<circle cx="24" cy="21" r="8.5" fill="#FFFBEB"/>' +
+          '<polygon points="24,13 27.5,21 24,29 20.5,21" fill="#FF4769"/>' +
+          '<circle cx="24" cy="21" r="2" fill="#1E3A8A"/>';
+        break;
+      case 3: // L3 金币宝藏岛：金币瀑布 + 珊瑚红宝石秘库
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#B45309"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#FBBF24" stroke="#FEF08A" stroke-width="1.4"/>' +
+          '<rect x="12" y="18" width="24" height="17" rx="5" fill="#FF4769" stroke="#FFE4EA" stroke-width="1.6"/>' +
+          '<path d="M12 20 C12 11,36 11,36 20 Z" fill="#F59E0B" stroke="#FEF08A" stroke-width="1.6"/>' +
+          '<rect x="21" y="18" width="6" height="7" rx="2" fill="#FEF08A" stroke="#92400E" stroke-width="1.2"/>';
+        break;
+      case 4: // L4 奇幻游乐岛：草莓糖霜摩天轮 + 马戏团彩球
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#1D4ED8"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#60A5FA" stroke="#DBEAFE" stroke-width="1.4"/>' +
+          '<path d="M17 36 L24 21 L31 36" fill="none" stroke="#FFFBEB" stroke-width="2.4" stroke-linecap="round"/>' +
+          '<circle cx="24" cy="20" r="11" fill="none" stroke="#FB7185" stroke-width="3.6"/>' +
+          '<circle cx="24" cy="9" r="3" fill="#FEF08A"/><circle cx="35" cy="20" r="3" fill="#34D399"/>' +
+          '<circle cx="13" cy="20" r="3" fill="#FBBF24"/><circle cx="24" cy="20" r="3.2" fill="#FF4769"/>';
+        break;
+      case 5: // L5 星光人物岛：星光绒布剧场 + 魔镜城堡
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#5B21B6"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#8B5CF6" stroke="#DDD6FE" stroke-width="1.4"/>' +
+          '<ellipse cx="24" cy="21" rx="10" ry="13" fill="#F43F5E" stroke="#FEF08A" stroke-width="2.2"/>' +
+          '<ellipse cx="24" cy="21" rx="6.5" ry="9" fill="#BAE6FD"/>' +
+          '<polygon points="24,13 25.5,18 30,19 25.5,21 24,26 22.5,21 18,19 22.5,18" fill="#FFFFFF"/>';
+        break;
+      case 6: // L6 彩虹心情岛：双层翻糖彩虹桥 + 棉花糖云朵
+        body =
+          '<path d="M8 35 A16 16 0 0 1 40 35" fill="none" stroke="#FF4769" stroke-width="4.5" stroke-linecap="round"/>' +
+          '<path d="M12 35 A12 12 0 0 1 36 35" fill="none" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/>' +
+          '<path d="M16 35 A8 8 0 0 1 32 35" fill="none" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round"/>' +
+          '<ellipse cx="14" cy="37" rx="9" ry="5.5" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.2"/>' +
+          '<ellipse cx="34" cy="37" rx="9" ry="5.5" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.2"/>';
+        break;
+      case 7: // L7 蒸汽列车岛：跨海威化铁轨 + 复古红糖蒸汽站
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#0369A1"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#0EA5E9" stroke="#BAE6FD" stroke-width="1.4"/>' +
+          '<rect x="11" y="18" width="25" height="15" rx="4" fill="#EF4444" stroke="#FFE4EA" stroke-width="1.5"/>' +
+          '<rect x="14" y="11" width="6" height="8" rx="2" fill="#F59E0B"/>' +
+          '<rect x="25" y="21" width="8" height="6" rx="1.8" fill="#BAE6FD"/>' +
+          '<circle cx="17" cy="34" r="4" fill="#FEF08A" stroke="#92400E" stroke-width="1.4"/>' +
+          '<circle cx="30" cy="34" r="4" fill="#FEF08A" stroke="#92400E" stroke-width="1.4"/>';
+        break;
+      case 8: // L8 魔法学院岛：悬浮魔法书塔 + 水晶羽毛笔
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#6B21A8"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#A855F7" stroke="#E9D5FF" stroke-width="1.4"/>' +
+          '<rect x="16" y="18" width="16" height="18" rx="3" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/>' +
+          '<polygon points="24,6 36,20 12,20" fill="#1D4ED8" stroke="#FEF08A" stroke-width="1.8" stroke-linejoin="round"/>' +
+          '<path d="M31 10 Q39 12 34 24" fill="none" stroke="#FEF08A" stroke-width="2.5" stroke-linecap="round"/>';
+        break;
+      case 9: // L9 缤纷集市岛：橙白条纹遮阳篷街区 + 糖果橱窗
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#D97706"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.4"/>' +
+          '<rect x="12" y="19" width="24" height="17" rx="3.5" fill="#F97316" stroke="#FFFBEB" stroke-width="1.5"/>' +
+          '<path d="M10 20 L14 12 H34 L38 20 Z" fill="#FF4769" stroke="#FFFBEB" stroke-width="1.5" stroke-linejoin="round"/>' +
+          '<rect x="17" y="24" width="14" height="8" rx="2" fill="#BAE6FD"/>';
+        break;
+      case 10: // L10 皇家法则岛：皇家蓝金盾牌城门 + 石碑堡垒
+        body =
+          '<ellipse cx="24" cy="40" rx="20" ry="7" fill="#1E40AF"/>' +
+          '<ellipse cx="24" cy="37" rx="20" ry="7" fill="#3B82F6" stroke="#BFDBFE" stroke-width="1.4"/>' +
+          '<path d="M13 12 H35 V25 C35 33,24 37,24 37 C24 37,13 33,13 25 Z" fill="#F59E0B" stroke="#FFFBEB" stroke-width="2" stroke-linejoin="round"/>' +
+          '<path d="M24 16 V31 M18 22 H30" stroke="#FFFBEB" stroke-width="2.4" stroke-linecap="round"/>';
+        break;
+      default: // L11 黄金王冠圣殿：星空紫晶阶梯 + 浮空黄金加冕圣殿
+        body =
+          '<ellipse cx="24" cy="40" rx="21" ry="7" fill="#4C1D95"/>' +
+          '<ellipse cx="24" cy="37" rx="21" ry="7" fill="#6D28D9" stroke="#FDE047" stroke-width="1.8"/>' +
+          '<path d="M10 32 L14 14 L21 22 L24 9 L27 22 L34 14 L38 32 Z" fill="#FDE047" stroke="#B45309" stroke-width="1.8" stroke-linejoin="round"/>' +
+          '<circle cx="24" cy="26" r="2.6" fill="#FF4769"/><circle cx="17" cy="27" r="2" fill="#38BDF8"/><circle cx="31" cy="27" r="2" fill="#10B981"/>';
+        break;
     }
+
+    var mistOverlay = isLocked
+      ? '<g class="island-cloud-veil" opacity="0.62">' +
+        '<ellipse cx="16" cy="34" rx="12" ry="6.5" fill="#E0F2FE"/>' +
+        '<ellipse cx="31" cy="32" rx="13" ry="7" fill="#F1F5F9"/>' +
+        "</g>"
+      : "";
+
+    return (
+      '<svg class="island-diorama" width="' +
+      sz +
+      '" height="' +
+      sz +
+      '" viewBox="0 0 48 48" role="img" aria-label="L' +
+      lv +
+      '主题糖果浮岛">' +
+      body +
+      mistOverlay +
+      "</svg>"
+    );
+  }
+
+  /**
+   * 规范 v2 第五节：11 只专属 3D 软胶守关怪兽 SVG（嵌入 P11 竞技场右上台座，transform="translate(212, 10)"）
+   */
+  function guardianMonsterInner(levelNo) {
+    var lv = Number(levelNo) || 1;
+    switch (lv) {
+      case 1: // 时光发条怪：蓝宝石软胶龙 + 头顶黄铜双环发条 + 罗马钟表肚皮
+        return (
+          '<circle cx="48" cy="8" r="7" fill="none" stroke="#F59E0B" stroke-width="4"/>' +
+          '<circle cx="72" cy="8" r="7" fill="none" stroke="#F59E0B" stroke-width="4"/>' +
+          '<rect x="20" y="18" width="80" height="80" rx="38" fill="#2563EB" stroke="#DBEAFE" stroke-width="2.2"/>' +
+          '<ellipse cx="42" cy="30" rx="10" ry="4" fill="#FFFFFF" opacity="0.62" transform="rotate(-15 42 30)"/>' +
+          '<circle cx="44" cy="44" r="4.5" fill="#FEF08A"/><circle cx="76" cy="44" r="4.5" fill="#FEF08A"/>' +
+          '<circle cx="60" cy="72" r="17" fill="#FFFBEB" stroke="#F59E0B" stroke-width="3.5"/>' +
+          '<line x1="60" y1="72" x2="60" y2="61" stroke="#1E3A8A" stroke-width="2.5" stroke-linecap="round"/>' +
+          '<line x1="60" y1="72" x2="70" y2="72" stroke="#FF4769" stroke-width="2.5" stroke-linecap="round"/>'
+        );
+      case 2: // 迷雾石像鬼：翡翠抹茶软胶怪 + 黄金罗盘双角
+        return (
+          '<polygon points="34,20 26,4 44,14" fill="#FBBF24" stroke="#FFFBEB" stroke-width="1.5"/>' +
+          '<polygon points="86,20 94,4 76,14" fill="#FBBF24" stroke="#FFFBEB" stroke-width="1.5"/>' +
+          '<rect x="20" y="18" width="80" height="80" rx="36" fill="#10B981" stroke="#A7F3D0" stroke-width="2.2"/>' +
+          '<ellipse cx="42" cy="30" rx="10" ry="4" fill="#FFFFFF" opacity="0.6" transform="rotate(-15 42 30)"/>' +
+          '<circle cx="44" cy="46" r="5" fill="#FEF08A"/><circle cx="76" cy="46" r="5" fill="#FEF08A"/>' +
+          '<polygon points="60,58 66,70 60,82 54,70" fill="#FF4769" stroke="#FFFBEB" stroke-width="1.8"/>'
+        );
+      case 3: // 黄金宝箱怪：琥珀金软胶宝箱体 + 红宝石晶石勋章
+        return (
+          '<rect x="18" y="42" width="84" height="54" rx="16" fill="#D97706" stroke="#FEF08A" stroke-width="2.4"/>' +
+          '<path d="M18 46 C18 16,102 16,102 46 Z" fill="#F59E0B" stroke="#FEF08A" stroke-width="2.4"/>' +
+          '<ellipse cx="40" cy="28" rx="10" ry="4" fill="#FFFFFF" opacity="0.65" transform="rotate(-14 40 28)"/>' +
+          '<circle cx="44" cy="40" r="5" fill="#0F172A"/><circle cx="76" cy="40" r="5" fill="#0F172A"/>' +
+          '<polygon points="60,46 68,56 60,66 52,56" fill="#FF4769" stroke="#FFFFFF" stroke-width="1.8"/>'
+        );
+      case 4: // 欢庆小丑王：草莓粉蓝双铃铛帽软胶怪
+        return (
+          '<path d="M26 26 Q14 6 38 14 L60 24 L82 14 Q106 6 94 26 Z" fill="#60A5FA" stroke="#FFFBEB" stroke-width="2"/>' +
+          '<circle cx="22" cy="10" r="6" fill="#FEF08A"/><circle cx="98" cy="10" r="6" fill="#FEF08A"/>' +
+          '<rect x="22" y="22" width="76" height="76" rx="38" fill="#FB7185" stroke="#FFE4EA" stroke-width="2.2"/>' +
+          '<ellipse cx="42" cy="34" rx="9" ry="3.8" fill="#FFFFFF" opacity="0.62" transform="rotate(-15 42 34)"/>' +
+          '<circle cx="45" cy="50" r="4.5" fill="#0F172A"/><circle cx="75" cy="50" r="4.5" fill="#0F172A"/>' +
+          '<circle cx="60" cy="60" r="6" fill="#FF4769" stroke="#FFFBEB" stroke-width="1.5"/>' +
+          '<path d="M46 74 Q60 84 74 74" fill="none" stroke="#FFFBEB" stroke-width="3" stroke-linecap="round"/>'
+        );
+      case 5: // 千面魔镜灵：紫罗兰金框软胶魔镜怪
+        return (
+          '<ellipse cx="60" cy="56" rx="40" ry="44" fill="#8B5CF6" stroke="#FDE047" stroke-width="3"/>' +
+          '<ellipse cx="60" cy="56" rx="29" ry="33" fill="#F43F5E" stroke="#FFE4EA" stroke-width="1.8"/>' +
+          '<ellipse cx="45" cy="34" rx="8" ry="3.5" fill="#FFFFFF" opacity="0.65" transform="rotate(-18 45 34)"/>' +
+          '<circle cx="48" cy="52" r="4.5" fill="#FEF08A"/><circle cx="72" cy="52" r="4.5" fill="#FEF08A"/>' +
+          '<polygon points="60,64 64,72 60,80 56,72" fill="#BAE6FD"/>'
+        );
+      case 6: // 风暴情绪兽：晴空云朵软胶兽 + 闪电金角
+        return (
+          '<polygon points="60,4 50,22 60,22 54,36 72,18 62,18" fill="#FBBF24" stroke="#FFFBEB" stroke-width="1.4"/>' +
+          '<circle cx="38" cy="60" r="24" fill="#38BDF8"/><circle cx="82" cy="60" r="24" fill="#38BDF8"/>' +
+          '<rect x="24" y="28" width="72" height="66" rx="32" fill="#38BDF8" stroke="#E0F2FE" stroke-width="2.2"/>' +
+          '<ellipse cx="44" cy="40" rx="9" ry="3.8" fill="#FFFFFF" opacity="0.65" transform="rotate(-14 44 40)"/>' +
+          '<circle cx="46" cy="56" r="4.5" fill="#0F172A"/><circle cx="74" cy="56" r="4.5" fill="#0F172A"/>' +
+          '<ellipse cx="36" cy="64" rx="5" ry="3" fill="#FB7185"/><ellipse cx="84" cy="64" rx="5" ry="3" fill="#FB7185"/>'
+        );
+      case 7: // 涡轮机车龙：复古红软胶装甲龙 + 青光涡轮核心
+        return (
+          '<rect x="50" y="6" width="20" height="16" rx="5" fill="#F59E0B" stroke="#FEF08A" stroke-width="1.8"/>' +
+          '<rect x="20" y="20" width="80" height="78" rx="34" fill="#EF4444" stroke="#FECDD3" stroke-width="2.2"/>' +
+          '<ellipse cx="42" cy="32" rx="9" ry="3.8" fill="#FFFFFF" opacity="0.62" transform="rotate(-15 42 32)"/>' +
+          '<circle cx="45" cy="46" r="5" fill="#FEF08A"/><circle cx="75" cy="46" r="5" fill="#FEF08A"/>' +
+          '<circle cx="60" cy="74" r="15" fill="#0EA5E9" stroke="#BAE6FD" stroke-width="3"/>' +
+          '<circle cx="60" cy="74" r="6" fill="#FEF08A"/>'
+        );
+      case 8: // 博学猫头鹰：紫晶魔法帽软胶猫头鹰 + 黄金单片镜
+        return (
+          '<polygon points="60,2 92,26 28,26" fill="#6D28D9" stroke="#FDE047" stroke-width="2" stroke-linejoin="round"/>' +
+          '<rect x="22" y="24" width="76" height="74" rx="36" fill="#2563EB" stroke="#BFDBFE" stroke-width="2.2"/>' +
+          '<circle cx="45" cy="50" r="11" fill="#FFFBEB" stroke="#93C5FD" stroke-width="2"/>' +
+          '<circle cx="75" cy="50" r="11" fill="#FFFBEB" stroke="#F59E0B" stroke-width="3"/>' +
+          '<circle cx="45" cy="50" r="4.5" fill="#0F172A"/><circle cx="75" cy="50" r="4.5" fill="#0F172A"/>' +
+          '<polygon points="60,56 66,66 54,66" fill="#F59E0B"/>'
+        );
+      case 9: // 超级收银怪：活力橙软胶收银机怪 + 价签天线
+        return (
+          '<rect x="34" y="6" width="22" height="16" rx="4" fill="#FEF08A" stroke="#B45309" stroke-width="1.6"/>' +
+          '<rect x="66" y="6" width="22" height="16" rx="4" fill="#6EE7B7" stroke="#047857" stroke-width="1.6"/>' +
+          '<rect x="20" y="22" width="80" height="76" rx="26" fill="#F97316" stroke="#FFEDD5" stroke-width="2.2"/>' +
+          '<ellipse cx="40" cy="33" rx="9" ry="3.8" fill="#FFFFFF" opacity="0.62" transform="rotate(-14 40 33)"/>' +
+          '<circle cx="45" cy="48" r="4.5" fill="#0F172A"/><circle cx="75" cy="48" r="4.5" fill="#0F172A"/>' +
+          '<rect x="36" y="66" width="48" height="18" rx="6" fill="#FFFBEB" stroke="#B45309" stroke-width="2"/>'
+        );
+      default: // L10 钢铁守卫者：皇家蓝金盾甲魔像
+        return (
+          '<path d="M46 6 H74 L80 22 H40 Z" fill="#F59E0B" stroke="#FEF08A" stroke-width="1.8"/>' +
+          '<rect x="20" y="20" width="80" height="78" rx="30" fill="#1D4ED8" stroke="#93C5FD" stroke-width="2.4"/>' +
+          '<ellipse cx="42" cy="32" rx="9" ry="3.8" fill="#FFFFFF" opacity="0.6" transform="rotate(-15 42 32)"/>' +
+          '<rect x="34" y="42" width="52" height="14" rx="7" fill="#0F172A" stroke="#FBBF24" stroke-width="2"/>' +
+          '<circle cx="47" cy="49" r="3.8" fill="#38BDF8"/><circle cx="73" cy="49" r="3.8" fill="#38BDF8"/>' +
+          '<path d="M46 64 H74 V76 C74 84,60 89,60 89 C60 89,46 84,46 76 Z" fill="#F59E0B" stroke="#FFFBEB" stroke-width="1.8"/>'
+        );
+    }
+  }
+
+  /**
+   * P11 阶段④ 守关挑战竞技场 SVG（默认零静态假激光，答对时触发 200ms 斜向软胶激光束 + 受击白闪挤压 + CRIT 徽章）
+   */
+  function arenaStageSvg(levelNo) {
+    return [
+      '<svg class="arena-svg" width="100%" height="100%" viewBox="0 0 362 164" role="img" aria-label="小船长激光炮台对战守关怪兽">',
+      '  <circle cx="152" cy="36" r="2.2" fill="#BAE6FD" opacity="0.55"/>',
+      '  <circle cx="188" cy="52" r="1.8" fill="#FEF08A" opacity="0.6"/>',
+      '  <circle cx="134" cy="78" r="2" fill="#FBCFE8" opacity="0.5"/>',
+      '  <ellipse cx="64" cy="144" rx="48" ry="12" fill="#1E3A8A" stroke="#60A5FA" stroke-width="1.5"/>',
+      '  <ellipse cx="272" cy="136" rx="64" ry="14" fill="#1E1B4B" stroke="#F59E0B" stroke-width="1.8"/>',
+      '  <g id="arena-laser-beam" class="laser-beam-group">',
+      '    <line x1="96" y1="112" x2="236" y2="66" stroke="#FF4769" stroke-width="14" stroke-linecap="round" opacity="0.42"/>',
+      '    <line x1="96" y1="112" x2="236" y2="66" stroke="#FEF08A" stroke-width="7" stroke-linecap="round"/>',
+      '    <circle cx="236" cy="66" r="15" fill="#FEF08A" opacity="0.78"/>',
+      '  </g>',
+      '  <g class="captain-turret" style="filter:var(--sh-svg-drop);">',
+      '    <ellipse cx="52" cy="124" rx="22" ry="18" fill="#C81E45"/>',
+      '    <ellipse cx="52" cy="121" rx="22" ry="18" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.8"/>',
+      '    <path d="M30 111 C30 93,74 93,74 111 Z" fill="#FF4769" stroke="#FFC2CE" stroke-width="1.4"/>',
+      '    <ellipse cx="42" cy="100" rx="6" ry="2.2" fill="#FFFFFF" opacity="0.68" transform="rotate(-15 42 100)"/>',
+      '    <rect x="28" y="108" width="48" height="6" rx="3" fill="#1E3A8A"/>',
+      '    <circle cx="43" cy="107" r="4.5" fill="#38BDF8" stroke="#F59E0B" stroke-width="1.8"/>',
+      '    <circle cx="59" cy="107" r="4.5" fill="#38BDF8" stroke="#F59E0B" stroke-width="1.8"/>',
+      '    <circle cx="44" cy="119" r="2.6" fill="#0F172A"/><circle cx="59" cy="119" r="2.6" fill="#0F172A"/>',
+      '    <rect x="64" y="106" width="36" height="20" rx="9" fill="#E11D48" stroke="#FFE4EA" stroke-width="1.6" transform="rotate(-18 82 116)"/>',
+      '    <circle cx="96" cy="111" r="4.5" fill="#FEF08A"/>',
+      "  </g>",
+      '  <g id="arena-guardian-monster" class="guardian-monster-wrap" transform="translate(212, 10)" style="filter:var(--sh-svg-drop);">',
+      "    " + guardianMonsterInner(levelNo),
+      "  </g>",
+      '  <g id="arena-crit-badge" class="arena-crit-badge">',
+      '    <rect x="112" y="10" width="128" height="28" rx="14" fill="#C81E45" stroke="#FEF08A" stroke-width="1.6"/>',
+      '    <text id="arena-crit-text" x="176" y="29" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="900">-1 格 · CRIT!</text>',
+      "  </g>",
+      "</svg>"
+    ].join("");
+  }
+
+  /**
+   * P14 通关星级结算页：3D 琥珀金拱形三星（支持 1–3 星点亮与错峰弹跳）
+   */
+  function settlementStarsSvg(earnedStars) {
+    var count = Math.max(0, Math.min(3, Number(earnedStars) || 0));
+    function starUnit(idx, tx, ty, rotOrScale) {
+      var earned = idx <= count;
+      var cls = "settle-star-slot" + (earned ? " is-earned star-drop-" + idx : " is-empty");
+      var inner = earned
+        ? '<polygon points="30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20" fill="#B45309" transform="translate(0,5)"/>' +
+          '<polygon points="30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20" fill="url(#goldStarGrad)" stroke="#FFFBEB" stroke-width="2"/>' +
+          '<ellipse cx="24" cy="18" rx="6" ry="2.5" fill="#FFFFFF" opacity="0.68" transform="rotate(-15 24 18)"/>'
+        : '<polygon points="30,2 39,20 58,23 44,37 47,56 30,47 13,56 16,37 2,23 21,20" fill="#1E293B" stroke="#64748B" stroke-width="3" stroke-linejoin="round"/>' +
+          '<ellipse cx="24" cy="18" rx="5" ry="2" fill="#94A3B8" opacity="0.4" transform="rotate(-15 24 18)"/>';
+      return '<g class="' + cls + '" transform="translate(' + tx + ", " + ty + ") " + rotOrScale + '">' + inner + "</g>";
+    }
+
+    return [
+      '<svg width="260" height="82" viewBox="0 0 260 82" style="filter:var(--sh-svg-drop);" role="img" aria-label="3D琥珀金通关星章">',
+      "  <defs>",
+      '    <linearGradient id="goldStarGrad" x1="0" y1="0" x2="0" y2="1">',
+      '      <stop offset="0%" stop-color="#FEF08A"/>',
+      '      <stop offset="100%" stop-color="#F59E0B"/>',
+      "    </linearGradient>",
+      "  </defs>",
+      "  " + starUnit(1, 18, 10, "rotate(-10 30 30)"),
+      "  " + starUnit(2, 96, 0, "scale(1.12)"),
+      "  " + starUnit(3, 182, 10, "rotate(10 30 30)"),
+      "</svg>"
+    ].join("");
+  }
+
+  window.KET_ART = {
+    SVG_SYMBOLS: SVG_SYMBOLS,
+    captainBuddy: captainBuddy,
+    captainSailboatSvg: captainSailboatSvg,
+    islandDioramaSvg: islandDioramaSvg,
+    arenaStageSvg: arenaStageSvg,
+    settlementStarsSvg: settlementStarsSvg
+  };
+})();
+
+
+// === ui_templates.js ===
+// 荔枝KET词卡助手 v3 - 21页 Toy-Core Gummy 3D 视图模板（100% 对齐规范 v2 与 ui/P01–P21 批准设计稿，零预填、零演示脏数据）
+(function () {
+  var SKY_ISLAND_BACKDROP = [
+    '<svg class="island-backdrop" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice" aria-hidden="true">',
+    "  <defs>",
+    '    <radialGradient id="skySunGlow" cx="50%" cy="14%" r="48%">',
+    '      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.42"/>',
+    '      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.16"/>',
+    '      <stop offset="100%" stop-color="#132A5E" stop-opacity="0"/>',
+    "    </radialGradient>",
+    "  </defs>",
+    '  <rect width="390" height="844" fill="url(#skySunGlow)"/>',
+    '  <ellipse cx="64" cy="128" rx="48" ry="18" fill="#FFFFFF" opacity="0.22"/>',
+    '  <ellipse cx="88" cy="122" rx="34" ry="16" fill="#FFFFFF" opacity="0.26"/>',
+    '  <ellipse cx="326" cy="168" rx="52" ry="18" fill="#FFFFFF" opacity="0.18"/>',
+    '  <circle cx="44" cy="288" r="3" fill="#FEF08A" opacity="0.65"/>',
+    '  <circle cx="352" cy="244" r="3.5" fill="#FEF08A" opacity="0.58"/>',
+    '  <circle cx="338" cy="486" r="2.8" fill="#BAE6FD" opacity="0.55"/>',
+    "</svg>"
+  ].join("");
+
+  var MAP_ROUTE_BACKDROP = [
+    '<svg class="island-backdrop" viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice" aria-hidden="true">',
+    '  <ellipse cx="70" cy="116" rx="46" ry="16" fill="#FFFFFF" opacity="0.2"/>',
+    '  <ellipse cx="322" cy="146" rx="50" ry="16" fill="#FFFFFF" opacity="0.16"/>',
+    '  <path d="M98 250 C260 270, 290 360, 120 420 C-10 470, 290 545, 280 650" fill="none" stroke="#FEF08A" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 8" opacity="0.52"/>',
+    "</svg>"
+  ].join("");
+
+  var GUMMY_HAND_SVG = [
+    '<svg class="gummy-hand-pointer" viewBox="0 0 68 68" aria-hidden="true">',
+    '  <circle cx="24" cy="18" r="14" fill="none" stroke="#FEF08A" stroke-width="3" opacity="0.85"/>',
+    '  <circle cx="24" cy="18" r="7" fill="#FEF08A" opacity="0.55"/>',
+    '  <path d="M24 18 L24 42 C24 52,32 58,42 58 C52 58,58 51,58 41 L58 32 C58 29,54 28,52 30 L52 28 C52 25,47 24,45 27 L45 25 C45 22,40 22,38 25 L31 25 L31 18 C31 13,24 13,24 18 Z" fill="#D97706" transform="translate(0,3)"/>',
+    '  <path d="M24 18 L24 42 C24 52,32 58,42 58 C52 58,58 51,58 41 L58 32 C58 29,54 28,52 30 L52 28 C52 25,47 24,45 27 L45 25 C45 22,40 22,38 25 L31 25 L31 18 C31 13,24 13,24 18 Z" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2.4" stroke-linejoin="round"/>',
+    '  <ellipse cx="27" cy="24" rx="2.2" ry="5" fill="#FFFFFF" opacity="0.85"/>',
+    "</svg>"
+  ].join("");
+
+  var BURST_STAR_SVG = [
+    '<svg class="burst-svg" viewBox="0 0 48 48" aria-hidden="true">',
+    '  <circle cx="24" cy="24" r="20" fill="#A7F3D0" stroke="#10B981" stroke-width="2"/>',
+    '  <polygon points="24,6 28.5,17.5 41,18.5 31.5,26.5 34.5,39 24,32 13.5,39 16.5,26.5 7,18.5 19.5,17.5" fill="#FEF08A" stroke="#D97706" stroke-width="1.8" stroke-linejoin="round"/>',
+    "</svg>"
+  ].join("");
+
+  var ZERO_STARS_LEFT_SVG = [
+    '<svg class="star-slot-svg" viewBox="0 0 48 48" aria-hidden="true">',
+    '  <polygon points="24,4 30,17 44,19 34,29 36,43 24,36 12,43 14,29 4,19 18,17" fill="#1E293B" stroke="#64748B" stroke-width="2.8" stroke-linejoin="round"/>',
+    "</svg>"
+  ].join("");
+
+  function bottomNavHtml(activeTab) {
+    var tabs = ["群岛", "宝典", "错题", "默写"];
+    return (
+      '<nav class="bottom-nav" aria-label="主导航">' +
+      tabs
+        .map(function (t) {
+          var cls = "btn-gummy nav-tab" + (t === activeTab ? " is-active gummy-shine" : "");
+          return '<button type="button" class="' + cls + '" data-nav="' + t + '">' + t + "</button>";
+        })
+        .join("") +
+      "</nav>"
+    );
+  }
+
+  var PAGES = {
+    P01: {
+      screenClass: "phone-screen page-P01",
+      html: [
+        SKY_ISLAND_BACKDROP,
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">荔枝KET词卡助手</h1>',
+        '        <div class="hud-sub-title">前2关免费 · 100组高频同义替换</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="home-streak-pill" class="streak-pill">',
+        '      <svg class="ico"><use href="#ico-flame"/></svg>',
+        '      <span id="home-streak-text">连胜 0天</span>',
+        "    </div>",
+        '    <div id="btn-home-wx" class="wx-capsule" role="button" tabindex="0" aria-label="快捷设置">',
+        '      <span>•••</span><span class="wx-capsule-line"></span><span>◎</span>',
+        "    </div>",
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="hero-card">',
+        '    <div class="hero-top">',
+        '      <div id="home-captain-mount"></div>',
+        '      <div class="hero-meta">',
+        '        <span class="rank-badge"><svg class="ico"><use href="#ico-star"/></svg><span id="home-rank-text">荔枝见习小水手 · 0/33星</span></span>',
+        '        <div id="home-island-title" class="hero-title">当前航线：第1关 滴答钟表岛</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="home-word-spotlight" class="word-spotlight" role="button" tabindex="0" aria-label="点按朗读核心同义替换示例">',
+        '      <span id="home-spot-word" class="word-main-en">immediately</span>',
+        '      <span id="home-spot-syn" class="word-sub-syn">= right away / at once · 立刻/马上</span>',
+        "    </div>",
+        "  </div>",
+        '  <div class="daily-quest-bar">',
+        '    <div class="quest-head">',
+        '      <div class="quest-title"><svg class="ico-lg"><use href="#ico-chest"/></svg><span id="home-quest-title">今日微任务 (0/3)</span></div>',
+        '      <span id="home-quest-tag" class="lock-cloud-tag" role="button" tabindex="0">差3步开箱</span>',
+        "    </div>",
+        '    <progress id="home-quest-prog" class="ui-progress" value="0" max="3" aria-label="今日微任务进度"></progress>',
+        '    <ul id="home-quest-list" class="quest-list">',
+        '      <li class="quest-item is-todo" data-qidx="0"><span>① 通关任意 1 座糖果岛屿</span><span class="quest-badge todo">待完成</span></li>',
+        '      <li class="quest-item is-todo" data-qidx="1"><span id="home-q2-text">② 错题营清零 3 词 (0/3)</span><span class="quest-badge todo">待完成</span></li>',
+        '      <li class="quest-item is-todo" data-qidx="2"><span>③ 完成 1 张 5 题在线默写卡</span><span class="quest-badge todo">待完成</span></li>',
+        "    </ul>",
+        "  </div>",
+        '  <div class="home-util-row">',
+        '    <button id="btn-home-parent" type="button" class="btn-gummy btn-home-util is-parent gummy-shine"><svg class="ico"><use href="#ico-parent"/></svg><span>家长入口</span></button>',
+        '    <button id="btn-home-settings" type="button" class="btn-gummy btn-home-util gummy-shine"><svg class="ico"><use href="#ico-gear"/></svg><span>设置与英音</span></button>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-home-continue" type="button" class="btn-gummy btn-cta-gold gummy-shine is-hidden">继续闯关 ▶</button>',
+        '    <button id="btn-home-start" type="button" class="btn-gummy btn-cta-main gummy-shine">开始闯关 ▶</button>',
+        "  </div>",
+        "  " + bottomNavHtml("群岛"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P02: {
+      screenClass: "phone-screen is-deep page-P02",
+      html: [
+        '<div class="coach-mask" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-p02-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">第1关 · 滴答钟表岛</h1>',
+        '        <div class="hud-sub-title">3秒聚光小手破冰 · 零文字墙直玩</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill">#001 破冰</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="spotlight-stage">',
+        '    <div class="stage-head">',
+        '      <span class="stage-title">点按发光双晶石配对</span>',
+        '      <span class="lock-cloud-tag">宝石蓝 = 琥珀金</span>',
+        "    </div>",
+        '    <div class="pair-focus">',
+        '      <div id="icebreaker-word" class="gem-card is-word is-focus gummy-shine" role="button" tabindex="0">',
+        '        <span class="gem-en-main">immediately</span>',
+        '        <span class="gem-tag">核心原词</span>',
+        "      </div>",
+        '      <div id="icebreaker-syn" class="gem-card is-syn is-focus gummy-shine" role="button" tabindex="0">',
+        '        <span class="gem-en-syn">right away / at once</span>',
+        '        <span class="gem-tag is-syn-tag">同义替换</span>',
+        "      </div>",
+        "      " + GUMMY_HAND_SVG,
+        "    </div>",
+        '    <div class="dim-grid" aria-hidden="true">',
+        '      <div class="dim-gem">eventually</div>',
+        '      <div class="dim-gem">in the end</div>',
+        "    </div>",
+        "  </div>",
+        '  <div class="captain-bubble-card">',
+        '    <div id="p02-captain-mount"></div>',
+        '    <div class="bubble-txt">',
+        '      <span>小水手！蓝宝石原词配琥珀金同义词，碰撞即刻爆出糖果星尘！</span>',
+        '      <span class="bubble-ex">He answered the phone immediately. (立刻/马上)</span>',
+        "    </div>",
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-icebreaker-go" type="button" class="btn-gummy btn-cta-main gummy-shine">点按晶石 · 扬帆进入群岛 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P03: {
+      screenClass: "phone-screen page-P03",
+      html: [
+        MAP_ROUTE_BACKDROP,
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-map1-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">奇幻糖果群岛 · 上篇</h1>',
+        '        <div class="hud-sub-title">第1–6关微缩浮岛 · 前2关免费畅玩</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill"><svg class="ico"><use href="#ico-star"/></svg><span id="map1-stars-text">0/33</span></div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div id="map1-sail-banner" class="sail-banner" role="button" tabindex="0">',
+        '    <div id="map1-boat-mount"></div>',
+        '    <div class="sail-info">',
+        '      <div class="sail-word-row">',
+        '        <span id="map1-sail-word" class="sail-word">immediately</span>',
+        '        <span id="map1-sail-syn" class="sail-syn">= right away / at once</span>',
+        "      </div>",
+        '      <div id="map1-sail-sub" class="sail-sub">当前护航：第1关 滴答钟表岛 · 点按听英音</div>',
+        "    </div>",
+        "  </div>",
+        '  <div id="map1-grid" class="island-grid"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-map-go" type="button" class="btn-gummy btn-cta-main gummy-shine">闯第1关 · 滴答钟表岛 ▶</button>',
+        '    <button id="btn-map-part2" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">下篇 L7–11 ↓</button>',
+        "  </div>",
+        "  " + bottomNavHtml("群岛"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P04: {
+      screenClass: "phone-screen is-deep page-P04",
+      html: [
+        MAP_ROUTE_BACKDROP,
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-map2-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回群岛上篇">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">奇幻糖果群岛 · 下篇</h1>',
+        '        <div class="hud-sub-title">第7–10关 + 第11关黄金王冠圣殿</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill"><svg class="ico"><use href="#ico-star"/></svg><span id="map2-stars-text">0/33</span></div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="map-scroll-safe">',
+        '    <div id="map2-grid" class="island-grid-4"></div>',
+        '    <div id="map2-sanctuary" class="sanctuary-card" role="button" tabindex="0"></div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-map-part1" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">↑ 上篇 L1–6</button>',
+        '    <button id="btn-map2-cta" type="button" class="btn-gummy btn-cta-gold gummy-shine">¥9.9 解锁全岛通行证 ▶</button>',
+        "  </div>",
+        "  " + bottomNavHtml("群岛"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P05: {
+      screenClass: "phone-screen page-P05",
+      html: [
+        '<div class="modal-backdrop" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-prep-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回群岛地图">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 id="prep-hud-title" class="hud-main-title">第1关 · 滴答钟表岛</h1>',
+        '        <div id="prep-hud-sub" class="hud-sub-title">01 时间与日期类 · #001–#010</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="prep-hud-stars" class="streak-pill">☆☆☆</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="prep-modal">',
+        '    <div class="modal-head">',
+        '      <div id="prep-diorama-mount"></div>',
+        '      <div style="min-width:0;flex:1;">',
+        '        <div id="prep-modal-title" class="modal-title">滴答钟表岛</div>',
+        '        <div id="prep-modal-sub" class="sub-text" style="color:#475569;">守关怪兽：时光发条怪 · 10组核心同义词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="star-ticks-bar">',
+        '      <span class="sub-text" style="color:#E0F2FE;">连闯集星刻度</span>',
+        '      <span class="star-ticks">60%★ · 80%★★ · 95%/零错★★★</span>',
+        "    </div>",
+        '    <div id="prep-word-preview" class="word-preview" role="button" tabindex="0">',
+        '      <span id="prep-sample-word" class="word-en">immediately</span>',
+        '      <span id="prep-sample-syn" class="word-syn">= right away / at once</span>',
+        "    </div>",
+        '    <div id="prep-stage-list" class="stage-btn-list">',
+        '      <button type="button" class="btn-gummy stage-select-btn gummy-shine" data-stage="1"><span>阶段① 晶石配对消除</span><span id="prep-st-1" class="stage-status-tag is-wait">待闯关</span></button>',
+        '      <button type="button" class="btn-gummy stage-select-btn gummy-shine" data-stage="2"><span>阶段② 语境慧眼单选</span><span id="prep-st-2" class="stage-status-tag is-wait">待闯关</span></button>',
+        '      <button type="button" class="btn-gummy stage-select-btn gummy-shine" data-stage="3"><span>阶段③ 魔法拼写工坊</span><span id="prep-st-3" class="stage-status-tag is-wait">待闯关</span></button>',
+        '      <button type="button" class="btn-gummy stage-select-btn is-guardian gummy-shine" data-stage="4"><span>阶段④ 守关挑战竞技场</span><span id="prep-st-4" class="stage-status-tag is-wait">待挑战</span></button>',
+        "    </div>",
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-prep-start" type="button" class="btn-gummy btn-cta-main gummy-shine">四阶连闯 · 冲击满星 ▶</button>',
+        "  </div>",
+        '  <div class="footer-note">点选单阶段可自由热身，四阶连闯通关即可点亮本岛星章</div>',
+        "</footer>"
+      ].join("\n")
+    },
+
+    P06: {
+      screenClass: "phone-screen is-deep page-P06",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s1-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 id="s1-hud-title" class="hud-main-title">阶段① 晶石配对消除</h1>',
+        '        <div id="s1-hud-sub" class="hud-sub-title">第 1/2 波 · 左蓝原词配右金同义词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s1-combo-pill" class="streak-pill">连击 x0</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="burst-stage">',
+        '    <div class="burst-top">',
+        '      <div class="burst-left">',
+        '        <div id="s1-burst-word" class="burst-word">点选左蓝原词 + 右金同义词</div>',
+        '        <div id="s1-burst-syn" class="burst-syn">双晶石碰撞爆出糖果星尘并播英音</div>',
+        "      </div>",
+        "      " + BURST_STAR_SVG,
+        "    </div>",
+        '    <div class="tray-head">',
+        '      <span id="s1-tray-label">本波配对进度 (0/5)</span>',
+        '      <span id="s1-tray-pct">总进度 0/10</span>',
+        "    </div>",
+        '    <progress id="s1-prog" class="ui-progress" value="0" max="5" aria-label="晶石配对进度"></progress>',
+        "  </div>",
+        '  <div id="s1-matrix" class="gem-matrix"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-s1-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读已配对词组"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-s1-next" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>配对完本波 5 组继续 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P07: {
+      screenClass: "phone-screen page-P07",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s2-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">阶段② 语境慧眼单选</h1>',
+        '        <div id="s2-hud-sub" class="hud-sub-title">正向题 · 看蓝晶原词选琥珀金同义词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s2-combo-pill" class="streak-pill">连击 x0</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="companion-bar">',
+        '    <div id="s2-captain-mount"></div>',
+        '    <div class="tray-col">',
+        '      <div class="tray-meta">',
+        '        <span id="s2-progress-label">第 1/10 题（第5题开半程宝箱）</span>',
+        '        <span id="s2-score-label">正确 0 题</span>',
+        "      </div>",
+        '      <progress id="s2-prog" class="ui-progress" value="1" max="10" aria-label="单选进度"></progress>',
+        "    </div>",
+        '    <svg id="s2-mid-chest" class="mid-chest-svg" viewBox="0 0 20 20" aria-hidden="true"><use href="#ico-chest"/></svg>',
+        "  </div>",
+        '  <div class="quiz-main-card">',
+        '    <div id="s2-word-banner" class="word-banner" role="button" tabindex="0">',
+        '      <span id="s2-word-text" class="gem-word-text">immediately</span>',
+        '      <span id="s2-word-cn" class="opt-tag" style="background:#1E40AF;">原词 · 点此听音</span>',
+        "    </div>",
+        '    <p id="s2-example" class="example-strip"></p>',
+        '    <div id="s2-options" class="opt-stack"></div>',
+        "  </div>",
+        '  <div id="s2-mirror" class="is-hidden"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-s2-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读原词"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-s2-next" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>请选择琥珀金同义词</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P08: {
+      screenClass: "phone-screen page-P08",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s2r-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">阶段② 语境慧眼单选</h1>',
+        '        <div id="s2r-hud-sub" class="hud-sub-title">反向题 · 看琥珀金同义词选蓝晶原词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s2r-combo-pill" class="streak-pill">连击 x0</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="companion-tray">',
+        '    <div id="s2r-captain-mount"></div>',
+        '    <div class="tray-info">',
+        '      <div style="display:flex;justify-content:space-between;font-size:14px;font-weight:800;">',
+        '        <span id="s2r-progress-label">第 6/10 题 · 反向辨析</span>',
+        '        <span id="s2r-score-label">正确 0 题</span>',
+        "      </div>",
+        '      <progress id="s2r-prog" class="ui-progress" value="6" max="10" aria-label="反向单选进度"></progress>',
+        "    </div>",
+        "  </div>",
+        '  <div class="quiz-main-card">',
+        '    <div id="s2r-syn-plaque" class="gem-syn-plaque" role="button" tabindex="0">',
+        '      <span id="s2r-syn-text" class="gem-syn-text">right away / at once</span>',
+        '      <span class="lock-cloud-tag">同义词 · 仅播提示</span>',
+        "    </div>",
+        '    <p id="s2r-example" class="body-text" style="color:#0F172A;font-weight:800;"></p>',
+        '    <div id="s2r-options" class="quiz-options-stack"></div>',
+        "  </div>",
+        '  <div id="s2r-mirror" class="is-hidden"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-s2r-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读同义词提示"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-s2r-next" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>请选择蓝宝石核心原词</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P09: {
+      screenClass: "phone-screen page-P09",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s3-exit" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">阶段③ 魔法拼写工坊</h1>',
+        '        <div id="s3-hud-sub" class="hud-sub-title">看琥珀金同义词 · 点按符文键拼出原词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s3-step-pill" class="streak-pill">第 1/5 词</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="companion-tray">',
+        '    <div id="s3-captain-mount"></div>',
+        '    <div class="tray-info">',
+        '      <div style="display:flex;justify-content:space-between;font-size:14px;font-weight:800;">',
+        '        <span id="s3-progress-label">拼写进度 (1/5)</span>',
+        '        <span id="s3-cn-hint">中文释义</span>',
+        "      </div>",
+        '      <progress id="s3-prog" class="ui-progress" value="1" max="5" aria-label="魔法拼写进度"></progress>',
+        "    </div>",
+        "  </div>",
+        '  <div class="quiz-main-card">',
+        '    <div id="s3-syn-plaque" class="gem-syn-plaque" role="button" tabindex="0">',
+        '      <div style="min-width:0;">',
+        '        <div id="s3-syn-text" class="word-display" style="color:var(--c-syn-txt);">right away / at once</div>',
+        '        <div id="s3-cn-sub" class="sub-text" style="color:#9A3412;">立刻/马上</div>',
+        "      </div>",
+        '      <span class="lock-cloud-tag">听同义词</span>',
+        "    </div>",
+        '    <div id="s3-slots" class="spell-slot-tray" data-len-tier="short"></div>',
+        '    <div id="s3-keys" class="keycap-grid"></div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="spell-footer-grid">',
+        '    <button id="btn-s3-backspace" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">⌫ 退格</button>',
+        '    <button id="btn-s3-check" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>请拼满字母槽</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P10: {
+      screenClass: "phone-screen page-P10",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s3ok-exit" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">阶段③ 拼写揭晓</h1>',
+        '        <div class="hud-sub-title">薄荷翡翠点亮 · 原文例句与替换提醒</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s3ok-pill" class="streak-pill">✓ 拼写正确</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="companion-tray">',
+        '    <div id="s3ok-captain-mount"></div>',
+        '    <div class="tray-info">',
+        '      <div id="s3ok-progress-label" style="font-size:14px;font-weight:800;">已完成 1/5 词</div>',
+        '      <progress id="s3ok-prog" class="ui-progress" value="1" max="5" aria-label="拼写完成进度"></progress>',
+        "    </div>",
+        "  </div>",
+        '  <div class="spell-pass-tray">',
+        '    <div id="s3ok-groups" class="pass-groups-row"></div>',
+        '    <div id="s3ok-cn-badge" class="streak-pill">立刻/马上</div>',
+        "  </div>",
+        '  <div id="s3ok-mirror" class="mirror-scroll-card">',
+        '    <div id="s3ok-eq" class="eq-badge"></div>',
+        '    <p id="s3ok-example" class="body-text"></p>',
+        '    <p id="s3ok-reminder" class="sub-text" style="color:#065F46;"></p>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-s3ok-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读词卡"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-s3ok-next" type="button" class="btn-gummy btn-cta-main gummy-shine">下一词 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P11: {
+      screenClass: "phone-screen page-P11",
+      html: [
+        '<div class="fever-frame" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-s4-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 id="s4-hud-title" class="hud-main-title">阶段④ 守关挑战</h1>',
+        '        <div id="s4-hud-sub" class="hud-sub-title">时光发条怪 · 10格能量护盾</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="s4-combo-pill" class="streak-pill">连击 x0</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="shield-bar-box">',
+        '    <div class="shield-info">',
+        '      <div style="display:flex;justify-content:space-between;font-size:14px;font-weight:800;">',
+        '        <span id="s4-shield-label">护盾击破 0/10 格</span>',
+        '        <span id="s4-fever-tag" style="color:#FEF08A;">限时 15s</span>',
+        "      </div>",
+        '      <progress id="s4-prog" class="ui-progress" value="0" max="10" aria-label="守关护盾击破进度"></progress>',
+        "    </div>",
+        '    <div id="s4-ring-wrap" class="progress-ring-wrapper">',
+        '      <progress id="s4-ring" class="progress-ring" value="100" max="100" aria-label="单题倒计时"></progress>',
+        '      <span id="s4-ring-text" class="ring-text" aria-hidden="true">15s</span>',
+        "    </div>",
+        "  </div>",
+        '  <div id="s4-arena-mount" class="arena-stage"></div>',
+        '  <div class="quiz-main-card">',
+        '    <div id="s4-prompt-plaque"></div>',
+        '    <p id="s4-example" class="sub-text" style="color:#334155;"></p>',
+        '    <div id="s4-options" class="laser-grid"></div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-s4-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读题干"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-s4-next" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>点按软胶激光键发射</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P12: {
+      screenClass: "phone-screen page-P12",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-rev-back" type="button" class="btn-gummy btn-back-gummy" aria-label="跳过直接结算">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">局末错题即刻复活战</h1>',
+        '        <div class="hud-sub-title">零失误答对本局错词 · 直冲三星</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill">复活冲刺</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="revive-tray">',
+        '    <div id="rev-captain-mount"></div>',
+        '    <div class="revive-info">',
+        '      <div id="rev-progress-label" style="font-size:14px;font-weight:800;">待复活 1/1 词</div>',
+        '      <progress id="rev-prog" class="ui-progress" value="0" max="1" aria-label="错题复活进度"></progress>',
+        "    </div>",
+        "  </div>",
+        '  <div class="quiz-main-card">',
+        '    <div id="rev-word-plaque" class="gem-word-plaque">',
+        '      <span id="rev-word-text" class="gem-word-text">immediately</span>',
+        '      <span class="lock-cloud-tag">错词复活</span>',
+        "    </div>",
+        '    <p id="rev-example" class="body-text" style="color:#0F172A;"></p>',
+        '    <div id="rev-options" class="quiz-options-stack"></div>',
+        "  </div>",
+        '  <div id="rev-clear-fx" class="wrong-clear-fx is-hidden"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-rev-skip" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">直接结算</button>',
+        '    <button id="btn-rev-next" type="button" class="btn-gummy btn-cta-main gummy-shine" disabled>请选择同义替换项复活</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P13: {
+      screenClass: "phone-screen page-P13",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-l11-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回群岛下篇">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">第11关 · 黄金王冠圣殿</h1>',
+        '        <div class="hud-sub-title">20题同义替换全真巩固测验</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="l11-score-pill" class="streak-pill">0/20 题</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="sanctuary-tray">',
+        '    <div id="l11-captain-mount"></div>',
+        '    <div class="sanctuary-info">',
+        '      <div style="display:flex;justify-content:space-between;font-size:14px;font-weight:800;">',
+        '        <span id="l11-q-label">第 1/20 题</span>',
+        '        <span id="l11-acc-label">已答对 0 题</span>',
+        "      </div>",
+        '      <progress id="l11-prog" class="ui-progress" value="1" max="20" aria-label="圣殿测验进度"></progress>',
+        "    </div>",
+        "  </div>",
+        '  <div class="quiz-main-card">',
+        '    <div class="crown-plaque">',
+        '      <span id="l11-stem" class="body-text" style="color:#78350F;font-weight:900;"></span>',
+        "    </div>",
+        '    <div id="l11-options" class="quiz-options-stack"></div>',
+        "  </div>",
+        '  <div id="l11-explain" class="explain-card is-hidden"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-l11-speak" type="button" class="btn-gummy btn-square-gummy gummy-shine" aria-label="朗读题干"><svg class="ico-lg"><use href="#ico-speaker"/></svg></button>',
+        '    <button id="btn-l11-next" type="button" class="btn-gummy btn-cta-gold gummy-shine" disabled>请选择正确同义替换项</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P14: {
+      screenClass: "phone-screen page-P14",
+      html: [
+        '<div id="settle-confetti" class="confetti-layer" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-settle-map" type="button" class="btn-gummy btn-back-gummy" aria-label="返回群岛地图">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 id="settle-hud-title" class="hud-main-title">岛屿通关结算</h1>',
+        '        <div id="settle-hud-sub" class="hud-sub-title">第1关 · 滴答钟表岛</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill"><svg class="ico"><use href="#ico-flame"/></svg><span id="settle-streak-text">连胜 1天</span></div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="stars-stage">',
+        '    <div id="settle-stars-mount"></div>',
+        '    <div style="display:flex;align-items:center;gap:10px;">',
+        '      <div id="settle-captain-mount"></div>',
+        '      <div style="min-width:0;">',
+        '        <div id="settle-main-title" class="page-title" style="color:#FEF08A;">太棒啦！点亮本岛星章</div>',
+        '        <div id="settle-sub-note" class="sub-text" style="color:#E0F2FE;">综合正确率 100% · 新航线已开启</div>',
+        "      </div>",
+        "    </div>",
+        "  </div>",
+        '  <div id="settle-score-grid" class="score-grid"></div>',
+        '  <div id="settle-mastered-banner" class="mastered-banner" role="button" tabindex="0">',
+        '    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">',
+        '      <strong id="settle-mastery-title" style="font-size:16px;">本关 10 组核心同义词已点亮</strong>',
+        '      <span class="lock-cloud-tag">查宝典</span>',
+        "    </div>",
+        '    <div id="settle-mastery-sub" class="sub-text">累计已掌握 10 / 100 组 · 今日微任务已推进</div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-settle-home" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">返回首页</button>',
+        '    <button id="btn-settle-next" type="button" class="btn-gummy btn-cta-gold gummy-shine">前往下一岛屿 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P15: {
+      screenClass: "phone-screen is-deep page-P15",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-retry-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回选关">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">守关挑战待再战</h1>',
+        '        <div id="retry-hud-sub" class="hud-sub-title">未满60%暂不发星 · 温和复盘再出发</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill">0星回炉</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="retry-hero-card">',
+        '    <div class="zero-star-row">',
+        "      " + ZERO_STARS_LEFT_SVG + ZERO_STARS_LEFT_SVG + ZERO_STARS_LEFT_SVG,
+        '      <div id="retry-captain-mount"></div>',
+        "    </div>",
+        '    <div class="hero-title">差一点就击破护盾啦！再试一次稳拿星章</div>',
+        '    <div id="retry-score-pill" class="hero-score-pill">本局正确率待提升 · 达标线 60%</div>',
+        "  </div>",
+        '  <div class="warn-review-card">',
+        '    <div class="warn-card-head"><span>重点复盘同义词组</span><span class="warn-badge">奶油琥珀温和纠错</span></div>',
+        '    <div class="word-focus-grid">',
+        '      <div id="retry-word-en" class="word-en-gem">immediately</div>',
+        '      <div id="retry-word-syn" class="word-syn-gem"><span>= right away / at once</span><span class="sub-text">立刻/马上</span></div>',
+        "    </div>",
+        '    <p id="retry-reminder" class="sub-text">常考 immediately 与 right away 同义互换</p>',
+        "  </div>",
+        '  <div class="stage-check-box">',
+        '    <div class="stage-check-grid">',
+        '      <div class="stage-pill">阶段① 配对完成</div>',
+        '      <div class="stage-pill is-retry">阶段② 建议巩固</div>',
+        '      <div class="stage-pill">阶段③ 拼写完成</div>',
+        '      <div class="stage-pill is-retry">阶段④ 重新挑战</div>',
+        "    </div>",
+        '    <div class="chain-rule-txt">小船长提示：先去错题营消灭薄弱词，再连闯即刻点亮星章！</div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-retry-wrong" type="button" class="btn-gummy btn-secondary-gummy gummy-shine">去错题营</button>',
+        '    <button id="btn-retry-again" type="button" class="btn-gummy btn-cta-main gummy-shine">重新连闯本岛 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P16: {
+      screenClass: "phone-screen is-deep page-P16",
+      html: [
+        '<div class="modal-backdrop-layer" aria-hidden="true"></div>',
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-iap-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回地图">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">家长监护 · 全岛通行证</h1>',
+        '        <div class="hud-sub-title">前2关永久免费 · 第3–11关一次买断</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill">¥9.9 终身</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="pay-hero-card">',
+        '    <div class="pay-hero-head">',
+        '      <div id="iap-diorama-mount"></div>',
+        '      <div class="pay-title-col">',
+        '        <span class="pay-badge">一次买断 · 零广告零二次内购</span>',
+        '        <div class="pay-main-title">解锁第3–11关全部糖果岛与18张进阶默写卡</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="preview-pair-grid">',
+        '      <div class="preview-word-gem">',
+        '        <span class="preview-word-en">cheap</span>',
+        '        <span class="preview-word-meta">#021 金币宝藏岛</span>',
+        "      </div>",
+        '      <div class="preview-syn-gem">',
+        '        <span class="preview-word-syn">= inexpensive / low-priced</span>',
+        '        <span class="sub-text" style="color:#9A3412;">便宜的</span>',
+        "      </div>",
+        "    </div>",
+        "  </div>",
+        '  <div class="perk-gate-card">',
+        '    <div class="perk-list">',
+        '      <div>✓ 解锁第3–10关 80 组高频同义替换四阶连闯</div>',
+        '      <div>✓ 解锁第11关「黄金王冠圣殿」20题全真巩固测验</div>',
+        '      <div>✓ 解锁默写卡 03–20 在线智能容错批改</div>',
+        "    </div>",
+        '    <div class="parent-math-bar">',
+        '      <div id="iap-math-prompt">家长防误触验证：请点选正确答案</div>',
+        '      <div id="iap-math-grid" class="math-opt-grid"></div>',
+        "    </div>",
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-iap-cancel" type="button" class="btn-gummy btn-cancel-pill gummy-shine">先玩免费关</button>',
+        '    <button id="btn-iap-unlock" type="button" class="btn-gummy btn-cta-gold gummy-shine" disabled>完成算术解锁 ¥9.9</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P17: {
+      screenClass: "phone-screen is-deep page-P17",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-wrong-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">荔枝错题强化营</h1>',
+        '        <div class="hud-sub-title">按错频降序排布 · 点按重测零失误清零</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="wrong-count-pill" class="streak-pill">待清 0词</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div id="wrong-list-box" class="wrong-group-card" role="list"></div>',
+        '  <div id="wrong-clear-box" class="wrong-clear-fx is-hidden"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-wrong-practice" type="button" class="btn-gummy btn-cta-main gummy-shine">返回群岛继续闯关 ▶</button>',
+        "  </div>",
+        "  " + bottomNavHtml("错题"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P18: {
+      screenClass: "phone-screen is-deep page-P18",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-vocab-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">100词速查宝典</h1>',
+        '        <div class="hud-sub-title">10大常考场景免费开放 · 双遮罩抽背</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="vocab-mask-pill" class="streak-pill">遮罩：开</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="guide-filter-panel">',
+        '    <div class="guide-title">家长高效抽背 3 步法（点词卡翻开遮罩并播英音）</div>',
+        '    <div id="vocab-parent-steps"></div>',
+        '    <div id="vocab-scene-bar" class="scene-filter-bar" role="tablist"></div>',
+        "  </div>",
+        '  <div id="vocab-card-stack" class="vocab-stack"></div>',
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-vocab-toggle-mask" type="button" class="btn-gummy btn-cta-gold gummy-shine">切换全显 / 遮罩抽背</button>',
+        "  </div>",
+        "  " + bottomNavHtml("宝典"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P19: {
+      screenClass: "phone-screen is-deep page-P19",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-dict-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">20张在线默写工坊</h1>',
+        '        <div class="hud-sub-title">01–02卡免费 · 容错首字母与同义词</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="dict-free-pill" class="streak-pill">01–02 免费</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div id="dict-tabs-bar" class="dict-card-tabs" role="tablist"></div>',
+        '  <div class="dict-sheet-card">',
+        '    <div class="sheet-head">',
+        '      <span id="dict-sheet-title" class="sheet-title">默写卡 01 (时间与价格类)</span>',
+        '      <span id="dict-sheet-sub" class="sheet-sub">免费体验 · 5题</span>',
+        "    </div>",
+        '    <div id="dict-q-list" style="display:flex;flex-direction:column;gap:8px;"></div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-dict-reset" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">清空重写</button>',
+        '    <button id="btn-dict-grade" type="button" class="btn-gummy btn-cta-main gummy-shine">一键批改本卡 ▶</button>',
+        "  </div>",
+        "  " + bottomNavHtml("默写"),
+        "</footer>"
+      ].join("\n")
+    },
+
+    P20: {
+      screenClass: "phone-screen is-deep page-P20",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-parent-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">家长学情与7天打卡表</h1>',
+        '        <div class="hud-sub-title">本地掌握率总览 · 7天同义替换冲刺计划</div>',
+        "      </div>",
+        "    </div>",
+        '    <div id="parent-streak-pill" class="streak-pill">打卡 0/7天</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="mastery-summary-card">',
+        '    <div class="summary-top">',
+        '      <span id="parent-mastery-num" class="summary-word-en">已掌握 0 / 100 组</span>',
+        '      <span id="parent-mastery-pct" class="summary-stat">掌握率 0% · 0/33★</span>',
+        "    </div>",
+        '    <progress id="parent-mastery-prog" class="ui-progress" value="0" max="100" aria-label="100词掌握进度"></progress>',
+        '    <div id="parent-summary-note" class="summary-note">点按下方任意天数卡片即可切换核验打卡状态</div>',
+        "  </div>",
+        '  <div class="checkin-table-card">',
+        '    <div class="table-head">',
+        '      <span class="table-title">KET 同义替换 7 天复习打卡表</span>',
+        '      <span id="parent-table-badge" class="table-badge">0/7 已核验</span>',
+        "    </div>",
+        '    <div id="parent-day-grid" class="day-grid"></div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-parent-vocab" type="button" class="btn-gummy btn-cta-sapphire gummy-shine">去抽背宝典</button>',
+        '    <button id="btn-parent-settings" type="button" class="btn-gummy btn-cta-gold gummy-shine">设置与隐私 ▶</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    },
+
+    P21: {
+      screenClass: "phone-screen is-deep page-P21",
+      html: [
+        '<header class="zone-hud">',
+        '  <div class="hud-row">',
+        '    <div class="hud-left">',
+        '      <button id="btn-set-back" type="button" class="btn-gummy btn-back-gummy" aria-label="返回首页">←</button>',
+        '      <div class="hud-titles">',
+        '        <h1 class="hud-main-title">设置、英音与儿童隐私</h1>',
+        '        <div class="hud-sub-title">纯本地离线存储 · 零账号零上传</div>',
+        "      </div>",
+        "    </div>",
+        '    <div class="streak-pill">v3 软胶岛</div>',
+        "  </div>",
+        "</header>",
+        '<section class="zone-board">',
+        '  <div class="setting-privacy-panel">',
+        '    <div id="row-try-uk" class="setting-row" role="button" tabindex="0">',
+        '      <div><div>标准英音 (en-GB) 词卡试听</div><div class="audio-word-demo">immediately = right away</div></div>',
+        '      <span class="toggle-pill">点此试听</span>',
+        "    </div>",
+        '    <div id="row-toggle-bgm" class="setting-row" role="button" tabindex="0">',
+        '      <span>奇幻糖果群岛背景音乐 (BGM)</span>',
+        '      <span id="pill-bgm" class="toggle-pill">已开启</span>',
+        "    </div>",
+        '    <div id="row-toggle-sfx" class="setting-row" role="button" tabindex="0">',
+        '      <span>软胶按压与五声音阶连击音效</span>',
+        '      <span id="pill-sfx" class="toggle-pill">已开启</span>',
+        "    </div>",
+        '    <div id="row-toggle-duck" class="setting-row" role="button" tabindex="0">',
+        '      <span>播英音时音效自动压低至 30%</span>',
+        '      <span id="pill-duck" class="toggle-pill">已开启</span>',
+        "    </div>",
+        '    <div class="privacy-box">',
+        '      <div class="privacy-title">儿童个人信息与隐私保护声明</div>',
+        '      <div class="privacy-sub">本应用无需注册登录，不收集姓名、位置或通讯录；闯关星章、错题本与打卡进度 100% 仅保存在当前设备本地浏览器中。</div>',
+        "    </div>",
+        "  </div>",
+        '  <div class="confirm-modal-card">',
+        '    <div class="modal-head-row">',
+        '      <span class="modal-title">本地闯关进度管理</span>',
+        '      <span class="modal-tag">温和确认</span>',
+        "    </div>",
+        '    <div id="reset-modal-desc" class="modal-desc">清空进度会将星章、错题与打卡恢复为初始 0 进度（已解锁通行证状态予以保留）。</div>',
+        "  </div>",
+        "</section>",
+        '<footer class="zone-footer">',
+        '  <div class="cta-bar">',
+        '    <button id="btn-set-keep" type="button" class="btn-gummy btn-keep-safe gummy-shine">保留进度返回</button>',
+        '    <button id="btn-set-reset" type="button" class="btn-gummy btn-warn-reset gummy-shine">清空本地进度</button>',
+        "  </div>",
+        "</footer>"
+      ].join("\n")
+    }
+  };
+
+  window.KET_TEMPLATES = {
+    SVG_SYMBOLS: window.KET_ART ? window.KET_ART.SVG_SYMBOLS : "",
+    PAGES: PAGES
   };
 })();
 
 
 // === state.js ===
-// 荔枝KET词卡助手 v1 - 核心状态机、防泄题/防刷星规则、星级与掌握率计算及 localStorage 持久化
+// 荔枝KET词卡助手 v3 - 本地存储状态机（默认零进度、?demo=1 内存隔离演示态、Fisher-Yates 洗牌与同义判分引擎）
 (function () {
-  var STORAGE_KEY = "LYCHEE_KET_H5_V1";
+  var STORAGE_KEY = "LYCHEE_KET_H5_V3";
 
-  // 同场景近义词重叠互斥表（防止单选/守关挑战干扰项多解）
-  var OVERLAP_GROUPS = [
-    ["007", "008"], // before
-    ["021", "027"], // low price / low-priced
-    ["034", "036"], // show
-    ["062", "075"]  // reach
-  ];
+  function getTodayStr() {
+    var d = new Date();
+    var m = String(d.getMonth() + 1).padStart(2, "0");
+    var day = String(d.getDate()).padStart(2, "0");
+    return d.getFullYear() + "-" + m + "-" + day;
+  }
 
+  function isDemoMode() {
+    try {
+      var params = new URLSearchParams(window.location.search || "");
+      return params.get("demo") === "1";
+    } catch (e) {
+      return false;
+    }
+  }
+
+  /**
+   * 干净的新用户初始状态：仅第1关解锁，0星、0已掌握、0错题、0打卡、0连胜、无任何预填记录
+   */
   function createDefaultState() {
+    var today = getTodayStr();
     var levels = {};
     for (var i = 1; i <= 11; i++) {
       levels[String(i)] = {
-        unlocked: i === 1 || i === 2, // 前2关免费开放体验（L1通关点亮3星，L2巡航中）
-        stars: i === 1 ? 3 : 0,
-        stage1: i === 1,
-        stage2: i === 1 ? 90 : 0,
-        stage3: i === 1,
-        stage4: i === 1 ? 100 : 0,
-        quizScore: 0
+        unlocked: i === 1,
+        stars: 0,
+        bestScore: 0,
+        stage1: false,
+        stage2: 0,
+        stage3: false,
+        stage4: 0
       };
     }
-    var mastered = {};
-    // 默认第1关与第2关体验词卡建立初始学情基线（20/100）
-    for (var m = 1; m <= 20; m++) {
-      var cid = String(m).padStart(3, "0");
-      mastered[cid] = true;
-    }
+
     return {
-      version: "1.0.0",
-      coachDone: false,
+      version: 3,
       iapUnlocked: false,
-      streakDays: 7,
-      lastActiveDate: "2026-11-12",
+      streakDays: 0,
+      streakCountedDate: "",
+      lastActiveDate: today,
+      coachDone: false,
       currentLevel: 1,
-      chainMode: true,
       dailyQuests: {
-        stageDone: true,
-        wrongClearedCount: 3,
+        date: today,
+        stageDone: false,
+        wrongClearedCount: 0,
         dictationDone: false,
         chestClaimed: false
       },
       levels: levels,
-      masteredIds: mastered,
-      wrongBook: {
-        "009": { id: "009", count: 4, source: "守关挑战+测验" },
-        "021": { id: "021", count: 3, source: "默写卡01+单选" },
-        "011": { id: "011", count: 2, source: "阶段②单选" }
-      },
-      recentlyClearedId: "001",
-      dictation: {
-        currentCardId: "01",
-        records: {
-          "01": {
-            inputs: { 1: "right away", 2: "[i]nexpensive", 3: "high-priced", 4: "cost", 5: "put off" },
-            graded: true,
-            passed: false
-          }
-        }
-      },
+      masteredIds: {},
+      wrongBook: {},
+      recentlyClearedId: null,
       vocabBook: {
-        sceneFilter: "01 时间与日期类 (Time & Dates)",
         maskMode: true,
-        revealedIds: { "001": true }
+        activeSceneIdx: 0,
+        revealedIds: {}
+      },
+      dictation: {
+        activeCardIdx: 0,
+        records: {}
       },
       checkinDays: {
-        "Day 1": true,
-        "Day 2": true,
+        "Day 1": false,
+        "Day 2": false,
         "Day 3": false,
         "Day 4": false,
         "Day 5": false,
@@ -2529,86 +3644,207 @@ window.KET_TEMPLATES = {
         "Day 7": false
       },
       settings: {
+        sfxEnabled: true,
+        bgmEnabled: true,
         audioDucking: true,
-        muted: false,
-        showResetConfirm: true
+        speechEnabled: true
       },
-      // 当前局内状态
       session: {
         level: 1,
         chain: true,
         wave: 1,
-        matchedIds: ["001", "002", "003", "004"],
-        burstingId: "004",
-        selectedWordId: null,
-        selectedSynId: null,
-        combo: 4,
-        stage2Index: 4, // 0-based (4 = 第5题)
-        stage2Correct: 9,
-        stage3Index: 2,
-        stage3Correct: 10,
-        stage3Typed: ["p", "a", "r", "t", "i", "c", "i", "p", "a", "t"],
-        stage4Index: 6,
-        stage4Correct: 7,
-        stage4TimeLeft: 4,
-        runWrongIds: ["004"],
-        reviveCleared: true,
+        combo: 0,
+        maxCombo: 0,
+        matchedIds: [],
+        stage1LeftOrder: [],
+        stage1RightOrder: [],
+        stage2Order: [],
+        stage2Index: 0,
+        stage2Correct: 0,
+        stage3Order: [],
+        stage3Index: 0,
+        stage3Correct: 0,
+        stage4Order: [],
+        stage4Index: 0,
+        stage4Correct: 0,
+        runWrongIds: [],
+        reviveIndex: 0,
+        reviveCleared: false,
         l11Index: 0,
-        l11Correct: 18,
-        lastSettlement: {
-          level: 1,
-          stars: 3,
-          stage1Done: true,
-          stage2Pct: 100,
-          stage3Done: true,
-          stage4Pct: 100,
-          weakCardId: "004"
-        }
+        l11Correct: 0,
+        lastSettlement: null
       }
     };
   }
 
-  var state = createDefaultState();
+  /**
+   * 仅当 URL 显式携带 ?demo=1 时在内存中构造演示态，严禁写入 localStorage
+   */
+  function createDemoState() {
+    var st = createDefaultState();
+    st.streakDays = 7;
+    st.streakCountedDate = getTodayStr();
+    st.coachDone = true;
+    st.currentLevel = 2;
+    st.levels["1"] = {
+      unlocked: true,
+      stars: 3,
+      bestScore: 100,
+      stage1: true,
+      stage2: 100,
+      stage3: true,
+      stage4: 100
+    };
+    st.levels["2"].unlocked = true;
+    for (var i = 1; i <= 10; i++) {
+      st.masteredIds[String(i).padStart(3, "0")] = true;
+    }
+    st.wrongBook = {
+      "009": { count: 4, source: "守关挑战+测验" },
+      "021": { count: 3, source: "默写卡01+单选" },
+      "011": { count: 2, source: "阶段②单选" }
+    };
+    st.recentlyClearedId = "001";
+    st.dailyQuests.stageDone = true;
+    st.dailyQuests.wrongClearedCount = 3;
+    st.checkinDays["Day 1"] = true;
+    st.checkinDays["Day 2"] = true;
+    st.session.level = 2;
+    return st;
+  }
 
-  function load() {
+  var state = null;
+
+  function hasSavedProgress() {
+    if (isDemoMode()) return true;
+    try {
+      var raw = window.localStorage.getItem(STORAGE_KEY);
+      if (!raw) return false;
+      var p = JSON.parse(raw);
+      if (!p || !p.levels) return false;
+      var anyStageOrStar = Object.keys(p.levels).some(function (k) {
+        var lv = p.levels[k];
+        if (!lv) return false;
+        return (
+          (lv.stars || 0) > 0 ||
+          (k !== "1" && !!lv.unlocked) ||
+          !!lv.stage1 ||
+          (lv.stage2 || 0) > 0 ||
+          !!lv.stage3 ||
+          (lv.stage4 || 0) > 0
+        );
+      });
+      if (anyStageOrStar) return true;
+      if (p.masteredIds && Object.keys(p.masteredIds).length > 0) return true;
+      if (p.wrongBook && Object.keys(p.wrongBook).length > 0) return true;
+      if (p.dictation && p.dictation.records && Object.keys(p.dictation.records).length > 0) return true;
+      return false;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function reconcileStreakAndDaily(st) {
+    var today = getTodayStr();
+    if (st.dailyQuests && st.dailyQuests.date !== today) {
+      st.dailyQuests = {
+        date: today,
+        stageDone: false,
+        wrongClearedCount: 0,
+        dictationDone: false,
+        chestClaimed: false
+      };
+    }
+    if (st.lastActiveDate && st.lastActiveDate !== today) {
+      var prev = new Date(st.lastActiveDate + "T00:00:00");
+      var curr = new Date(today + "T00:00:00");
+      var diffDays = Math.round((curr - prev) / 86400000);
+      if (diffDays > 1) {
+        st.streakDays = 0;
+      }
+      st.lastActiveDate = today;
+    }
+  }
+
+  function markTodayStreak(st) {
+    var today = getTodayStr();
+    if (st.streakCountedDate !== today) {
+      st.streakDays = (st.streakDays || 0) + 1;
+      st.streakCountedDate = today;
+    }
+    st.lastActiveDate = today;
+  }
+
+  function loadState() {
+    if (isDemoMode()) {
+      state = createDemoState();
+      return state;
+    }
+    var base = createDefaultState();
     try {
       var raw = window.localStorage.getItem(STORAGE_KEY);
       if (raw) {
         var parsed = JSON.parse(raw);
         if (parsed && typeof parsed === "object") {
-          state = Object.assign(createDefaultState(), parsed);
-          state.levels = Object.assign(createDefaultState().levels, parsed.levels || {});
-          state.dailyQuests = Object.assign(createDefaultState().dailyQuests, parsed.dailyQuests || {});
-          state.settings = Object.assign(createDefaultState().settings, parsed.settings || {});
-          state.session = Object.assign(createDefaultState().session, parsed.session || {});
-          // 检查连胜断签规则：断签 1 天即清零、不可补签
-          checkStreakContinuity();
+          base.iapUnlocked = !!parsed.iapUnlocked;
+          base.streakDays = typeof parsed.streakDays === "number" ? parsed.streakDays : 0;
+          base.streakCountedDate = parsed.streakCountedDate || "";
+          base.lastActiveDate = parsed.lastActiveDate || base.lastActiveDate;
+          base.coachDone = !!parsed.coachDone;
+          base.currentLevel = parsed.currentLevel || 1;
+          base.dailyQuests = Object.assign({}, base.dailyQuests, parsed.dailyQuests || {});
+          if (parsed.levels) {
+            for (var k in base.levels) {
+              if (parsed.levels[k]) {
+                base.levels[k] = Object.assign({}, base.levels[k], parsed.levels[k]);
+              }
+            }
+          }
+          base.masteredIds = Object.assign({}, parsed.masteredIds || {});
+          base.wrongBook = Object.assign({}, parsed.wrongBook || {});
+          base.recentlyClearedId = parsed.recentlyClearedId || null;
+          base.vocabBook = Object.assign({}, base.vocabBook, parsed.vocabBook || {});
+          base.dictation = Object.assign({}, base.dictation, parsed.dictation || {});
+          base.checkinDays = Object.assign({}, base.checkinDays, parsed.checkinDays || {});
+          base.settings = Object.assign({}, base.settings, parsed.settings || {});
         }
-      } else {
-        state = createDefaultState();
       }
-    } catch (e) {
-      state = createDefaultState();
-    }
+    } catch (e) {}
+
+    reconcileStreakAndDaily(base);
+    state = base;
     return state;
   }
 
-  function save() {
+  function saveState() {
+    if (!state || isDemoMode()) return;
     try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      var toSave = Object.assign({}, state);
+      delete toSave.session;
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
     } catch (e) {}
   }
 
-  function checkStreakContinuity() {
-    if (!state.lastActiveDate) return;
-    try {
-      var last = new Date(state.lastActiveDate + "T00:00:00");
-      var now = new Date("2026-11-12T00:00:00");
-      var diffDays = Math.round((now - last) / (1000 * 60 * 60 * 24));
-      if (diffDays > 1) {
-        state.streakDays = 0;
+  function resetLocalProgress() {
+    var keepIap = state ? !!state.iapUnlocked : false;
+    var keepSettings = state ? Object.assign({}, state.settings) : null;
+    state = createDefaultState();
+    state.iapUnlocked = keepIap;
+    if (keepSettings) {
+      state.settings = keepSettings;
+    }
+    if (keepIap) {
+      for (var i = 3; i <= 11; i++) {
+        state.levels[String(i)].unlocked = true;
       }
+    }
+    try {
+      window.localStorage.removeItem(STORAGE_KEY);
     } catch (e) {}
+    if (keepIap) {
+      saveState();
+    }
+    return state;
   }
 
   function getVocabMap() {
@@ -2620,115 +3856,162 @@ window.KET_TEMPLATES = {
     return map;
   }
 
-  function getLevelCards(level) {
+  function getLevelCards(levelNo) {
+    var lv = Math.max(1, Math.min(10, Number(levelNo) || 1));
     var list = (window.KET_DATA && window.KET_DATA.VOCAB_100) || [];
-    var lv = Math.max(1, Math.min(10, parseInt(level, 10) || 1));
     var start = (lv - 1) * 10;
     return list.slice(start, start + 10);
   }
 
-  function isOverlap(idA, idB) {
-    if (idA === idB) return true;
-    for (var i = 0; i < OVERLAP_GROUPS.length; i++) {
-      var g = OVERLAP_GROUPS[i];
-      if (g.indexOf(idA) !== -1 && g.indexOf(idB) !== -1) return true;
+  function shuffleArray(arr) {
+    var copy = (arr || []).slice();
+    for (var i = copy.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = copy[i];
+      copy[i] = copy[j];
+      copy[j] = tmp;
     }
-    return false;
+    return copy;
   }
 
-  /**
-   * 反向题防泄题挖空规则：将 example 中的目标原词及词形变化（s/es/d/ed/led/ing）替换为 ______
-   */
-  function maskExample(example, word) {
-    if (!example || !word) return example || "";
-    var escaped = word.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    // 若原词以 e 结尾（如 postpone），兼容 postponed / postponing
-    var stem = escaped.endsWith("e") ? escaped.slice(0, -1) + "e?" : escaped;
-    var regex = new RegExp("\\b" + stem + "(?:s|es|d|ed|led|ing)?\\b", "gi");
-    var masked = example.replace(regex, '<span class="blank-slot">______</span>');
-    if (masked === example) {
-      // 兜底大小写不敏感替换
-      var idx = example.toLowerCase().indexOf(word.toLowerCase());
-      if (idx !== -1) {
-        masked =
-          example.slice(0, idx) +
-          '<span class="blank-slot">______</span>' +
-          example.slice(idx + word.length);
-      }
+  function shuffleDeranged(arr) {
+    if (!arr || arr.length <= 1) return (arr || []).slice();
+    var shuffled = shuffleArray(arr);
+    var sameCount = 0;
+    for (var i = 0; i < arr.length; i++) {
+      if (shuffled[i] === arr[i]) sameCount++;
     }
-    return masked;
+    if (sameCount === arr.length) {
+      var first = shuffled.shift();
+      shuffled.push(first);
+    }
+    return shuffled;
   }
 
-  function highlightExample(example, word) {
-    if (!example || !word) return example || "";
-    var escaped = word.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    var stem = escaped.endsWith("e") ? escaped.slice(0, -1) + "e?" : escaped;
-    var regex = new RegExp("(\\b" + stem + "(?:s|es|d|ed|led|ing)?\\b)", "i");
-    return example.replace(regex, '<span class="example-hl">$1</span>');
-  }
+  function buildShuffledChoices(targetCard, levelNo, field, count) {
+    var need = count || 4;
+    var levelPool = getLevelCards(levelNo || 1).filter(function (c) {
+      return c.id !== targetCard.id;
+    });
+    var globalPool = ((window.KET_DATA && window.KET_DATA.VOCAB_100) || []).filter(function (c) {
+      return c.id !== targetCard.id;
+    });
+    var candidates = shuffleArray(levelPool).concat(shuffleArray(globalPool));
+    var usedTexts = {};
+    var rightText = targetCard[field];
+    usedTexts[rightText.toLowerCase()] = true;
 
-  function getDistractors(targetCard, level, count, mixWrongBook) {
-    var pool = getLevelCards(level).slice();
-    if (mixWrongBook && state.wrongBook) {
-      var vmap = getVocabMap();
-      Object.keys(state.wrongBook).forEach(function (wid) {
-        if (vmap[wid] && !pool.some(function (c) { return c.id === wid; })) {
-          pool.push(vmap[wid]);
-        }
+    var distractors = [];
+    for (var i = 0; i < candidates.length && distractors.length < need - 1; i++) {
+      var txt = candidates[i][field];
+      if (!txt || usedTexts[txt.toLowerCase()]) continue;
+      usedTexts[txt.toLowerCase()] = true;
+      distractors.push({
+        id: candidates[i].id,
+        text: txt,
+        isCorrect: false
       });
     }
-    var filtered = pool.filter(function (c) {
-      return !isOverlap(targetCard.id, c.id);
+
+    var allChoices = distractors.concat([
+      {
+        id: targetCard.id,
+        text: rightText,
+        isCorrect: true
+      }
+    ]);
+    return shuffleArray(allChoices);
+  }
+
+  function prepareLevelRun(levelNo, chainMode) {
+    var st = state;
+    var lv = Math.max(1, Math.min(10, Number(levelNo) || 1));
+    var cards = getLevelCards(lv);
+    var ids = cards.map(function (c) {
+      return c.id;
     });
-    return filtered.slice(0, count || 3);
+
+    st.session.level = lv;
+    st.session.chain = chainMode !== false;
+    st.session.wave = 1;
+    st.session.combo = 0;
+    st.session.maxCombo = 0;
+    st.session.matchedIds = [];
+    st.session.stage1LeftOrder = [];
+    st.session.stage1RightOrder = [];
+    st.session.stage2Order = shuffleArray(ids);
+    st.session.stage2Index = 0;
+    st.session.stage2Correct = 0;
+    st.session.stage3Order = shuffleArray(ids).slice(0, 5);
+    st.session.stage3Index = 0;
+    st.session.stage3Correct = 0;
+    st.session.stage4Order = shuffleArray(ids);
+    st.session.stage4Index = 0;
+    st.session.stage4Correct = 0;
+    st.session.runWrongIds = [];
+    st.session.reviveIndex = 0;
+    st.session.reviveCleared = false;
+    st.session.lastSettlement = null;
+    return st.session;
+  }
+
+  function recordCombo(isHit) {
+    var st = state;
+    if (isHit) {
+      st.session.combo = (st.session.combo || 0) + 1;
+      if (st.session.combo > (st.session.maxCombo || 0)) {
+        st.session.maxCombo = st.session.combo;
+      }
+    } else {
+      st.session.combo = 0;
+    }
+    return st.session.combo;
   }
 
   function addWrongWord(cardId, sourceLabel) {
     if (!cardId) return;
-    if (!state.wrongBook[cardId]) {
-      state.wrongBook[cardId] = {
-        id: cardId,
-        count: 0,
-        source: sourceLabel || "闯关练习"
-      };
+    var id = String(cardId).padStart(3, "0");
+    if (!state.wrongBook[id]) {
+      state.wrongBook[id] = { count: 0, source: sourceLabel || "闯关练习" };
     }
-    state.wrongBook[cardId].count += 1;
-    if (sourceLabel && state.wrongBook[cardId].source.indexOf(sourceLabel) === -1) {
-      state.wrongBook[cardId].source += "+" + sourceLabel;
+    state.wrongBook[id].count += 1;
+    if (sourceLabel && state.wrongBook[id].source.indexOf(sourceLabel) === -1) {
+      state.wrongBook[id].source = sourceLabel;
     }
-    if (state.session.runWrongIds.indexOf(cardId) === -1) {
-      state.session.runWrongIds.push(cardId);
+    if (state.session.runWrongIds.indexOf(id) === -1) {
+      state.session.runWrongIds.push(id);
     }
-    save();
+    saveState();
   }
 
   function clearWrongWord(cardId) {
-    if (!cardId) return;
-    if (state.wrongBook[cardId]) {
-      delete state.wrongBook[cardId];
+    var id = String(cardId).padStart(3, "0");
+    if (state.wrongBook[id]) {
+      delete state.wrongBook[id];
+      state.recentlyClearedId = id;
+      state.dailyQuests.wrongClearedCount = (state.dailyQuests.wrongClearedCount || 0) + 1;
+      markTodayStreak(state);
+      saveState();
     }
-    state.recentlyClearedId = cardId;
-    state.masteredIds[cardId] = true;
-    state.dailyQuests.wrongClearedCount = (state.dailyQuests.wrongClearedCount || 0) + 1;
-    save();
   }
 
   function getWrongListSorted() {
     var vmap = getVocabMap();
-    var arr = Object.keys(state.wrongBook || {}).map(function (id) {
-      var entry = state.wrongBook[id];
-      var card = vmap[id] || { id: id, word: "", syn: "", cn: "" };
-      return {
-        id: id,
-        count: entry.count || 1,
-        source: entry.source || "闯关练习",
-        word: card.word,
-        syn: card.syn,
-        cn: card.cn,
-        example: card.example,
-        reminder: card.reminder
-      };
-    });
+    var arr = [];
+    for (var id in state.wrongBook) {
+      if (vmap[id]) {
+        arr.push({
+          id: id,
+          count: state.wrongBook[id].count,
+          source: state.wrongBook[id].source,
+          word: vmap[id].word,
+          syn: vmap[id].syn,
+          cn: vmap[id].cn,
+          example: vmap[id].example,
+          reminder: vmap[id].reminder
+        });
+      }
+    }
     arr.sort(function (a, b) {
       if (b.count !== a.count) return b.count - a.count;
       return a.id.localeCompare(b.id);
@@ -2736,153 +4019,12 @@ window.KET_TEMPLATES = {
     return arr;
   }
 
-  /**
-   * 评定第 1–10 关星级与下一关解锁（严格遵循 GDD §3.3 & §4）
-   * - 单阶段自由练（chain === false）仅记绿勾，不授海岛星章，不解锁下一关
-   * - 四阶全通且阶段②>=60%、阶段④守关挑战>=60% 保底 1 星；平均>=80% 得 2 星；>=95% 或复活战清零得 3 星
-   */
-  function settleIslandRun(level, stage2Pct, stage4Pct, chain, revivedAll) {
-    var lvKey = String(level);
-    var lvObj = state.levels[lvKey] || { unlocked: true, stars: 0, stage1: false, stage2: 0, stage3: false, stage4: 0 };
-    lvObj.stage1 = true;
-    lvObj.stage2 = Math.max(lvObj.stage2 || 0, stage2Pct);
-    lvObj.stage3 = true;
-    lvObj.stage4 = Math.max(lvObj.stage4 || 0, stage4Pct);
-    state.dailyQuests.stageDone = true;
-
-    var passed = stage2Pct >= 60 && stage4Pct >= 60;
-    var earnedStars = 0;
-
-    if (passed && chain) {
-      var avg = (stage2Pct + stage4Pct) / 2;
-      if (revivedAll || avg >= 95) {
-        earnedStars = 3;
-      } else if (avg >= 80) {
-        earnedStars = 2;
-      } else {
-        earnedStars = 1;
-      }
-      if (earnedStars > (lvObj.stars || 0)) {
-        lvObj.stars = earnedStars;
-      }
-      // 标记本岛 10 词已掌握
-      var cards = getLevelCards(level);
-      cards.forEach(function (c) {
-        state.masteredIds[c.id] = true;
-      });
-      // 解锁下一关（第2关免费解锁；第3–11关需同时满足 iapUnlocked）
-      var nextLv = level + 1;
-      if (nextLv <= 11 && state.levels[String(nextLv)]) {
-        if (nextLv <= 2 || state.iapUnlocked) {
-          state.levels[String(nextLv)].unlocked = true;
-        }
-      }
-    }
-
-    state.levels[lvKey] = lvObj;
-    state.session.lastSettlement = {
-      level: level,
-      stars: earnedStars,
-      passed: passed,
-      chain: chain,
-      stage1Done: true,
-      stage2Pct: stage2Pct,
-      stage3Done: true,
-      stage4Pct: stage4Pct,
-      weakCardId: (state.session.runWrongIds && state.session.runWrongIds[0]) || "004"
-    };
-    save();
-    return state.session.lastSettlement;
-  }
-
-  /**
-   * 评定第 11 关黄金圣殿 20 题巩固测验星级（>=12/20 1星，>=16/20 2星，>=19/20 3星）
-   */
-  function settleL11Quiz(correctCount) {
-    var passed = correctCount >= 12;
-    var stars = 0;
-    if (correctCount >= 19) stars = 3;
-    else if (correctCount >= 16) stars = 2;
-    else if (correctCount >= 12) stars = 1;
-
-    var lv11 = state.levels["11"] || { unlocked: true, stars: 0, quizScore: 0 };
-    lv11.quizScore = Math.max(lv11.quizScore || 0, correctCount);
-    if (stars > (lv11.stars || 0)) lv11.stars = stars;
-    state.levels["11"] = lv11;
-    state.dailyQuests.stageDone = true;
-    if (correctCount === 20) {
-      state.checkinDays["Day 7"] = true;
-    }
-    save();
-    return { level: 11, stars: stars, passed: passed, correctCount: correctCount };
-  }
-
-  /**
-   * 默写卡单题判分规则（严格对齐关卡设计 §2.4.1）：
-   * 1. 标准答案大小写/空格归一完全匹配 -> 判对
-   * 2. 漏写已印首字母（如 inexpensive 输 nexpensive 或 [i]nexpensive） -> 判对
-   * 3. 输入同卡其他同义词（如 costly 题输 high-priced） -> 提示「换一个」不判对也不计错
-   * 4. 其他错误 -> 判错并记入 wrongBook
-   */
-  function gradeDictationItem(questionObj, rawInput, recordWrong) {
-    var normAns = (questionObj.answer || "").trim().replace(/\s+/g, " ").toLowerCase();
-    var cleanInput = (rawInput || "").trim().replace(/\s+/g, " ").toLowerCase();
-    var bracketless = cleanInput.replace(/\[([a-z])\]/g, "$1");
-
-    if (cleanInput === normAns) {
-      return { status: "correct", mode: "exact", label: "✓ 标准答案", displayVal: rawInput || questionObj.answer };
-    }
-
-    var strippedAns = normAns
-      .split(" ")
-      .map(function (w) { return w.slice(1); })
-      .join(" ");
-
-    if ((strippedAns && cleanInput === strippedAns) || bracketless === normAns) {
-      return {
-        status: "correct",
-        mode: "missing_initial",
-        label: "✓ 漏首字母判对",
-        displayVal: rawInput.indexOf("[") !== -1 ? rawInput : "[" + normAns[0] + "]" + strippedAns
-      };
-    }
-
-    // 检查是否属于同卡片下的其他同义词/原词
-    var vmap = getVocabMap();
-    var card = vmap[questionObj.cardId];
-    if (card && cleanInput.length >= 2) {
-      var synParts = card.syn.toLowerCase().split("/").map(function (s) { return s.trim(); });
-      synParts.push(card.word.toLowerCase().trim());
-      var isOtherSyn = synParts.some(function (sp) {
-        return sp === cleanInput || (sp.indexOf(cleanInput) !== -1 && cleanInput !== normAns);
-      });
-      if (isOtherSyn) {
-        return {
-          status: "swap",
-          mode: "synonym_swap",
-          label: "同义词 · 换一个(" + normAns[0] + "开头)",
-          displayVal: rawInput
-        };
-      }
-    }
-
-    if (recordWrong) {
-      addWrongWord(questionObj.cardId, "默写卡");
-    }
-    return {
-      status: "wrong",
-      mode: "wrong",
-      label: "参考答案: " + questionObj.answer,
-      displayVal: rawInput || "未填"
-    };
-  }
-
   function getTotalStars() {
-    var total = 0;
-    Object.keys(state.levels || {}).forEach(function (k) {
-      total += state.levels[k].stars || 0;
-    });
-    return Math.min(33, total);
+    var sum = 0;
+    for (var k in state.levels) {
+      sum += Number(state.levels[k].stars || 0);
+    }
+    return sum;
   }
 
   function getMasteryStats() {
@@ -2894,78 +4036,1053 @@ window.KET_TEMPLATES = {
     };
   }
 
+  function settleIslandRun(levelNo, stage2Pct, stage4Pct, isChainRun, zeroWrongOrRevived) {
+    var lvKey = String(levelNo);
+    var lvObj = state.levels[lvKey];
+    if (!lvObj) return { stars: 0, passed: false };
+
+    lvObj.stage1 = true;
+    lvObj.stage2 = Math.max(lvObj.stage2 || 0, stage2Pct);
+    lvObj.stage3 = true;
+    lvObj.stage4 = Math.max(lvObj.stage4 || 0, stage4Pct);
+    state.dailyQuests.stageDone = true;
+    markTodayStreak(state);
+
+    var avgScore = Math.round((stage2Pct + stage4Pct) / 2);
+    var passed = stage2Pct >= 60 && stage4Pct >= 60;
+    var stars = 0;
+
+    if (isChainRun && passed) {
+      if (avgScore >= 95 || zeroWrongOrRevived) {
+        stars = 3;
+      } else if (avgScore >= 80) {
+        stars = 2;
+      } else {
+        stars = 1;
+      }
+      if (stars > (lvObj.stars || 0)) {
+        lvObj.stars = stars;
+      }
+      lvObj.bestScore = Math.max(lvObj.bestScore || 0, avgScore);
+
+      var cards = getLevelCards(levelNo);
+      for (var i = 0; i < cards.length; i++) {
+        state.masteredIds[cards[i].id] = true;
+      }
+
+      if (levelNo === 1) {
+        state.levels["2"].unlocked = true;
+        if (state.currentLevel < 2) state.currentLevel = 2;
+      } else if (levelNo >= 2 && levelNo < 11 && state.iapUnlocked) {
+        state.levels[String(levelNo + 1)].unlocked = true;
+        if (state.currentLevel < levelNo + 1) state.currentLevel = levelNo + 1;
+      }
+    }
+
+    state.session.lastSettlement = {
+      level: levelNo,
+      stars: stars,
+      passed: passed,
+      avgScore: avgScore,
+      stage2Pct: stage2Pct,
+      stage4Pct: stage4Pct,
+      isChainRun: !!isChainRun
+    };
+
+    saveState();
+    return { stars: stars, passed: passed, avgScore: avgScore };
+  }
+
+  function settleL11Quiz(correctCount) {
+    var pct = Math.round((correctCount / 20) * 100);
+    var stars = 0;
+    if (correctCount >= 19) stars = 3;
+    else if (correctCount >= 16) stars = 2;
+    else if (correctCount >= 12) stars = 1;
+
+    var lv11 = state.levels["11"];
+    if (stars > lv11.stars) lv11.stars = stars;
+    lv11.bestScore = Math.max(lv11.bestScore || 0, pct);
+    lv11.stage4 = Math.max(lv11.stage4 || 0, pct);
+    state.dailyQuests.stageDone = true;
+    markTodayStreak(state);
+    state.session.lastSettlement = {
+      level: 11,
+      stars: stars,
+      passed: stars > 0,
+      avgScore: pct,
+      stage2Pct: pct,
+      stage4Pct: pct,
+      isChainRun: true
+    };
+    saveState();
+    return { stars: stars, pct: pct };
+  }
+
   function unlockIAP() {
     state.iapUnlocked = true;
-    // 解锁 L3（若 L2 已解锁或按打包内购开放）
     for (var i = 3; i <= 11; i++) {
-      if (state.levels[String(i)]) {
-        state.levels[String(i)].unlocked = true;
-      }
+      state.levels[String(i)].unlocked = true;
     }
-    save();
+    saveState();
   }
 
-  function resetLocalProgress() {
-    var keepIap = state.iapUnlocked;
-    state = createDefaultState();
-    state.iapUnlocked = keepIap;
-    if (keepIap) {
-      for (var i = 3; i <= 11; i++) {
-        state.levels[String(i)].unlocked = true;
-      }
+  function maskExample(example, word) {
+    if (!example || !word) return example || "";
+    var escaped = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    var re = new RegExp("\\b" + escaped + "(?:ed|ing|s|es)?\\b", "gi");
+    if (re.test(example)) {
+      return example.replace(re, '<span class="blank-slot">______</span>');
     }
-    state.settings.showResetConfirm = false;
-    save();
-    return state;
+    var firstWord = word.split(/\s+/)[0].replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    var reFallback = new RegExp("\\b" + firstWord + "(?:ed|ing|s|es)?\\b", "gi");
+    return example.replace(reFallback, '<span class="blank-slot">______</span>');
   }
 
-  load();
+  function highlightExample(example, word) {
+    if (!example || !word) return example || "";
+    var escaped = word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    var re = new RegExp("(" + escaped + "(?:ed|ing|s|es)?)", "gi");
+    if (re.test(example)) {
+      return example.replace(re, '<span class="example-hl">$1</span>');
+    }
+    return example;
+  }
+
+  function gradeDictationItem(qItem, rawInput) {
+    var input = String(rawInput || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+    var ans = String(qItem.answer || "")
+      .trim()
+      .toLowerCase();
+
+    if (!input) {
+      return { status: "empty", label: "待填写", displayVal: "" };
+    }
+    if (input === ans) {
+      return { status: "correct", label: "✓ 标准答案", displayVal: qItem.answer };
+    }
+
+    // 漏填卷面已印出的首字母容错判对（如填 nexpensive 对应 i______ = inexpensive）
+    var ansWords = ans.split(" ");
+    var strippedFirst = ansWords
+      .map(function (w) {
+        return w.length > 1 ? w.slice(1) : w;
+      })
+      .join(" ");
+    if (
+      (ans.length > 1 && input === ans.slice(1)) ||
+      (strippedFirst.length > 1 && input === strippedFirst) ||
+      input === "[" + ans[0] + "]" + ans.slice(1)
+    ) {
+      return {
+        status: "correct",
+        label: "✓ 漏首字母判对",
+        displayVal: "[" + qItem.answer[0] + "]" + qItem.answer.slice(1)
+      };
+    }
+
+    // 同义词家族误填（如要求填 c 开头的 costly 却填了 high-priced）：提示“换一个”且不扣错
+    var leadWord = String(qItem.prompt.split("=")[0] || "")
+      .trim()
+      .toLowerCase();
+    var allVocab = (window.KET_DATA && window.KET_DATA.VOCAB_100) || [];
+    for (var i = 0; i < allVocab.length; i++) {
+      var v = allVocab[i];
+      var syns = v.syn
+        .toLowerCase()
+        .split("/")
+        .map(function (s) {
+          return s.trim();
+        });
+      var fam = [v.word.toLowerCase()].concat(syns);
+      if (fam.indexOf(leadWord) !== -1 || fam.indexOf(ans) !== -1) {
+        if (fam.indexOf(input) !== -1 || (leadWord === "expensive" && input === "high-priced")) {
+          var initChar = ans[0] || "首字母";
+          return {
+            status: "synonym_swap",
+            label: "同义词 · 换一个(" + initChar + "开头)",
+            displayVal: rawInput
+          };
+        }
+      }
+    }
+
+    return {
+      status: "wrong",
+      label: "再想想 · 参考: " + qItem.answer,
+      displayVal: rawInput
+    };
+  }
+
+  loadState();
 
   window.KET_STATE = {
-    get: function () { return state; },
-    save: save,
-    load: load,
+    STORAGE_KEY: STORAGE_KEY,
+    isDemoMode: isDemoMode,
+    hasSavedProgress: hasSavedProgress,
+    getTodayStr: getTodayStr,
+    get: function () {
+      return state;
+    },
+    load: loadState,
+    save: saveState,
+    resetLocalProgress: resetLocalProgress,
+    markTodayStreak: markTodayStreak,
+    recordCombo: recordCombo,
     getVocabMap: getVocabMap,
     getLevelCards: getLevelCards,
-    maskExample: maskExample,
-    highlightExample: highlightExample,
-    getDistractors: getDistractors,
+    shuffleArray: shuffleArray,
+    shuffleDeranged: shuffleDeranged,
+    buildShuffledChoices: buildShuffledChoices,
+    prepareLevelRun: prepareLevelRun,
     addWrongWord: addWrongWord,
     clearWrongWord: clearWrongWord,
     getWrongListSorted: getWrongListSorted,
-    settleIslandRun: settleIslandRun,
-    settleL11Quiz: settleL11Quiz,
-    gradeDictationItem: gradeDictationItem,
     getTotalStars: getTotalStars,
     getMasteryStats: getMasteryStats,
+    settleIslandRun: settleIslandRun,
+    settleL11Quiz: settleL11Quiz,
     unlockIAP: unlockIAP,
-    resetLocalProgress: resetLocalProgress
+    maskExample: maskExample,
+    highlightExample: highlightExample,
+    gradeDictationItem: gradeDictationItem
+  };
+})();
+
+
+// === audio.js ===
+// 荔枝KET词卡助手 v3.1 - 预生成英音 MP3 优先 + Web Speech 兜底、真实 CC0 音效/BGM、1–5连击五声音阶升调、英音 30% 闪避与 iOS/微信手势解锁引擎
+(function () {
+  var SFX_FILES = {
+    click: "assets/sfx/click.mp3",
+    button: "assets/sfx/button.mp3",
+    flip: "assets/sfx/flip.mp3",
+    correct: "assets/sfx/correct.mp3",
+    wrong: "assets/sfx/wrong.mp3",
+    combo: "assets/sfx/combo.mp3",
+    star: "assets/sfx/star.mp3",
+    win: "assets/sfx/win.mp3",
+    bgm: "assets/sfx/bgm.mp3"
+  };
+
+  // 规范 07：1–5 连击大调五声音阶频率比 (宫-商-角-徵-羽: 1, 9/8, 5/4, 3/2, 5/3)
+  var PENTATONIC_RATES = [1.0, 1.125, 1.25, 1.5, 1.667];
+  var DUCK_FACTOR = 0.30;
+  var BASE_BGM_VOL = 0.22;
+
+  var audioCache = {};
+  var audioBuffers = {};
+  var audioStatus = {};
+  var bgmEl = null;
+  var voiceEl = null;
+  var audioCtx = null;
+  var masterDuckGain = null;
+  var unlocked = false;
+  var isSpeaking = false;
+  var speakingTimer = null;
+  var speechDelayTimer = null;
+  var voicesWaitTimer = null;
+  var speakSeq = 0;
+  var cachedVoices = [];
+  var lastComboPlayed = { combo: 0, rate: 1.0 };
+  var lastVoiceEvent = {
+    seq: 0,
+    mode: "none",
+    voiceId: "",
+    text: "",
+    src: "",
+    fallback: false,
+    fallbackReason: "",
+    playResolved: false,
+    ended: false
+  };
+
+  function getSettings() {
+    var st = window.KET_STATE && window.KET_STATE.get();
+    return (st && st.settings) || {
+      sfxEnabled: true,
+      bgmEnabled: true,
+      audioDucking: true,
+      speechEnabled: true
+    };
+  }
+
+  function resolveSrc(name) {
+    if (window.KET_AUDIO_ASSETS && window.KET_AUDIO_ASSETS[name]) {
+      return window.KET_AUDIO_ASSETS[name];
+    }
+    return SFX_FILES[name] || "";
+  }
+
+  function normalizeSpeechKey(text) {
+    return String(text || "")
+      .replace(/\s*\/\s*/g, ", ")
+      .replace(/\s*,\s*/g, ", ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase();
+  }
+
+  function resolveVoiceSrc(voiceId, text) {
+    var vid = String(voiceId || "").trim();
+    if (vid && window.KET_VOICE_INLINE && window.KET_VOICE_INLINE[vid]) {
+      return window.KET_VOICE_INLINE[vid];
+    }
+
+    var manifest = window.KET_VOICE_MANIFEST;
+    if (manifest && manifest.files) {
+      var base = typeof manifest.basePath === "string" ? manifest.basePath : "assets/voice/";
+      if (vid && manifest.files[vid]) {
+        return base + manifest.files[vid];
+      }
+      if (manifest.textMap) {
+        var key = normalizeSpeechKey(text);
+        var mappedId = key ? manifest.textMap[key] : "";
+        if (mappedId && manifest.files[mappedId]) {
+          return base + manifest.files[mappedId];
+        }
+      }
+    }
+
+    if (vid && /^\d{3}_(word|syn|full)$/.test(vid)) {
+      return "assets/voice/" + vid + ".mp3";
+    }
+    return "";
+  }
+
+  function mountVoiceEl(el) {
+    if (!el || typeof document === "undefined") return;
+    if (document.body && el.parentNode !== document.body) {
+      try {
+        document.body.appendChild(el);
+      } catch (e) {}
+    }
+  }
+
+  function ensureVoiceEl() {
+    if (!voiceEl && typeof document !== "undefined") {
+      try {
+        var existing = document.getElementById("ket-voice-player");
+        var el = existing || document.createElement("audio");
+        el.id = "ket-voice-player";
+        el.preload = "none";
+        el.setAttribute("playsinline", "");
+        el.setAttribute("webkit-playsinline", "");
+        el.setAttribute("aria-hidden", "true");
+        el.style.display = "none";
+        voiceEl = el;
+      } catch (e) {
+        try {
+          voiceEl = new Audio();
+          voiceEl.preload = "none";
+        } catch (err) {}
+      }
+    }
+    mountVoiceEl(voiceEl);
+    return voiceEl;
+  }
+
+  function refreshVoicesCache() {
+    try {
+      if ("speechSynthesis" in window && window.speechSynthesis.getVoices) {
+        var list = window.speechSynthesis.getVoices();
+        if (list && list.length > 0) {
+          cachedVoices = list;
+        }
+      }
+    } catch (e) {}
+    return cachedVoices;
+  }
+
+  function bindVoicesChanged() {
+    try {
+      if ("speechSynthesis" in window) {
+        refreshVoicesCache();
+        if (typeof window.speechSynthesis.addEventListener === "function") {
+          window.speechSynthesis.addEventListener("voiceschanged", refreshVoicesCache);
+        } else {
+          window.speechSynthesis.onvoiceschanged = refreshVoicesCache;
+        }
+      }
+    } catch (e) {}
+  }
+
+  function getPentatonicRate(comboCount) {
+    var n = Math.max(1, Math.min(5, Number(comboCount) || 1));
+    return PENTATONIC_RATES[n - 1];
+  }
+
+  function getDuckingFactor() {
+    var cfg = getSettings();
+    if (isSpeaking && cfg.audioDucking !== false) {
+      return DUCK_FACTOR;
+    }
+    return 1.0;
+  }
+
+  function ensureAudioCtx() {
+    if (!audioCtx) {
+      var Ctx = window.AudioContext || window.webkitAudioContext;
+      if (Ctx) {
+        try {
+          audioCtx = new Ctx();
+          masterDuckGain = audioCtx.createGain();
+          masterDuckGain.gain.value = getDuckingFactor();
+          masterDuckGain.connect(audioCtx.destination);
+        } catch (e) {}
+      }
+    }
+    return audioCtx;
+  }
+
+  function dataUriToArrayBuffer(uri) {
+    var commaIdx = uri.indexOf(",");
+    if (commaIdx === -1) return null;
+    var b64 = uri.slice(commaIdx + 1);
+    var bin = window.atob(b64);
+    var len = bin.length;
+    var bytes = new Uint8Array(len);
+    for (var i = 0; i < len; i++) {
+      bytes[i] = bin.charCodeAt(i);
+    }
+    return bytes.buffer;
+  }
+
+  function decodeSfxBuffer(name, src) {
+    var ctx = ensureAudioCtx();
+    if (!ctx || !src) return;
+    if (src.indexOf("data:") === 0) {
+      try {
+        var ab = dataUriToArrayBuffer(src);
+        if (ab) {
+          ctx.decodeAudioData(
+            ab.slice(0),
+            function (buf) {
+              audioBuffers[name] = buf;
+            },
+            function () {}
+          );
+        }
+      } catch (e) {}
+      return;
+    }
+    if (typeof window.fetch === "function") {
+      window
+        .fetch(src)
+        .then(function (r) {
+          return r.ok ? r.arrayBuffer() : null;
+        })
+        .then(function (ab) {
+          if (!ab) return;
+          ctx.decodeAudioData(
+            ab,
+            function (buf) {
+              audioBuffers[name] = buf;
+            },
+            function () {}
+          );
+        })
+        .catch(function () {});
+    }
+  }
+
+  function syncDuckingVolumes() {
+    var factor = getDuckingFactor();
+    if (masterDuckGain && audioCtx) {
+      try {
+        masterDuckGain.gain.setTargetAtTime(factor, audioCtx.currentTime, 0.02);
+      } catch (e) {
+        masterDuckGain.gain.value = factor;
+      }
+    }
+    if (bgmEl) {
+      var cfg = getSettings();
+      if (!cfg.bgmEnabled) {
+        bgmEl.volume = 0;
+      } else {
+        bgmEl.volume = Math.max(0, Math.min(1, BASE_BGM_VOL * factor));
+      }
+    }
+  }
+
+  function preloadAll() {
+    Object.keys(SFX_FILES).forEach(function (key) {
+      var src = resolveSrc(key);
+      audioStatus[key] = { loaded: false, error: false, src: src };
+      try {
+        var el = new Audio();
+        el.preload = "auto";
+        el.src = src;
+        el.addEventListener("canplaythrough", function () {
+          audioStatus[key].loaded = true;
+        });
+        el.addEventListener("loadeddata", function () {
+          audioStatus[key].loaded = true;
+        });
+        el.addEventListener("error", function () {
+          audioStatus[key].error = true;
+        });
+        el.load();
+        audioCache[key] = el;
+
+        if (key === "bgm") {
+          el.loop = true;
+          el.volume = BASE_BGM_VOL;
+          bgmEl = el;
+        } else {
+          decodeSfxBuffer(key, src);
+        }
+      } catch (e) {
+        audioStatus[key].error = true;
+      }
+    });
+  }
+
+  function syncBgmState() {
+    if (!bgmEl) return;
+    var cfg = getSettings();
+    syncDuckingVolumes();
+    if (!cfg.bgmEnabled) {
+      try {
+        bgmEl.pause();
+      } catch (e) {}
+      return;
+    }
+    if (unlocked && bgmEl.paused) {
+      var p = bgmEl.play();
+      if (p && typeof p.catch === "function") {
+        p.catch(function () {});
+      }
+    }
+  }
+
+  function unlockAudioOnGesture() {
+    ensureVoiceEl();
+    if (unlocked) {
+      syncBgmState();
+      return;
+    }
+    unlocked = true;
+
+    try {
+      var ctx = ensureAudioCtx();
+      if (ctx && ctx.state === "suspended") {
+        ctx.resume();
+      }
+      if (ctx) {
+        var buf = ctx.createBuffer(1, 1, 22050);
+        var srcNode = ctx.createBufferSource();
+        srcNode.buffer = buf;
+        srcNode.connect(ctx.destination);
+        srcNode.start(0);
+      }
+    } catch (e) {}
+
+    try {
+      var silentProbe = audioCache.click;
+      if (silentProbe) {
+        var prevVol = silentProbe.volume;
+        silentProbe.volume = 0.001;
+        var pr = silentProbe.play();
+        if (pr && typeof pr.then === "function") {
+          pr.then(function () {
+            silentProbe.pause();
+            silentProbe.currentTime = 0;
+            silentProbe.volume = prevVol;
+          }).catch(function () {
+            silentProbe.volume = prevVol;
+          });
+        }
+      }
+    } catch (e) {}
+
+    // 仅安全预热语音列表，避免向部分安卓 WebView 队列写入空 utterance 导致卡死
+    refreshVoicesCache();
+    syncBgmState();
+  }
+
+  function bindGlobalUnlockListeners() {
+    var events = ["touchstart", "pointerdown", "mousedown", "keydown"];
+    function handler() {
+      unlockAudioOnGesture();
+    }
+    for (var i = 0; i < events.length; i++) {
+      window.addEventListener(events[i], handler, { passive: true, capture: true });
+    }
+    if (typeof document !== "undefined") {
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", function () {
+          ensureVoiceEl();
+        });
+      }
+      document.addEventListener(
+        "WeixinJSBridgeReady",
+        function () {
+          ensureVoiceEl();
+          syncBgmState();
+        },
+        false
+      );
+    }
+  }
+
+  function playSfx(name, baseVol, rate) {
+    var cfg = getSettings();
+    if (!cfg.sfxEnabled) return;
+
+    var playbackRate = rate || 1.0;
+    var vol = typeof baseVol === "number" ? baseVol : 0.72;
+    var ctx = ensureAudioCtx();
+
+    // 优先通过 Web Audio API AudioBuffer 播放，保证 1–5 连击五声音阶变调与 30% 实时闪避精准生效
+    if (ctx && audioBuffers[name] && masterDuckGain) {
+      try {
+        if (ctx.state === "suspended") ctx.resume();
+        var srcNode = ctx.createBufferSource();
+        srcNode.buffer = audioBuffers[name];
+        srcNode.playbackRate.value = playbackRate;
+        var itemGain = ctx.createGain();
+        itemGain.gain.value = Math.max(0, Math.min(1, vol));
+        srcNode.connect(itemGain);
+        itemGain.connect(masterDuckGain);
+        srcNode.start(0);
+        return;
+      } catch (e) {}
+    }
+
+    // 兜底 HTMLAudioElement 播放（关闭保调以启用五声音阶升调）
+    var tpl = audioCache[name];
+    if (!tpl) return;
+    try {
+      var node = tpl.cloneNode();
+      var effVol = vol * getDuckingFactor();
+      node.volume = Math.max(0, Math.min(1, effVol));
+      if ("preservesPitch" in node) node.preservesPitch = false;
+      if ("webkitPreservesPitch" in node) node.webkitPreservesPitch = false;
+      if ("mozPreservesPitch" in node) node.mozPreservesPitch = false;
+      node.playbackRate = playbackRate;
+      var p = node.play();
+      if (p && typeof p.catch === "function") {
+        p.catch(function () {});
+      }
+    } catch (e) {}
+  }
+
+  function playClick() {
+    playSfx("click", 0.55, 1.0);
+  }
+
+  function playButton() {
+    playSfx("button", 0.65, 1.0);
+  }
+
+  function playKey() {
+    playSfx("flip", 0.6, 1.06);
+  }
+
+  function playCorrect(comboCount) {
+    var c = Math.max(1, Number(comboCount) || 1);
+    var rate = getPentatonicRate(c);
+    lastComboPlayed = { combo: c, rate: rate };
+    playSfx("correct", 0.76, rate);
+  }
+
+  function playWrong() {
+    lastComboPlayed = { combo: 0, rate: 1.0 };
+    playSfx("wrong", 0.62, 1.0);
+  }
+
+  function playMatch(comboCount) {
+    var c = Math.max(1, Number(comboCount) || 1);
+    var rate = getPentatonicRate(c);
+    lastComboPlayed = { combo: c, rate: rate };
+    // 连击 1–5 严格沿大调五声音阶 (1, 1.125, 1.25, 1.5, 1.667) 升调
+    playSfx("correct", 0.78, rate);
+    if (c >= 3) {
+      window.setTimeout(function () {
+        playSfx("combo", 0.58, rate);
+      }, 65);
+    }
+  }
+
+  function playLaser(comboCount) {
+    var c = Math.max(1, Number(comboCount) || 1);
+    var rate = getPentatonicRate(c);
+    lastComboPlayed = { combo: c, rate: rate };
+    playSfx("combo", 0.78, rate);
+  }
+
+  function playStar(starIndex) {
+    var idx = Math.max(1, Math.min(3, starIndex || 1));
+    playSfx("star", 0.82, getPentatonicRate(idx * 2 - 1));
+  }
+
+  function playFanfare() {
+    playSfx("win", 0.86, 1.0);
+  }
+
+  function clearSpeechTimers() {
+    if (speakingTimer) {
+      window.clearTimeout(speakingTimer);
+      speakingTimer = null;
+    }
+    if (speechDelayTimer) {
+      window.clearTimeout(speechDelayTimer);
+      speechDelayTimer = null;
+    }
+    if (voicesWaitTimer) {
+      window.clearTimeout(voicesWaitTimer);
+      voicesWaitTimer = null;
+    }
+  }
+
+  function finishSpeaking() {
+    clearSpeechTimers();
+    isSpeaking = false;
+    syncDuckingVolumes();
+  }
+
+  function pickEnglishVoice(voices) {
+    if (!voices || !voices.length) return null;
+    var enAny = null;
+    for (var i = 0; i < voices.length; i++) {
+      var lang = voices[i].lang || "";
+      if (lang.indexOf("en-GB") === 0 || lang.indexOf("en_GB") === 0) {
+        return voices[i];
+      }
+      if (!enAny && (lang.indexOf("en-") === 0 || lang.indexOf("en_") === 0 || lang === "en")) {
+        enAny = voices[i];
+      }
+    }
+    return enAny;
+  }
+
+  function speakWithWebSpeech(text, mySeq, onEnd, reason) {
+    if (mySeq !== speakSeq) return;
+    lastVoiceEvent.mode = "speechSynthesis";
+    lastVoiceEvent.fallback = true;
+    lastVoiceEvent.fallbackReason = reason || "no_mp3";
+
+    if (!("speechSynthesis" in window)) {
+      var noApiMs = Math.max(900, Math.min(3500, String(text).length * 80));
+      speakingTimer = window.setTimeout(function () {
+        if (mySeq !== speakSeq) return;
+        finishSpeaking();
+        if (onEnd) onEnd();
+      }, noApiMs);
+      return;
+    }
+
+    var synth = window.speechSynthesis;
+    var safetyMs = Math.max(1200, Math.min(4500, String(text).length * 95));
+    if (speakingTimer) {
+      window.clearTimeout(speakingTimer);
+    }
+    speakingTimer = window.setTimeout(function () {
+      if (mySeq !== speakSeq) return;
+      finishSpeaking();
+      if (onEnd) onEnd();
+    }, safetyMs);
+
+    function dispatchUtterance(voices) {
+      if (mySeq !== speakSeq) return;
+      try {
+        var utter = new SpeechSynthesisUtterance(text);
+        utter.lang = "en-GB";
+        utter.rate = 0.92;
+        utter.pitch = 1.02;
+        var picked = pickEnglishVoice(voices);
+        if (picked) utter.voice = picked;
+
+        utter.onend = function () {
+          if (mySeq !== speakSeq) return;
+          lastVoiceEvent.ended = true;
+          finishSpeaking();
+          if (onEnd) onEnd();
+        };
+        utter.onerror = function () {
+          if (mySeq !== speakSeq) return;
+          finishSpeaking();
+          if (onEnd) onEnd();
+        };
+
+        if (synth.paused && typeof synth.resume === "function") {
+          synth.resume();
+        }
+        synth.speak(utter);
+      } catch (e) {
+        if (mySeq !== speakSeq) return;
+        finishSpeaking();
+        if (onEnd) onEnd();
+      }
+    }
+
+    function startAfterVoicesReady(voices) {
+      if (mySeq !== speakSeq) return;
+      // 仅在队列仍在播报/等待时才 cancel，并让出 60ms 防止 Chrome 吞音
+      if (synth.speaking || synth.pending) {
+        try {
+          synth.cancel();
+        } catch (e) {}
+        speechDelayTimer = window.setTimeout(function () {
+          dispatchUtterance(voices);
+        }, 60);
+      } else {
+        dispatchUtterance(voices);
+      }
+    }
+
+    var voices = refreshVoicesCache();
+    if (voices.length > 0) {
+      startAfterVoicesReady(voices);
+      return;
+    }
+
+    var resolved = false;
+    function onVoices() {
+      if (resolved || mySeq !== speakSeq) return;
+      var v = refreshVoicesCache();
+      if (v.length > 0) {
+        resolved = true;
+        if (voicesWaitTimer) {
+          window.clearTimeout(voicesWaitTimer);
+          voicesWaitTimer = null;
+        }
+        if (typeof synth.removeEventListener === "function") {
+          synth.removeEventListener("voiceschanged", onVoices);
+        }
+        startAfterVoicesReady(v);
+      }
+    }
+
+    if (typeof synth.addEventListener === "function") {
+      synth.addEventListener("voiceschanged", onVoices);
+    }
+    voicesWaitTimer = window.setTimeout(function () {
+      if (resolved || mySeq !== speakSeq) return;
+      resolved = true;
+      if (typeof synth.removeEventListener === "function") {
+        synth.removeEventListener("voiceschanged", onVoices);
+      }
+      startAfterVoicesReady(refreshVoicesCache());
+    }, 400);
+  }
+
+  function speakInternal(text, voiceId, onEnd) {
+    var cfg = getSettings();
+    if (!cfg.speechEnabled || !text) {
+      if (onEnd) onEnd();
+      return;
+    }
+
+    speakSeq += 1;
+    var mySeq = speakSeq;
+    clearSpeechTimers();
+
+    // 规范 07：播英音时音效与 BGM 自动压至 30%
+    isSpeaking = true;
+    syncDuckingVolumes();
+
+    var mp3Src = resolveVoiceSrc(voiceId, text);
+    lastVoiceEvent = {
+      seq: mySeq,
+      mode: mp3Src ? "mp3" : "speechSynthesis",
+      voiceId: voiceId || "",
+      text: String(text),
+      src: mp3Src,
+      fallback: false,
+      fallbackReason: "",
+      playResolved: false,
+      ended: false
+    };
+
+    if (!mp3Src) {
+      speakWithWebSpeech(text, mySeq, onEnd, "manifest_miss");
+      return;
+    }
+
+    try {
+      if ("speechSynthesis" in window && (window.speechSynthesis.speaking || window.speechSynthesis.pending)) {
+        window.speechSynthesis.cancel();
+      }
+    } catch (e) {}
+
+    var el = ensureVoiceEl();
+    if (!el) {
+      speakWithWebSpeech(text, mySeq, onEnd, "no_audio_element");
+      return;
+    }
+
+    var fellBack = false;
+    function triggerFallback(reason) {
+      if (fellBack || mySeq !== speakSeq) return;
+      fellBack = true;
+      clearSpeechTimers();
+      el.onended = null;
+      el.onerror = null;
+      speakWithWebSpeech(text, mySeq, onEnd, reason);
+    }
+
+    el.onended = null;
+    el.onerror = null;
+    if (!el.paused) {
+      try {
+        el.pause();
+      } catch (e) {}
+    }
+    if (el.readyState > 0) {
+      try {
+        el.currentTime = 0;
+      } catch (e) {}
+    }
+
+    speakingTimer = window.setTimeout(function () {
+      if (mySeq !== speakSeq) return;
+      finishSpeaking();
+      if (onEnd) onEnd();
+    }, 8000);
+
+    el.onended = function () {
+      if (mySeq !== speakSeq) return;
+      lastVoiceEvent.ended = true;
+      finishSpeaking();
+      if (onEnd) onEnd();
+    };
+
+    el.onerror = function () {
+      triggerFallback("audio_element_error");
+    };
+
+    try {
+      el.src = mp3Src;
+      el.volume = 1.0;
+      var p = el.play();
+      if (p && typeof p.then === "function") {
+        p.then(function () {
+          if (mySeq !== speakSeq) return;
+          lastVoiceEvent.playResolved = true;
+        }).catch(function (err) {
+          if (mySeq !== speakSeq) return;
+          if (err && err.name === "AbortError") return;
+          triggerFallback((err && err.name) || "play_rejected");
+        });
+      }
+    } catch (e) {
+      triggerFallback("play_exception");
+    }
+  }
+
+  function speakVocab(text, onEnd) {
+    speakInternal(text, "", onEnd);
+  }
+
+  /**
+   * 词卡朗读统一入口：反向题未作答前 mode === "syn_only" 仅播同义词，严防泄题
+   */
+  function speakCard(card, mode, onEnd) {
+    if (!card) return;
+    var cid = card.id ? String(card.id).trim() : "";
+    var cleanSyn = String(card.syn || "").replace(/\s*\/\s*/g, ", ").trim();
+    if (mode === "syn_only") {
+      speakInternal(cleanSyn, cid ? cid + "_syn" : "", onEnd);
+    } else if (mode === "word_only") {
+      speakInternal(card.word, cid ? cid + "_word" : "", onEnd);
+    } else {
+      speakInternal(card.word + ". " + cleanSyn, cid ? cid + "_full" : "", onEnd);
+    }
+  }
+
+  preloadAll();
+  bindVoicesChanged();
+  bindGlobalUnlockListeners();
+
+  window.KET_AUDIO = {
+    PENTATONIC_RATES: PENTATONIC_RATES,
+    DUCK_FACTOR: DUCK_FACTOR,
+    playClick: playClick,
+    playButton: playButton,
+    playKey: playKey,
+    playCorrect: playCorrect,
+    playWrong: playWrong,
+    playMatch: playMatch,
+    playLaser: playLaser,
+    playStar: playStar,
+    playFanfare: playFanfare,
+    speakVocab: speakVocab,
+    speakCard: speakCard,
+    syncBgmState: syncBgmState,
+    unlock: unlockAudioOnGesture,
+    getPentatonicRate: getPentatonicRate,
+    getDuckingFactor: getDuckingFactor,
+    getLastComboPlayed: function () {
+      return lastComboPlayed;
+    },
+    getAudioStatus: function () {
+      return audioStatus;
+    },
+    getVoiceElement: function () {
+      return ensureVoiceEl();
+    },
+    getLastVoiceEvent: function () {
+      return lastVoiceEvent;
+    },
+    isUnlocked: function () {
+      return unlocked;
+    },
+    isSpeaking: function () {
+      return isSpeaking;
+    }
   };
 })();
 
 
 // === home_map.js ===
-// 荔枝KET词卡助手 v1 - 首页、3秒破冰引导、群岛地图(上/下篇)与四阶选关准备弹窗控制器 (P01-P05)
+// 荔枝KET词卡助手 v3 - 首页、3秒聚光破冰、奇幻糖果群岛大地图(上/下篇)与四阶选关弹窗控制器 (P01–P05)
 (function () {
   window.KET_VIEWS = window.KET_VIEWS || {};
 
-  function bindBottomNav(screenEl, app) {
-    var tabs = screenEl.querySelectorAll(".bottom-nav .nav-tab");
-    tabs.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        window.KET_AUDIO.playClick();
-        var txt = (btn.textContent || "").trim();
-        if (txt.indexOf("群岛") !== -1) app.go("P03");
-        else if (txt.indexOf("宝典") !== -1) app.go("P18");
-        else if (txt.indexOf("错题") !== -1) app.go("P17");
-        else if (txt.indexOf("默写") !== -1) app.go("P19");
-      });
-    });
+  function getIslandMeta(levelNo) {
+    var list = (window.KET_DATA && window.KET_DATA.ISLANDS_META) || [];
+    for (var i = 0; i < list.length; i++) {
+      if (Number(list[i].level) === Number(levelNo)) return list[i];
+    }
+    return {
+      level: levelNo,
+      name: "糖果浮岛",
+      scene: "KET核心同义替换",
+      range: "#001–#010",
+      free: levelNo <= 2,
+      guardian: "糖果守卫"
+    };
   }
 
   function formatStars(count) {
-    var s = Math.max(0, Math.min(3, count || 0));
+    var s = Math.max(0, Math.min(3, Number(count) || 0));
     return "★".repeat(s) + "☆".repeat(3 - s);
+  }
+
+  function getRankTitle(totalStars) {
+    if (totalStars >= 30) return "黄金王冠领航长";
+    if (totalStars >= 18) return "星海破浪大副";
+    if (totalStars >= 6) return "奇幻群岛舵手";
+    return "荔枝见习小水手";
+  }
+
+  function bindBottomNav(screenEl, app) {
+    var btns = screenEl.querySelectorAll(".bottom-nav .nav-tab");
+    btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        window.KET_AUDIO.playClick();
+        var nav = btn.getAttribute("data-nav") || "";
+        if (nav === "群岛") app.go("P03");
+        else if (nav === "宝典") app.go("P18");
+        else if (nav === "错题") app.go("P17");
+        else if (nav === "默写") app.go("P19");
+      });
+    });
   }
 
   // ==================== P01: 品牌启动首页与今日3步微任务 ====================
@@ -2973,57 +5090,95 @@ window.KET_TEMPLATES = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var totalStars = window.KET_STATE.getTotalStars();
+      var hasProg = window.KET_STATE.hasSavedProgress();
+      var curLv = Math.max(1, Math.min(11, Number(st.currentLevel) || 1));
+      var curMeta = getIslandMeta(curLv);
 
-      var streakNodes = screenEl.querySelectorAll(".streak-pill span");
-      if (streakNodes.length >= 1) {
-        streakNodes[streakNodes.length - 1].textContent = "连胜 " + st.streakDays + "天";
+      var capMount = screenEl.querySelector("#home-captain-mount");
+      if (capMount) {
+        capMount.innerHTML = window.KET_ART.captainBuddy(totalStars >= 3 ? "cheer" : "idle", 72);
       }
 
-      var rankNodes = screenEl.querySelectorAll(".rank-badge span");
-      if (rankNodes.length >= 1) {
-        rankNodes[rankNodes.length - 1].textContent = "荔枝见习小水手 · " + totalStars + "/33星";
+      var streakTxt = screenEl.querySelector("#home-streak-text");
+      if (streakTxt) streakTxt.textContent = "连胜 " + (st.streakDays || 0) + "天";
+
+      var rankTxt = screenEl.querySelector("#home-rank-text");
+      if (rankTxt) rankTxt.textContent = getRankTitle(totalStars) + " · " + totalStars + "/33星";
+
+      var islandTitle = screenEl.querySelector("#home-island-title");
+      if (islandTitle) islandTitle.textContent = "第" + curLv + "关 · " + curMeta.name;
+
+      var leadCards = window.KET_STATE.getLevelCards(curLv <= 10 ? curLv : 1);
+      var spotCard = leadCards[0] || window.KET_STATE.getVocabMap()["001"];
+      var spotW = screenEl.querySelector("#home-spot-word");
+      var spotS = screenEl.querySelector("#home-spot-syn");
+      if (spotCard && spotW && spotS) {
+        spotW.textContent = spotCard.word;
+        spotS.textContent = "= " + spotCard.syn + " · " + spotCard.cn;
       }
 
-      // 动态更新今日3步微任务进度
+      var spotlight = screenEl.querySelector("#home-word-spotlight");
+      if (spotlight && spotCard) {
+        spotlight.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakCard(spotCard, "full");
+          app.toast("英音朗读：" + spotCard.word + " = " + spotCard.syn);
+        });
+      }
+
+      // 今日3步微任务条真实进度
       var q1 = !!st.dailyQuests.stageDone;
-      var q2 = (st.dailyQuests.wrongClearedCount || 0) >= 3;
+      var clearedNum = Math.min(3, st.dailyQuests.wrongClearedCount || 0);
+      var q2 = clearedNum >= 3;
       var q3 = !!st.dailyQuests.dictationDone;
       var doneCount = (q1 ? 1 : 0) + (q2 ? 1 : 0) + (q3 ? 1 : 0);
 
-      var qTitleSpan = screenEl.querySelector(".quest-title span");
-      if (qTitleSpan) qTitleSpan.textContent = "今日微任务 (" + doneCount + "/3)";
+      var qTitle = screenEl.querySelector("#home-quest-title");
+      if (qTitle) qTitle.textContent = "今日微任务 (" + doneCount + "/3)";
 
-      var qProg = screenEl.querySelector(".daily-quest-bar progress.ui-progress");
+      var qProg = screenEl.querySelector("#home-quest-prog");
       if (qProg) qProg.value = doneCount;
 
-      var qTag = screenEl.querySelector(".quest-head .lock-cloud-tag");
+      var q2Text = screenEl.querySelector("#home-q2-text");
+      if (q2Text) q2Text.textContent = "② 错题营清零 3 词 (" + clearedNum + "/3)";
+
+      var qTag = screenEl.querySelector("#home-quest-tag");
       if (qTag) {
-        qTag.textContent = doneCount >= 3 ? "已集齐 · 点此开箱" : "差" + (3 - doneCount) + "步开箱";
-        qTag.style.cursor = "pointer";
+        qTag.textContent =
+          doneCount >= 3
+            ? st.dailyQuests.chestClaimed
+              ? "✓ 已领宝箱"
+              : "点此开宝箱"
+            : "差" + (3 - doneCount) + "步开箱";
         qTag.addEventListener("click", function () {
-          if (doneCount >= 3) {
+          window.KET_AUDIO.playClick();
+          if (doneCount >= 3 && !st.dailyQuests.chestClaimed) {
             st.dailyQuests.chestClaimed = true;
-            st.streakDays = Math.max(st.streakDays, 8);
+            window.KET_STATE.markTodayStreak(st);
             window.KET_STATE.save();
             window.KET_AUDIO.playFanfare();
-            app.toast("已开启今日连胜宝箱！连胜天数 +1");
+            app.toast("太棒啦！今日微任务宝箱已开启！");
             app.go("P01");
+          } else if (!q1) {
+            app.go("P03");
+          } else if (!q2) {
+            app.go("P17");
           } else {
             app.go("P19");
           }
         });
       }
 
-      var qItems = screenEl.querySelectorAll(".quest-list .quest-item");
       var qStates = [q1, q2, q3];
-      var qTargets = ["P05", "P17", "P19"];
+      var qTargets = ["P03", "P17", "P19"];
+      var qItems = screenEl.querySelectorAll("#home-quest-list .quest-item");
       qItems.forEach(function (li, idx) {
-        var isDone = qStates[idx];
-        li.classList.toggle("is-todo", !isDone);
+        var ok = qStates[idx];
+        li.classList.toggle("is-todo", !ok);
         var badge = li.querySelector(".quest-badge");
         if (badge) {
-          badge.classList.toggle("todo", !isDone);
-          badge.textContent = isDone ? "已完成" : "待完成";
+          badge.classList.toggle("todo", !ok);
+          badge.textContent = ok ? "已完成" : "待完成";
         }
         li.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
@@ -3031,43 +5186,64 @@ window.KET_TEMPLATES = {
         });
       });
 
-      // 点击核心词卡朗读英音
-      var spotlight = screenEl.querySelector(".word-spotlight");
-      if (spotlight) {
-        spotlight.style.cursor = "pointer";
-        spotlight.addEventListener("click", function () {
-          var vmap = window.KET_STATE.getVocabMap();
-          window.KET_AUDIO.speakCard(vmap["001"], "full");
-          app.toast("正在朗读 #001 immediately = right away / at once");
-        });
-      }
-
-      // 点击底部打卡提示进入 P20 家长学情与7天打卡表
-      var questFoot = screenEl.querySelector(".quest-foot");
-      if (questFoot) {
-        questFoot.style.cursor = "pointer";
-        questFoot.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+      // 首页功能入口：家长入口、设置入口、继续闯关、开始闯关
+      var btnParent = screenEl.querySelector("#btn-home-parent");
+      if (btnParent) {
+        btnParent.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
           app.go("P20");
         });
       }
 
-      // 点击右上角胶囊或小船长头像可进入 P21 设置与隐私
-      var wxCap = screenEl.querySelector(".wx-capsule");
+      var btnSettings = screenEl.querySelector("#btn-home-settings");
+      if (btnSettings) {
+        btnSettings.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          app.go("P21");
+        });
+      }
+
+      var wxCap = screenEl.querySelector("#btn-home-wx");
       if (wxCap) {
-        wxCap.style.cursor = "pointer";
         wxCap.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P21");
         });
       }
 
-      // 主按钮：首次进入 P02 3秒引导，已完成引导则进入 P03 地图或 P05 选关
-      var mainBtn = screenEl.querySelector(".btn-cta-main");
-      if (mainBtn) {
-        mainBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          if (!st.coachDone) {
+      var btnCont = screenEl.querySelector("#btn-home-continue");
+      var btnStart = screenEl.querySelector("#btn-home-start");
+
+      if (btnCont) {
+        if (hasProg) {
+          btnCont.classList.remove("is-hidden");
+          btnCont.textContent = "继续第" + curLv + "关 ▶";
+          btnCont.addEventListener("click", function () {
+            window.KET_AUDIO.playButton();
+            if (curLv === 11 && st.levels["11"] && st.levels["11"].unlocked) {
+              st.session.l11Index = 0;
+              st.session.l11Correct = 0;
+              app.go("P13");
+            } else {
+              var targetLv = Math.min(10, curLv);
+              if (st.levels[String(targetLv)] && st.levels[String(targetLv)].unlocked) {
+                st.session.level = targetLv;
+                app.go("P05");
+              } else {
+                app.go(curLv <= 6 ? "P03" : "P04");
+              }
+            }
+          });
+        } else {
+          btnCont.classList.add("is-hidden");
+        }
+      }
+
+      if (btnStart) {
+        btnStart.textContent = hasProg ? "群岛地图" : "开始闯关 ▶";
+        btnStart.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          if (!st.coachDone && !hasProg) {
             app.go("P02");
           } else {
             app.go("P03");
@@ -3079,11 +5255,20 @@ window.KET_TEMPLATES = {
     }
   };
 
-  // ==================== P02: 首屏3秒发光小手破冰引导 ====================
+  // ==================== P02: 首屏3秒聚光小手破冰引导 ====================
   window.KET_VIEWS.P02 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var vmap = window.KET_STATE.getVocabMap();
+      var card001 = vmap["001"];
+      var triggered = false;
+
+      var capMount = screenEl.querySelector("#p02-captain-mount");
+      if (capMount) {
+        capMount.innerHTML = window.KET_ART.captainBuddy("cheer", 64);
+      }
+
+      var backBtn = screenEl.querySelector("#btn-p02-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
@@ -3091,43 +5276,132 @@ window.KET_TEMPLATES = {
         });
       }
 
-      // 3秒无操作自动淡出遮罩层，保留自由点击权
-      app.setTimer(function () {
-        var mask = screenEl.querySelector(".coach-mask");
-        if (mask) mask.style.opacity = "0.25";
-      }, 3000);
-
-      function completeIcebreaker() {
-        window.KET_AUDIO.playMatch(2);
-        var vmap = window.KET_STATE.getVocabMap();
-        window.KET_AUDIO.speakCard(vmap["001"], "full");
+      function completeIcebreaker(ev) {
+        if (triggered) return;
+        triggered = true;
         st.coachDone = true;
-        st.session.level = 1;
         window.KET_STATE.save();
-        app.toast("配对成功！immediately = right away / at once");
-        app.go("P03");
+        window.KET_AUDIO.playMatch(1);
+        if (card001) window.KET_AUDIO.speakCard(card001, "full");
+
+        var rect = screenEl.getBoundingClientRect();
+        var cx = ev && ev.clientX ? ev.clientX - rect.left : rect.width * 0.5;
+        var cy = ev && ev.clientY ? ev.clientY - rect.top : rect.height * 0.38;
+        app.burstStardust(screenEl, cx, cy);
+
+        var mask = screenEl.querySelector(".coach-mask");
+        if (mask) mask.style.opacity = "0";
+
+        app.setTimer(function () {
+          app.go("P03");
+        }, 280);
       }
 
-      var focusCards = screenEl.querySelectorAll(".pair-focus .gem-card");
-      focusCards.forEach(function (card) {
-        card.style.cursor = "pointer";
-        card.addEventListener("click", completeIcebreaker);
+      ["#icebreaker-word", "#icebreaker-syn", "#btn-icebreaker-go"].forEach(function (sel) {
+        var el = screenEl.querySelector(sel);
+        if (el) el.addEventListener("click", completeIcebreaker);
       });
-
-      var ctaBtn = screenEl.querySelector(".btn-cta-main");
-      if (ctaBtn) {
-        ctaBtn.addEventListener("click", completeIcebreaker);
-      }
     }
   };
 
-  // ==================== P03: 奇幻糖果群岛大地图（上篇 L1–L6） ====================
+  // ==================== P03: 奇幻糖果群岛大地图 · 上篇 (L1–L6) ====================
   window.KET_VIEWS.P03 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var totalStars = window.KET_STATE.getTotalStars();
+      var activeLv = Math.max(1, Math.min(6, Number(st.currentLevel) <= 6 ? Number(st.currentLevel) : 1));
+      if (!st.levels[String(activeLv)] || !st.levels[String(activeLv)].unlocked) {
+        activeLv = 1;
+      }
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var starTxt = screenEl.querySelector("#map1-stars-text");
+      if (starTxt) starTxt.textContent = totalStars + "/33";
+
+      var boatMount = screenEl.querySelector("#map1-boat-mount");
+      if (boatMount) boatMount.innerHTML = window.KET_ART.captainSailboatSvg();
+
+      var activeMeta = getIslandMeta(activeLv);
+      var leadCard = window.KET_STATE.getLevelCards(activeLv)[0];
+      if (leadCard) {
+        var sw = screenEl.querySelector("#map1-sail-word");
+        var ss = screenEl.querySelector("#map1-sail-syn");
+        var sub = screenEl.querySelector("#map1-sail-sub");
+        if (sw) sw.textContent = leadCard.word;
+        if (ss) ss.textContent = "= " + leadCard.syn;
+        if (sub) sub.textContent = "当前护航：第" + activeLv + "关 " + activeMeta.name + " · 点按听英音";
+      }
+
+      var banner = screenEl.querySelector("#map1-sail-banner");
+      if (banner && leadCard) {
+        banner.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakCard(leadCard, "full");
+        });
+      }
+
+      var grid = screenEl.querySelector("#map1-grid");
+      if (grid) {
+        var htmlArr = [];
+        for (var lv = 1; lv <= 6; lv++) {
+          var meta = getIslandMeta(lv);
+          var lvState = st.levels[String(lv)] || { unlocked: lv === 1, stars: 0 };
+          var unlocked = !!lvState.unlocked;
+          var cls = "island-card" + (unlocked ? (lv === activeLv ? " is-active" : "") : " is-locked");
+          var badgeHtml = "";
+          if (unlocked) {
+            badgeHtml = '<span class="star-ticks">' + formatStars(lvState.stars) + "</span>";
+          } else if (lv === 2) {
+            badgeHtml = '<span class="lock-cloud-tag">通L1免费开</span>';
+          } else {
+            badgeHtml =
+              '<span class="lock-cloud-tag"><svg class="ico" style="width:14px;height:14px;"><use href="#ico-lock"/></svg>¥9.9</span>';
+          }
+
+          htmlArr.push(
+            '<article class="' +
+              cls +
+              '" data-lv="' +
+              lv +
+              '" role="button" tabindex="0">' +
+              '<div class="island-top">' +
+              window.KET_ART.islandDioramaSvg(lv, !unlocked, 44) +
+              badgeHtml +
+              "</div>" +
+              '<div class="island-name">第' +
+              lv +
+              "关 · " +
+              meta.name +
+              "</div>" +
+              '<div class="island-meta">' +
+              meta.range +
+              " · " +
+              meta.guardian +
+              "</div>" +
+              "</article>"
+          );
+        }
+        grid.innerHTML = htmlArr.join("");
+
+        grid.querySelectorAll(".island-card").forEach(function (cardEl) {
+          cardEl.addEventListener("click", function () {
+            var lv = Number(cardEl.getAttribute("data-lv"));
+            var lvState = st.levels[String(lv)];
+            window.KET_AUDIO.playClick();
+            if (lvState && lvState.unlocked) {
+              st.currentLevel = lv;
+              st.session.level = lv;
+              window.KET_STATE.save();
+              app.go("P05");
+            } else if (lv === 2) {
+              app.toast("通关第1关「滴答钟表岛」即可免费解锁第2关！", true);
+            } else {
+              app.go("P16");
+            }
+          });
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-map1-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
@@ -3135,132 +5409,150 @@ window.KET_TEMPLATES = {
         });
       }
 
-      var sailSub = screenEl.querySelector(".sail-sub");
-      if (sailSub) {
-        sailSub.textContent = "第2关 罗盘迷宫岛（#011–#020）· ★ " + totalStars + "/33";
-      }
-
-      // 点击巡航横幅可切换至下篇海域 L7-L11 (P04)
-      var sailBanner = screenEl.querySelector(".sail-banner");
-      if (sailBanner) {
-        sailBanner.style.cursor = "pointer";
-        sailBanner.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P04");
-        });
-      }
-
-      var islandCards = screenEl.querySelectorAll(".island-grid .island-card");
-      islandCards.forEach(function (card, idx) {
-        var lv = idx + 1;
-        var lvState = st.levels[String(lv)] || { unlocked: lv <= 2, stars: 0 };
-        var isUnlocked = lvState.unlocked || (lv >= 3 && st.iapUnlocked);
-
-        if (isUnlocked && lv >= 3) {
-          card.classList.remove("is-locked");
-          var lockTag = card.querySelector(".lock-cloud-tag");
-          if (lockTag) {
-            lockTag.className = "star-ticks";
-            lockTag.textContent = formatStars(lvState.stars);
-          }
-        } else if (isUnlocked && lv <= 2) {
-          var starEl = card.querySelector(".star-ticks");
-          if (starEl && lvState.stars > 0) {
-            starEl.textContent = formatStars(lvState.stars);
-          }
-        }
-
-        card.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          if (isUnlocked) {
-            st.currentLevel = lv;
-            st.session.level = lv;
-            window.KET_STATE.save();
-            app.go("P05");
-          } else {
-            app.go("P16");
-          }
-        });
-      });
-
-      var ctaBtn = screenEl.querySelector(".btn-cta-main");
-      if (ctaBtn) {
-        ctaBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          st.session.level = st.currentLevel || 1;
+      var goBtn = screenEl.querySelector("#btn-map-go");
+      if (goBtn) {
+        goBtn.textContent = "闯第" + activeLv + "关 · " + activeMeta.name + " ▶";
+        goBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          st.currentLevel = activeLv;
+          st.session.level = activeLv;
           window.KET_STATE.save();
           app.go("P05");
         });
       }
 
-      var footNote = screenEl.querySelector(".footer-note");
-      if (footNote) {
-        footNote.style.cursor = "pointer";
-        footNote.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+      var p2Btn = screenEl.querySelector("#btn-map-part2");
+      if (p2Btn) {
+        p2Btn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
           app.go("P04");
         });
       }
+
+      bindBottomNav(screenEl, app);
     }
   };
 
-  // ==================== P04: 奇幻糖果群岛大地图（下篇 L7–L11） ====================
+  // ==================== P04: 奇幻糖果群岛大地图 · 下篇 (L7–L10 + L11圣殿) ====================
   window.KET_VIEWS.P04 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
+      var totalStars = window.KET_STATE.getTotalStars();
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P03");
+      var starTxt = screenEl.querySelector("#map2-stars-text");
+      if (starTxt) starTxt.textContent = totalStars + "/33";
+
+      var grid = screenEl.querySelector("#map2-grid");
+      if (grid) {
+        var htmlArr = [];
+        for (var lv = 7; lv <= 10; lv++) {
+          var meta = getIslandMeta(lv);
+          var lvState = st.levels[String(lv)] || { unlocked: false, stars: 0 };
+          var unlocked = !!lvState.unlocked;
+          var cls = "island-card" + (unlocked ? (st.currentLevel === lv ? " is-active" : "") : " is-locked");
+          var badgeHtml = unlocked
+            ? '<span class="star-ticks">' + formatStars(lvState.stars) + "</span>"
+            : '<span class="lock-cloud-tag"><svg class="ico" style="width:14px;height:14px;"><use href="#ico-lock"/></svg>¥9.9</span>';
+
+          htmlArr.push(
+            '<article class="' +
+              cls +
+              '" data-lv="' +
+              lv +
+              '" role="button" tabindex="0">' +
+              '<div class="island-top">' +
+              window.KET_ART.islandDioramaSvg(lv, !unlocked, 44) +
+              badgeHtml +
+              "</div>" +
+              '<div class="island-name">第' +
+              lv +
+              "关 · " +
+              meta.name +
+              "</div>" +
+              '<div class="island-meta">' +
+              meta.range +
+              " · " +
+              meta.guardian +
+              "</div>" +
+              "</article>"
+          );
+        }
+        grid.innerHTML = htmlArr.join("");
+
+        grid.querySelectorAll(".island-card").forEach(function (cardEl) {
+          cardEl.addEventListener("click", function () {
+            var lv = Number(cardEl.getAttribute("data-lv"));
+            var lvState = st.levels[String(lv)];
+            window.KET_AUDIO.playClick();
+            if (lvState && lvState.unlocked) {
+              st.currentLevel = lv;
+              st.session.level = lv;
+              window.KET_STATE.save();
+              app.go("P05");
+            } else {
+              app.go("P16");
+            }
+          });
         });
       }
 
-      var islandCards = screenEl.querySelectorAll(".island-grid-4 .island-card");
-      islandCards.forEach(function (card, idx) {
-        var lv = idx + 7;
-        var lvState = st.levels[String(lv)] || { unlocked: false, stars: 0 };
-        var isUnlocked = lvState.unlocked || st.iapUnlocked;
+      var lv11 = st.levels["11"] || { unlocked: false, stars: 0 };
+      var sanc = screenEl.querySelector("#map2-sanctuary");
+      if (sanc) {
+        var sancBadge = lv11.unlocked
+          ? '<span class="star-ticks">' + formatStars(lv11.stars) + "</span>"
+          : '<span class="lock-cloud-tag"><svg class="ico" style="width:14px;height:14px;"><use href="#ico-lock"/></svg>¥9.9 圣殿</span>';
+        sanc.innerHTML = [
+          '<div class="sanctuary-row">',
+          "  " + window.KET_ART.islandDioramaSvg(11, !lv11.unlocked, 54),
+          '  <div style="flex:1;min-width:0;">',
+          '    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap;">',
+          '      <span class="sanctuary-title">第11关 · 黄金王冠圣殿</span>',
+          "      " + sancBadge,
+          "    </div>",
+          '    <div class="sanctuary-desc">20题全真同义替换终极试炼</div>',
+          "  </div>",
+          "</div>",
+          '<div class="sanctuary-word-row">',
+          '  <span class="sanctuary-word">suitable</span>',
+          '  <span class="sanctuary-syn">= right / fitting · 终极检验 100 词</span>',
+          "</div>"
+        ].join("");
 
-        if (isUnlocked) {
-          var lockTag = card.querySelector(".lock-cloud-tag");
-          if (lockTag) {
-            lockTag.className = "star-ticks";
-            lockTag.textContent = formatStars(lvState.stars);
-          }
-        }
-
-        card.addEventListener("click", function () {
+        sanc.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
-          if (isUnlocked) {
-            st.currentLevel = lv;
-            st.session.level = lv;
+          if (lv11.unlocked) {
+            st.currentLevel = 11;
+            st.session.l11Index = 0;
+            st.session.l11Correct = 0;
             window.KET_STATE.save();
-            app.go("P05");
+            app.go("P13");
           } else {
             app.go("P16");
           }
         });
-      });
-
-      // L11 黄金王冠圣殿
-      var sanctuary = screenEl.querySelector(".sanctuary-card");
-      if (sanctuary) {
-        sanctuary.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P13");
-        });
       }
 
-      var ctaGold = screenEl.querySelector(".btn-cta-gold");
-      if (ctaGold) {
-        if (st.iapUnlocked) {
-          ctaGold.textContent = "已解锁全部关卡 · 进入黄金圣殿 ▶";
+      var backBtn = screenEl.querySelector("#btn-map2-back");
+      var p1Btn = screenEl.querySelector("#btn-map-part1");
+      [backBtn, p1Btn].forEach(function (b) {
+        if (b) {
+          b.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            app.go("P03");
+          });
         }
-        ctaGold.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+      });
+
+      var ctaBtn = screenEl.querySelector("#btn-map2-cta");
+      if (ctaBtn) {
+        ctaBtn.textContent = st.iapUnlocked ? "进入黄金王冠圣殿 ▶" : "¥9.9 解锁全岛通行证 ▶";
+        ctaBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
           if (st.iapUnlocked) {
+            st.currentLevel = 11;
+            st.session.l11Index = 0;
+            st.session.l11Correct = 0;
             app.go("P13");
           } else {
             app.go("P16");
@@ -3276,64 +5568,82 @@ window.KET_TEMPLATES = {
   window.KET_VIEWS.P05 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var lv = st.session.level || 1;
-      var islands = (window.KET_DATA && window.KET_DATA.ISLANDS) || [];
-      var islandMeta = islands[lv - 1] || islands[0];
+      var lv = Math.max(1, Math.min(10, Number(st.session.level || st.currentLevel) || 1));
+      if (!st.levels[String(lv)] || !st.levels[String(lv)].unlocked) {
+        lv = 1;
+        st.session.level = 1;
+      }
+      var meta = getIslandMeta(lv);
+      var lvObj = st.levels[String(lv)];
       var cards = window.KET_STATE.getLevelCards(lv);
-      var firstCard = cards[0] || { word: "immediately", syn: "right away / at once" };
+      var sample = cards[0];
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var hudTitle = screenEl.querySelector("#prep-hud-title");
+      var hudSub = screenEl.querySelector("#prep-hud-sub");
+      var hudStars = screenEl.querySelector("#prep-hud-stars");
+      if (hudTitle) hudTitle.textContent = "第" + lv + "关 · " + meta.name;
+      if (hudSub) hudSub.textContent = meta.scene.split(" (")[0] + " · " + meta.range;
+      if (hudStars) hudStars.textContent = formatStars(lvObj.stars);
+
+      var dioMount = screenEl.querySelector("#prep-diorama-mount");
+      if (dioMount) dioMount.innerHTML = window.KET_ART.islandDioramaSvg(lv, false, 58);
+
+      var mTitle = screenEl.querySelector("#prep-modal-title");
+      var mSub = screenEl.querySelector("#prep-modal-sub");
+      if (mTitle) mTitle.textContent = meta.name;
+      if (mSub) mSub.textContent = "守关怪兽：" + meta.guardian + " · 10组核心同义词";
+
+      if (sample) {
+        var sw = screenEl.querySelector("#prep-sample-word");
+        var ss = screenEl.querySelector("#prep-sample-syn");
+        if (sw) sw.textContent = sample.word;
+        if (ss) ss.textContent = "= " + sample.syn + " (" + sample.cn + ")";
+
+        var wp = screenEl.querySelector("#prep-word-preview");
+        if (wp) {
+          wp.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            window.KET_AUDIO.speakCard(sample, "full");
+          });
+        }
+      }
+
+      // 真实更新 4 阶段标签状态（新用户 100% 为「待闯关/待挑战」）
+      function setStageTag(idSel, done, textDone, textWait) {
+        var el = screenEl.querySelector(idSel);
+        if (!el) return;
+        el.classList.toggle("is-wait", !done);
+        el.textContent = done ? textDone : textWait;
+      }
+      setStageTag("#prep-st-1", !!lvObj.stage1, "✓ 已热身", "待闯关");
+      setStageTag("#prep-st-2", (lvObj.stage2 || 0) >= 60, "最高 " + (lvObj.stage2 || 0) + "%", "待闯关");
+      setStageTag("#prep-st-3", !!lvObj.stage3, "✓ 已拼通", "待闯关");
+      setStageTag("#prep-st-4", (lvObj.stage4 || 0) >= 60, "最高 " + (lvObj.stage4 || 0) + "%", "待挑战");
+
+      var stageRoutes = { 1: "P06", 2: "P07", 3: "P09", 4: "P11" };
+      screenEl.querySelectorAll(".stage-select-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var stg = Number(btn.getAttribute("data-stage")) || 1;
+          window.KET_AUDIO.playButton();
+          window.KET_STATE.prepareLevelRun(lv, false);
+          app.go(stageRoutes[stg] || "P06");
+        });
+      });
+
+      var startBtn = screenEl.querySelector("#btn-prep-start");
+      if (startBtn) {
+        startBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          window.KET_STATE.prepareLevelRun(lv, true);
+          app.go("P06");
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-prep-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go(lv <= 6 ? "P03" : "P04");
-        });
-      }
-
-      if (islandMeta) {
-        var hudMain = screenEl.querySelector(".hud-main-title");
-        var hudSub = screenEl.querySelector(".hud-sub-title");
-        var modalTitle = screenEl.querySelector(".modal-title");
-        if (hudMain) hudMain.textContent = "选关准备 · 第" + lv + "关";
-        if (hudSub) hudSub.textContent = islandMeta.scene.split(" (")[0] + " (" + islandMeta.range + ")";
-        if (modalTitle) modalTitle.textContent = islandMeta.name;
-      }
-
-      var wordEn = screenEl.querySelector(".word-preview .word-en");
-      var wordSyn = screenEl.querySelector(".word-preview .word-syn");
-      if (wordEn) wordEn.textContent = firstCard.word;
-      if (wordSyn) wordSyn.textContent = "= " + firstCard.syn;
-
-      // 单阶段自由练（chain = false，仅记绿勾不授海岛星章）
-      var stageBtns = screenEl.querySelectorAll(".stage-btn-list .stage-select-btn");
-      var stageRoutes = ["P06", "P07", "P09", "P11"];
-      stageBtns.forEach(function (btn, idx) {
-        btn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          st.session.chain = false;
-          st.session.wave = 1;
-          window.KET_STATE.save();
-          app.go(stageRoutes[idx]);
-        });
-      });
-
-      // 四阶连闯主按钮（chain = true，全达标授星并解锁下一关）
-      var mainBtn = screenEl.querySelector(".btn-cta-main");
-      if (mainBtn) {
-        mainBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          st.session.chain = true;
-          st.session.wave = 1;
-          st.session.matchedIds = [];
-          st.session.stage2Index = 0;
-          st.session.stage2Correct = 0;
-          st.session.stage3Index = 0;
-          st.session.stage3Correct = 0;
-          st.session.stage4Index = 0;
-          st.session.stage4Correct = 0;
-          st.session.runWrongIds = [];
-          window.KET_STATE.save();
-          app.go("P06");
         });
       }
     }
@@ -3342,877 +5652,1874 @@ window.KET_TEMPLATES = {
 
 
 // === stages.js ===
-// 荔枝KET词卡助手 v1 - 四阶段闯关与局末复活战交互控制器 (P06-P12)
+// 荔枝KET词卡助手 v3 - 四阶闭环核心玩法与局末错题复活战控制器 (P06–P12)
 (function () {
   window.KET_VIEWS = window.KET_VIEWS || {};
 
-  // ==================== P06: 阶段① 3D晶石配对消除 ====================
+  function getIslandMeta(levelNo) {
+    var list = (window.KET_DATA && window.KET_DATA.ISLANDS_META) || [];
+    for (var i = 0; i < list.length; i++) {
+      if (Number(list[i].level) === Number(levelNo)) return list[i];
+    }
+    return { level: levelNo, name: "滴答钟表岛", guardian: "时光发条怪" };
+  }
+
+  function ensureSessionReady(st) {
+    var lv = Math.max(1, Math.min(10, Number(st.session.level || st.currentLevel) || 1));
+    if (!st.session.stage2Order || st.session.stage2Order.length === 0) {
+      window.KET_STATE.prepareLevelRun(lv, false);
+    }
+    return lv;
+  }
+
+  // ==================== P06: 阶段① 3D晶石配对消除（双波次 5+5，中心吸附碰撞 + 星尘粒子） ====================
   window.KET_VIEWS.P06 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var lv = st.session.level || 1;
-      var cards = window.KET_STATE.getLevelCards(lv);
-      var selectedWordBtn = null;
-      var selectedSynBtn = null;
-      var wave = 1;
+      var lv = ensureSessionReady(st);
+      var meta = getIslandMeta(lv);
+      var wave = st.session.wave === 2 ? 2 : 1;
+      st.session.wave = wave;
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var allCards = window.KET_STATE.getLevelCards(lv);
+      var waveCards = wave === 1 ? allCards.slice(0, 5) : allCards.slice(5, 10);
+      var vmap = {};
+      waveCards.forEach(function (c) {
+        vmap[c.id] = c;
+      });
+
+      var leftCards = window.KET_STATE.shuffleArray(waveCards);
+      var rightCards = window.KET_STATE.shuffleDeranged(waveCards);
+
+      var hudTitle = screenEl.querySelector("#s1-hud-title");
+      var hudSub = screenEl.querySelector("#s1-hud-sub");
+      if (hudTitle) hudTitle.textContent = "阶段① 晶石配对";
+      if (hudSub) hudSub.textContent = "第" + lv + "关 " + meta.name + " · 第 " + wave + "/2 波";
+
+      app.syncComboVisual(screenEl, st.session.combo || 0, "#s1-combo-pill");
+
+      var matrix = screenEl.querySelector("#s1-matrix");
+      var nextBtn = screenEl.querySelector("#btn-s1-next");
+      var speakBtn = screenEl.querySelector("#btn-s1-speak");
+      var progEl = screenEl.querySelector("#s1-prog");
+      var trayLabel = screenEl.querySelector("#s1-tray-label");
+      var trayPct = screenEl.querySelector("#s1-tray-pct");
+      var burstWord = screenEl.querySelector("#s1-burst-word");
+      var burstSyn = screenEl.querySelector("#s1-burst-syn");
+
+      var matchedCount = 0;
+      var lastMatchedCard = waveCards[0];
+      var selLeftBtn = null;
+      var selRightBtn = null;
+      var busyLock = false;
+
+      if (matrix) {
+        var rowsHtml = [];
+        for (var i = 0; i < waveCards.length; i++) {
+          var lc = leftCards[i];
+          var rc = rightCards[i];
+          rowsHtml.push(
+            '<button type="button" class="btn-gummy gem-btn is-word gummy-shine" data-side="left" data-cid="' +
+              lc.id +
+              '">' +
+              lc.word +
+              "</button>" +
+              '<button type="button" class="btn-gummy gem-btn is-syn gummy-shine" data-side="right" data-cid="' +
+              rc.id +
+              '">' +
+              rc.syn +
+              "</button>"
+          );
+        }
+        matrix.innerHTML = rowsHtml.join("");
+      }
+
+      function updateProgressUI() {
+        var totalMatched = (wave === 2 ? 5 : 0) + matchedCount;
+        if (progEl) progEl.value = matchedCount;
+        if (trayLabel) trayLabel.textContent = "本波配对进度 (" + matchedCount + "/" + waveCards.length + ")";
+        if (trayPct) trayPct.textContent = "总进度 " + totalMatched + "/10";
+        if (nextBtn) {
+          if (matchedCount >= waveCards.length) {
+            nextBtn.disabled = false;
+            nextBtn.textContent =
+              wave === 1
+                ? "进入第 2/2 波晶石配对 ▶"
+                : st.session.chain
+                ? "进入阶段② 语境单选 ▶"
+                : "完成配对 · 返回选关 ▶";
+          } else {
+            nextBtn.disabled = true;
+            nextBtn.textContent = "配对完本波 " + (waveCards.length - matchedCount) + " 组继续 ▶";
+          }
+        }
+      }
+
+      updateProgressUI();
+
+      function tryEvaluatePair() {
+        if (!selLeftBtn || !selRightBtn) return;
+        busyLock = true;
+        var lBtn = selLeftBtn;
+        var rBtn = selRightBtn;
+        var lId = lBtn.getAttribute("data-cid");
+        var rId = rBtn.getAttribute("data-cid");
+        selLeftBtn = null;
+        selRightBtn = null;
+
+        if (lId === rId) {
+          var card = vmap[lId];
+          lastMatchedCard = card;
+          matchedCount += 1;
+          var combo = window.KET_STATE.recordCombo(true);
+          app.syncComboVisual(screenEl, combo, "#s1-combo-pill");
+
+          lBtn.classList.remove("is-selected");
+          rBtn.classList.remove("is-selected");
+          lBtn.classList.add("is-converge-left");
+          rBtn.classList.add("is-converge-right");
+
+          // 计算双晶石中心碰撞坐标并爆发糖果星尘
+          var sRect = screenEl.getBoundingClientRect();
+          var lr = lBtn.getBoundingClientRect();
+          var rr = rBtn.getBoundingClientRect();
+          var midX = (lr.left + lr.width * 0.5 + rr.left + rr.width * 0.5) * 0.5 - sRect.left;
+          var midY = (lr.top + lr.height * 0.5 + rr.top + rr.height * 0.5) * 0.5 - sRect.top;
+          app.burstStardust(screenEl, midX, midY);
+
+          window.KET_AUDIO.playMatch(combo);
+          if (card) {
+            window.KET_AUDIO.speakCard(card, "full");
+            if (burstWord) burstWord.textContent = card.word + " · " + card.cn;
+            if (burstSyn) burstSyn.textContent = "= " + card.syn + "（" + card.reminder + "）";
+          }
+
+          app.setTimer(function () {
+            lBtn.classList.remove("is-converge-left");
+            rBtn.classList.remove("is-converge-right");
+            lBtn.classList.add("is-cleared");
+            rBtn.classList.add("is-cleared");
+            lBtn.disabled = true;
+            rBtn.disabled = true;
+            busyLock = false;
+            updateProgressUI();
+          }, 120);
+        } else {
+          window.KET_STATE.recordCombo(false);
+          app.syncComboVisual(screenEl, 0, "#s1-combo-pill");
+          window.KET_AUDIO.playWrong();
+          lBtn.classList.remove("is-selected");
+          rBtn.classList.remove("is-selected");
+          lBtn.classList.add("is-wrong-shake");
+          rBtn.classList.add("is-wrong-shake");
+          if (burstWord) burstWord.textContent = "再仔细看一眼同义伙伴～";
+          if (burstSyn) burstSyn.textContent = "左列皇家宝石蓝原词，配对右列琥珀蜂蜜金同义词";
+
+          app.setTimer(function () {
+            lBtn.classList.remove("is-wrong-shake");
+            rBtn.classList.remove("is-wrong-shake");
+            busyLock = false;
+          }, 300);
+        }
+      }
+
+      if (matrix) {
+        matrix.querySelectorAll(".gem-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            if (busyLock || btn.disabled || btn.classList.contains("is-cleared")) return;
+            window.KET_AUDIO.playKey();
+            var side = btn.getAttribute("data-side");
+            if (side === "left") {
+              if (selLeftBtn === btn) {
+                btn.classList.remove("is-selected");
+                selLeftBtn = null;
+                return;
+              }
+              if (selLeftBtn) selLeftBtn.classList.remove("is-selected");
+              selLeftBtn = btn;
+              btn.classList.add("is-selected");
+              var cLeft = vmap[btn.getAttribute("data-cid")];
+              if (cLeft && !selRightBtn) window.KET_AUDIO.speakCard(cLeft, "word_only");
+            } else {
+              if (selRightBtn === btn) {
+                btn.classList.remove("is-selected");
+                selRightBtn = null;
+                return;
+              }
+              if (selRightBtn) selRightBtn.classList.remove("is-selected");
+              selRightBtn = btn;
+              btn.classList.add("is-selected");
+              var cRight = vmap[btn.getAttribute("data-cid")];
+              if (cRight && !selLeftBtn) window.KET_AUDIO.speakCard(cRight, "syn_only");
+            }
+            tryEvaluatePair();
+          });
+        });
+      }
+
+      if (speakBtn) {
+        speakBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          if (lastMatchedCard) window.KET_AUDIO.speakCard(lastMatchedCard, "full");
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          if (nextBtn.disabled) return;
+          window.KET_AUDIO.playButton();
+          if (wave === 1) {
+            st.session.wave = 2;
+            app.go("P06");
+          } else {
+            st.session.wave = 1;
+            st.levels[String(lv)].stage1 = true;
+            window.KET_STATE.save();
+            if (st.session.chain) {
+              st.session.stage2Index = 0;
+              st.session.stage2Correct = 0;
+              app.go("P07");
+            } else {
+              app.go("P05");
+            }
+          }
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-s1-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P05");
         });
       }
-
-      function bindMatrixButtons(waveCards) {
-        var btns = screenEl.querySelectorAll(".gem-matrix .gem-btn");
-        btns.forEach(function (btn, idx) {
-          var rowIdx = Math.floor(idx / 2);
-          var isWord = idx % 2 === 0;
-          var card = waveCards[rowIdx] || cards[rowIdx];
-          if (card) {
-            btn.dataset.cardId = card.id;
-            btn.dataset.side = isWord ? "word" : "syn";
-          }
-          btn.onclick = function () {
-            if (btn.classList.contains("is-cleared")) return;
-            window.KET_AUDIO.playClick();
-            if (btn.dataset.side === "word") {
-              if (selectedWordBtn) selectedWordBtn.classList.remove("is-selected");
-              selectedWordBtn = btn;
-              btn.classList.add("is-selected");
-            } else {
-              if (selectedSynBtn) selectedSynBtn.classList.remove("is-selected");
-              selectedSynBtn = btn;
-              btn.classList.add("is-selected");
-            }
-
-            if (selectedWordBtn && selectedSynBtn) {
-              var idW = selectedWordBtn.dataset.cardId;
-              var idS = selectedSynBtn.dataset.cardId;
-              if (idW === idS) {
-                st.session.combo = (st.session.combo || 0) + 1;
-                window.KET_AUDIO.playMatch(st.session.combo);
-                selectedWordBtn.classList.remove("is-selected", "is-bursting");
-                selectedSynBtn.classList.remove("is-selected", "is-bursting");
-                selectedWordBtn.classList.add("is-cleared");
-                selectedSynBtn.classList.add("is-cleared");
-
-                var vmap = window.KET_STATE.getVocabMap();
-                var matchedCard = vmap[idW];
-                if (matchedCard) {
-                  var bw = screenEl.querySelector(".burst-word");
-                  var bs = screenEl.querySelector(".burst-syn");
-                  if (bw) bw.textContent = matchedCard.word;
-                  if (bs) bs.textContent = "= " + matchedCard.syn;
-                  window.KET_AUDIO.speakCard(matchedCard, "full");
-                }
-                var streakEl = screenEl.querySelector(".burst-top .streak-pill");
-                if (streakEl) streakEl.textContent = "连击 ×" + st.session.combo;
-
-                var clearedWords = screenEl.querySelectorAll(".gem-matrix .gem-btn.is-word.is-cleared").length;
-                var prog = screenEl.querySelector(".burst-stage progress.ui-progress");
-                if (prog) prog.value = clearedWords;
-                var traySpans = screenEl.querySelectorAll(".tray-head span");
-                if (traySpans.length >= 2) {
-                  traySpans[0].textContent = "本波配对进度 " + clearedWords + " / 5 组 · 纯英文防母语拐杖";
-                  traySpans[1].textContent = Math.round((clearedWords / 5) * 100) + "%";
-                }
-                selectedWordBtn = null;
-                selectedSynBtn = null;
-              } else {
-                window.KET_AUDIO.playWrong();
-                st.session.combo = 0;
-                window.KET_STATE.addWrongWord(idW, "阶段①配对");
-                var wBtn = selectedWordBtn;
-                var sBtn = selectedSynBtn;
-                wBtn.classList.remove("is-selected");
-                sBtn.classList.remove("is-selected");
-                wBtn.classList.add("is-wrong-shake");
-                sBtn.classList.add("is-wrong-shake");
-                app.setTimer(function () {
-                  wBtn.classList.remove("is-wrong-shake");
-                  sBtn.classList.remove("is-wrong-shake");
-                }, 320);
-                selectedWordBtn = null;
-                selectedSynBtn = null;
-              }
-            }
-          };
-        });
-      }
-
-      bindMatrixButtons(cards.slice(0, 5));
-
-      var ctaBtn = screenEl.querySelector(".btn-cta-main");
-      if (ctaBtn) {
-        ctaBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          if (wave === 1) {
-            wave = 2;
-            var wave2Cards = cards.slice(5, 10);
-            var btns = screenEl.querySelectorAll(".gem-matrix .gem-btn");
-            btns.forEach(function (btn, idx) {
-              var rowIdx = Math.floor(idx / 2);
-              var isWord = idx % 2 === 0;
-              var c = wave2Cards[rowIdx] || cards[rowIdx];
-              btn.classList.remove("is-cleared", "is-bursting", "is-selected");
-              btn.textContent = isWord ? c.word : c.syn;
-            });
-            var hudSub = screenEl.querySelector(".hud-sub-title");
-            if (hudSub) hudSub.textContent = "第" + lv + "关 滴答钟表岛 · 第2/2波";
-            var prog = screenEl.querySelector(".burst-stage progress.ui-progress");
-            if (prog) prog.value = 0;
-            ctaBtn.textContent = "完成配对 · 进入阶段② 语境单选 ▶";
-            bindMatrixButtons(wave2Cards);
-            app.toast("已进入第 2/2 波（#006–#010）");
-          } else {
-            st.levels[String(lv)].stage1 = true;
-            st.dailyQuests.stageDone = true;
-            window.KET_STATE.save();
-            app.go("P07");
-          }
-        });
-      }
     }
   };
 
-  // ==================== P07: 阶段② 语境慧眼单选（正向题） ====================
+  // ==================== P07: 阶段② 语境慧眼单选（正向题 Q1–Q5） ====================
   window.KET_VIEWS.P07 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var vmap = window.KET_STATE.getVocabMap();
-      var card = vmap["001"];
+      var lv = ensureSessionReady(st);
+      var idx = Number(st.session.stage2Index) || 0;
+      if (idx >= 5) {
+        app.go("P08");
+        return;
+      }
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var vmap = window.KET_STATE.getVocabMap();
+      var cid = st.session.stage2Order[idx] || window.KET_STATE.getLevelCards(lv)[idx].id;
+      var card = vmap[cid] || window.KET_STATE.getLevelCards(lv)[0];
+      var choices = window.KET_STATE.buildShuffledChoices(card, lv, "syn", 4);
+
+      var capMount = screenEl.querySelector("#s2-captain-mount");
+      if (capMount) {
+        capMount.innerHTML = window.KET_ART.captainBuddy((st.session.combo || 0) >= 3 ? "cheer" : "idle", 40);
+      }
+
+      app.syncComboVisual(screenEl, st.session.combo || 0, "#s2-combo-pill");
+
+      var progLabel = screenEl.querySelector("#s2-progress-label");
+      var scoreLabel = screenEl.querySelector("#s2-score-label");
+      var progBar = screenEl.querySelector("#s2-prog");
+      if (progLabel) progLabel.textContent = "第 " + (idx + 1) + "/10 题（第5题开半程宝箱）";
+      if (scoreLabel) scoreLabel.textContent = "正确 " + (st.session.stage2Correct || 0) + " 题";
+      if (progBar) progBar.value = idx + 1;
+
+      var wText = screenEl.querySelector("#s2-word-text");
+      var exEl = screenEl.querySelector("#s2-example");
+      if (wText) wText.textContent = card.word;
+      if (exEl) exEl.innerHTML = window.KET_STATE.highlightExample(card.example, card.word);
+
+      var optBox = screenEl.querySelector("#s2-options");
+      var mirrorEl = screenEl.querySelector("#s2-mirror");
+      var nextBtn = screenEl.querySelector("#btn-s2-next");
+      var answered = false;
+      var hasAdvanced = false;
+
+      function goNext() {
+        if (hasAdvanced) return;
+        hasAdvanced = true;
+        st.session.stage2Index = idx + 1;
+        if (st.session.stage2Index < 5) {
+          app.go("P07");
+        } else {
+          app.go("P08");
+        }
+      }
+
+      if (optBox) {
+        optBox.innerHTML = choices
+          .map(function (ch, i) {
+            var letter = ["A", "B", "C", "D"][i] || "A";
+            return (
+              '<button type="button" class="btn-gummy quiz-opt-btn gummy-shine" data-correct="' +
+              (ch.isCorrect ? "1" : "0") +
+              '">' +
+              "<span>" +
+              letter +
+              ". " +
+              ch.text +
+              "</span>" +
+              '<span class="opt-tag" style="background:#9A3412;">同义词</span>' +
+              "</button>"
+            );
+          })
+          .join("");
+
+        optBox.querySelectorAll(".quiz-opt-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            if (answered) return;
+            answered = true;
+            var isRight = btn.getAttribute("data-correct") === "1";
+
+            optBox.querySelectorAll(".quiz-opt-btn").forEach(function (b) {
+              b.disabled = true;
+              if (b.getAttribute("data-correct") === "1") {
+                b.classList.add("is-correct");
+              }
+            });
+
+            if (isRight) {
+              st.session.stage2Correct = (st.session.stage2Correct || 0) + 1;
+              var combo = window.KET_STATE.recordCombo(true);
+              app.syncComboVisual(screenEl, combo, "#s2-combo-pill");
+              window.KET_AUDIO.playCorrect(combo);
+              window.KET_AUDIO.speakCard(card, "full");
+
+              if (idx === 4) {
+                var chest = screenEl.querySelector("#s2-mid-chest");
+                if (chest) chest.classList.add("is-popping");
+                app.toast("半程宝箱开启！接下来进入反向辨析题！");
+              }
+
+              if (mirrorEl) {
+                mirrorEl.className = "mirror-scroll-card";
+                mirrorEl.innerHTML =
+                  '<div class="mirror-eq">✓ ' +
+                  card.word +
+                  " = " +
+                  card.syn +
+                  "（" +
+                  card.cn +
+                  "）</div>" +
+                  '<div class="mirror-sub">' +
+                  card.reminder +
+                  " · 点此立即下一题</div>";
+                mirrorEl.addEventListener("click", goNext);
+              }
+            } else {
+              window.KET_STATE.recordCombo(false);
+              window.KET_STATE.addWrongWord(card.id, "阶段②单选");
+              app.syncComboVisual(screenEl, 0, "#s2-combo-pill");
+              window.KET_AUDIO.playWrong();
+              btn.classList.add("is-warn", "is-wrong-shake");
+
+              if (mirrorEl) {
+                mirrorEl.className = "mirror-warn-card";
+                mirrorEl.innerHTML =
+                  '<div style="font-size:16px;font-weight:900;">温和提醒：' +
+                  card.word +
+                  " = " +
+                  card.syn +
+                  "（" +
+                  card.cn +
+                  "）</div>" +
+                  '<div class="sub-text">' +
+                  card.reminder +
+                  "</div>";
+              }
+            }
+
+            if (scoreLabel) scoreLabel.textContent = "正确 " + (st.session.stage2Correct || 0) + " 题";
+            if (nextBtn) {
+              nextBtn.disabled = false;
+              nextBtn.textContent = idx === 4 ? "进入反向题 (第6/10题) ▶" : "下一题 (" + (idx + 2) + "/10) ▶";
+            }
+          });
+        });
+      }
+
+      var banner = screenEl.querySelector("#s2-word-banner");
+      var spkBtn = screenEl.querySelector("#btn-s2-speak");
+      [banner, spkBtn].forEach(function (el) {
+        if (el) {
+          el.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            window.KET_AUDIO.speakCard(card, answered ? "full" : "word_only");
+          });
+        }
+      });
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          if (!answered) return;
+          window.KET_AUDIO.playButton();
+          goNext();
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-s2-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P05");
         });
       }
-
-      var speakerBtn = screenEl.querySelector(".btn-square-gummy");
-      if (speakerBtn) {
-        speakerBtn.addEventListener("click", function () {
-          window.KET_AUDIO.speakCard(card, "full");
-          app.toast("英音朗读：immediately = right away / at once");
-        });
-      }
-
-      var optBtns = screenEl.querySelectorAll(".opt-stack .quiz-opt-btn");
-      optBtns.forEach(function (btn, idx) {
-        btn.addEventListener("click", function () {
-          optBtns.forEach(function (b) {
-            b.classList.remove("is-correct", "is-wrong-shake");
-          });
-          if (idx === 0) {
-            btn.classList.add("is-correct");
-            window.KET_AUDIO.playCorrect();
-            window.KET_AUDIO.speakCard(card, "full");
-            st.session.stage2Correct = Math.min(10, (st.session.stage2Correct || 9) + 1);
-            window.KET_STATE.save();
-          } else {
-            btn.classList.add("is-wrong-shake");
-            window.KET_AUDIO.playWrong();
-            window.KET_STATE.addWrongWord("001", "阶段②单选");
-          }
-        });
-      });
-
-      var mirrorCard = screenEl.querySelector(".mirror-scroll-card");
-      if (mirrorCard) {
-        mirrorCard.style.cursor = "pointer";
-        mirrorCard.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P08");
-        });
-      }
-
-      var nextBtn = screenEl.querySelector(".btn-cta-main");
-      if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P08");
-        });
-      }
     }
   };
 
-  // ==================== P08: 阶段② 语境慧眼单选（反向题·防泄题双规则） ====================
+  // ==================== P08: 阶段② 语境慧眼单选（反向题 Q6–Q10，防泄题语音保护） ====================
   window.KET_VIEWS.P08 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
+      var lv = ensureSessionReady(st);
+      var idx = Number(st.session.stage2Index) || 5;
+      if (idx < 5 || idx > 9) {
+        idx = 5;
+        st.session.stage2Index = 5;
+      }
+
       var vmap = window.KET_STATE.getVocabMap();
-      var card = vmap["006"]; // past = after
+      var cid = st.session.stage2Order[idx] || window.KET_STATE.getLevelCards(lv)[idx].id;
+      var card = vmap[cid] || window.KET_STATE.getLevelCards(lv)[5];
+      var choices = window.KET_STATE.buildShuffledChoices(card, lv, "word", 4);
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P07");
-        });
+      var capMount = screenEl.querySelector("#s2r-captain-mount");
+      if (capMount) {
+        capMount.innerHTML = window.KET_ART.captainBuddy((st.session.combo || 0) >= 3 ? "cheer" : "idle", 42);
       }
 
-      // 反向题防泄题规则 1：确保例句中目标原词 past 被挖空为 ______
-      var exP = screenEl.querySelector(".quiz-main-card p.body-text");
-      if (exP && card) {
-        exP.innerHTML = window.KET_STATE.maskExample(card.example, card.word);
-      }
+      app.syncComboVisual(screenEl, st.session.combo || 0, "#s2r-combo-pill");
 
-      // 反向题防泄题规则 2：点击题干卡片仅朗读同义词 after，严禁泄出原词 past
-      var plaque = screenEl.querySelector(".gem-syn-plaque");
-      if (plaque && card) {
-        plaque.style.cursor = "pointer";
-        plaque.addEventListener("click", function () {
-          window.KET_AUDIO.speakCard(card, "syn_only");
-          app.toast("反向题防泄题语音：仅播报同义词 after");
-        });
-      }
+      var progLabel = screenEl.querySelector("#s2r-progress-label");
+      var scoreLabel = screenEl.querySelector("#s2r-score-label");
+      var progBar = screenEl.querySelector("#s2r-prog");
+      if (progLabel) progLabel.textContent = "第 " + (idx + 1) + "/10 题 · 反向辨析";
+      if (scoreLabel) scoreLabel.textContent = "正确 " + (st.session.stage2Correct || 0) + " 题";
+      if (progBar) progBar.value = idx + 1;
 
-      var optBtns = screenEl.querySelectorAll(".quiz-options-stack .quiz-opt-btn");
-      optBtns.forEach(function (btn, idx) {
-        btn.addEventListener("click", function () {
-          optBtns.forEach(function (b) {
-            b.classList.remove("is-correct", "is-warn", "is-wrong-shake");
-          });
-          if (idx === 1) {
-            // B. past 为正确答案
-            btn.classList.add("is-correct");
-            window.KET_AUDIO.playCorrect();
-            window.KET_AUDIO.speakCard(card, "full");
+      var synText = screenEl.querySelector("#s2r-syn-text");
+      var exEl = screenEl.querySelector("#s2r-example");
+      if (synText) synText.textContent = card.syn + " (" + card.cn + ")";
+      if (exEl) exEl.innerHTML = window.KET_STATE.maskExample(card.example, card.word);
+
+      var optBox = screenEl.querySelector("#s2r-options");
+      var mirrorEl = screenEl.querySelector("#s2r-mirror");
+      var nextBtn = screenEl.querySelector("#btn-s2r-next");
+      var answered = false;
+      var hasAdvanced = false;
+
+      function goNext() {
+        if (hasAdvanced) return;
+        hasAdvanced = true;
+        if (idx + 1 < 10) {
+          st.session.stage2Index = idx + 1;
+          app.go("P08");
+        } else {
+          var pct = Math.round(((st.session.stage2Correct || 0) / 10) * 100);
+          st.levels[String(lv)].stage2 = Math.max(st.levels[String(lv)].stage2 || 0, pct);
+          window.KET_STATE.save();
+          if (st.session.chain) {
+            st.session.stage3Index = 0;
+            st.session.stage3Correct = 0;
+            app.go("P09");
           } else {
-            btn.classList.add("is-warn", "is-wrong-shake");
-            window.KET_AUDIO.playWrong();
-            window.KET_STATE.addWrongWord("006", "阶段②反向题");
+            app.go("P05");
           }
+        }
+      }
+
+      if (optBox) {
+        optBox.innerHTML = choices
+          .map(function (ch, i) {
+            var letter = ["A", "B", "C", "D"][i] || "A";
+            return (
+              '<button type="button" class="btn-gummy quiz-opt-btn gummy-shine" data-correct="' +
+              (ch.isCorrect ? "1" : "0") +
+              '">' +
+              "<span>" +
+              letter +
+              ". " +
+              ch.text +
+              "</span>" +
+              '<span class="badge-corner" style="background:#1E40AF;color:#FFFFFF;">原词</span>' +
+              "</button>"
+            );
+          })
+          .join("");
+
+        optBox.querySelectorAll(".quiz-opt-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            if (answered) return;
+            answered = true;
+            var isRight = btn.getAttribute("data-correct") === "1";
+
+            optBox.querySelectorAll(".quiz-opt-btn").forEach(function (b) {
+              b.disabled = true;
+              if (b.getAttribute("data-correct") === "1") {
+                b.classList.add("is-correct");
+              }
+            });
+
+            if (exEl) exEl.innerHTML = window.KET_STATE.highlightExample(card.example, card.word);
+
+            if (isRight) {
+              st.session.stage2Correct = (st.session.stage2Correct || 0) + 1;
+              var combo = window.KET_STATE.recordCombo(true);
+              app.syncComboVisual(screenEl, combo, "#s2r-combo-pill");
+              window.KET_AUDIO.playCorrect(combo);
+              window.KET_AUDIO.speakCard(card, "full");
+
+              if (mirrorEl) {
+                mirrorEl.className = "mirror-scroll-card";
+                mirrorEl.innerHTML =
+                  '<div style="font-size:16px;font-weight:900;">✓ ' +
+                  card.word +
+                  " = " +
+                  card.syn +
+                  "（" +
+                  card.cn +
+                  "）</div>" +
+                  '<div class="sub-text">' +
+                  card.reminder +
+                  " · 点此立即继续</div>";
+                mirrorEl.addEventListener("click", goNext);
+              }
+            } else {
+              window.KET_STATE.recordCombo(false);
+              window.KET_STATE.addWrongWord(card.id, "阶段②反向单选");
+              app.syncComboVisual(screenEl, 0, "#s2r-combo-pill");
+              window.KET_AUDIO.playWrong();
+              btn.classList.add("is-warn", "is-wrong-shake");
+
+              if (mirrorEl) {
+                mirrorEl.className = "mirror-warn-card";
+                mirrorEl.innerHTML =
+                  '<div style="font-size:16px;font-weight:900;">温和纠错：应填原词 ' +
+                  card.word +
+                  "</div>" +
+                  '<div class="sub-text">' +
+                  card.reminder +
+                  "</div>";
+              }
+            }
+
+            if (scoreLabel) scoreLabel.textContent = "正确 " + (st.session.stage2Correct || 0) + " 题";
+            if (nextBtn) {
+              nextBtn.disabled = false;
+              nextBtn.textContent =
+                idx === 9
+                  ? st.session.chain
+                    ? "进入阶段③ 魔法拼写 ▶"
+                    : "完成单选 · 返回选关 ▶"
+                  : "下一题 (" + (idx + 2) + "/10) ▶";
+            }
+          });
         });
+      }
+
+      // 反向题防泄题保护：未作答前仅朗读 syn_only，严禁读出原词答案
+      var synPlaque = screenEl.querySelector("#s2r-syn-plaque");
+      var spkBtn = screenEl.querySelector("#btn-s2r-speak");
+      [synPlaque, spkBtn].forEach(function (el) {
+        if (el) {
+          el.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            window.KET_AUDIO.speakCard(card, answered ? "full" : "syn_only");
+          });
+        }
       });
 
-      var nextBtn = screenEl.querySelector(".btn-cta-main");
       if (nextBtn) {
         nextBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          var lv = st.session.level || 1;
-          st.levels[String(lv)].stage2 = Math.max(st.levels[String(lv)].stage2 || 0, 90);
-          window.KET_STATE.save();
-          app.go("P09");
+          if (!answered) return;
+          window.KET_AUDIO.playButton();
+          goNext();
         });
       }
-    }
-  };
 
-  // ==================== P09: 阶段③ 魔法拼写工坊（拼写中·隐藏reminder防泄题） ====================
-  window.KET_VIEWS.P09 = {
-    mount: function (screenEl, app) {
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var backBtn = screenEl.querySelector("#btn-s2r-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P05");
         });
       }
+    }
+  };
 
-      var slotCells = Array.prototype.slice.call(screenEl.querySelectorAll(".spell-slot-tray .slot-cell"));
-      var runeKeys = Array.prototype.slice.call(screenEl.querySelectorAll(".keycap-grid .rune-key"));
-      var targetLetters = ["p", "a", "r", "t", "i", "c", "i", "p", "a", "t", "e", "i", "n"];
+  // ==================== P09: 阶段③ 魔法拼写工坊（100%空槽挂载 + 符文抛物线飞入） ====================
+  window.KET_VIEWS.P09 = {
+    mount: function (screenEl, app) {
+      var st = window.KET_STATE.get();
+      var lv = ensureSessionReady(st);
+      var idx = Math.max(0, Math.min(4, Number(st.session.stage3Index) || 0));
+      st.session.stage3Index = idx;
 
-      // 点击水晶符文键帽填入下一个空槽
-      runeKeys.forEach(function (keyBtn) {
-        keyBtn.addEventListener("click", function () {
-          if (keyBtn.classList.contains("is-used")) return;
-          window.KET_AUDIO.playKey();
-          var emptySlot = slotCells.find(function (s) {
-            return s.classList.contains("is-empty") || s.textContent.trim() === "_";
-          });
-          if (emptySlot) {
-            emptySlot.textContent = (keyBtn.textContent || "").trim();
-            emptySlot.classList.remove("is-empty");
-            emptySlot.classList.add("is-active");
-            keyBtn.classList.add("is-used");
-          }
-          var remaining = slotCells.filter(function (s) {
-            return s.classList.contains("is-empty") || s.textContent.trim() === "_";
-          });
-          if (remaining.length === 0) {
-            window.KET_AUDIO.playCorrect();
-            app.go("P10");
-          }
-        });
+      var vmap = window.KET_STATE.getVocabMap();
+      var cid = st.session.stage3Order[idx] || window.KET_STATE.getLevelCards(lv)[idx].id;
+      var card = vmap[cid] || window.KET_STATE.getLevelCards(lv)[0];
+
+      var capMount = screenEl.querySelector("#s3-captain-mount");
+      if (capMount) {
+        capMount.innerHTML = window.KET_ART.captainBuddy("idle", 42);
+      }
+
+      app.syncComboVisual(screenEl, st.session.combo || 0);
+
+      var stepPill = screenEl.querySelector("#s3-step-pill");
+      var progLabel = screenEl.querySelector("#s3-progress-label");
+      var cnHint = screenEl.querySelector("#s3-cn-hint");
+      var progBar = screenEl.querySelector("#s3-prog");
+      var synText = screenEl.querySelector("#s3-syn-text");
+      var cnSub = screenEl.querySelector("#s3-cn-sub");
+
+      if (stepPill) stepPill.textContent = "第 " + (idx + 1) + "/5 词";
+      if (progLabel) progLabel.textContent = "拼写进度 (" + (idx + 1) + "/5)";
+      if (cnHint) cnHint.textContent = card.scene.split(" (")[0];
+      if (progBar) progBar.value = idx + 1;
+      if (synText) synText.textContent = card.syn;
+      if (cnSub) cnSub.textContent = "中文提示：" + card.cn;
+
+      // 将词组按空格切分为不折行分组，提取非空格字符用于符文键帽
+      var wordSegments = card.word.split(/\s+/);
+      var targetChars = [];
+      wordSegments.forEach(function (seg) {
+        for (var i = 0; i < seg.length; i++) {
+          targetChars.push(seg[i]);
+        }
       });
 
-      // 退格重填按钮
-      var footerBtns = screenEl.querySelectorAll(".zone-footer button");
-      if (footerBtns.length >= 2) {
-        var backKeyBtn = footerBtns[0];
-        var confirmBtn = footerBtns[1];
+      var slotTray = screenEl.querySelector("#s3-slots");
+      var keyGrid = screenEl.querySelector("#s3-keys");
+      var checkBtn = screenEl.querySelector("#btn-s3-check");
+      var backKeyBtn = screenEl.querySelector("#btn-s3-backspace");
 
-        backKeyBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          for (var i = slotCells.length - 1; i >= 1; i--) {
-            if (!slotCells[i].classList.contains("is-empty") && slotCells[i].textContent.trim() !== "_") {
-              var ch = slotCells[i].textContent.trim();
-              slotCells[i].textContent = "_";
-              slotCells[i].classList.add("is-empty");
-              slotCells[i].classList.remove("is-active");
-              var usedKey = runeKeys.find(function (k) {
-                return k.classList.contains("is-used") && k.textContent.trim() === ch;
-              });
-              if (usedKey) usedKey.classList.remove("is-used");
-              break;
-            }
-          }
-        });
+      var lenTier = targetChars.length <= 7 ? "short" : targetChars.length <= 10 ? "mid" : "long";
+      if (slotTray) slotTray.setAttribute("data-len-tier", lenTier);
 
-        confirmBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playCorrect();
-          slotCells.forEach(function (s, idx) {
-            s.textContent = targetLetters[idx] || "";
-            s.classList.remove("is-empty");
+      var keyItems = targetChars.map(function (ch, kIdx) {
+        return { kIdx: kIdx, ch: ch };
+      });
+      keyItems = window.KET_STATE.shuffleDeranged(keyItems);
+
+      var filledEntries = []; // [{ ch, kIdx }]
+      var checkingLock = false;
+
+      function renderSlotsAndKeys() {
+        if (slotTray) {
+          var globalPos = 0;
+          slotTray.innerHTML = wordSegments
+            .map(function (seg) {
+              var cells = [];
+              for (var i = 0; i < seg.length; i++) {
+                var pos = globalPos++;
+                var entry = filledEntries[pos];
+                var cls = "slot-cell";
+                var txt = "_";
+                if (entry) {
+                  txt = entry.ch;
+                } else if (pos === filledEntries.length) {
+                  cls += " is-empty is-active";
+                } else {
+                  cls += " is-empty";
+                }
+                cells.push('<span class="' + cls + '" data-slot="' + pos + '">' + txt + "</span>");
+              }
+              return '<span class="spell-word-group">' + cells.join("") + "</span>";
+            })
+            .join("");
+
+          slotTray.querySelectorAll(".slot-cell").forEach(function (cellEl) {
+            cellEl.addEventListener("click", function () {
+              if (checkingLock) return;
+              var pos = Number(cellEl.getAttribute("data-slot"));
+              if (pos < filledEntries.length) {
+                window.KET_AUDIO.playKey();
+                filledEntries.splice(pos);
+                renderSlotsAndKeys();
+              }
+            });
           });
+        }
+
+        if (keyGrid) {
+          var usedSet = {};
+          filledEntries.forEach(function (e) {
+            usedSet[e.kIdx] = true;
+          });
+          keyGrid.innerHTML = keyItems
+            .map(function (item) {
+              var used = !!usedSet[item.kIdx];
+              return (
+                '<button type="button" class="btn-gummy rune-key gummy-shine' +
+                (used ? " is-used" : "") +
+                '" data-kidx="' +
+                item.kIdx +
+                '" data-char="' +
+                item.ch +
+                '"' +
+                (used ? " disabled" : "") +
+                ">" +
+                item.ch +
+                "</button>"
+              );
+            })
+            .join("");
+
+          keyGrid.querySelectorAll(".rune-key").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+              if (checkingLock || btn.disabled || filledEntries.length >= targetChars.length) return;
+              var kIdx = Number(btn.getAttribute("data-kidx"));
+              var ch = btn.getAttribute("data-char");
+              var targetSlot = slotTray
+                ? slotTray.querySelector('.slot-cell[data-slot="' + filledEntries.length + '"]')
+                : null;
+              window.KET_AUDIO.playKey();
+              if (targetSlot) {
+                app.flyRuneChip(btn, targetSlot, ch);
+              }
+              filledEntries.push({ ch: ch, kIdx: kIdx });
+              renderSlotsAndKeys();
+              if (filledEntries.length === targetChars.length) {
+                app.setTimer(validateSpelling, 170);
+              }
+            });
+          });
+        }
+
+        if (checkBtn) {
+          var full = filledEntries.length === targetChars.length;
+          checkBtn.disabled = !full;
+          checkBtn.textContent = full ? "核对拼写 ▶" : "还差 " + (targetChars.length - filledEntries.length) + " 个字母";
+        }
+      }
+
+      function validateSpelling() {
+        if (checkingLock || filledEntries.length < targetChars.length) return;
+        checkingLock = true;
+        var userStr = filledEntries
+          .map(function (e) {
+            return e.ch;
+          })
+          .join("")
+          .toLowerCase();
+        var rightStr = targetChars.join("").toLowerCase();
+
+        if (userStr === rightStr) {
+          st.session.stage3Correct = (st.session.stage3Correct || 0) + 1;
+          st.session.lastSpelledCardId = card.id;
+          var combo = window.KET_STATE.recordCombo(true);
+          window.KET_AUDIO.playCorrect(combo);
+          window.KET_AUDIO.speakCard(card, "full");
           app.go("P10");
+        } else {
+          window.KET_STATE.recordCombo(false);
+          window.KET_STATE.addWrongWord(card.id, "阶段③拼写");
+          window.KET_AUDIO.playWrong();
+          if (slotTray) slotTray.classList.add("is-wrong-shake");
+          app.toast("字母顺序差一点点，已温和退回重排～", true);
+          app.setTimer(function () {
+            if (slotTray) slotTray.classList.remove("is-wrong-shake");
+            filledEntries = [];
+            checkingLock = false;
+            renderSlotsAndKeys();
+          }, 360);
+        }
+      }
+
+      renderSlotsAndKeys();
+
+      if (backKeyBtn) {
+        backKeyBtn.addEventListener("click", function () {
+          if (checkingLock || filledEntries.length === 0) return;
+          window.KET_AUDIO.playKey();
+          filledEntries.pop();
+          renderSlotsAndKeys();
+        });
+      }
+
+      if (checkBtn) {
+        checkBtn.addEventListener("click", function () {
+          validateSpelling();
+        });
+      }
+
+      var synPlaque = screenEl.querySelector("#s3-syn-plaque");
+      if (synPlaque) {
+        synPlaque.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakCard(card, "syn_only");
+        });
+      }
+
+      var exitBtn = screenEl.querySelector("#btn-s3-exit");
+      if (exitBtn) {
+        exitBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          app.go("P05");
         });
       }
     }
   };
 
-  // ==================== P10: 阶段③ 魔法拼写工坊（拼对揭晓） ====================
+  // ==================== P10: 阶段③ 拼写揭晓（薄荷翡翠亮槽 + 替换提醒） ====================
   window.KET_VIEWS.P10 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
+      var lv = ensureSessionReady(st);
+      var idx = Math.max(0, Math.min(4, Number(st.session.stage3Index) || 0));
       var vmap = window.KET_STATE.getVocabMap();
-      var card = vmap["001"];
+      var cid = st.session.lastSpelledCardId || st.session.stage3Order[idx] || window.KET_STATE.getLevelCards(lv)[0].id;
+      var card = vmap[cid] || window.KET_STATE.getLevelCards(lv)[0];
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+      var capMount = screenEl.querySelector("#s3ok-captain-mount");
+      if (capMount) capMount.innerHTML = window.KET_ART.captainBuddy("cheer", 42);
+
+      app.syncComboVisual(screenEl, st.session.combo || 0);
+
+      var progLabel = screenEl.querySelector("#s3ok-progress-label");
+      var progBar = screenEl.querySelector("#s3ok-prog");
+      if (progLabel) progLabel.textContent = "已完成 " + (idx + 1) + "/5 词";
+      if (progBar) progBar.value = idx + 1;
+
+      var groupsEl = screenEl.querySelector("#s3ok-groups");
+      if (groupsEl) {
+        groupsEl.innerHTML = card.word
+          .split(/\s+/)
+          .map(function (seg) {
+            var cells = [];
+            for (var i = 0; i < seg.length; i++) {
+              cells.push('<span class="pass-slot">' + seg[i] + "</span>");
+            }
+            return '<span class="spell-word-group">' + cells.join("") + "</span>";
+          })
+          .join("");
+      }
+
+      var cnBadge = screenEl.querySelector("#s3ok-cn-badge");
+      if (cnBadge) cnBadge.textContent = card.cn + " · #" + card.id;
+
+      var eqEl = screenEl.querySelector("#s3ok-eq");
+      if (eqEl) {
+        eqEl.innerHTML =
+          '<span style="font-size:20px;font-weight:900;color:var(--c-word-txt);">' +
+          card.word +
+          "</span>" +
+          '<span style="font-size:16px;font-weight:900;color:var(--c-syn-txt);">= ' +
+          card.syn +
+          "</span>";
+      }
+
+      var exEl = screenEl.querySelector("#s3ok-example");
+      var remEl = screenEl.querySelector("#s3ok-reminder");
+      if (exEl) exEl.innerHTML = window.KET_STATE.highlightExample(card.example, card.word);
+      if (remEl) remEl.textContent = "替换识别提醒：" + card.reminder;
+
+      var nextBtn = screenEl.querySelector("#btn-s3ok-next");
+      var hasAdvanced = false;
+      function advanceSpell() {
+        if (hasAdvanced) return;
+        hasAdvanced = true;
+        if (idx + 1 < 5) {
+          st.session.stage3Index = idx + 1;
           app.go("P09");
+        } else {
+          st.levels[String(lv)].stage3 = true;
+          window.KET_STATE.save();
+          if (st.session.chain) {
+            st.session.stage4Index = 0;
+            st.session.stage4Correct = 0;
+            app.go("P11");
+          } else {
+            app.go("P05");
+          }
+        }
+      }
+
+      if (nextBtn) {
+        nextBtn.textContent =
+          idx + 1 < 5
+            ? "继续拼写下一词 (" + (idx + 2) + "/5) ▶"
+            : st.session.chain
+            ? "进入阶段④ 守关挑战 ▶"
+            : "完成拼写 · 返回选关 ▶";
+        nextBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          advanceSpell();
         });
       }
 
-      var mirror = screenEl.querySelector(".mirror-scroll-card");
-      if (mirror) {
-        mirror.style.cursor = "pointer";
-        mirror.addEventListener("click", function () {
+      var mirrorCard = screenEl.querySelector("#s3ok-mirror");
+      if (mirrorCard) {
+        mirrorCard.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          advanceSpell();
+        });
+      }
+
+      var spkBtn = screenEl.querySelector("#btn-s3ok-speak");
+      if (spkBtn) {
+        spkBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
           window.KET_AUDIO.speakCard(card, "full");
         });
       }
 
-      var nextBtn = screenEl.querySelector(".btn-cta-main");
-      if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
+      var exitBtn = screenEl.querySelector("#btn-s3ok-exit");
+      if (exitBtn) {
+        exitBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
-          var lv = st.session.level || 1;
-          st.levels[String(lv)].stage3 = true;
-          window.KET_STATE.save();
-          app.go("P11");
+          app.go("P05");
         });
       }
     }
   };
 
-  // ==================== P11: 阶段④ 守关挑战（激光竞技场·15s限时快反） ====================
+  // ==================== P11: 阶段④ 守关挑战（10只专属软胶守关怪兽 + 15s圆环 + 斜向激光暴击） ====================
   window.KET_VIEWS.P11 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var vmap = window.KET_STATE.getVocabMap();
-      var card = vmap["009"]; // postpone = put off / delay
-      var timeLeft = 4;
+      var lv = ensureSessionReady(st);
+      var meta = getIslandMeta(lv);
+      var idx = Math.max(0, Math.min(9, Number(st.session.stage4Index) || 0));
+      st.session.stage4Index = idx;
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var vmap = window.KET_STATE.getVocabMap();
+      var cid = st.session.stage4Order[idx] || window.KET_STATE.getLevelCards(lv)[idx].id;
+      var card = vmap[cid] || window.KET_STATE.getLevelCards(lv)[0];
+      var isReverse = idx % 2 === 1;
+      var choices = window.KET_STATE.buildShuffledChoices(card, lv, isReverse ? "word" : "syn", 4);
+
+      var hudTitle = screenEl.querySelector("#s4-hud-title");
+      var hudSub = screenEl.querySelector("#s4-hud-sub");
+      if (hudTitle) hudTitle.textContent = "阶段④ 守关挑战";
+      if (hudSub) hudSub.textContent = "第" + lv + "关 " + meta.guardian + " · 第 " + (idx + 1) + "/10 波";
+
+      app.syncComboVisual(screenEl, st.session.combo || 0, "#s4-combo-pill");
+
+      var arenaMount = screenEl.querySelector("#s4-arena-mount");
+      if (arenaMount) {
+        arenaMount.innerHTML = window.KET_ART.arenaStageSvg(lv);
+      }
+
+      var shieldLabel = screenEl.querySelector("#s4-shield-label");
+      var feverTag = screenEl.querySelector("#s4-fever-tag");
+      var progBar = screenEl.querySelector("#s4-prog");
+      if (shieldLabel) shieldLabel.textContent = "护盾已破 " + (st.session.stage4Correct || 0) + "/10 格";
+      if (progBar) progBar.value = idx;
+      if (feverTag) {
+        feverTag.textContent = (st.session.combo || 0) >= 5 ? "FEVER 彩虹暴走！" : "限时 15s";
+      }
+
+      var plaqueEl = screenEl.querySelector("#s4-prompt-plaque");
+      var exEl = screenEl.querySelector("#s4-example");
+      if (plaqueEl) {
+        if (isReverse) {
+          plaqueEl.className = "gem-syn-plaque";
+          plaqueEl.innerHTML =
+            '<span class="word-display" style="color:var(--c-syn-txt);">' +
+            card.syn +
+            "</span>" +
+            '<span class="lock-cloud-tag">' +
+            card.cn +
+            "</span>";
+        } else {
+          plaqueEl.className = "gem-word-plaque";
+          plaqueEl.innerHTML =
+            '<span class="word-display" style="color:var(--c-word-txt);">' +
+            card.word +
+            "</span>" +
+            '<span class="badge-corner" style="background:#1E40AF;color:#FFFFFF;">' +
+            card.cn +
+            "</span>";
+        }
+      }
+      if (exEl) {
+        exEl.innerHTML = isReverse
+          ? window.KET_STATE.maskExample(card.example, card.word)
+          : window.KET_STATE.highlightExample(card.example, card.word);
+      }
+
+      var optBox = screenEl.querySelector("#s4-options");
+      var nextBtn = screenEl.querySelector("#btn-s4-next");
+      var ringWrap = screenEl.querySelector("#s4-ring-wrap");
+      var ringProg = screenEl.querySelector("#s4-ring");
+      var ringText = screenEl.querySelector("#s4-ring-text");
+
+      var answered = false;
+      var hasAdvanced = false;
+      var remainMs = 15000;
+      var timerId = null;
+
+      function updateRingUI() {
+        var pct = Math.max(0, Math.round((remainMs / 15000) * 100));
+        var sec = Math.max(0, Math.ceil(remainMs / 1000));
+        if (ringProg) ringProg.value = pct;
+        if (ringWrap) {
+          ringWrap.style.setProperty("--ring-pct", pct + "%");
+          ringWrap.classList.toggle("is-danger", sec <= 5);
+        }
+        if (ringText) ringText.textContent = sec + "s";
+      }
+
+      updateRingUI();
+
+      function advanceArena() {
+        if (hasAdvanced) return;
+        hasAdvanced = true;
+        if (idx + 1 < 10) {
+          st.session.stage4Index = idx + 1;
+          app.go("P11");
+          return;
+        }
+
+        // 10题结束，进入结算判定或错题即刻复活战
+        var s4Pct = Math.round(((st.session.stage4Correct || 0) / 10) * 100);
+        var s2Pct = st.session.chain ? Math.round(((st.session.stage2Correct || 0) / 10) * 100) : s4Pct;
+
+        if (!st.session.chain) {
+          st.levels[String(lv)].stage4 = Math.max(st.levels[String(lv)].stage4 || 0, s4Pct);
+          window.KET_STATE.save();
+          app.go("P05");
+          return;
+        }
+
+        var passed = s2Pct >= 60 && s4Pct >= 60;
+        if (!passed) {
+          window.KET_STATE.settleIslandRun(lv, s2Pct, s4Pct, true, false);
+          app.go("P15");
+          return;
+        }
+
+        if (st.session.runWrongIds && st.session.runWrongIds.length > 0) {
+          st.session.reviveIndex = 0;
+          st.session.reviveCleared = true;
+          app.go("P12");
+          return;
+        }
+
+        window.KET_STATE.settleIslandRun(lv, s2Pct, s4Pct, true, true);
+        app.go("P14");
+      }
+
+      function finishQuestion(isRight, chosenBtn) {
+        if (answered) return;
+        answered = true;
+        if (timerId) window.clearInterval(timerId);
+
+        if (optBox) {
+          optBox.querySelectorAll(".guardian-laser-btn").forEach(function (b) {
+            b.disabled = true;
+            if (b.getAttribute("data-correct") === "1") {
+              b.classList.add("is-hit");
+            }
+          });
+        }
+
+        if (isReverse && exEl) {
+          exEl.innerHTML = window.KET_STATE.highlightExample(card.example, card.word);
+        }
+
+        if (isRight) {
+          st.session.stage4Correct = (st.session.stage4Correct || 0) + 1;
+          var combo = window.KET_STATE.recordCombo(true);
+          app.syncComboVisual(screenEl, combo, "#s4-combo-pill");
+          window.KET_AUDIO.playLaser(combo);
+          window.KET_AUDIO.speakCard(card, "full");
+
+          // 斜向软胶激光发射 220ms + 怪兽受击闪白 + CRIT 浮字
+          var beam = screenEl.querySelector("#arena-laser-beam");
+          var monster = screenEl.querySelector("#arena-guardian-monster");
+          var crit = screenEl.querySelector("#arena-crit-badge");
+          var critTxt = screenEl.querySelector("#arena-crit-text");
+          if (beam) beam.classList.add("is-firing");
+          if (monster) monster.classList.add("is-hit");
+          if (crit) {
+            if (critTxt) {
+              critTxt.textContent = combo >= 3 ? "COMBO x" + combo + " CRIT!" : "-1 护盾击破!";
+            }
+            crit.classList.add("is-visible");
+          }
+
+          app.setTimer(function () {
+            if (beam) beam.classList.remove("is-firing");
+            if (monster) monster.classList.remove("is-hit");
+          }, 220);
+
+          if (shieldLabel) shieldLabel.textContent = "护盾已破 " + st.session.stage4Correct + "/10 格";
+          if (progBar) progBar.value = idx + 1;
+          if (feverTag) {
+            feverTag.textContent = combo >= 5 ? "FEVER 彩虹暴走！" : combo >= 3 ? "连击激光加速！" : "精准命中！";
+          }
+        } else {
+          window.KET_STATE.recordCombo(false);
+          window.KET_STATE.addWrongWord(card.id, "守关挑战");
+          app.syncComboVisual(screenEl, 0, "#s4-combo-pill");
+          window.KET_AUDIO.playWrong();
+          if (chosenBtn) {
+            chosenBtn.classList.add("is-warn", "is-wrong-shake");
+          }
+          if (feverTag) {
+            feverTag.textContent = remainMs <= 0 ? "超时擦肩 · 看清同义词" : "护盾弹开 · 温和记牢它";
+          }
+        }
+
+        if (nextBtn) {
+          nextBtn.disabled = false;
+          nextBtn.textContent = idx === 9 ? "查看守关战果 ▶" : "下一发激光 (" + (idx + 2) + "/10) ▶";
+        }
+      }
+
+      timerId = app.setInterval(function () {
+        remainMs -= 250;
+        updateRingUI();
+        if (remainMs <= 0) {
+          finishQuestion(false, null);
+        }
+      }, 250);
+
+      if (optBox) {
+        var btnCls = "btn-gummy guardian-laser-btn gummy-shine" + (isReverse ? "" : " is-syn-choice");
+        optBox.innerHTML = choices
+          .map(function (ch) {
+            return (
+              '<button type="button" class="' +
+              btnCls +
+              '" data-correct="' +
+              (ch.isCorrect ? "1" : "0") +
+              '">' +
+              ch.text +
+              "</button>"
+            );
+          })
+          .join("");
+
+        optBox.querySelectorAll(".guardian-laser-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            finishQuestion(btn.getAttribute("data-correct") === "1", btn);
+          });
+        });
+      }
+
+      var spkBtn = screenEl.querySelector("#btn-s4-speak");
+      if (spkBtn) {
+        spkBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakCard(card, answered ? "full" : isReverse ? "syn_only" : "word_only");
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          if (!answered) return;
+          window.KET_AUDIO.playButton();
+          advanceArena();
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-s4-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P05");
         });
       }
-
-      // 15秒倒计时环实时更新（零孤儿定时器泄漏）
-      var ringProg = screenEl.querySelector("progress.progress-ring");
-      var ringText = screenEl.querySelector(".ring-text");
-      app.setInterval(function () {
-        if (timeLeft > 1) {
-          timeLeft -= 1;
-        } else {
-          timeLeft = 15;
-        }
-        if (ringText) ringText.textContent = String(timeLeft).padStart(2, "0") + "s";
-        if (ringProg) ringProg.value = Math.round((timeLeft / 15) * 100);
-      }, 1000);
-
-      var optBtns = screenEl.querySelectorAll(".zone-board .quiz-options-grid button, .zone-board .laser-grid button");
-      if (!optBtns.length) {
-        optBtns = screenEl.querySelectorAll(".zone-board button");
-      }
-      optBtns.forEach(function (btn, idx) {
-        btn.addEventListener("click", function () {
-          if (idx === 0) {
-            window.KET_AUDIO.playLaser();
-            window.KET_AUDIO.speakCard(card, "full");
-            st.session.stage4Correct = Math.min(10, (st.session.stage4Correct || 7) + 1);
-            var prog = screenEl.querySelector(".shield-info progress.ui-progress");
-            if (prog) prog.value = st.session.stage4Correct;
-            app.toast("激光暴击命中！postpone = put off / delay");
-          } else {
-            window.KET_AUDIO.playWrong();
-            btn.classList.add("is-wrong-shake");
-            window.KET_STATE.addWrongWord("009", "守关挑战");
-            app.setTimer(function () {
-              btn.classList.remove("is-wrong-shake");
-            }, 320);
-          }
-        });
-      });
-
-      var nextBtn = screenEl.querySelector(".btn-cta-main");
-      if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          // 进入局末错题即刻复活战 P12（清零错题冲刺 3 星）
-          app.go("P12");
-        });
-      }
     }
   };
 
-  // ==================== P12: 局末错题即刻复活战 ====================
+  // ==================== P12: 局末错题即刻复活战（零失误清零直冲三星） ====================
   window.KET_VIEWS.P12 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var vmap = window.KET_STATE.getVocabMap();
-      var card = vmap["004"]; // fortnight = two weeks / 14 days
+      var lv = ensureSessionReady(st);
+      var wrongIds =
+        st.session.runWrongIds && st.session.runWrongIds.length > 0
+          ? st.session.runWrongIds.slice()
+          : [window.KET_STATE.getLevelCards(lv)[0].id];
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P11");
+      var rIdx = Math.max(0, Math.min(wrongIds.length - 1, Number(st.session.reviveIndex) || 0));
+      var vmap = window.KET_STATE.getVocabMap();
+      var card = vmap[wrongIds[rIdx]] || window.KET_STATE.getLevelCards(lv)[0];
+      var choices = window.KET_STATE.buildShuffledChoices(card, lv, "syn", 4);
+
+      var capMount = screenEl.querySelector("#rev-captain-mount");
+      if (capMount) capMount.innerHTML = window.KET_ART.captainBuddy("encourage", 46);
+
+      var progLabel = screenEl.querySelector("#rev-progress-label");
+      var progBar = screenEl.querySelector("#rev-prog");
+      if (progLabel) progLabel.textContent = "错词即刻复活 (" + (rIdx + 1) + "/" + wrongIds.length + ")";
+      if (progBar) {
+        progBar.max = wrongIds.length;
+        progBar.value = rIdx;
+      }
+
+      var wText = screenEl.querySelector("#rev-word-text");
+      var exEl = screenEl.querySelector("#rev-example");
+      if (wText) wText.textContent = card.word + " (" + card.cn + ")";
+      if (exEl) exEl.innerHTML = window.KET_STATE.highlightExample(card.example, card.word);
+
+      var optBox = screenEl.querySelector("#rev-options");
+      var clearFx = screenEl.querySelector("#rev-clear-fx");
+      var nextBtn = screenEl.querySelector("#btn-rev-next");
+      var skipBtn = screenEl.querySelector("#btn-rev-skip");
+      var backBtn = screenEl.querySelector("#btn-rev-back");
+      var answered = false;
+
+      function finalizeRevive(revivedAll) {
+        var s2Pct = Math.round(((st.session.stage2Correct || 8) / 10) * 100);
+        var s4Pct = Math.round(((st.session.stage4Correct || 8) / 10) * 100);
+        window.KET_STATE.settleIslandRun(lv, Math.max(60, s2Pct), Math.max(60, s4Pct), true, !!revivedAll);
+        app.go("P14");
+      }
+
+      if (optBox) {
+        optBox.innerHTML = choices
+          .map(function (ch, i) {
+            var letter = ["A", "B", "C", "D"][i] || "A";
+            return (
+              '<button type="button" class="btn-gummy quiz-opt-btn gummy-shine" data-correct="' +
+              (ch.isCorrect ? "1" : "0") +
+              '">' +
+              "<span>" +
+              letter +
+              ". " +
+              ch.text +
+              "</span>" +
+              '<span class="badge-corner" style="background:#9A3412;color:#FFFFFF;">同义词</span>' +
+              "</button>"
+            );
+          })
+          .join("");
+
+        optBox.querySelectorAll(".quiz-opt-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            if (answered) return;
+            answered = true;
+            var isRight = btn.getAttribute("data-correct") === "1";
+
+            optBox.querySelectorAll(".quiz-opt-btn").forEach(function (b) {
+              b.disabled = true;
+              if (b.getAttribute("data-correct") === "1") b.classList.add("is-correct");
+            });
+
+            if (isRight) {
+              window.KET_STATE.clearWrongWord(card.id);
+              window.KET_AUDIO.playCorrect(3);
+              window.KET_AUDIO.speakCard(card, "full");
+              if (progBar) progBar.value = rIdx + 1;
+              if (clearFx) {
+                clearFx.classList.remove("is-hidden");
+                clearFx.innerHTML =
+                  '<div class="clear-copy">' +
+                  '<strong style="font-size:16px;">✓ 复活成功！#' +
+                  card.id +
+                  " " +
+                  card.word +
+                  " 已清零移出</strong>" +
+                  '<span class="sub-text">' +
+                  card.reminder +
+                  "</span></div>" +
+                  '<span class="lock-cloud-tag">直冲三星</span>';
+              }
+            } else {
+              st.session.reviveCleared = false;
+              window.KET_AUDIO.playWrong();
+              btn.classList.add("is-warn", "is-wrong-shake");
+            }
+
+            if (nextBtn) {
+              nextBtn.disabled = false;
+              nextBtn.textContent = rIdx + 1 < wrongIds.length ? "复活下一词 ▶" : "完成复活 · 领取星章 ▶";
+            }
+          });
         });
       }
 
-      var optBtns = screenEl.querySelectorAll(".quiz-options-stack .quiz-opt-btn");
-      optBtns.forEach(function (btn, idx) {
-        btn.addEventListener("click", function () {
-          optBtns.forEach(function (b) {
-            b.classList.remove("is-correct", "is-wrong-shake");
-          });
-          if (idx === 0) {
-            btn.classList.add("is-correct");
-            window.KET_AUDIO.playCorrect();
-            window.KET_AUDIO.speakCard(card, "full");
-            st.session.reviveCleared = true;
-            window.KET_STATE.save();
-            app.toast("错词复仇成功！已晋升 3 星满星评价");
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          if (!answered) return;
+          window.KET_AUDIO.playButton();
+          if (rIdx + 1 < wrongIds.length) {
+            st.session.reviveIndex = rIdx + 1;
+            app.go("P12");
           } else {
-            btn.classList.add("is-wrong-shake");
-            window.KET_AUDIO.playWrong();
+            finalizeRevive(st.session.reviveCleared !== false);
           }
         });
-      });
-
-      var claimBtn = screenEl.querySelector(".btn-cta-gold");
-      if (claimBtn) {
-        claimBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playFanfare();
-          var lv = st.session.level || 1;
-          window.KET_STATE.settleIslandRun(lv, 100, 100, st.session.chain !== false, true);
-          app.go("P14");
-        });
       }
+
+      [skipBtn, backBtn].forEach(function (b) {
+        if (b) {
+          b.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            finalizeRevive(false);
+          });
+        }
+      });
     }
   };
 })();
 
 
 // === modals_settle.js ===
-// 荔枝KET词卡助手 v1 - 第11关黄金圣殿巩固测验、3星/0星结算页与家长监护内购弹窗控制器 (P13-P16)
+// 荔枝KET词卡助手 v3 - 第11关黄金圣殿测验、通关星级结算、0星温和回炉与家长算术门禁控制器 (P13–P16)
 (function () {
   window.KET_VIEWS = window.KET_VIEWS || {};
 
-  // ==================== P13: 第11关「黄金王冠圣殿」巩固测验 (20题全真测验) ====================
+  function getIslandMeta(levelNo) {
+    var list = (window.KET_DATA && window.KET_DATA.ISLANDS_META) || [];
+    for (var i = 0; i < list.length; i++) {
+      if (Number(list[i].level) === Number(levelNo)) return list[i];
+    }
+    return { level: levelNo, name: "滴答钟表岛", guardian: "时光发条怪" };
+  }
+
+  // ==================== P13: 第11关「黄金王冠圣殿」20题全真巩固测验 ====================
   window.KET_VIEWS.P13 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var quizList = (window.KET_DATA && window.KET_DATA.QUIZ_20) || [];
-      var vmap = window.KET_STATE.getVocabMap();
-      var currentIdx = 0;
-      var correctCount = 18;
+      var idx = Math.max(0, Math.min(quizList.length - 1, Number(st.session.l11Index) || 0));
+      st.session.l11Index = idx;
+      var q = quizList[idx];
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var capMount = screenEl.querySelector("#l11-captain-mount");
+      if (capMount) capMount.innerHTML = window.KET_ART.captainBuddy("crown", 44);
+
+      var scorePill = screenEl.querySelector("#l11-score-pill");
+      var qLabel = screenEl.querySelector("#l11-q-label");
+      var accLabel = screenEl.querySelector("#l11-acc-label");
+      var progBar = screenEl.querySelector("#l11-prog");
+      var stemEl = screenEl.querySelector("#l11-stem");
+      var optBox = screenEl.querySelector("#l11-options");
+      var expEl = screenEl.querySelector("#l11-explain");
+      var nextBtn = screenEl.querySelector("#btn-l11-next");
+
+      if (scorePill) scorePill.textContent = (idx + 1) + "/20 题";
+      if (qLabel) qLabel.textContent = "第 " + (idx + 1) + "/20 题";
+      if (accLabel) accLabel.textContent = "已答对 " + (st.session.l11Correct || 0) + " 题";
+      if (progBar) progBar.value = idx + 1;
+      if (stemEl && q) stemEl.textContent = q.no + ". " + q.stem;
+
+      var answered = false;
+      if (q && optBox) {
+        var rawChoices = ["A", "B", "C"].map(function (k) {
+          return {
+            origKey: k,
+            text: q.options[k],
+            isCorrect: k === q.answer
+          };
+        });
+        var shuffled = window.KET_STATE.shuffleArray(rawChoices);
+
+        optBox.innerHTML = shuffled
+          .map(function (ch, i) {
+            var dispKey = ["A", "B", "C"][i];
+            return (
+              '<button type="button" class="btn-gummy quiz-opt-btn gummy-shine" data-correct="' +
+              (ch.isCorrect ? "1" : "0") +
+              '">' +
+              "<span>" +
+              dispKey +
+              ". " +
+              ch.text +
+              "</span>" +
+              '<span class="badge-corner" style="background:#1E40AF;color:#FFFFFF;">圣殿选答</span>' +
+              "</button>"
+            );
+          })
+          .join("");
+
+        optBox.querySelectorAll(".quiz-opt-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            if (answered) return;
+            answered = true;
+            var isRight = btn.getAttribute("data-correct") === "1";
+
+            optBox.querySelectorAll(".quiz-opt-btn").forEach(function (b) {
+              b.disabled = true;
+              if (b.getAttribute("data-correct") === "1") b.classList.add("is-correct");
+            });
+
+            if (isRight) {
+              st.session.l11Correct = (st.session.l11Correct || 0) + 1;
+              var combo = window.KET_STATE.recordCombo(true);
+              window.KET_AUDIO.playCorrect(combo);
+            } else {
+              window.KET_STATE.recordCombo(false);
+              if (q.cardId) window.KET_STATE.addWrongWord(q.cardId, "圣殿20题测验");
+              window.KET_AUDIO.playWrong();
+              btn.classList.add("is-warn", "is-wrong-shake");
+            }
+
+            if (accLabel) accLabel.textContent = "已答对 " + (st.session.l11Correct || 0) + " 题";
+            if (expEl) {
+              expEl.classList.remove("is-hidden");
+              expEl.innerHTML =
+                '<div style="font-size:16px;font-weight:900;">' +
+                (isRight ? "✓ 回答正确！" : "温和解析：") +
+                "</div>" +
+                '<div class="sub-text">' +
+                q.explanation +
+                "</div>";
+            }
+
+            if (nextBtn) {
+              nextBtn.disabled = false;
+              nextBtn.textContent = idx + 1 < quizList.length ? "下一题 (" + (idx + 2) + "/20) ▶" : "完成圣殿试炼 · 领星章 ▶";
+            }
+          });
+        });
+      }
+
+      var spkBtn = screenEl.querySelector("#btn-l11-speak");
+      if (spkBtn && q) {
+        spkBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakVocab(q.stem);
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", function () {
+          if (!answered) return;
+          window.KET_AUDIO.playButton();
+          if (idx + 1 < quizList.length) {
+            st.session.l11Index = idx + 1;
+            app.go("P13");
+          } else {
+            var res = window.KET_STATE.settleL11Quiz(st.session.l11Correct || 0);
+            app.go(res.stars > 0 ? "P14" : "P15");
+          }
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-l11-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
           app.go("P04");
         });
       }
-
-      function renderQuestion(idx) {
-        var q = quizList[idx] || quizList[0];
-        if (!q) return;
-        var card = vmap[q.cardId] || { word: "put off", syn: "postponed" };
-
-        var infoSpans = screenEl.querySelectorAll(".sanctuary-info .sub-text span");
-        if (infoSpans.length >= 1) {
-          infoSpans[0].textContent = "全真巩固测验 " + q.no + " / 20";
-        }
-        var prog = screenEl.querySelector(".sanctuary-info progress.ui-progress");
-        if (prog) prog.value = q.no;
-
-        var metaSpan = screenEl.querySelector(".quiz-main-card .sub-text");
-        if (metaSpan) metaSpan.textContent = "第 " + q.no + " 题 · 关联词卡 #" + q.cardId;
-
-        var plaqueSpan = screenEl.querySelector(".crown-plaque .word-display");
-        if (plaqueSpan) plaqueSpan.textContent = card.word + " = " + card.syn.split(" / ")[0];
-
-        var stemP = screenEl.querySelector(".quiz-main-card p.body-text");
-        if (stemP) stemP.textContent = q.no + ". " + q.stem;
-
-        var optBtns = screenEl.querySelectorAll(".quiz-options-stack .quiz-opt-btn");
-        var keys = ["A", "B", "C"];
-        optBtns.forEach(function (btn, oIdx) {
-          var k = keys[oIdx];
-          var isAns = k === q.answer;
-          btn.classList.remove("is-correct", "is-wrong-shake");
-          if (idx === 0 && isAns) {
-            btn.classList.add("is-correct");
-            btn.innerHTML =
-              "<span>" +
-              k +
-              ". " +
-              q.options[k] +
-              '</span><span class="badge-corner" style="background:#064E3B;color:#FEF08A;">正确答案 ' +
-              k +
-              "</span>";
-          } else {
-            btn.innerHTML = "<span>" + k + ". " + q.options[k] + "</span>";
-          }
-          btn.onclick = function () {
-            optBtns.forEach(function (b) {
-              b.classList.remove("is-correct", "is-wrong-shake");
-            });
-            if (k === q.answer) {
-              btn.classList.add("is-correct");
-              btn.innerHTML =
-                "<span>" +
-                k +
-                ". " +
-                q.options[k] +
-                '</span><span class="badge-corner" style="background:#064E3B;color:#FEF08A;">正确答案 ' +
-                k +
-                "</span>";
-              window.KET_AUDIO.playCorrect();
-              correctCount = Math.min(20, correctCount + 1);
-            } else {
-              btn.classList.add("is-wrong-shake");
-              window.KET_AUDIO.playWrong();
-              window.KET_STATE.addWrongWord(q.cardId, "圣殿测验");
-            }
-          };
-        });
-
-        var explainDivs = screenEl.querySelectorAll(".explain-card .body-text");
-        if (explainDivs.length >= 2) {
-          explainDivs[0].textContent = "正确答案：" + q.answer;
-          explainDivs[1].textContent = "解析：" + q.explanation;
-        }
-
-        var nextBtn = screenEl.querySelector(".btn-cta-gold");
-        if (nextBtn) {
-          if (idx < quizList.length - 1) {
-            nextBtn.textContent = "下一题 (" + (idx + 2) + " / 20) ▶";
-          } else {
-            nextBtn.textContent = "完成黄金圣殿加冕结算 ▶";
-          }
-        }
-      }
-
-      renderQuestion(0);
-
-      var nextBtn = screenEl.querySelector(".btn-cta-gold");
-      if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          if (currentIdx < quizList.length - 1) {
-            currentIdx += 1;
-            renderQuestion(currentIdx);
-          } else {
-            window.KET_STATE.settleL11Quiz(correctCount);
-            window.KET_AUDIO.playFanfare();
-            app.go("P14");
-          }
-        });
-      }
     }
   };
 
-  // ==================== P14: 通关星级结算页（3星达标） ====================
+  // ==================== P14: 通关星级结算页（3D拱形琥珀金星章 + 底层轻彩带） ====================
   window.KET_VIEWS.P14 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
-      var lv = (st.session.lastSettlement && st.session.lastSettlement.level) || st.session.level || 1;
-      var islands = (window.KET_DATA && window.KET_DATA.ISLANDS) || [];
-      var curIsland = islands[lv - 1] || islands[0];
-      var nextLv = Math.min(11, lv + 1);
-      var nextIsland = islands[nextLv - 1] || islands[1];
+      var settle = st.session.lastSettlement || {
+        level: st.session.level || st.currentLevel || 1,
+        stars: 3,
+        passed: true,
+        avgScore: 100,
+        stage2Pct: 100,
+        stage4Pct: 100,
+        isChainRun: true
+      };
+      var lv = Number(settle.level) || 1;
+      var stars = Math.max(1, Math.min(3, Number(settle.stars) || 3));
+      var meta = getIslandMeta(lv);
+      var mastery = window.KET_STATE.getMasteryStats();
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P03");
-        });
+      var hudTitle = screenEl.querySelector("#settle-hud-title");
+      var hudSub = screenEl.querySelector("#settle-hud-sub");
+      var streakTxt = screenEl.querySelector("#settle-streak-text");
+      if (hudTitle) hudTitle.textContent = "第" + lv + "关 · 通关结算";
+      if (hudSub) hudSub.textContent = meta.name + " · 获得 " + stars + " 枚琥珀星章";
+      if (streakTxt) streakTxt.textContent = "连胜 " + Math.max(1, st.streakDays || 1) + "天";
+
+      var starsMount = screenEl.querySelector("#settle-stars-mount");
+      if (starsMount) starsMount.innerHTML = window.KET_ART.settlementStarsSvg(stars);
+
+      var capMount = screenEl.querySelector("#settle-captain-mount");
+      if (capMount) capMount.innerHTML = window.KET_ART.captainBuddy(lv === 11 ? "crown" : "cheer", 58);
+
+      var mainTitle = screenEl.querySelector("#settle-main-title");
+      var subNote = screenEl.querySelector("#settle-sub-note");
+      if (mainTitle) mainTitle.textContent = "太棒啦！" + stars + "星点亮" + meta.name;
+      if (subNote) {
+        subNote.textContent =
+          "综合正确率 " +
+          settle.avgScore +
+          "% · " +
+          (lv === 1 ? "已免费解锁第2关罗盘迷宫岛！" : "最高连击 x" + Math.max(3, st.session.maxCombo || 5));
       }
 
-      var pageTitle = screenEl.querySelector(".page-title");
-      if (pageTitle && curIsland) {
-        pageTitle.textContent = curIsland.name + " · 通关!";
-      }
-
-      var banner = screenEl.querySelector(".mastered-banner");
-      if (banner) {
-        banner.style.cursor = "pointer";
-        banner.addEventListener("click", function () {
-          var vmap = window.KET_STATE.getVocabMap();
-          window.KET_AUDIO.speakCard(vmap["001"], "full");
-        });
-      }
-
-      var unlockBtn = screenEl.querySelector(".btn-cta-main");
-      if (unlockBtn) {
-        if (nextIsland && lv === 1) {
-          unlockBtn.textContent = "免费解锁第 2 关 · " + nextIsland.name + " ▶";
+      var grid = screenEl.querySelector("#settle-score-grid");
+      if (grid) {
+        if (lv === 11) {
+          grid.innerHTML = [
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">圣殿测验得分</span><strong style="font-size:20px;color:#1E40AF;">' +
+              settle.avgScore +
+              "%</strong></div>",
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">获得王冠星章</span><strong style="font-size:20px;color:#9A3412;">' +
+              stars +
+              " / 3 ★</strong></div>"
+          ].join("");
+        } else {
+          grid.innerHTML = [
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">阶段① 晶石配对</span><strong style="font-size:18px;color:#047857;">10/10 全消</strong></div>',
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">阶段② 语境单选</span><strong style="font-size:18px;color:#1E40AF;">' +
+              settle.stage2Pct +
+              "%</strong></div>",
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">阶段③ 魔法拼写</span><strong style="font-size:18px;color:#047857;">5/5 通关</strong></div>',
+            '<div class="score-box"><span class="sub-text" style="color:#475569;">阶段④ 守关挑战</span><strong style="font-size:18px;color:#9A3412;">' +
+              settle.stage4Pct +
+              "%</strong></div>"
+          ].join("");
         }
-        unlockBtn.addEventListener("click", function () {
+      }
+
+      var mTitle = screenEl.querySelector("#settle-mastery-title");
+      var mSub = screenEl.querySelector("#settle-mastery-sub");
+      if (mTitle) {
+        mTitle.textContent = lv === 11 ? "黄金王冠圣殿试炼荣耀达成！" : "本关 10 组核心同义替换已收入宝典";
+      }
+      if (mSub) {
+        mSub.textContent = "累计已掌握 " + mastery.count + " / 100 组 · 连胜 " + Math.max(1, st.streakDays || 1) + " 天";
+      }
+
+      // 播撒底层稀疏彩带（z-index:1 不遮挡文字）与错峰星章庆典音效
+      app.spawnConfetti(screenEl);
+      for (var s = 1; s <= stars; s++) {
+        (function (starNo) {
+          app.setTimer(function () {
+            window.KET_AUDIO.playStar(starNo);
+          }, (starNo - 1) * 200 + 60);
+        })(s);
+      }
+      app.setTimer(function () {
+        window.KET_AUDIO.playFanfare();
+      }, stars * 200 + 80);
+
+      var banner = screenEl.querySelector("#settle-mastered-banner");
+      if (banner) {
+        banner.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
-          window.KET_STATE.settleIslandRun(lv, 100, 100, true, true);
-          st.currentLevel = nextLv;
-          st.session.level = nextLv;
-          window.KET_STATE.save();
-          app.toast("已解锁第 " + nextLv + " 关 · " + (nextIsland ? nextIsland.name : "新海岛"));
-          app.go("P03");
+          app.go("P18");
+        });
+      }
+
+      var homeBtn = screenEl.querySelector("#btn-settle-home");
+      if (homeBtn) {
+        homeBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          app.go("P01");
+        });
+      }
+
+      var mapBtn = screenEl.querySelector("#btn-settle-map");
+      if (mapBtn) {
+        mapBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          app.go(lv <= 6 ? "P03" : "P04");
+        });
+      }
+
+      var nextBtn = screenEl.querySelector("#btn-settle-next");
+      if (nextBtn) {
+        var nextLv = Math.min(11, lv + 1);
+        var nextUnlocked = st.levels[String(nextLv)] && st.levels[String(nextLv)].unlocked;
+        if (lv === 11) {
+          nextBtn.textContent = "返回群岛地图 ▶";
+        } else if (nextUnlocked) {
+          nextBtn.textContent = "闯第" + nextLv + "关 · " + getIslandMeta(nextLv).name + " ▶";
+        } else {
+          nextBtn.textContent = "解锁第3–11关全岛 ▶";
+        }
+
+        nextBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          if (lv === 11) {
+            app.go("P04");
+          } else if (st.levels[String(nextLv)] && st.levels[String(nextLv)].unlocked) {
+            st.currentLevel = nextLv;
+            st.session.level = nextLv;
+            window.KET_STATE.save();
+            app.go(nextLv === 11 ? "P13" : "P05");
+          } else {
+            app.go("P16");
+          }
         });
       }
     }
   };
 
-  // ==================== P15: 守关挑战未达标结算页（0星回炉·禁彩带） ====================
+  // ==================== P15: 守关挑战未达标结算页（0星温和回炉 · 严禁彩带） ====================
   window.KET_VIEWS.P15 = {
     mount: function (screenEl, app) {
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P03");
-        });
+      var st = window.KET_STATE.get();
+      var settle = st.session.lastSettlement || { level: st.session.level || 1, avgScore: 50 };
+      var lv = Math.max(1, Math.min(10, Number(settle.level) || 1));
+      var vmap = window.KET_STATE.getVocabMap();
+      var focusId =
+        (st.session.runWrongIds && st.session.runWrongIds[0]) || window.KET_STATE.getLevelCards(lv)[0].id;
+      var card = vmap[focusId] || window.KET_STATE.getLevelCards(lv)[0];
+
+      var capMount = screenEl.querySelector("#retry-captain-mount");
+      if (capMount) capMount.innerHTML = window.KET_ART.captainBuddy("encourage", 62);
+
+      var scorePill = screenEl.querySelector("#retry-score-pill");
+      if (scorePill) {
+        scorePill.textContent = "本局综合正确率 " + (settle.avgScore || 50) + "% · 达标线 60%";
       }
 
-      var retryBtn = screenEl.querySelector(".btn-secondary-gummy");
-      if (retryBtn) {
-        retryBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P11");
-        });
+      if (card) {
+        var wEn = screenEl.querySelector("#retry-word-en");
+        var wSyn = screenEl.querySelector("#retry-word-syn");
+        var rem = screenEl.querySelector("#retry-reminder");
+        if (wEn) wEn.textContent = card.word;
+        if (wSyn) {
+          wSyn.innerHTML = "<span>= " + card.syn + '</span><span class="sub-text">' + card.cn + "</span>";
+        }
+        if (rem) rem.textContent = "替换提醒：" + card.reminder;
       }
 
-      var wrongCampBtn = screenEl.querySelector(".btn-cta-main");
-      if (wrongCampBtn) {
-        wrongCampBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+      var wrongBtn = screenEl.querySelector("#btn-retry-wrong");
+      if (wrongBtn) {
+        wrongBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
           app.go("P17");
         });
       }
-    }
-  };
 
-  // ==================== P16: 家长监护内购解锁弹窗 ====================
-  window.KET_VIEWS.P16 = {
-    mount: function (screenEl, app) {
-      var mathVerified = true;
+      var againBtn = screenEl.querySelector("#btn-retry-again");
+      if (againBtn) {
+        againBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          window.KET_STATE.prepareLevelRun(lv, true);
+          app.go("P06");
+        });
+      }
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var backBtn = screenEl.querySelector("#btn-retry-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
-          app.go("P03");
+          app.go("P05");
+        });
+      }
+    }
+  };
+
+  // ==================== P16: 家长监护内购解锁弹窗（随机算术防误触门禁） ====================
+  window.KET_VIEWS.P16 = {
+    mount: function (screenEl, app) {
+      var st = window.KET_STATE.get();
+
+      var dioMount = screenEl.querySelector("#iap-diorama-mount");
+      if (dioMount) dioMount.innerHTML = window.KET_ART.islandDioramaSvg(3, false, 58);
+
+      var a = 5 + Math.floor(Math.random() * 5);
+      var b = 6 + Math.floor(Math.random() * 4);
+      var rightSum = a + b;
+      var opts = window.KET_STATE.shuffleArray([rightSum, rightSum - 2, rightSum + 1, rightSum + 3]);
+
+      var promptEl = screenEl.querySelector("#iap-math-prompt");
+      var gridEl = screenEl.querySelector("#iap-math-grid");
+      var unlockBtn = screenEl.querySelector("#btn-iap-unlock");
+
+      if (promptEl) promptEl.textContent = "家长防误触验证：请点选 " + a + " + " + b + " = ?";
+
+      if (gridEl) {
+        gridEl.innerHTML = opts
+          .map(function (val) {
+            return (
+              '<button type="button" class="btn-gummy math-opt-btn gummy-shine" data-val="' +
+              val +
+              '">' +
+              val +
+              "</button>"
+            );
+          })
+          .join("");
+
+        gridEl.querySelectorAll(".math-opt-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var val = Number(btn.getAttribute("data-val"));
+            gridEl.querySelectorAll(".math-opt-btn").forEach(function (x) {
+              x.classList.remove("is-correct", "is-wrong-shake");
+            });
+
+            if (val === rightSum) {
+              window.KET_AUDIO.playCorrect(2);
+              btn.classList.add("is-correct");
+              if (unlockBtn) {
+                unlockBtn.disabled = false;
+                unlockBtn.textContent = st.iapUnlocked ? "已解锁全岛 · 立即前往 ▶" : "立即解锁全岛 ¥9.9 ▶";
+              }
+            } else {
+              window.KET_AUDIO.playWrong();
+              btn.classList.add("is-wrong-shake");
+              if (unlockBtn) {
+                unlockBtn.disabled = true;
+                unlockBtn.textContent = "请先点选正确算术结果";
+              }
+            }
+          });
         });
       }
 
-      var cancelBtn = screenEl.querySelector(".btn-cancel-pill");
-      if (cancelBtn) {
-        cancelBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P03");
-        });
-      }
-
-      var mathBar = screenEl.querySelector(".parent-math-bar");
-      var ansBox = screenEl.querySelector(".math-ans-box");
-      if (mathBar && ansBox) {
-        mathBar.style.cursor = "pointer";
-        mathBar.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          mathVerified = true;
-          ansBox.textContent = "15 ✓";
-          app.toast("家长监护算术题验证通过：8 + 7 = 15");
-        });
-      }
-
-      var payBtn = screenEl.querySelector(".btn-cta-gold");
-      if (payBtn) {
-        payBtn.addEventListener("click", function () {
-          if (!mathVerified) {
-            window.KET_AUDIO.playWrong();
-            app.toast("请先完成家长监护算术确认", true);
-            return;
-          }
+      if (unlockBtn) {
+        unlockBtn.addEventListener("click", function () {
+          if (unlockBtn.disabled) return;
           window.KET_STATE.unlockIAP();
           window.KET_AUDIO.playFanfare();
-          app.toast("演示内购成功！已解锁 L3–L11 全部关卡与 20 张默写卡");
+          app.toast("已解锁第3–11关全部奇幻糖果岛与20张默写卡！");
           app.go("P03");
         });
       }
+
+      var cancelBtn = screenEl.querySelector("#btn-iap-cancel");
+      var backBtn = screenEl.querySelector("#btn-iap-back");
+      [cancelBtn, backBtn].forEach(function (el) {
+        if (el) {
+          el.addEventListener("click", function () {
+            window.KET_AUDIO.playClick();
+            app.go("P03");
+          });
+        }
+      });
     }
   };
 })();
 
 
 // === tools.js ===
-// 荔枝KET词卡助手 v1 - 错题强化营、100词速查宝典与双遮罩抽背、20张填空默写、家长掌握率打卡表与设置隐私控制器 (P17-P21)
+// 荔枝KET词卡助手 v3 - 错题强化营、100词宝典双遮罩抽背、20张在线默写工坊、家长7天打卡表与设置隐私控制器 (P17–P21)
 (function () {
   window.KET_VIEWS = window.KET_VIEWS || {};
 
   function bindBottomNav(screenEl, app) {
-    var tabs = screenEl.querySelectorAll(".bottom-nav .nav-tab");
-    tabs.forEach(function (btn) {
+    var btns = screenEl.querySelectorAll(".bottom-nav .nav-tab");
+    btns.forEach(function (btn) {
       btn.addEventListener("click", function () {
         window.KET_AUDIO.playClick();
-        var txt = (btn.textContent || "").trim();
-        if (txt.indexOf("群岛") !== -1) app.go("P03");
-        else if (txt.indexOf("宝典") !== -1) app.go("P18");
-        else if (txt.indexOf("错题") !== -1) app.go("P17");
-        else if (txt.indexOf("默写") !== -1) app.go("P19");
+        var nav = btn.getAttribute("data-nav") || "";
+        if (nav === "群岛") app.go("P03");
+        else if (nav === "宝典") app.go("P18");
+        else if (nav === "错题") app.go("P17");
+        else if (nav === "默写") app.go("P19");
       });
     });
   }
 
-  // ==================== P17: 荔枝错题强化营（读取真实 wrongBook 错频降序 + 零失误清零） ====================
+  // ==================== P17: 荔枝错题强化营（错频降序 + 零失误清零移出） ====================
   window.KET_VIEWS.P17 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var vmap = window.KET_STATE.getVocabMap();
 
-      function renderWrongCamp() {
+      function renderWrongView() {
         var wrongList = window.KET_STATE.getWrongListSorted();
-        var pill = screenEl.querySelector(".streak-pill");
-        if (pill) pill.textContent = "待清 " + wrongList.length + "词";
+        var countPill = screenEl.querySelector("#wrong-count-pill");
+        var listBox = screenEl.querySelector("#wrong-list-box");
+        var clearBox = screenEl.querySelector("#wrong-clear-box");
+        var practiceBtn = screenEl.querySelector("#btn-wrong-practice");
 
-        var groupCard = screenEl.querySelector(".wrong-group-card");
-        if (groupCard) {
+        if (countPill) countPill.textContent = "待清 " + wrongList.length + "词";
+
+        if (listBox) {
           if (wrongList.length === 0) {
-            groupCard.innerHTML =
-              '<article class="wrong-item-card" role="listitem">' +
-              '<div class="wrong-item-top"><span class="wrong-id-tag">太棒啦！当前错题本已全部清零</span><span class="freq-badge">0 待清</span></div>' +
-              '<div class="wrong-pair-row"><span class="wrong-w">100% Clear</span><span class="wrong-s">= 零错题积压</span></div>' +
-              "</article>";
+            listBox.innerHTML = [
+              '<article class="wrong-item-card" role="listitem">',
+              '  <div class="wrong-item-top">',
+              '    <span class="wrong-id-tag">当前错题本 0 积压 · 状态满分</span>',
+              '    <span class="freq-badge">0 待清</span>',
+              "  </div>",
+              '  <div class="wrong-pair-row">',
+              '    <span class="wrong-w">Zero Mistakes</span>',
+              '    <span class="wrong-s">= 去群岛闯关收集新词汇吧</span>',
+              "  </div>",
+              "</article>"
+            ].join("");
           } else {
-            groupCard.innerHTML = wrongList
-              .slice(0, 3)
+            listBox.innerHTML = wrongList
               .map(function (item) {
-                return (
-                  '<article class="wrong-item-card" role="listitem" data-id="' +
-                  item.id +
-                  '">' +
-                  '<div class="wrong-item-top">' +
-                  '<span class="wrong-id-tag">#' +
-                  item.id +
-                  " · " +
-                  item.cn +
-                  "（" +
-                  item.source +
-                  "）</span>" +
-                  '<span class="freq-badge">累计错 ' +
-                  item.count +
-                  " 次</span>" +
-                  "</div>" +
-                  '<div class="wrong-pair-row">' +
-                  '<span class="wrong-w">' +
-                  item.word +
-                  "</span>" +
-                  '<span class="wrong-s">= ' +
-                  item.syn +
-                  "</span>" +
-                  "</div>" +
+                return [
+                  '<article class="wrong-item-card" role="listitem" data-cid="' + item.id + '">',
+                  '  <div class="wrong-item-top">',
+                  '    <span class="wrong-id-tag">#' + item.id + " · " + item.cn + "（" + item.source + "）</span>",
+                  '    <span class="freq-badge">错 ' + item.count + " 次 · 点按听音</span>",
+                  "  </div>",
+                  '  <div class="wrong-pair-row">',
+                  '    <span class="wrong-w">' + item.word + "</span>",
+                  '    <span class="wrong-s">= ' + item.syn + "</span>",
+                  "  </div>",
+                  '  <div class="sub-text" style="color:#475569;">' + item.reminder + "</div>",
                   "</article>"
-                );
+                ].join("");
               })
               .join("");
 
-            var itemCards = groupCard.querySelectorAll(".wrong-item-card");
-            itemCards.forEach(function (cardEl) {
+            listBox.querySelectorAll(".wrong-item-card").forEach(function (cardEl) {
               cardEl.addEventListener("click", function () {
-                var cid = cardEl.dataset.id;
-                if (!cid) return;
-                window.KET_STATE.clearWrongWord(cid);
-                window.KET_AUDIO.playCorrect();
-                if (vmap[cid]) window.KET_AUDIO.speakCard(vmap[cid], "full");
-                app.toast("零失误通过！#" + cid + " " + (vmap[cid] ? vmap[cid].word : "") + " 已清零移出");
-                renderWrongCamp();
+                var cid = cardEl.getAttribute("data-cid");
+                if (!cid || !vmap[cid]) return;
+                window.KET_AUDIO.playClick();
+                window.KET_AUDIO.speakCard(vmap[cid], "full");
+                app.toast("正在朗读 #" + cid + " " + vmap[cid].word + " · 点下方按钮重测清零");
               });
             });
           }
         }
 
-        // 更新最近清零移出流光卡
-        var clearedId = st.recentlyClearedId || "001";
-        var clearedCard = vmap[clearedId] || vmap["001"];
-        var clearFx = screenEl.querySelector(".wrong-clear-fx");
-        if (clearFx && clearedCard) {
-          clearFx.innerHTML =
-            '<div class="wrong-item-top">' +
-            '<span class="wrong-id-tag" style="color:#064E3B">#' +
-            clearedCard.id +
-            " · " +
-            clearedCard.cn +
-            "</span>" +
-            '<span class="clear-badge">✓ 零失误清零移出</span>' +
-            "</div>" +
-            '<div class="wrong-pair-row">' +
-            '<span class="wrong-w" style="color:#064E3B">' +
-            clearedCard.word +
-            "</span>" +
-            '<span class="wrong-s" style="color:#064E3B">= ' +
-            clearedCard.syn +
-            "</span>" +
-            "</div>";
+        if (clearBox) {
+          var recId = st.recentlyClearedId;
+          if (recId && vmap[recId]) {
+            var rc = vmap[recId];
+            clearBox.classList.remove("is-hidden");
+            clearBox.innerHTML = [
+              '<div class="wrong-item-top">',
+              '  <span class="wrong-id-tag" style="color:#064E3B;">最近清零：#' + rc.id + " · " + rc.cn + "</span>",
+              '  <span class="clear-badge">✓ 零失误移出</span>',
+              "</div>",
+              '<div class="wrong-pair-row">',
+              '  <span class="wrong-w" style="color:#064E3B;">' + rc.word + "</span>",
+              '  <span class="wrong-s" style="color:#064E3B;">= ' + rc.syn + "</span>",
+              "</div>"
+            ].join("");
+          } else {
+            clearBox.classList.add("is-hidden");
+          }
         }
 
-        var mainBtn = screenEl.querySelector(".btn-cta-main");
-        if (mainBtn) {
-          mainBtn.textContent =
+        if (practiceBtn) {
+          practiceBtn.textContent =
             wrongList.length > 0
-              ? "一键专练高频错词 (" + wrongList.length + "词) ▶"
-              : "错题已全部清零 · 返回群岛闯关 ▶";
+              ? "开始错词重测清零 (" + wrongList.length + "词) ▶"
+              : "返回奇幻糖果群岛闯关 ▶";
         }
       }
 
-      renderWrongCamp();
+      renderWrongView();
 
-      var mainBtn = screenEl.querySelector(".btn-cta-main");
-      if (mainBtn) {
-        mainBtn.addEventListener("click", function () {
+      var practiceBtn = screenEl.querySelector("#btn-wrong-practice");
+      if (practiceBtn) {
+        practiceBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
           var wrongList = window.KET_STATE.getWrongListSorted();
           if (wrongList.length > 0) {
-            var topItem = wrongList[0];
-            window.KET_STATE.clearWrongWord(topItem.id);
-            window.KET_AUDIO.playCorrect();
-            if (vmap[topItem.id]) window.KET_AUDIO.speakCard(vmap[topItem.id], "full");
-            app.toast("已消灭高频错词 #" + topItem.id + " " + topItem.word + "！");
-            renderWrongCamp();
+            st.session.runWrongIds = wrongList.slice(0, 5).map(function (w) {
+              return w.id;
+            });
+            st.session.reviveIndex = 0;
+            st.session.reviveCleared = true;
+            app.go("P12");
           } else {
-            window.KET_AUDIO.playClick();
             app.go("P03");
           }
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-wrong-back");
+      if (backBtn) {
+        backBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          app.go("P01");
         });
       }
 
@@ -4225,280 +7532,130 @@ window.KET_TEMPLATES = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var allVocab = (window.KET_DATA && window.KET_DATA.VOCAB_100) || [];
-      var scenes = (window.KET_DATA && window.KET_DATA.SCENES) || [];
-      var activeSceneIdx = 0;
+      var steps = (window.KET_DATA && window.KET_DATA.PARENT_3_STEPS) || [];
 
-      function renderVocabCards() {
-        var scenePrefix = String(activeSceneIdx + 1).padStart(2, "0");
-        var filtered = allVocab.filter(function (c) {
-          return c.scene.indexOf(scenePrefix) === 0;
-        });
-        var pair = filtered.slice(0, 2);
-        var stack = screenEl.querySelector(".vocab-stack");
-        if (!stack || pair.length === 0) return;
-
-        var maskOn = st.vocabBook.maskMode !== false;
-        stack.innerHTML = pair
-          .map(function (c) {
-            var isRevealed = !maskOn || !!(st.vocabBook.revealedIds && st.vocabBook.revealedIds[c.id]);
-            if (isRevealed) {
-              return (
-                '<article class="vocab-card" data-id="' +
-                c.id +
-                '">' +
-                '<div class="vc-head">' +
-                "<span>#" +
-                c.id +
-                " " +
-                c.cn +
-                " · " +
-                c.example +
-                "</span>" +
-                '<span class="vc-tag">已揭晓</span>' +
-                "</div>" +
-                '<div class="vc-pair-grid">' +
-                '<div class="vc-word gummy-shine">' +
-                c.word +
-                "</div>" +
-                '<div class="vc-syn gummy-shine">' +
-                c.syn +
-                "</div>" +
-                "</div>" +
-                '<div class="kd-reminder">替换识别提醒：' +
-                c.reminder +
-                "</div>" +
-                "</article>"
-              );
-            } else {
-              // 双遮罩防偷瞄：同时遮挡 .vc-syn 同义替换与 .kd-reminder 替换识别提醒
-              return (
-                '<article class="vocab-card mask-quiz-card" data-id="' +
-                c.id +
-                '">' +
-                '<div class="vc-head">' +
-                "<span>#" +
-                c.id +
-                " " +
-                c.cn +
-                " · " +
-                c.example +
-                "</span>" +
-                '<span class="vc-tag is-wait">待抽背</span>' +
-                "</div>" +
-                '<div class="vc-pair-grid">' +
-                '<div class="vc-word gummy-shine">' +
-                c.word +
-                "</div>" +
-                '<div class="vc-syn">点击揭晓同义替换</div>' +
-                "</div>" +
-                '<div class="kd-reminder">替换识别提醒已同步遮挡（点击揭晓）</div>' +
-                "</article>"
-              );
-            }
+      var stepsBox = screenEl.querySelector("#vocab-parent-steps");
+      if (stepsBox) {
+        stepsBox.innerHTML = steps
+          .map(function (line) {
+            return '<div style="margin-top:2px;">' + line + "</div>";
           })
           .join("");
+      }
 
-        stack.querySelectorAll(".vocab-card").forEach(function (cardEl) {
-          cardEl.addEventListener("click", function () {
-            var cid = cardEl.dataset.id;
-            st.vocabBook.revealedIds = st.vocabBook.revealedIds || {};
-            st.vocabBook.revealedIds[cid] = !st.vocabBook.revealedIds[cid];
-            window.KET_STATE.save();
-            var vmap = window.KET_STATE.getVocabMap();
-            if (vmap[cid]) window.KET_AUDIO.speakCard(vmap[cid], "full");
-            renderVocabCards();
+      var scenes = [];
+      allVocab.forEach(function (v) {
+        if (scenes.indexOf(v.scene) === -1) scenes.push(v.scene);
+      });
+
+      var sceneBar = screenEl.querySelector("#vocab-scene-bar");
+      var stackEl = screenEl.querySelector("#vocab-card-stack");
+      var maskPill = screenEl.querySelector("#vocab-mask-pill");
+      var toggleBtn = screenEl.querySelector("#btn-vocab-toggle-mask");
+
+      function renderVocabList() {
+        var activeIdx = Math.max(0, Math.min(scenes.length - 1, Number(st.vocabBook.activeSceneIdx) || 0));
+        var isMask = st.vocabBook.maskMode !== false;
+
+        if (maskPill) maskPill.textContent = isMask ? "遮罩：开" : "遮罩：关";
+        if (toggleBtn) {
+          toggleBtn.textContent = isMask ? "切换为全显速查模式" : "切换为双遮罩抽背模式";
+        }
+
+        if (sceneBar) {
+          sceneBar.innerHTML = scenes
+            .map(function (sc, idx) {
+              var shortLabel = sc.split(" (")[0];
+              var cls = "scene-chip" + (idx === activeIdx ? " is-on" : "");
+              return (
+                '<span role="tab" tabindex="0" aria-selected="' +
+                (idx === activeIdx ? "true" : "false") +
+                '" class="' +
+                cls +
+                '" data-sidx="' +
+                idx +
+                '">' +
+                shortLabel +
+                "</span>"
+              );
+            })
+            .join("");
+
+          sceneBar.querySelectorAll(".scene-chip").forEach(function (chip) {
+            chip.addEventListener("click", function () {
+              window.KET_AUDIO.playClick();
+              st.vocabBook.activeSceneIdx = Number(chip.getAttribute("data-sidx")) || 0;
+              window.KET_STATE.save();
+              renderVocabList();
+            });
           });
+        }
+
+        var activeScene = scenes[activeIdx];
+        var sceneCards = allVocab.filter(function (v) {
+          return v.scene === activeScene;
         });
 
-        var toggleBtn = screenEl.querySelector(".btn-cta-gold");
-        if (toggleBtn) {
-          toggleBtn.textContent = maskOn
-            ? "遮挡同义词与提醒：开启中 ✓"
-            : "遮挡同义词与提醒：已全部展开";
+        if (stackEl) {
+          stackEl.innerHTML = sceneCards
+            .map(function (card) {
+              var revealed = !isMask || !!(st.vocabBook.revealedIds && st.vocabBook.revealedIds[card.id]);
+              var mastered = !!(st.masteredIds && st.masteredIds[card.id]);
+              var cardCls = "vocab-card" + (revealed ? "" : " mask-quiz-card");
+              var tagCls = "vc-tag" + (mastered ? "" : " is-wait");
+              var tagTxt = mastered ? "✓ 已掌握" : "待闯关";
+
+              return [
+                '<article class="' + cardCls + '" data-cid="' + card.id + '" role="button" tabindex="0">',
+                '  <div class="vc-head">',
+                "    <span>#" + card.id + " · " + card.cn + "（" + card.usage + "）</span>",
+                '    <span class="' + tagCls + '">' + tagTxt + "</span>",
+                "  </div>",
+                '  <div class="vc-pair-grid">',
+                '    <div class="vc-word">' + card.word + "</div>",
+                '    <div class="vc-syn">' + (revealed ? "= " + card.syn : "点按翻开同义词") + "</div>",
+                "  </div>",
+                '  <div class="kd-reminder">' +
+                  (revealed ? card.example + " · " + card.reminder : "家长读出蓝晶原词，3秒内说出替换词后点按核对") +
+                  "</div>",
+                "</article>"
+              ].join("");
+            })
+            .join("");
+
+          stackEl.querySelectorAll(".vocab-card").forEach(function (el) {
+            el.addEventListener("click", function () {
+              var cid = el.getAttribute("data-cid");
+              var vmap = window.KET_STATE.getVocabMap();
+              var c = vmap[cid];
+              if (!c) return;
+              window.KET_AUDIO.playKey();
+              if (st.vocabBook.maskMode !== false) {
+                st.vocabBook.revealedIds = st.vocabBook.revealedIds || {};
+                st.vocabBook.revealedIds[cid] = !st.vocabBook.revealedIds[cid];
+              }
+              window.KET_AUDIO.speakCard(c, "full");
+              renderVocabList();
+            });
+          });
         }
       }
 
-      var chips = screenEl.querySelectorAll(".scene-filter-bar .scene-chip");
-      chips.forEach(function (chip, idx) {
-        chip.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          chips.forEach(function (c) {
-            c.classList.remove("is-on");
-          });
-          chip.classList.add("is-on");
-          activeSceneIdx = idx < scenes.length ? idx : 0;
-          renderVocabCards();
-        });
-      });
+      renderVocabList();
 
-      var toggleBtn = screenEl.querySelector(".btn-cta-gold");
       if (toggleBtn) {
         toggleBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          st.vocabBook.maskMode = !st.vocabBook.maskMode;
-          if (!st.vocabBook.maskMode) {
-            st.vocabBook.revealedIds = { "001": true, "002": true };
-          } else {
-            st.vocabBook.revealedIds = { "001": true };
+          window.KET_AUDIO.playButton();
+          st.vocabBook.maskMode = !(st.vocabBook.maskMode !== false);
+          if (st.vocabBook.maskMode) {
+            st.vocabBook.revealedIds = {};
           }
           window.KET_STATE.save();
-          renderVocabCards();
+          renderVocabList();
         });
       }
 
-      renderVocabCards();
-      bindBottomNav(screenEl, app);
-    }
-  };
-
-  // ==================== P19: 20张在线填空默写工坊（漏首字母容错 + 同义词提示换一个） ====================
-  window.KET_VIEWS.P19 = {
-    mount: function (screenEl, app) {
-      var st = window.KET_STATE.get();
-      var dictList = (window.KET_DATA && window.KET_DATA.DICTATION_20) || [];
-      var activeCardIdx = 0;
-
-      function bindInputSlots() {
-        var qRows = screenEl.querySelectorAll(".dict-sheet-card .q-row");
-        var cardObj = dictList[activeCardIdx] || dictList[0];
-        if (!cardObj) return;
-
-        qRows.forEach(function (row, idx) {
-          var slot = row.querySelector(".input-slot");
-          var pill = row.querySelector(".status-pill");
-          var qItem = cardObj.questions[idx];
-          if (!slot || !qItem) return;
-
-          // 点击输入槽可循环演示或直接键盘编辑并实时调用 gradeDictationItem 判分
-          slot.setAttribute("contenteditable", "true");
-          slot.setAttribute("spellcheck", "false");
-          slot.addEventListener("blur", function () {
-            var val = (slot.textContent || "").trim();
-            if (idx < 3) {
-              var res = window.KET_STATE.gradeDictationItem(qItem, val, true);
-              slot.classList.toggle("is-warn", res.status !== "correct");
-              if (pill) {
-                pill.classList.toggle("is-swap", res.status !== "correct");
-                pill.textContent = res.label;
-              }
-            }
-          });
-        });
-      }
-
-      function renderDictationCard(cardIdx) {
-        activeCardIdx = cardIdx;
-        var cardObj = dictList[cardIdx] || dictList[0];
-        if (!cardObj) return;
-
-        var titleEl = screenEl.querySelector(".sheet-title");
-        if (titleEl) {
-          titleEl.textContent = "默写卡 " + cardObj.cardNo + " (" + cardObj.theme + ")";
-        }
-
-        if (cardIdx > 0) {
-          var qRows = screenEl.querySelectorAll(".dict-sheet-card .q-row");
-          var qs = cardObj.questions;
-          if (qRows.length >= 4 && qs.length >= 5) {
-            qRows[0].innerHTML =
-              '<div class="q-prompt">1. <span class="q-lead-word">' +
-              qs[0].prompt.split(" = ")[0] +
-              "</span> = " +
-              qs[0].prompt.split(" = ").slice(1).join(" = ") +
-              "</div>" +
-              '<div class="q-ans-bar"><span class="input-slot">' +
-              qs[0].answer +
-              '</span><span class="status-pill">✓ 标准答案</span></div>';
-            qRows[1].innerHTML =
-              '<div class="q-prompt">2. ' +
-              qs[1].prompt +
-              "</div>" +
-              '<div class="q-ans-bar"><span class="input-slot">[' +
-              qs[1].answer[0] +
-              "]" +
-              qs[1].answer.slice(1) +
-              '</span><span class="status-pill">✓ 漏首字母判对</span></div>';
-            qRows[2].innerHTML =
-              '<div class="q-prompt">3. ' +
-              qs[2].prompt +
-              " · 参考答案: " +
-              qs[2].answer +
-              "</div>" +
-              '<div class="q-ans-bar"><span class="input-slot">' +
-              qs[2].answer +
-              '</span><span class="status-pill">✓ 标准答案</span></div>';
-            qRows[3].innerHTML =
-              '<div class="q-prompt">4. ' +
-              qs[3].prompt +
-              " · 5. " +
-              qs[4].prompt +
-              "</div>" +
-              '<div class="q-ans-bar"><span class="input-slot">4. ' +
-              qs[3].answer +
-              " · 5. " +
-              qs[4].answer +
-              '</span><span class="status-pill">✓ 4–5题全对</span></div>';
-          }
-        }
-        bindInputSlots();
-      }
-
-      var tabs = screenEl.querySelectorAll(".dict-card-tabs .dict-tab");
-      tabs.forEach(function (tab, idx) {
-        tab.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          if (idx === 2 && !st.iapUnlocked) {
-            app.go("P16");
-            return;
-          }
-          tabs.forEach(function (t) {
-            t.classList.remove("is-current");
-          });
-          tab.classList.add("is-current");
-          renderDictationCard(idx);
-        });
-      });
-
-      bindInputSlots();
-
-      var submitBtn = screenEl.querySelector(".btn-cta-main");
-      if (submitBtn) {
-        submitBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playCorrect();
-          var qRows = screenEl.querySelectorAll(".dict-sheet-card .q-row");
-          var cardObj = dictList[activeCardIdx] || dictList[0];
-          if (qRows.length >= 3 && cardObj) {
-            var q3 = cardObj.questions[2];
-            var slot3 = qRows[2].querySelector(".input-slot");
-            var pill3 = qRows[2].querySelector(".status-pill");
-            if (slot3 && q3) {
-              slot3.textContent = q3.answer;
-              var graded = window.KET_STATE.gradeDictationItem(q3, q3.answer, false);
-              slot3.classList.remove("is-warn");
-              if (pill3) {
-                pill3.classList.remove("is-swap");
-                pill3.textContent = graded.label;
-              }
-            }
-          }
-          st.dailyQuests.dictationDone = true;
-          window.KET_STATE.save();
-          submitBtn.textContent = "本卡 5 题全对通过 ✓";
-          app.toast("默写卡批改完成！5 题全部达标，今日微任务③已完成");
-        });
-      }
-
-      bindBottomNav(screenEl, app);
-    }
-  };
-
-  // ==================== P20: 家长端掌握率总览与7天复习打卡表 ====================
-  window.KET_VIEWS.P20 = {
-    mount: function (screenEl, app) {
-      var st = window.KET_STATE.get();
-      var stats = window.KET_STATE.getMasteryStats();
-
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
+      var backBtn = screenEl.querySelector("#btn-vocab-back");
       if (backBtn) {
         backBtn.addEventListener("click", function () {
           window.KET_AUDIO.playClick();
@@ -4506,113 +7663,365 @@ window.KET_TEMPLATES = {
         });
       }
 
-      var statSpan = screenEl.querySelector(".summary-stat");
-      var prog = screenEl.querySelector(".mastery-summary-card progress.ui-progress");
-      if (statSpan) {
-        statSpan.textContent = "已掌握 " + stats.count + " / " + stats.total + " (" + stats.pct + "%)";
-      }
-      if (prog) {
-        prog.value = stats.count;
-      }
+      bindBottomNav(screenEl, app);
+    }
+  };
 
-      var dayRows = screenEl.querySelectorAll(".day-grid .day-row");
-      dayRows.forEach(function (row, idx) {
-        var dayKey = "Day " + (idx + 1);
-        var isChecked = !!st.checkinDays[dayKey];
-        row.classList.toggle("is-done", isChecked);
-        var tag = row.querySelector(".day-tag");
-        if (tag) {
-          var baseTxt = idx === 6 ? "100%全对" : "90%以上";
-          tag.textContent = isChecked ? "✓ " + baseTxt : baseTxt;
+  // ==================== P19: 20张在线填空默写工坊（0预填 + 首字母/同义词家族智能容错） ====================
+  window.KET_VIEWS.P19 = {
+    mount: function (screenEl, app) {
+      var st = window.KET_STATE.get();
+      var cards20 = (window.KET_DATA && window.KET_DATA.DICTATION_20) || [];
+
+      var tabsBar = screenEl.querySelector("#dict-tabs-bar");
+      var sheetTitle = screenEl.querySelector("#dict-sheet-title");
+      var sheetSub = screenEl.querySelector("#dict-sheet-sub");
+      var qListEl = screenEl.querySelector("#dict-q-list");
+      var resetBtn = screenEl.querySelector("#btn-dict-reset");
+      var gradeBtn = screenEl.querySelector("#btn-dict-grade");
+
+      function renderDictSheet() {
+        var activeIdx = Math.max(0, Math.min(cards20.length - 1, Number(st.dictation.activeCardIdx) || 0));
+        var curSheet = cards20[activeIdx];
+        if (!curSheet.free && !st.iapUnlocked) {
+          activeIdx = 0;
+          st.dictation.activeCardIdx = 0;
+          curSheet = cards20[0];
         }
-        row.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          st.checkinDays[dayKey] = !st.checkinDays[dayKey];
-          window.KET_STATE.save();
-          var nowChecked = !!st.checkinDays[dayKey];
-          row.classList.toggle("is-done", nowChecked);
-          if (tag) {
-            var bTxt = idx === 6 ? "100%全对" : "90%以上";
-            tag.textContent = nowChecked ? "✓ " + bTxt : bTxt;
-          }
-        });
-      });
 
-      var signBtn = screenEl.querySelector(".btn-cta-gold");
-      if (signBtn) {
-        signBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playFanfare();
-          for (var d = 1; d <= 7; d++) {
-            var dk = "Day " + d;
-            if (!st.checkinDays[dk]) {
-              st.checkinDays[dk] = true;
-              break;
+        if (tabsBar) {
+          tabsBar.innerHTML = cards20
+            .map(function (c, idx) {
+              var unlocked = c.free || st.iapUnlocked;
+              var cls = "dict-tab" + (idx === activeIdx ? " is-current" : "");
+              var lockIcon = unlocked
+                ? ""
+                : '<svg class="ico" style="width:14px;height:14px;"><use href="#ico-lock"/></svg>';
+              return (
+                '<span role="tab" tabindex="0" class="' +
+                cls +
+                '" data-didx="' +
+                idx +
+                '">' +
+                lockIcon +
+                "<span>卡 " +
+                c.id +
+                "</span></span>"
+              );
+            })
+            .join("");
+
+          tabsBar.querySelectorAll(".dict-tab").forEach(function (tabEl) {
+            tabEl.addEventListener("click", function () {
+              var idx = Number(tabEl.getAttribute("data-didx")) || 0;
+              var target = cards20[idx];
+              window.KET_AUDIO.playClick();
+              if (!target.free && !st.iapUnlocked) {
+                app.go("P16");
+                return;
+              }
+              st.dictation.activeCardIdx = idx;
+              window.KET_STATE.save();
+              renderDictSheet();
+            });
+          });
+        }
+
+        if (sheetTitle) sheetTitle.textContent = curSheet.title;
+        if (sheetSub) sheetSub.textContent = (curSheet.free ? "免费体验" : "全岛已解锁") + " · 共5题";
+
+        var savedMap = (st.dictation.records && st.dictation.records[curSheet.id]) || null;
+
+        if (qListEl) {
+          qListEl.innerHTML = curSheet.questions
+            .map(function (q, qIdx) {
+              var rawVal = savedMap && typeof savedMap[qIdx] === "string" ? savedMap[qIdx] : "";
+              var res = rawVal ? window.KET_STATE.gradeDictationItem(q, rawVal) : { status: "empty", label: "待填写" };
+              var slotCls =
+                "input-slot" +
+                (res.status === "correct" ? " is-pass" : res.status === "wrong" || res.status === "synonym_swap" ? " is-warn" : "");
+              var pillCls =
+                "status-pill" +
+                (res.status === "correct" ? " is-pass" : res.status === "synonym_swap" ? " is-swap" : "");
+              var safeVal = rawVal.replace(/"/g, "&quot;");
+
+              return [
+                '<div class="q-row" data-qidx="' + qIdx + '">',
+                '  <div class="q-prompt"><span class="q-lead-word">' + q.no + ".</span> " + q.prompt + "</div>",
+                '  <div class="q-ans-bar">',
+                '    <div class="' + slotCls + '">',
+                '      <input type="text" class="dict-inline-input" data-qidx="' +
+                  qIdx +
+                  '" value="' +
+                  safeVal +
+                  '" placeholder="在此输入同义替换词..." autocomplete="off" autocapitalize="off" spellcheck="false" />',
+                "    </div>",
+                '    <span class="' + pillCls + '" data-pill="' + qIdx + '">' + res.label + "</span>",
+                "  </div>",
+                "</div>"
+              ].join("");
+            })
+            .join("");
+        }
+      }
+
+      renderDictSheet();
+
+      if (gradeBtn) {
+        gradeBtn.addEventListener("click", function () {
+          var activeIdx = Math.max(0, Math.min(cards20.length - 1, Number(st.dictation.activeCardIdx) || 0));
+          var curSheet = cards20[activeIdx];
+          var inputs = qListEl ? qListEl.querySelectorAll(".dict-inline-input") : [];
+          var rec = {};
+          var passCount = 0;
+          var filledCount = 0;
+
+          inputs.forEach(function (inp) {
+            var qIdx = Number(inp.getAttribute("data-qidx")) || 0;
+            var val = (inp.value || "").trim();
+            rec[qIdx] = val;
+            var q = curSheet.questions[qIdx];
+            var res = window.KET_STATE.gradeDictationItem(q, val);
+
+            if (val) filledCount += 1;
+            if (res.status === "correct") {
+              passCount += 1;
+            } else if (res.status === "wrong" && q.cardId) {
+              window.KET_STATE.addWrongWord(q.cardId, "默写卡" + curSheet.id);
             }
+          });
+
+          st.dictation.records = st.dictation.records || {};
+          st.dictation.records[curSheet.id] = rec;
+          if (filledCount >= 5) {
+            st.dailyQuests.dictationDone = true;
+            window.KET_STATE.markTodayStreak(st);
           }
           window.KET_STATE.save();
-          app.toast("家长复盘签字确认成功！已同步更新7天打卡表");
-          app.go("P20");
+
+          if (passCount === 5) {
+            window.KET_AUDIO.playFanfare();
+            app.toast("满分通过！本张默写卡 5/5 题全对！");
+          } else {
+            window.KET_AUDIO.playCorrect(Math.max(1, passCount));
+            app.toast("批改完成：答对 " + passCount + "/5 题（同义词误填不扣错）");
+          }
+          renderDictSheet();
+        });
+      }
+
+      if (resetBtn) {
+        resetBtn.addEventListener("click", function () {
+          var activeIdx = Math.max(0, Math.min(cards20.length - 1, Number(st.dictation.activeCardIdx) || 0));
+          var curSheet = cards20[activeIdx];
+          window.KET_AUDIO.playClick();
+          if (st.dictation.records && st.dictation.records[curSheet.id]) {
+            delete st.dictation.records[curSheet.id];
+            window.KET_STATE.save();
+          }
+          renderDictSheet();
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-dict-back");
+      if (backBtn) {
+        backBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          app.go("P01");
+        });
+      }
+
+      bindBottomNav(screenEl, app);
+    }
+  };
+
+  // ==================== P20: 家长学情看板与 7 天复习打卡表 ====================
+  window.KET_VIEWS.P20 = {
+    mount: function (screenEl, app) {
+      var st = window.KET_STATE.get();
+      var plan7 = (window.KET_DATA && window.KET_DATA.SEVEN_DAYS_PLAN) || [];
+
+      function renderParentBoard() {
+        var mastery = window.KET_STATE.getMasteryStats();
+        var totalStars = window.KET_STATE.getTotalStars();
+        var doneDays = 0;
+        plan7.forEach(function (p) {
+          if (st.checkinDays && st.checkinDays[p.day]) doneDays += 1;
+        });
+
+        var pill = screenEl.querySelector("#parent-streak-pill");
+        var mNum = screenEl.querySelector("#parent-mastery-num");
+        var mPct = screenEl.querySelector("#parent-mastery-pct");
+        var mProg = screenEl.querySelector("#parent-mastery-prog");
+        var tBadge = screenEl.querySelector("#parent-table-badge");
+        var dayGrid = screenEl.querySelector("#parent-day-grid");
+
+        if (pill) pill.textContent = "打卡 " + doneDays + "/7天";
+        if (mNum) mNum.textContent = "已掌握 " + mastery.count + " / 100 组";
+        if (mPct) mPct.textContent = "掌握率 " + mastery.pct + "% · " + totalStars + "/33★";
+        if (mProg) mProg.value = mastery.pct;
+        if (tBadge) tBadge.textContent = doneDays + "/7 已核验";
+
+        if (dayGrid) {
+          dayGrid.innerHTML = plan7
+            .map(function (item, idx) {
+              var done = !!(st.checkinDays && st.checkinDays[item.day]);
+              var cls = "day-row" + (idx === 6 ? " is-full" : "") + (done ? " is-done" : "");
+              return [
+                '<div class="' + cls + '" data-day="' + item.day + '" role="button" tabindex="0">',
+                '  <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;width:100%;">',
+                "    <strong>" + item.day + "</strong>",
+                '    <span class="day-tag">' + (done ? "✓ 已打卡" : "待核验") + "</span>",
+                "  </div>",
+                '  <div class="day-meta"><span>' + item.range + "</span><span>目标 " + item.target + "</span></div>",
+                "</div>"
+              ].join("");
+            })
+            .join("");
+
+          dayGrid.querySelectorAll(".day-row").forEach(function (rowEl) {
+            rowEl.addEventListener("click", function () {
+              var dayKey = rowEl.getAttribute("data-day");
+              if (!dayKey) return;
+              st.checkinDays[dayKey] = !st.checkinDays[dayKey];
+              if (st.checkinDays[dayKey]) {
+                window.KET_AUDIO.playCorrect(2);
+                window.KET_STATE.markTodayStreak(st);
+              } else {
+                window.KET_AUDIO.playClick();
+              }
+              window.KET_STATE.save();
+              renderParentBoard();
+            });
+          });
+        }
+      }
+
+      renderParentBoard();
+
+      var vocabBtn = screenEl.querySelector("#btn-parent-vocab");
+      if (vocabBtn) {
+        vocabBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          app.go("P18");
+        });
+      }
+
+      var setBtn = screenEl.querySelector("#btn-parent-settings");
+      if (setBtn) {
+        setBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playButton();
+          app.go("P21");
+        });
+      }
+
+      var backBtn = screenEl.querySelector("#btn-parent-back");
+      if (backBtn) {
+        backBtn.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          app.go("P01");
         });
       }
     }
   };
 
-  // ==================== P21: 设置、离线英音分包与儿童隐私保护 ====================
+  // ==================== P21: 设置、英音分包与儿童隐私保护 ====================
   window.KET_VIEWS.P21 = {
     mount: function (screenEl, app) {
       var st = window.KET_STATE.get();
       var vmap = window.KET_STATE.getVocabMap();
+      var resetArmed = false;
 
-      var backBtn = screenEl.querySelector(".btn-back-gummy");
-      if (backBtn) {
-        backBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P01");
-        });
-      }
+      function syncSettingPills() {
+        var cfg = st.settings;
+        var pBgm = screenEl.querySelector("#pill-bgm");
+        var pSfx = screenEl.querySelector("#pill-sfx");
+        var pDuck = screenEl.querySelector("#pill-duck");
 
-      var rows = screenEl.querySelectorAll(".setting-privacy-panel .setting-row");
-      if (rows.length >= 2) {
-        // 第1行：剑桥英音试听
-        rows[0].addEventListener("click", function () {
-          window.KET_AUDIO.speakCard(vmap["001"], "full");
-          app.toast("正在试听剑桥英音 (en-GB)：immediately");
-        });
-
-        // 第2行：播英音时音效自动闪避压至 30%
-        var duckPill = rows[1].querySelector(".toggle-pill");
-        if (duckPill) {
-          duckPill.textContent = st.settings.audioDucking !== false ? "已开启 ✓" : "已关闭";
+        if (pBgm) {
+          pBgm.textContent = cfg.bgmEnabled ? "已开启" : "已关闭";
+          pBgm.classList.toggle("is-off", !cfg.bgmEnabled);
         }
-        rows[1].addEventListener("click", function () {
-          st.settings.audioDucking = !st.settings.audioDucking;
+        if (pSfx) {
+          pSfx.textContent = cfg.sfxEnabled ? "已开启" : "已关闭";
+          pSfx.classList.toggle("is-off", !cfg.sfxEnabled);
+        }
+        if (pDuck) {
+          pDuck.textContent = cfg.audioDucking !== false ? "30% 压低" : "原音量";
+          pDuck.classList.toggle("is-off", cfg.audioDucking === false);
+        }
+      }
+
+      syncSettingPills();
+
+      var rowTry = screenEl.querySelector("#row-try-uk");
+      if (rowTry) {
+        rowTry.addEventListener("click", function () {
+          window.KET_AUDIO.playClick();
+          window.KET_AUDIO.speakCard(vmap["001"], "full");
+          app.toast("正在播报标准英音 (en-GB)，背景音效已压至 30%");
+        });
+      }
+
+      var rowBgm = screenEl.querySelector("#row-toggle-bgm");
+      if (rowBgm) {
+        rowBgm.addEventListener("click", function () {
+          st.settings.bgmEnabled = !st.settings.bgmEnabled;
           window.KET_STATE.save();
+          window.KET_AUDIO.syncBgmState();
           window.KET_AUDIO.playClick();
-          if (duckPill) {
-            duckPill.textContent = st.settings.audioDucking ? "已开启 ✓" : "已关闭";
-          }
-          app.toast(
-            st.settings.audioDucking
-              ? "已开启英音闪避（播语音时音效压至 30%）"
-              : "已关闭英音闪避"
-          );
+          syncSettingPills();
         });
       }
 
-      var keepBtn = screenEl.querySelector(".btn-keep-safe");
-      if (keepBtn) {
-        keepBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
-          app.go("P01");
+      var rowSfx = screenEl.querySelector("#row-toggle-sfx");
+      if (rowSfx) {
+        rowSfx.addEventListener("click", function () {
+          st.settings.sfxEnabled = !st.settings.sfxEnabled;
+          window.KET_STATE.save();
+          if (st.settings.sfxEnabled) window.KET_AUDIO.playClick();
+          syncSettingPills();
         });
       }
 
-      var resetBtn = screenEl.querySelector(".btn-warn-reset");
+      var rowDuck = screenEl.querySelector("#row-toggle-duck");
+      if (rowDuck) {
+        rowDuck.addEventListener("click", function () {
+          st.settings.audioDucking = st.settings.audioDucking === false;
+          window.KET_STATE.save();
+          window.KET_AUDIO.syncBgmState();
+          window.KET_AUDIO.playClick();
+          syncSettingPills();
+        });
+      }
+
+      var keepBtn = screenEl.querySelector("#btn-set-keep");
+      var backBtn = screenEl.querySelector("#btn-set-back");
+      [keepBtn, backBtn].forEach(function (b) {
+        if (b) {
+          b.addEventListener("click", function () {
+            window.KET_AUDIO.playButton();
+            app.go("P01");
+          });
+        }
+      });
+
+      var resetBtn = screenEl.querySelector("#btn-set-reset");
+      var resetDesc = screenEl.querySelector("#reset-modal-desc");
       if (resetBtn) {
         resetBtn.addEventListener("click", function () {
-          window.KET_AUDIO.playClick();
+          if (!resetArmed) {
+            resetArmed = true;
+            window.KET_AUDIO.playWrong();
+            resetBtn.textContent = "再次点按确认清空";
+            if (resetDesc) {
+              resetDesc.textContent = "请再次点按右侧按钮确认：将清空本地所有星章、错题与打卡记录！";
+            }
+            return;
+          }
           window.KET_STATE.resetLocalProgress();
-          app.toast("已重置本机学习记录（已内购解锁权益保留）");
+          window.KET_AUDIO.playClick();
+          app.toast("本地进度已重置为新用户初始 0 状态");
           app.go("P01");
         });
       }
@@ -4622,13 +8031,14 @@ window.KET_TEMPLATES = {
 
 
 // === app.js ===
-// 荔枝KET词卡助手 v1 - 主路由、定时器防泄漏管理与全局应用入口
+// 荔枝KET词卡助手 v3 - 全局路由、强制首页启动、星尘碰撞粒子、符文抛物线飞入与连击 Fever 框引擎
 (function () {
   var timers = [];
   var intervals = [];
   var toastTimer = null;
   var currentPage = "P01";
-  var isNavigating = false;
+
+  var STARDUST_COLORS = ["#FEF08A", "#FF4769", "#34D399", "#38BDF8", "#FDBA74", "#C084FC"];
 
   function clearAllTimers() {
     while (timers.length > 0) {
@@ -4655,6 +8065,14 @@ window.KET_TEMPLATES = {
     return id;
   }
 
+  function prefersReducedMotion() {
+    try {
+      return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    } catch (e) {
+      return false;
+    }
+  }
+
   function showToast(msg, isWarn) {
     var screenEl = document.getElementById("phone-screen");
     if (!screenEl) return;
@@ -4670,7 +8088,119 @@ window.KET_TEMPLATES = {
     if (toastTimer) window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(function () {
       if (div && div.parentNode) div.parentNode.removeChild(div);
-    }, 1800);
+    }, 1850);
+  }
+
+  /**
+   * 法则 05：连击视觉同步（>=3 棋盘泛金光 + 连击胶囊微倾，>=5 点亮 4px 彩虹 Fever 框）
+   */
+  function syncComboVisual(screenEl, comboCount, pillSelector) {
+    if (!screenEl) return;
+    var c = Math.max(0, Number(comboCount) || 0);
+    screenEl.classList.toggle("is-combo-gold", c >= 3);
+    screenEl.classList.toggle("is-fever", c >= 5);
+
+    var ff = screenEl.querySelector(".fever-frame");
+    if (ff) ff.classList.toggle("is-active", c >= 5);
+
+    if (pillSelector) {
+      var pill = screenEl.querySelector(pillSelector);
+      if (pill) {
+        pill.textContent = c >= 5 ? "FEVER x" + c : "连击 x" + c;
+        pill.classList.toggle("is-combo-tilt", c >= 3);
+      }
+    }
+  }
+
+  /**
+   * 法则 04：配对成功爆 10 颗糖果星尘（240ms 合成器动画）
+   */
+  function burstStardust(screenEl, cx, cy) {
+    if (prefersReducedMotion() || !screenEl) return;
+    var layer = document.createElement("div");
+    layer.className = "stardust-layer";
+    var count = 10;
+
+    for (var i = 0; i < count; i++) {
+      var dot = document.createElement("span");
+      dot.className = "stardust-dot";
+      var angle = (Math.PI * 2 * i) / count + (Math.random() * 0.35 - 0.175);
+      var dist = 34 + Math.random() * 38;
+      var dx = Math.round(Math.cos(angle) * dist);
+      var dy = Math.round(Math.sin(angle) * dist - 10);
+      dot.style.left = Math.round(cx - 5) + "px";
+      dot.style.top = Math.round(cy - 5) + "px";
+      dot.style.background = STARDUST_COLORS[i % STARDUST_COLORS.length];
+      dot.style.setProperty("--dx", dx + "px");
+      dot.style.setProperty("--dy", dy + "px");
+      layer.appendChild(dot);
+    }
+
+    screenEl.appendChild(layer);
+    window.setTimeout(function () {
+      if (layer && layer.parentNode) layer.parentNode.removeChild(layer);
+    }, 280);
+  }
+
+  /**
+   * 法则 08：符文键帽点击后沿 160ms 抛物线飞入上方空槽
+   */
+  function flyRuneChip(fromBtn, toSlot, ch) {
+    if (prefersReducedMotion() || !fromBtn || !toSlot) return;
+    try {
+      var r1 = fromBtn.getBoundingClientRect();
+      var r2 = toSlot.getBoundingClientRect();
+      var chip = document.createElement("div");
+      chip.className = "flying-rune-chip";
+      chip.textContent = ch;
+      chip.style.left = Math.round(r1.left + r1.width * 0.5 - 22) + "px";
+      chip.style.top = Math.round(r1.top + r1.height * 0.5 - 22) + "px";
+      document.body.appendChild(chip);
+
+      var dx = Math.round(r2.left + r2.width * 0.5 - (r1.left + r1.width * 0.5));
+      var dy = Math.round(r2.top + r2.height * 0.5 - (r1.top + r1.height * 0.5));
+
+      if (typeof chip.animate === "function") {
+        var anim = chip.animate(
+          [
+            { transform: "translate(0px, 0px) scale(1)", opacity: 1 },
+            { transform: "translate(" + Math.round(dx * 0.5) + "px, " + Math.round(dy * 0.5 - 26) + "px) scale(1.08)", opacity: 1 },
+            { transform: "translate(" + dx + "px, " + dy + "px) scale(0.76)", opacity: 0.85 }
+          ],
+          { duration: 160, easing: "cubic-bezier(0.22, 1, 0.36, 1)", fill: "forwards" }
+        );
+        anim.onfinish = function () {
+          if (chip && chip.parentNode) chip.parentNode.removeChild(chip);
+        };
+      } else {
+        window.setTimeout(function () {
+          if (chip && chip.parentNode) chip.parentNode.removeChild(chip);
+        }, 160);
+      }
+    } catch (e) {}
+  }
+
+  /**
+   * 法则 06：P14 通关星级结算页底层轻彩带（严格挂载在 z-index:1 的 #settle-confetti 内）
+   */
+  function spawnConfetti(screenEl) {
+    if (prefersReducedMotion() || !screenEl) return;
+    var box = screenEl.querySelector("#settle-confetti");
+    if (!box) return;
+    box.innerHTML = "";
+    var count = 20;
+    for (var i = 0; i < count; i++) {
+      var p = document.createElement("span");
+      p.className = "confetti-piece";
+      p.style.left = Math.round((i / count) * 94 + 3) + "%";
+      p.style.top = Math.round(Math.random() * 24) + "px";
+      p.style.background = STARDUST_COLORS[i % STARDUST_COLORS.length];
+      p.style.animationDelay = Math.round((i % 5) * 80) + "ms";
+      p.style.setProperty("--cx", Math.round(Math.random() * 56 - 28) + "px");
+      p.style.setProperty("--cy", Math.round(200 + Math.random() * 240) + "px");
+      p.style.setProperty("--cr", Math.round(120 + Math.random() * 200) + "deg");
+      box.appendChild(p);
+    }
   }
 
   function go(pageId) {
@@ -4680,77 +8210,57 @@ window.KET_TEMPLATES = {
 
     clearAllTimers();
     currentPage = pid;
-    isNavigating = true;
-    try {
-      if (window.location.hash !== "#" + pid) {
-        window.history.replaceState(null, "", "#" + pid);
-      }
-    } catch (e) {}
-    isNavigating = false;
 
     var tpl = pages[pid];
     var screenEl = document.getElementById("phone-screen");
-    var captionEl = document.getElementById("screen-caption");
-    if (captionEl && tpl.caption) {
-      captionEl.textContent = tpl.caption;
-    }
-    if (tpl.title) {
-      document.title = tpl.title;
-    }
+    if (!screenEl) return;
 
-    if (screenEl) {
-      screenEl.className = tpl.screenClass;
-      screenEl.setAttribute("data-page", pid);
-      screenEl.innerHTML = tpl.html;
+    screenEl.className = tpl.screenClass;
+    screenEl.setAttribute("data-page", pid);
+    screenEl.innerHTML = tpl.html;
 
-      if (window.KET_VIEWS && window.KET_VIEWS[pid] && typeof window.KET_VIEWS[pid].mount === "function") {
-        window.KET_VIEWS[pid].mount(screenEl, window.KET_APP);
-      }
+    if (window.KET_VIEWS && window.KET_VIEWS[pid] && typeof window.KET_VIEWS[pid].mount === "function") {
+      window.KET_VIEWS[pid].mount(screenEl, window.KET_APP);
     }
 
-    // 同步桌面端快速跳页高亮（仅桌面端可见）
-    var jumpBtns = document.querySelectorAll(".desktop-page-switcher button");
-    jumpBtns.forEach(function (b) {
-      b.classList.toggle("is-active", b.dataset.pid === pid);
-    });
+    var boardEl = screenEl.querySelector(".zone-board");
+    if (boardEl) boardEl.scrollTop = 0;
+
+    var headingEl = screenEl.querySelector("h1");
+    if (headingEl) {
+      headingEl.setAttribute("tabindex", "-1");
+      try {
+        headingEl.focus({ preventScroll: true });
+      } catch (e) {}
+    }
+  }
+
+  function syncViewportHeight() {
+    var vh = (window.visualViewport && window.visualViewport.height) || window.innerHeight;
+    if (vh && vh > 0) {
+      document.documentElement.style.setProperty("--app-height", Math.round(vh) + "px");
+    }
   }
 
   function init() {
+    syncViewportHeight();
+    window.addEventListener("resize", syncViewportHeight);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", syncViewportHeight);
+    }
+
     var svgWrap = document.getElementById("ket-svg-defs");
     if (svgWrap && window.KET_TEMPLATES && window.KET_TEMPLATES.SVG_SYMBOLS) {
       svgWrap.innerHTML = window.KET_TEMPLATES.SVG_SYMBOLS;
     }
 
-    // 桌面端快速跳页栏绑定
-    var switcher = document.getElementById("desktop-page-switcher");
-    if (switcher && window.KET_TEMPLATES && window.KET_TEMPLATES.PAGES) {
-      var keys = Object.keys(window.KET_TEMPLATES.PAGES).sort();
-      switcher.innerHTML = keys
-        .map(function (k) {
-          return '<button type="button" data-pid="' + k + '">' + k + "</button>";
-        })
-        .join("");
-      switcher.querySelectorAll("button").forEach(function (btn) {
-        btn.addEventListener("click", function () {
-          go(btn.dataset.pid);
-        });
-      });
-    }
-
-    window.addEventListener("hashchange", function () {
-      if (isNavigating) return;
-      var h = (window.location.hash || "").replace(/^#/, "").toUpperCase();
-      if (h && window.KET_TEMPLATES && window.KET_TEMPLATES.PAGES[h]) {
-        go(h);
+    // 铁律：任何首次进入（即便 URL 含旧 #hash）一律先进入 P01 开场首页
+    try {
+      if (window.location.hash) {
+        window.history.replaceState(null, "", window.location.pathname + window.location.search);
       }
-    });
-
-    var initHash = (window.location.hash || "").replace(/^#/, "").toUpperCase();
-    if (initHash && window.KET_TEMPLATES && window.KET_TEMPLATES.PAGES[initHash]) {
-      go(initHash);
-    } else {
-      go("P01");
-    }
+    } catch (e) {}
+    go("P01");
   }
 
   window.KET_APP = {
@@ -4761,7 +8271,11 @@ window.KET_TEMPLATES = {
     setTimer: setTimer,
     setInterval: setManagedInterval,
     clearAllTimers: clearAllTimers,
-    toast: showToast
+    toast: showToast,
+    syncComboVisual: syncComboVisual,
+    burstStardust: burstStardust,
+    flyRuneChip: flyRuneChip,
+    spawnConfetti: spawnConfetti
   };
 
   if (document.readyState === "loading") {

@@ -1,0 +1,2711 @@
+{
+  "version": "3.1",
+  "voice": "en-GB-SoniaNeural",
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitrate": "48kbps",
+  "count": 300,
+  "totalBytes": 4357692,
+  "items": [
+    {
+      "id": "001_word",
+      "cardId": "001",
+      "mode": "word",
+      "text": "immediately",
+      "file": "assets/voice/001_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "001_syn",
+      "cardId": "001",
+      "mode": "syn",
+      "text": "right away, at once",
+      "file": "assets/voice/001_syn.mp3",
+      "bytes": 14061,
+      "duration": 2.256
+    },
+    {
+      "id": "001_full",
+      "cardId": "001",
+      "mode": "full",
+      "text": "immediately. right away, at once",
+      "file": "assets/voice/001_full.mp3",
+      "bytes": 21693,
+      "duration": 3.528
+    },
+    {
+      "id": "002_word",
+      "cardId": "002",
+      "mode": "word",
+      "text": "eventually",
+      "file": "assets/voice/002_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "002_syn",
+      "cardId": "002",
+      "mode": "syn",
+      "text": "in the end, finally",
+      "file": "assets/voice/002_syn.mp3",
+      "bytes": 13053,
+      "duration": 2.088
+    },
+    {
+      "id": "002_full",
+      "cardId": "002",
+      "mode": "full",
+      "text": "eventually. in the end, finally",
+      "file": "assets/voice/002_full.mp3",
+      "bytes": 20397,
+      "duration": 3.312
+    },
+    {
+      "id": "003_word",
+      "cardId": "003",
+      "mode": "word",
+      "text": "at present",
+      "file": "assets/voice/003_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "003_syn",
+      "cardId": "003",
+      "mode": "syn",
+      "text": "currently, right now",
+      "file": "assets/voice/003_syn.mp3",
+      "bytes": 12765,
+      "duration": 2.04
+    },
+    {
+      "id": "003_full",
+      "cardId": "003",
+      "mode": "full",
+      "text": "at present. currently, right now",
+      "file": "assets/voice/003_full.mp3",
+      "bytes": 20541,
+      "duration": 3.336
+    },
+    {
+      "id": "004_word",
+      "cardId": "004",
+      "mode": "word",
+      "text": "fortnight",
+      "file": "assets/voice/004_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "004_syn",
+      "cardId": "004",
+      "mode": "syn",
+      "text": "two weeks, 14 days",
+      "file": "assets/voice/004_syn.mp3",
+      "bytes": 15069,
+      "duration": 2.424
+    },
+    {
+      "id": "004_full",
+      "cardId": "004",
+      "mode": "full",
+      "text": "fortnight. two weeks, 14 days",
+      "file": "assets/voice/004_full.mp3",
+      "bytes": 22413,
+      "duration": 3.648
+    },
+    {
+      "id": "005_word",
+      "cardId": "005",
+      "mode": "word",
+      "text": "annual",
+      "file": "assets/voice/005_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "005_syn",
+      "cardId": "005",
+      "mode": "syn",
+      "text": "yearly, once a year",
+      "file": "assets/voice/005_syn.mp3",
+      "bytes": 12621,
+      "duration": 2.016
+    },
+    {
+      "id": "005_full",
+      "cardId": "005",
+      "mode": "full",
+      "text": "annual. yearly, once a year",
+      "file": "assets/voice/005_full.mp3",
+      "bytes": 18813,
+      "duration": 3.048
+    },
+    {
+      "id": "006_word",
+      "cardId": "006",
+      "mode": "word",
+      "text": "past",
+      "file": "assets/voice/006_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "006_syn",
+      "cardId": "006",
+      "mode": "syn",
+      "text": "after",
+      "file": "assets/voice/006_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "006_full",
+      "cardId": "006",
+      "mode": "full",
+      "text": "past. after",
+      "file": "assets/voice/006_full.mp3",
+      "bytes": 12909,
+      "duration": 2.064
+    },
+    {
+      "id": "007_word",
+      "cardId": "007",
+      "mode": "word",
+      "text": "to",
+      "file": "assets/voice/007_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "007_syn",
+      "cardId": "007",
+      "mode": "syn",
+      "text": "before",
+      "file": "assets/voice/007_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "007_full",
+      "cardId": "007",
+      "mode": "full",
+      "text": "to. before",
+      "file": "assets/voice/007_full.mp3",
+      "bytes": 12045,
+      "duration": 1.92
+    },
+    {
+      "id": "008_word",
+      "cardId": "008",
+      "mode": "word",
+      "text": "previously",
+      "file": "assets/voice/008_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "008_syn",
+      "cardId": "008",
+      "mode": "syn",
+      "text": "before, in the past",
+      "file": "assets/voice/008_syn.mp3",
+      "bytes": 13197,
+      "duration": 2.112
+    },
+    {
+      "id": "008_full",
+      "cardId": "008",
+      "mode": "full",
+      "text": "previously. before, in the past",
+      "file": "assets/voice/008_full.mp3",
+      "bytes": 20685,
+      "duration": 3.36
+    },
+    {
+      "id": "009_word",
+      "cardId": "009",
+      "mode": "word",
+      "text": "postpone",
+      "file": "assets/voice/009_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "009_syn",
+      "cardId": "009",
+      "mode": "syn",
+      "text": "put off, delay",
+      "file": "assets/voice/009_syn.mp3",
+      "bytes": 12189,
+      "duration": 1.944
+    },
+    {
+      "id": "009_full",
+      "cardId": "009",
+      "mode": "full",
+      "text": "postpone. put off, delay",
+      "file": "assets/voice/009_full.mp3",
+      "bytes": 19101,
+      "duration": 3.096
+    },
+    {
+      "id": "010_word",
+      "cardId": "010",
+      "mode": "word",
+      "text": "on time",
+      "file": "assets/voice/010_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "010_syn",
+      "cardId": "010",
+      "mode": "syn",
+      "text": "on time, in time",
+      "file": "assets/voice/010_syn.mp3",
+      "bytes": 12765,
+      "duration": 2.04
+    },
+    {
+      "id": "010_full",
+      "cardId": "010",
+      "mode": "full",
+      "text": "on time. on time, in time",
+      "file": "assets/voice/010_full.mp3",
+      "bytes": 19533,
+      "duration": 3.168
+    },
+    {
+      "id": "011_word",
+      "cardId": "011",
+      "mode": "word",
+      "text": "nearby",
+      "file": "assets/voice/011_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "011_syn",
+      "cardId": "011",
+      "mode": "syn",
+      "text": "close to, not far from",
+      "file": "assets/voice/011_syn.mp3",
+      "bytes": 14493,
+      "duration": 2.328
+    },
+    {
+      "id": "011_full",
+      "cardId": "011",
+      "mode": "full",
+      "text": "nearby. close to, not far from",
+      "file": "assets/voice/011_full.mp3",
+      "bytes": 20973,
+      "duration": 3.408
+    },
+    {
+      "id": "012_word",
+      "cardId": "012",
+      "mode": "word",
+      "text": "opposite",
+      "file": "assets/voice/012_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "012_syn",
+      "cardId": "012",
+      "mode": "syn",
+      "text": "across from",
+      "file": "assets/voice/012_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "012_full",
+      "cardId": "012",
+      "mode": "full",
+      "text": "opposite. across from",
+      "file": "assets/voice/012_full.mp3",
+      "bytes": 15933,
+      "duration": 2.568
+    },
+    {
+      "id": "013_word",
+      "cardId": "013",
+      "mode": "word",
+      "text": "next to",
+      "file": "assets/voice/013_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "013_syn",
+      "cardId": "013",
+      "mode": "syn",
+      "text": "beside, by the side of",
+      "file": "assets/voice/013_syn.mp3",
+      "bytes": 14781,
+      "duration": 2.376
+    },
+    {
+      "id": "013_full",
+      "cardId": "013",
+      "mode": "full",
+      "text": "next to. beside, by the side of",
+      "file": "assets/voice/013_full.mp3",
+      "bytes": 21981,
+      "duration": 3.576
+    },
+    {
+      "id": "014_word",
+      "cardId": "014",
+      "mode": "word",
+      "text": "place to go",
+      "file": "assets/voice/014_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "014_syn",
+      "cardId": "014",
+      "mode": "syn",
+      "text": "final place, final stop",
+      "file": "assets/voice/014_syn.mp3",
+      "bytes": 16509,
+      "duration": 2.664
+    },
+    {
+      "id": "014_full",
+      "cardId": "014",
+      "mode": "full",
+      "text": "place to go. final place, final stop",
+      "file": "assets/voice/014_full.mp3",
+      "bytes": 24141,
+      "duration": 3.936
+    },
+    {
+      "id": "015_word",
+      "cardId": "015",
+      "mode": "word",
+      "text": "inside",
+      "file": "assets/voice/015_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "015_syn",
+      "cardId": "015",
+      "mode": "syn",
+      "text": "within, indoors",
+      "file": "assets/voice/015_syn.mp3",
+      "bytes": 12477,
+      "duration": 1.992
+    },
+    {
+      "id": "015_full",
+      "cardId": "015",
+      "mode": "full",
+      "text": "inside. within, indoors",
+      "file": "assets/voice/015_full.mp3",
+      "bytes": 19245,
+      "duration": 3.12
+    },
+    {
+      "id": "016_word",
+      "cardId": "016",
+      "mode": "word",
+      "text": "abroad",
+      "file": "assets/voice/016_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "016_syn",
+      "cardId": "016",
+      "mode": "syn",
+      "text": "in a foreign country",
+      "file": "assets/voice/016_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "016_full",
+      "cardId": "016",
+      "mode": "full",
+      "text": "abroad. in a foreign country",
+      "file": "assets/voice/016_full.mp3",
+      "bytes": 17517,
+      "duration": 2.832
+    },
+    {
+      "id": "017_word",
+      "cardId": "017",
+      "mode": "word",
+      "text": "centre",
+      "file": "assets/voice/017_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "017_syn",
+      "cardId": "017",
+      "mode": "syn",
+      "text": "middle, heart of town",
+      "file": "assets/voice/017_syn.mp3",
+      "bytes": 13197,
+      "duration": 2.112
+    },
+    {
+      "id": "017_full",
+      "cardId": "017",
+      "mode": "full",
+      "text": "centre. middle, heart of town",
+      "file": "assets/voice/017_full.mp3",
+      "bytes": 19677,
+      "duration": 3.192
+    },
+    {
+      "id": "018_word",
+      "cardId": "018",
+      "mode": "word",
+      "text": "entrance",
+      "file": "assets/voice/018_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "018_syn",
+      "cardId": "018",
+      "mode": "syn",
+      "text": "way in, door",
+      "file": "assets/voice/018_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "018_full",
+      "cardId": "018",
+      "mode": "full",
+      "text": "entrance. way in, door",
+      "file": "assets/voice/018_full.mp3",
+      "bytes": 17949,
+      "duration": 2.904
+    },
+    {
+      "id": "019_word",
+      "cardId": "019",
+      "mode": "word",
+      "text": "exit",
+      "file": "assets/voice/019_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "019_syn",
+      "cardId": "019",
+      "mode": "syn",
+      "text": "way out",
+      "file": "assets/voice/019_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "019_full",
+      "cardId": "019",
+      "mode": "full",
+      "text": "exit. way out",
+      "file": "assets/voice/019_full.mp3",
+      "bytes": 14349,
+      "duration": 2.304
+    },
+    {
+      "id": "020_word",
+      "cardId": "020",
+      "mode": "word",
+      "text": "surrounding",
+      "file": "assets/voice/020_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "020_syn",
+      "cardId": "020",
+      "mode": "syn",
+      "text": "around, nearby area",
+      "file": "assets/voice/020_syn.mp3",
+      "bytes": 14781,
+      "duration": 2.376
+    },
+    {
+      "id": "020_full",
+      "cardId": "020",
+      "mode": "full",
+      "text": "surrounding. around, nearby area",
+      "file": "assets/voice/020_full.mp3",
+      "bytes": 21981,
+      "duration": 3.576
+    },
+    {
+      "id": "021_word",
+      "cardId": "021",
+      "mode": "word",
+      "text": "inexpensive",
+      "file": "assets/voice/021_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "021_syn",
+      "cardId": "021",
+      "mode": "syn",
+      "text": "cheap, low-priced",
+      "file": "assets/voice/021_syn.mp3",
+      "bytes": 12765,
+      "duration": 2.04
+    },
+    {
+      "id": "021_full",
+      "cardId": "021",
+      "mode": "full",
+      "text": "inexpensive. cheap, low-priced",
+      "file": "assets/voice/021_full.mp3",
+      "bytes": 21693,
+      "duration": 3.528
+    },
+    {
+      "id": "022_word",
+      "cardId": "022",
+      "mode": "word",
+      "text": "costly",
+      "file": "assets/voice/022_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "022_syn",
+      "cardId": "022",
+      "mode": "syn",
+      "text": "expensive, high-priced",
+      "file": "assets/voice/022_syn.mp3",
+      "bytes": 15645,
+      "duration": 2.52
+    },
+    {
+      "id": "022_full",
+      "cardId": "022",
+      "mode": "full",
+      "text": "costly. expensive, high-priced",
+      "file": "assets/voice/022_full.mp3",
+      "bytes": 21693,
+      "duration": 3.528
+    },
+    {
+      "id": "023_word",
+      "cardId": "023",
+      "mode": "word",
+      "text": "free",
+      "file": "assets/voice/023_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "023_syn",
+      "cardId": "023",
+      "mode": "syn",
+      "text": "at no cost, without pay",
+      "file": "assets/voice/023_syn.mp3",
+      "bytes": 15501,
+      "duration": 2.496
+    },
+    {
+      "id": "023_full",
+      "cardId": "023",
+      "mode": "full",
+      "text": "free. at no cost, without pay",
+      "file": "assets/voice/023_full.mp3",
+      "bytes": 20973,
+      "duration": 3.408
+    },
+    {
+      "id": "024_word",
+      "cardId": "024",
+      "mode": "word",
+      "text": "discount",
+      "file": "assets/voice/024_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "024_syn",
+      "cardId": "024",
+      "mode": "syn",
+      "text": "price reduction, off",
+      "file": "assets/voice/024_syn.mp3",
+      "bytes": 14061,
+      "duration": 2.256
+    },
+    {
+      "id": "024_full",
+      "cardId": "024",
+      "mode": "full",
+      "text": "discount. price reduction, off",
+      "file": "assets/voice/024_full.mp3",
+      "bytes": 21261,
+      "duration": 3.456
+    },
+    {
+      "id": "025_word",
+      "cardId": "025",
+      "mode": "word",
+      "text": "fare",
+      "file": "assets/voice/025_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "025_syn",
+      "cardId": "025",
+      "mode": "syn",
+      "text": "ticket price, fee",
+      "file": "assets/voice/025_syn.mp3",
+      "bytes": 13053,
+      "duration": 2.088
+    },
+    {
+      "id": "025_full",
+      "cardId": "025",
+      "mode": "full",
+      "text": "fare. ticket price, fee",
+      "file": "assets/voice/025_full.mp3",
+      "bytes": 18237,
+      "duration": 2.952
+    },
+    {
+      "id": "026_word",
+      "cardId": "026",
+      "mode": "word",
+      "text": "reasonable",
+      "file": "assets/voice/026_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "026_syn",
+      "cardId": "026",
+      "mode": "syn",
+      "text": "fair, not too high",
+      "file": "assets/voice/026_syn.mp3",
+      "bytes": 12909,
+      "duration": 2.064
+    },
+    {
+      "id": "026_full",
+      "cardId": "026",
+      "mode": "full",
+      "text": "reasonable. fair, not too high",
+      "file": "assets/voice/026_full.mp3",
+      "bytes": 20253,
+      "duration": 3.288
+    },
+    {
+      "id": "027_word",
+      "cardId": "027",
+      "mode": "word",
+      "text": "bargain",
+      "file": "assets/voice/027_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "027_syn",
+      "cardId": "027",
+      "mode": "syn",
+      "text": "good buy, low price",
+      "file": "assets/voice/027_syn.mp3",
+      "bytes": 13341,
+      "duration": 2.136
+    },
+    {
+      "id": "027_full",
+      "cardId": "027",
+      "mode": "full",
+      "text": "bargain. good buy, low price",
+      "file": "assets/voice/027_full.mp3",
+      "bytes": 19389,
+      "duration": 3.144
+    },
+    {
+      "id": "028_word",
+      "cardId": "028",
+      "mode": "word",
+      "text": "refund",
+      "file": "assets/voice/028_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "028_syn",
+      "cardId": "028",
+      "mode": "syn",
+      "text": "money back",
+      "file": "assets/voice/028_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "028_full",
+      "cardId": "028",
+      "mode": "full",
+      "text": "refund. money back",
+      "file": "assets/voice/028_full.mp3",
+      "bytes": 15069,
+      "duration": 2.424
+    },
+    {
+      "id": "029_word",
+      "cardId": "029",
+      "mode": "word",
+      "text": "fee",
+      "file": "assets/voice/029_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "029_syn",
+      "cardId": "029",
+      "mode": "syn",
+      "text": "charge, cost",
+      "file": "assets/voice/029_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "029_full",
+      "cardId": "029",
+      "mode": "full",
+      "text": "fee. charge, cost",
+      "file": "assets/voice/029_full.mp3",
+      "bytes": 16941,
+      "duration": 2.736
+    },
+    {
+      "id": "030_word",
+      "cardId": "030",
+      "mode": "word",
+      "text": "valuable",
+      "file": "assets/voice/030_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "030_syn",
+      "cardId": "030",
+      "mode": "syn",
+      "text": "precious, worth much",
+      "file": "assets/voice/030_syn.mp3",
+      "bytes": 13917,
+      "duration": 2.232
+    },
+    {
+      "id": "030_full",
+      "cardId": "030",
+      "mode": "full",
+      "text": "valuable. precious, worth much",
+      "file": "assets/voice/030_full.mp3",
+      "bytes": 21117,
+      "duration": 3.432
+    },
+    {
+      "id": "031_word",
+      "cardId": "031",
+      "mode": "word",
+      "text": "participate in",
+      "file": "assets/voice/031_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "031_syn",
+      "cardId": "031",
+      "mode": "syn",
+      "text": "take part in, join",
+      "file": "assets/voice/031_syn.mp3",
+      "bytes": 13053,
+      "duration": 2.088
+    },
+    {
+      "id": "031_full",
+      "cardId": "031",
+      "mode": "full",
+      "text": "participate in. take part in, join",
+      "file": "assets/voice/031_full.mp3",
+      "bytes": 22413,
+      "duration": 3.648
+    },
+    {
+      "id": "032_word",
+      "cardId": "032",
+      "mode": "word",
+      "text": "annual trip",
+      "file": "assets/voice/032_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "032_syn",
+      "cardId": "032",
+      "mode": "syn",
+      "text": "yearly outing",
+      "file": "assets/voice/032_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "032_full",
+      "cardId": "032",
+      "mode": "full",
+      "text": "annual trip. yearly outing",
+      "file": "assets/voice/032_full.mp3",
+      "bytes": 17949,
+      "duration": 2.904
+    },
+    {
+      "id": "033_word",
+      "cardId": "033",
+      "mode": "word",
+      "text": "hike",
+      "file": "assets/voice/033_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "033_syn",
+      "cardId": "033",
+      "mode": "syn",
+      "text": "long walk in nature",
+      "file": "assets/voice/033_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "033_full",
+      "cardId": "033",
+      "mode": "full",
+      "text": "hike. long walk in nature",
+      "file": "assets/voice/033_full.mp3",
+      "bytes": 16941,
+      "duration": 2.736
+    },
+    {
+      "id": "034_word",
+      "cardId": "034",
+      "mode": "word",
+      "text": "exhibition",
+      "file": "assets/voice/034_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "034_syn",
+      "cardId": "034",
+      "mode": "syn",
+      "text": "show, display",
+      "file": "assets/voice/034_syn.mp3",
+      "bytes": 11901,
+      "duration": 1.896
+    },
+    {
+      "id": "034_full",
+      "cardId": "034",
+      "mode": "full",
+      "text": "exhibition. show, display",
+      "file": "assets/voice/034_full.mp3",
+      "bytes": 19533,
+      "duration": 3.168
+    },
+    {
+      "id": "035_word",
+      "cardId": "035",
+      "mode": "word",
+      "text": "contest",
+      "file": "assets/voice/035_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "035_syn",
+      "cardId": "035",
+      "mode": "syn",
+      "text": "competition, match",
+      "file": "assets/voice/035_syn.mp3",
+      "bytes": 13773,
+      "duration": 2.208
+    },
+    {
+      "id": "035_full",
+      "cardId": "035",
+      "mode": "full",
+      "text": "contest. competition, match",
+      "file": "assets/voice/035_full.mp3",
+      "bytes": 20973,
+      "duration": 3.408
+    },
+    {
+      "id": "036_word",
+      "cardId": "036",
+      "mode": "word",
+      "text": "performance",
+      "file": "assets/voice/036_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "036_syn",
+      "cardId": "036",
+      "mode": "syn",
+      "text": "show, play",
+      "file": "assets/voice/036_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "036_full",
+      "cardId": "036",
+      "mode": "full",
+      "text": "performance. show, play",
+      "file": "assets/voice/036_full.mp3",
+      "bytes": 18237,
+      "duration": 2.952
+    },
+    {
+      "id": "037_word",
+      "cardId": "037",
+      "mode": "word",
+      "text": "gather",
+      "file": "assets/voice/037_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "037_syn",
+      "cardId": "037",
+      "mode": "syn",
+      "text": "meet, assemble",
+      "file": "assets/voice/037_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "037_full",
+      "cardId": "037",
+      "mode": "full",
+      "text": "gather. meet, assemble",
+      "file": "assets/voice/037_full.mp3",
+      "bytes": 17517,
+      "duration": 2.832
+    },
+    {
+      "id": "038_word",
+      "cardId": "038",
+      "mode": "word",
+      "text": "spectator",
+      "file": "assets/voice/038_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "038_syn",
+      "cardId": "038",
+      "mode": "syn",
+      "text": "viewer, audience",
+      "file": "assets/voice/038_syn.mp3",
+      "bytes": 13197,
+      "duration": 2.112
+    },
+    {
+      "id": "038_full",
+      "cardId": "038",
+      "mode": "full",
+      "text": "spectator. viewer, audience",
+      "file": "assets/voice/038_full.mp3",
+      "bytes": 21405,
+      "duration": 3.48
+    },
+    {
+      "id": "039_word",
+      "cardId": "039",
+      "mode": "word",
+      "text": "celebrate",
+      "file": "assets/voice/039_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "039_syn",
+      "cardId": "039",
+      "mode": "syn",
+      "text": "mark an occasion",
+      "file": "assets/voice/039_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "039_full",
+      "cardId": "039",
+      "mode": "full",
+      "text": "celebrate. mark an occasion",
+      "file": "assets/voice/039_full.mp3",
+      "bytes": 17805,
+      "duration": 2.88
+    },
+    {
+      "id": "040_word",
+      "cardId": "040",
+      "mode": "word",
+      "text": "relax",
+      "file": "assets/voice/040_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "040_syn",
+      "cardId": "040",
+      "mode": "syn",
+      "text": "take it easy, rest",
+      "file": "assets/voice/040_syn.mp3",
+      "bytes": 13341,
+      "duration": 2.136
+    },
+    {
+      "id": "040_full",
+      "cardId": "040",
+      "mode": "full",
+      "text": "relax. take it easy, rest",
+      "file": "assets/voice/040_full.mp3",
+      "bytes": 20253,
+      "duration": 3.288
+    },
+    {
+      "id": "041_word",
+      "cardId": "041",
+      "mode": "word",
+      "text": "intelligent",
+      "file": "assets/voice/041_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "041_syn",
+      "cardId": "041",
+      "mode": "syn",
+      "text": "clever, smart",
+      "file": "assets/voice/041_syn.mp3",
+      "bytes": 12045,
+      "duration": 1.92
+    },
+    {
+      "id": "041_full",
+      "cardId": "041",
+      "mode": "full",
+      "text": "intelligent. clever, smart",
+      "file": "assets/voice/041_full.mp3",
+      "bytes": 20253,
+      "duration": 3.288
+    },
+    {
+      "id": "042_word",
+      "cardId": "042",
+      "mode": "word",
+      "text": "friendly",
+      "file": "assets/voice/042_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "042_syn",
+      "cardId": "042",
+      "mode": "syn",
+      "text": "kind, welcoming",
+      "file": "assets/voice/042_syn.mp3",
+      "bytes": 12189,
+      "duration": 1.944
+    },
+    {
+      "id": "042_full",
+      "cardId": "042",
+      "mode": "full",
+      "text": "friendly. kind, welcoming",
+      "file": "assets/voice/042_full.mp3",
+      "bytes": 18813,
+      "duration": 3.048
+    },
+    {
+      "id": "043_word",
+      "cardId": "043",
+      "mode": "word",
+      "text": "generous",
+      "file": "assets/voice/043_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "043_syn",
+      "cardId": "043",
+      "mode": "syn",
+      "text": "giving, helpful",
+      "file": "assets/voice/043_syn.mp3",
+      "bytes": 11901,
+      "duration": 1.896
+    },
+    {
+      "id": "043_full",
+      "cardId": "043",
+      "mode": "full",
+      "text": "generous. giving, helpful",
+      "file": "assets/voice/043_full.mp3",
+      "bytes": 18813,
+      "duration": 3.048
+    },
+    {
+      "id": "044_word",
+      "cardId": "044",
+      "mode": "word",
+      "text": "courageous",
+      "file": "assets/voice/044_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "044_syn",
+      "cardId": "044",
+      "mode": "syn",
+      "text": "brave, fearless",
+      "file": "assets/voice/044_syn.mp3",
+      "bytes": 12621,
+      "duration": 2.016
+    },
+    {
+      "id": "044_full",
+      "cardId": "044",
+      "mode": "full",
+      "text": "courageous. brave, fearless",
+      "file": "assets/voice/044_full.mp3",
+      "bytes": 20253,
+      "duration": 3.288
+    },
+    {
+      "id": "045_word",
+      "cardId": "045",
+      "mode": "word",
+      "text": "honest",
+      "file": "assets/voice/045_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "045_syn",
+      "cardId": "045",
+      "mode": "syn",
+      "text": "truthful, sincere",
+      "file": "assets/voice/045_syn.mp3",
+      "bytes": 13053,
+      "duration": 2.088
+    },
+    {
+      "id": "045_full",
+      "cardId": "045",
+      "mode": "full",
+      "text": "honest. truthful, sincere",
+      "file": "assets/voice/045_full.mp3",
+      "bytes": 19389,
+      "duration": 3.144
+    },
+    {
+      "id": "046_word",
+      "cardId": "046",
+      "mode": "word",
+      "text": "polite",
+      "file": "assets/voice/046_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "046_syn",
+      "cardId": "046",
+      "mode": "syn",
+      "text": "courteous, well-mannered",
+      "file": "assets/voice/046_syn.mp3",
+      "bytes": 14205,
+      "duration": 2.28
+    },
+    {
+      "id": "046_full",
+      "cardId": "046",
+      "mode": "full",
+      "text": "polite. courteous, well-mannered",
+      "file": "assets/voice/046_full.mp3",
+      "bytes": 20253,
+      "duration": 3.288
+    },
+    {
+      "id": "047_word",
+      "cardId": "047",
+      "mode": "word",
+      "text": "stranger",
+      "file": "assets/voice/047_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "047_syn",
+      "cardId": "047",
+      "mode": "syn",
+      "text": "unknown person",
+      "file": "assets/voice/047_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "047_full",
+      "cardId": "047",
+      "mode": "full",
+      "text": "stranger. unknown person",
+      "file": "assets/voice/047_full.mp3",
+      "bytes": 17805,
+      "duration": 2.88
+    },
+    {
+      "id": "048_word",
+      "cardId": "048",
+      "mode": "word",
+      "text": "toddler",
+      "file": "assets/voice/048_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "048_syn",
+      "cardId": "048",
+      "mode": "syn",
+      "text": "young child",
+      "file": "assets/voice/048_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "048_full",
+      "cardId": "048",
+      "mode": "full",
+      "text": "toddler. young child",
+      "file": "assets/voice/048_full.mp3",
+      "bytes": 15501,
+      "duration": 2.496
+    },
+    {
+      "id": "049_word",
+      "cardId": "049",
+      "mode": "word",
+      "text": "elderly",
+      "file": "assets/voice/049_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "049_syn",
+      "cardId": "049",
+      "mode": "syn",
+      "text": "old, senior",
+      "file": "assets/voice/049_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "049_full",
+      "cardId": "049",
+      "mode": "full",
+      "text": "elderly. old, senior",
+      "file": "assets/voice/049_full.mp3",
+      "bytes": 17517,
+      "duration": 2.832
+    },
+    {
+      "id": "050_word",
+      "cardId": "050",
+      "mode": "word",
+      "text": "famous",
+      "file": "assets/voice/050_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "050_syn",
+      "cardId": "050",
+      "mode": "syn",
+      "text": "well-known",
+      "file": "assets/voice/050_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "050_full",
+      "cardId": "050",
+      "mode": "full",
+      "text": "famous. well-known",
+      "file": "assets/voice/050_full.mp3",
+      "bytes": 14781,
+      "duration": 2.376
+    },
+    {
+      "id": "051_word",
+      "cardId": "051",
+      "mode": "word",
+      "text": "delighted",
+      "file": "assets/voice/051_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "051_syn",
+      "cardId": "051",
+      "mode": "syn",
+      "text": "very happy, pleased",
+      "file": "assets/voice/051_syn.mp3",
+      "bytes": 14061,
+      "duration": 2.256
+    },
+    {
+      "id": "051_full",
+      "cardId": "051",
+      "mode": "full",
+      "text": "delighted. very happy, pleased",
+      "file": "assets/voice/051_full.mp3",
+      "bytes": 21261,
+      "duration": 3.456
+    },
+    {
+      "id": "052_word",
+      "cardId": "052",
+      "mode": "word",
+      "text": "nervous",
+      "file": "assets/voice/052_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "052_syn",
+      "cardId": "052",
+      "mode": "syn",
+      "text": "worried, a little afraid",
+      "file": "assets/voice/052_syn.mp3",
+      "bytes": 14205,
+      "duration": 2.28
+    },
+    {
+      "id": "052_full",
+      "cardId": "052",
+      "mode": "full",
+      "text": "nervous. worried, a little afraid",
+      "file": "assets/voice/052_full.mp3",
+      "bytes": 21261,
+      "duration": 3.456
+    },
+    {
+      "id": "053_word",
+      "cardId": "053",
+      "mode": "word",
+      "text": "terrified",
+      "file": "assets/voice/053_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "053_syn",
+      "cardId": "053",
+      "mode": "syn",
+      "text": "very scared, frightened",
+      "file": "assets/voice/053_syn.mp3",
+      "bytes": 14925,
+      "duration": 2.4
+    },
+    {
+      "id": "053_full",
+      "cardId": "053",
+      "mode": "full",
+      "text": "terrified. very scared, frightened",
+      "file": "assets/voice/053_full.mp3",
+      "bytes": 22701,
+      "duration": 3.696
+    },
+    {
+      "id": "054_word",
+      "cardId": "054",
+      "mode": "word",
+      "text": "exhausted",
+      "file": "assets/voice/054_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "054_syn",
+      "cardId": "054",
+      "mode": "syn",
+      "text": "very tired",
+      "file": "assets/voice/054_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "054_full",
+      "cardId": "054",
+      "mode": "full",
+      "text": "exhausted. very tired",
+      "file": "assets/voice/054_full.mp3",
+      "bytes": 17517,
+      "duration": 2.832
+    },
+    {
+      "id": "055_word",
+      "cardId": "055",
+      "mode": "word",
+      "text": "satisfied",
+      "file": "assets/voice/055_word.mp3",
+      "bytes": 9309,
+      "duration": 1.464
+    },
+    {
+      "id": "055_syn",
+      "cardId": "055",
+      "mode": "syn",
+      "text": "pleased, content",
+      "file": "assets/voice/055_syn.mp3",
+      "bytes": 13197,
+      "duration": 2.112
+    },
+    {
+      "id": "055_full",
+      "cardId": "055",
+      "mode": "full",
+      "text": "satisfied. pleased, content",
+      "file": "assets/voice/055_full.mp3",
+      "bytes": 21261,
+      "duration": 3.456
+    },
+    {
+      "id": "056_word",
+      "cardId": "056",
+      "mode": "word",
+      "text": "furious",
+      "file": "assets/voice/056_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "056_syn",
+      "cardId": "056",
+      "mode": "syn",
+      "text": "very angry",
+      "file": "assets/voice/056_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "056_full",
+      "cardId": "056",
+      "mode": "full",
+      "text": "furious. very angry",
+      "file": "assets/voice/056_full.mp3",
+      "bytes": 16941,
+      "duration": 2.736
+    },
+    {
+      "id": "057_word",
+      "cardId": "057",
+      "mode": "word",
+      "text": "miserable",
+      "file": "assets/voice/057_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "057_syn",
+      "cardId": "057",
+      "mode": "syn",
+      "text": "very unhappy, sad",
+      "file": "assets/voice/057_syn.mp3",
+      "bytes": 15069,
+      "duration": 2.424
+    },
+    {
+      "id": "057_full",
+      "cardId": "057",
+      "mode": "full",
+      "text": "miserable. very unhappy, sad",
+      "file": "assets/voice/057_full.mp3",
+      "bytes": 22125,
+      "duration": 3.6
+    },
+    {
+      "id": "058_word",
+      "cardId": "058",
+      "mode": "word",
+      "text": "confident",
+      "file": "assets/voice/058_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "058_syn",
+      "cardId": "058",
+      "mode": "syn",
+      "text": "sure of oneself",
+      "file": "assets/voice/058_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "058_full",
+      "cardId": "058",
+      "mode": "full",
+      "text": "confident. sure of oneself",
+      "file": "assets/voice/058_full.mp3",
+      "bytes": 18813,
+      "duration": 3.048
+    },
+    {
+      "id": "059_word",
+      "cardId": "059",
+      "mode": "word",
+      "text": "disappointed",
+      "file": "assets/voice/059_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "059_syn",
+      "cardId": "059",
+      "mode": "syn",
+      "text": "sad about result",
+      "file": "assets/voice/059_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "059_full",
+      "cardId": "059",
+      "mode": "full",
+      "text": "disappointed. sad about result",
+      "file": "assets/voice/059_full.mp3",
+      "bytes": 20109,
+      "duration": 3.264
+    },
+    {
+      "id": "060_word",
+      "cardId": "060",
+      "mode": "word",
+      "text": "curious",
+      "file": "assets/voice/060_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "060_syn",
+      "cardId": "060",
+      "mode": "syn",
+      "text": "eager to know",
+      "file": "assets/voice/060_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "060_full",
+      "cardId": "060",
+      "mode": "full",
+      "text": "curious. eager to know",
+      "file": "assets/voice/060_full.mp3",
+      "bytes": 16077,
+      "duration": 2.592
+    },
+    {
+      "id": "061_word",
+      "cardId": "061",
+      "mode": "word",
+      "text": "depart",
+      "file": "assets/voice/061_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "061_syn",
+      "cardId": "061",
+      "mode": "syn",
+      "text": "leave, set off",
+      "file": "assets/voice/061_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "061_full",
+      "cardId": "061",
+      "mode": "full",
+      "text": "depart. leave, set off",
+      "file": "assets/voice/061_full.mp3",
+      "bytes": 18381,
+      "duration": 2.976
+    },
+    {
+      "id": "062_word",
+      "cardId": "062",
+      "mode": "word",
+      "text": "arrive",
+      "file": "assets/voice/062_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "062_syn",
+      "cardId": "062",
+      "mode": "syn",
+      "text": "reach, get to",
+      "file": "assets/voice/062_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "062_full",
+      "cardId": "062",
+      "mode": "full",
+      "text": "arrive. reach, get to",
+      "file": "assets/voice/062_full.mp3",
+      "bytes": 17949,
+      "duration": 2.904
+    },
+    {
+      "id": "063_word",
+      "cardId": "063",
+      "mode": "word",
+      "text": "delay",
+      "file": "assets/voice/063_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "063_syn",
+      "cardId": "063",
+      "mode": "syn",
+      "text": "hold up, make late",
+      "file": "assets/voice/063_syn.mp3",
+      "bytes": 13629,
+      "duration": 2.184
+    },
+    {
+      "id": "063_full",
+      "cardId": "063",
+      "mode": "full",
+      "text": "delay. hold up, make late",
+      "file": "assets/voice/063_full.mp3",
+      "bytes": 19389,
+      "duration": 3.144
+    },
+    {
+      "id": "064_word",
+      "cardId": "064",
+      "mode": "word",
+      "text": "cancel",
+      "file": "assets/voice/064_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "064_syn",
+      "cardId": "064",
+      "mode": "syn",
+      "text": "call off",
+      "file": "assets/voice/064_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "064_full",
+      "cardId": "064",
+      "mode": "full",
+      "text": "cancel. call off",
+      "file": "assets/voice/064_full.mp3",
+      "bytes": 14349,
+      "duration": 2.304
+    },
+    {
+      "id": "065_word",
+      "cardId": "065",
+      "mode": "word",
+      "text": "passenger",
+      "file": "assets/voice/065_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "065_syn",
+      "cardId": "065",
+      "mode": "syn",
+      "text": "traveler, rider",
+      "file": "assets/voice/065_syn.mp3",
+      "bytes": 12045,
+      "duration": 1.92
+    },
+    {
+      "id": "065_full",
+      "cardId": "065",
+      "mode": "full",
+      "text": "passenger. traveler, rider",
+      "file": "assets/voice/065_full.mp3",
+      "bytes": 19101,
+      "duration": 3.096
+    },
+    {
+      "id": "066_word",
+      "cardId": "066",
+      "mode": "word",
+      "text": "route",
+      "file": "assets/voice/066_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "066_syn",
+      "cardId": "066",
+      "mode": "syn",
+      "text": "way, path",
+      "file": "assets/voice/066_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "066_full",
+      "cardId": "066",
+      "mode": "full",
+      "text": "route. way, path",
+      "file": "assets/voice/066_full.mp3",
+      "bytes": 16365,
+      "duration": 2.64
+    },
+    {
+      "id": "067_word",
+      "cardId": "067",
+      "mode": "word",
+      "text": "commute",
+      "file": "assets/voice/067_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "067_syn",
+      "cardId": "067",
+      "mode": "syn",
+      "text": "travel to work",
+      "file": "assets/voice/067_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "067_full",
+      "cardId": "067",
+      "mode": "full",
+      "text": "commute. travel to work",
+      "file": "assets/voice/067_full.mp3",
+      "bytes": 16365,
+      "duration": 2.64
+    },
+    {
+      "id": "068_word",
+      "cardId": "068",
+      "mode": "word",
+      "text": "vehicle",
+      "file": "assets/voice/068_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "068_syn",
+      "cardId": "068",
+      "mode": "syn",
+      "text": "car, bus, transport",
+      "file": "assets/voice/068_syn.mp3",
+      "bytes": 17085,
+      "duration": 2.76
+    },
+    {
+      "id": "068_full",
+      "cardId": "068",
+      "mode": "full",
+      "text": "vehicle. car, bus, transport",
+      "file": "assets/voice/068_full.mp3",
+      "bytes": 23997,
+      "duration": 3.912
+    },
+    {
+      "id": "069_word",
+      "cardId": "069",
+      "mode": "word",
+      "text": "luggage",
+      "file": "assets/voice/069_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "069_syn",
+      "cardId": "069",
+      "mode": "syn",
+      "text": "bags, suitcases",
+      "file": "assets/voice/069_syn.mp3",
+      "bytes": 14205,
+      "duration": 2.28
+    },
+    {
+      "id": "069_full",
+      "cardId": "069",
+      "mode": "full",
+      "text": "luggage. bags, suitcases",
+      "file": "assets/voice/069_full.mp3",
+      "bytes": 20541,
+      "duration": 3.336
+    },
+    {
+      "id": "070_word",
+      "cardId": "070",
+      "mode": "word",
+      "text": "ferry",
+      "file": "assets/voice/070_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "070_syn",
+      "cardId": "070",
+      "mode": "syn",
+      "text": "passenger boat",
+      "file": "assets/voice/070_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "070_full",
+      "cardId": "070",
+      "mode": "full",
+      "text": "ferry. passenger boat",
+      "file": "assets/voice/070_full.mp3",
+      "bytes": 15933,
+      "duration": 2.568
+    },
+    {
+      "id": "071_word",
+      "cardId": "071",
+      "mode": "word",
+      "text": "assignment",
+      "file": "assets/voice/071_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "071_syn",
+      "cardId": "071",
+      "mode": "syn",
+      "text": "homework, task",
+      "file": "assets/voice/071_syn.mp3",
+      "bytes": 12621,
+      "duration": 2.016
+    },
+    {
+      "id": "071_full",
+      "cardId": "071",
+      "mode": "full",
+      "text": "assignment. homework, task",
+      "file": "assets/voice/071_full.mp3",
+      "bytes": 20109,
+      "duration": 3.264
+    },
+    {
+      "id": "072_word",
+      "cardId": "072",
+      "mode": "word",
+      "text": "curriculum",
+      "file": "assets/voice/072_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "072_syn",
+      "cardId": "072",
+      "mode": "syn",
+      "text": "subjects studied",
+      "file": "assets/voice/072_syn.mp3",
+      "bytes": 11181,
+      "duration": 1.776
+    },
+    {
+      "id": "072_full",
+      "cardId": "072",
+      "mode": "full",
+      "text": "curriculum. subjects studied",
+      "file": "assets/voice/072_full.mp3",
+      "bytes": 18381,
+      "duration": 2.976
+    },
+    {
+      "id": "073_word",
+      "cardId": "073",
+      "mode": "word",
+      "text": "attend",
+      "file": "assets/voice/073_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "073_syn",
+      "cardId": "073",
+      "mode": "syn",
+      "text": "go to, be present at",
+      "file": "assets/voice/073_syn.mp3",
+      "bytes": 14781,
+      "duration": 2.376
+    },
+    {
+      "id": "073_full",
+      "cardId": "073",
+      "mode": "full",
+      "text": "attend. go to, be present at",
+      "file": "assets/voice/073_full.mp3",
+      "bytes": 21261,
+      "duration": 3.456
+    },
+    {
+      "id": "074_word",
+      "cardId": "074",
+      "mode": "word",
+      "text": "revise",
+      "file": "assets/voice/074_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "074_syn",
+      "cardId": "074",
+      "mode": "syn",
+      "text": "review, study again",
+      "file": "assets/voice/074_syn.mp3",
+      "bytes": 13629,
+      "duration": 2.184
+    },
+    {
+      "id": "074_full",
+      "cardId": "074",
+      "mode": "full",
+      "text": "revise. review, study again",
+      "file": "assets/voice/074_full.mp3",
+      "bytes": 20397,
+      "duration": 3.312
+    },
+    {
+      "id": "075_word",
+      "cardId": "075",
+      "mode": "word",
+      "text": "achieve",
+      "file": "assets/voice/075_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "075_syn",
+      "cardId": "075",
+      "mode": "syn",
+      "text": "reach, gain",
+      "file": "assets/voice/075_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "075_full",
+      "cardId": "075",
+      "mode": "full",
+      "text": "achieve. reach, gain",
+      "file": "assets/voice/075_full.mp3",
+      "bytes": 17373,
+      "duration": 2.808
+    },
+    {
+      "id": "076_word",
+      "cardId": "076",
+      "mode": "word",
+      "text": "register",
+      "file": "assets/voice/076_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "076_syn",
+      "cardId": "076",
+      "mode": "syn",
+      "text": "sign up, enroll",
+      "file": "assets/voice/076_syn.mp3",
+      "bytes": 12621,
+      "duration": 2.016
+    },
+    {
+      "id": "076_full",
+      "cardId": "076",
+      "mode": "full",
+      "text": "register. sign up, enroll",
+      "file": "assets/voice/076_full.mp3",
+      "bytes": 19677,
+      "duration": 3.192
+    },
+    {
+      "id": "077_word",
+      "cardId": "077",
+      "mode": "word",
+      "text": "laboratory",
+      "file": "assets/voice/077_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "077_syn",
+      "cardId": "077",
+      "mode": "syn",
+      "text": "science room, lab",
+      "file": "assets/voice/077_syn.mp3",
+      "bytes": 13053,
+      "duration": 2.088
+    },
+    {
+      "id": "077_full",
+      "cardId": "077",
+      "mode": "full",
+      "text": "laboratory. science room, lab",
+      "file": "assets/voice/077_full.mp3",
+      "bytes": 21117,
+      "duration": 3.432
+    },
+    {
+      "id": "078_word",
+      "cardId": "078",
+      "mode": "word",
+      "text": "librarian",
+      "file": "assets/voice/078_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "078_syn",
+      "cardId": "078",
+      "mode": "syn",
+      "text": "library worker",
+      "file": "assets/voice/078_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "078_full",
+      "cardId": "078",
+      "mode": "full",
+      "text": "librarian. library worker",
+      "file": "assets/voice/078_full.mp3",
+      "bytes": 18525,
+      "duration": 3.0
+    },
+    {
+      "id": "079_word",
+      "cardId": "079",
+      "mode": "word",
+      "text": "certificate",
+      "file": "assets/voice/079_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "079_syn",
+      "cardId": "079",
+      "mode": "syn",
+      "text": "official diploma",
+      "file": "assets/voice/079_syn.mp3",
+      "bytes": 11181,
+      "duration": 1.776
+    },
+    {
+      "id": "079_full",
+      "cardId": "079",
+      "mode": "full",
+      "text": "certificate. official diploma",
+      "file": "assets/voice/079_full.mp3",
+      "bytes": 19533,
+      "duration": 3.168
+    },
+    {
+      "id": "080_word",
+      "cardId": "080",
+      "mode": "word",
+      "text": "absent",
+      "file": "assets/voice/080_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "080_syn",
+      "cardId": "080",
+      "mode": "syn",
+      "text": "not present, away",
+      "file": "assets/voice/080_syn.mp3",
+      "bytes": 13197,
+      "duration": 2.112
+    },
+    {
+      "id": "080_full",
+      "cardId": "080",
+      "mode": "full",
+      "text": "absent. not present, away",
+      "file": "assets/voice/080_full.mp3",
+      "bytes": 20109,
+      "duration": 3.264
+    },
+    {
+      "id": "081_word",
+      "cardId": "081",
+      "mode": "word",
+      "text": "purchase",
+      "file": "assets/voice/081_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "081_syn",
+      "cardId": "081",
+      "mode": "syn",
+      "text": "buy",
+      "file": "assets/voice/081_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "081_full",
+      "cardId": "081",
+      "mode": "full",
+      "text": "purchase. buy",
+      "file": "assets/voice/081_full.mp3",
+      "bytes": 13629,
+      "duration": 2.184
+    },
+    {
+      "id": "082_word",
+      "cardId": "082",
+      "mode": "word",
+      "text": "receipt",
+      "file": "assets/voice/082_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "082_syn",
+      "cardId": "082",
+      "mode": "syn",
+      "text": "proof of payment",
+      "file": "assets/voice/082_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "082_full",
+      "cardId": "082",
+      "mode": "full",
+      "text": "receipt. proof of payment",
+      "file": "assets/voice/082_full.mp3",
+      "bytes": 17229,
+      "duration": 2.784
+    },
+    {
+      "id": "083_word",
+      "cardId": "083",
+      "mode": "word",
+      "text": "guarantee",
+      "file": "assets/voice/083_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "083_syn",
+      "cardId": "083",
+      "mode": "syn",
+      "text": "warranty, promise",
+      "file": "assets/voice/083_syn.mp3",
+      "bytes": 13773,
+      "duration": 2.208
+    },
+    {
+      "id": "083_full",
+      "cardId": "083",
+      "mode": "full",
+      "text": "guarantee. warranty, promise",
+      "file": "assets/voice/083_full.mp3",
+      "bytes": 20973,
+      "duration": 3.408
+    },
+    {
+      "id": "084_word",
+      "cardId": "084",
+      "mode": "word",
+      "text": "item",
+      "file": "assets/voice/084_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "084_syn",
+      "cardId": "084",
+      "mode": "syn",
+      "text": "thing, product",
+      "file": "assets/voice/084_syn.mp3",
+      "bytes": 12477,
+      "duration": 1.992
+    },
+    {
+      "id": "084_full",
+      "cardId": "084",
+      "mode": "full",
+      "text": "item. thing, product",
+      "file": "assets/voice/084_full.mp3",
+      "bytes": 18237,
+      "duration": 2.952
+    },
+    {
+      "id": "085_word",
+      "cardId": "085",
+      "mode": "word",
+      "text": "store",
+      "file": "assets/voice/085_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "085_syn",
+      "cardId": "085",
+      "mode": "syn",
+      "text": "shop",
+      "file": "assets/voice/085_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "085_full",
+      "cardId": "085",
+      "mode": "full",
+      "text": "store. shop",
+      "file": "assets/voice/085_full.mp3",
+      "bytes": 12477,
+      "duration": 1.992
+    },
+    {
+      "id": "086_word",
+      "cardId": "086",
+      "mode": "word",
+      "text": "fitting room",
+      "file": "assets/voice/086_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "086_syn",
+      "cardId": "086",
+      "mode": "syn",
+      "text": "changing room",
+      "file": "assets/voice/086_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "086_full",
+      "cardId": "086",
+      "mode": "full",
+      "text": "fitting room. changing room",
+      "file": "assets/voice/086_full.mp3",
+      "bytes": 17373,
+      "duration": 2.808
+    },
+    {
+      "id": "087_word",
+      "cardId": "087",
+      "mode": "word",
+      "text": "cash",
+      "file": "assets/voice/087_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "087_syn",
+      "cardId": "087",
+      "mode": "syn",
+      "text": "paper money and coins",
+      "file": "assets/voice/087_syn.mp3",
+      "bytes": 12621,
+      "duration": 2.016
+    },
+    {
+      "id": "087_full",
+      "cardId": "087",
+      "mode": "full",
+      "text": "cash. paper money and coins",
+      "file": "assets/voice/087_full.mp3",
+      "bytes": 17949,
+      "duration": 2.904
+    },
+    {
+      "id": "088_word",
+      "cardId": "088",
+      "mode": "word",
+      "text": "credit card",
+      "file": "assets/voice/088_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "088_syn",
+      "cardId": "088",
+      "mode": "syn",
+      "text": "plastic payment card",
+      "file": "assets/voice/088_syn.mp3",
+      "bytes": 12333,
+      "duration": 1.968
+    },
+    {
+      "id": "088_full",
+      "cardId": "088",
+      "mode": "full",
+      "text": "credit card. plastic payment card",
+      "file": "assets/voice/088_full.mp3",
+      "bytes": 20397,
+      "duration": 3.312
+    },
+    {
+      "id": "089_word",
+      "cardId": "089",
+      "mode": "word",
+      "text": "trolley",
+      "file": "assets/voice/089_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "089_syn",
+      "cardId": "089",
+      "mode": "syn",
+      "text": "shopping cart",
+      "file": "assets/voice/089_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "089_full",
+      "cardId": "089",
+      "mode": "full",
+      "text": "trolley. shopping cart",
+      "file": "assets/voice/089_full.mp3",
+      "bytes": 15357,
+      "duration": 2.472
+    },
+    {
+      "id": "090_word",
+      "cardId": "090",
+      "mode": "word",
+      "text": "brand",
+      "file": "assets/voice/090_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "090_syn",
+      "cardId": "090",
+      "mode": "syn",
+      "text": "company name, mark",
+      "file": "assets/voice/090_syn.mp3",
+      "bytes": 13341,
+      "duration": 2.136
+    },
+    {
+      "id": "090_full",
+      "cardId": "090",
+      "mode": "full",
+      "text": "brand. company name, mark",
+      "file": "assets/voice/090_full.mp3",
+      "bytes": 19389,
+      "duration": 3.144
+    },
+    {
+      "id": "091_word",
+      "cardId": "091",
+      "mode": "word",
+      "text": "permitted",
+      "file": "assets/voice/091_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "091_syn",
+      "cardId": "091",
+      "mode": "syn",
+      "text": "allowed",
+      "file": "assets/voice/091_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "091_full",
+      "cardId": "091",
+      "mode": "full",
+      "text": "permitted. allowed",
+      "file": "assets/voice/091_full.mp3",
+      "bytes": 14061,
+      "duration": 2.256
+    },
+    {
+      "id": "092_word",
+      "cardId": "092",
+      "mode": "word",
+      "text": "forbidden",
+      "file": "assets/voice/092_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "092_syn",
+      "cardId": "092",
+      "mode": "syn",
+      "text": "not allowed, banned",
+      "file": "assets/voice/092_syn.mp3",
+      "bytes": 12765,
+      "duration": 2.04
+    },
+    {
+      "id": "092_full",
+      "cardId": "092",
+      "mode": "full",
+      "text": "forbidden. not allowed, banned",
+      "file": "assets/voice/092_full.mp3",
+      "bytes": 19389,
+      "duration": 3.144
+    },
+    {
+      "id": "093_word",
+      "cardId": "093",
+      "mode": "word",
+      "text": "required",
+      "file": "assets/voice/093_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "093_syn",
+      "cardId": "093",
+      "mode": "syn",
+      "text": "needed, necessary",
+      "file": "assets/voice/093_syn.mp3",
+      "bytes": 13341,
+      "duration": 2.136
+    },
+    {
+      "id": "093_full",
+      "cardId": "093",
+      "mode": "full",
+      "text": "required. needed, necessary",
+      "file": "assets/voice/093_full.mp3",
+      "bytes": 20685,
+      "duration": 3.36
+    },
+    {
+      "id": "094_word",
+      "cardId": "094",
+      "mode": "word",
+      "text": "optional",
+      "file": "assets/voice/094_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "094_syn",
+      "cardId": "094",
+      "mode": "syn",
+      "text": "not compulsory, choice",
+      "file": "assets/voice/094_syn.mp3",
+      "bytes": 14925,
+      "duration": 2.4
+    },
+    {
+      "id": "094_full",
+      "cardId": "094",
+      "mode": "full",
+      "text": "optional. not compulsory, choice",
+      "file": "assets/voice/094_full.mp3",
+      "bytes": 21693,
+      "duration": 3.528
+    },
+    {
+      "id": "095_word",
+      "cardId": "095",
+      "mode": "word",
+      "text": "essential",
+      "file": "assets/voice/095_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "095_syn",
+      "cardId": "095",
+      "mode": "syn",
+      "text": "very important, vital",
+      "file": "assets/voice/095_syn.mp3",
+      "bytes": 15933,
+      "duration": 2.568
+    },
+    {
+      "id": "095_full",
+      "cardId": "095",
+      "mode": "full",
+      "text": "essential. very important, vital",
+      "file": "assets/voice/095_full.mp3",
+      "bytes": 22989,
+      "duration": 3.744
+    },
+    {
+      "id": "096_word",
+      "cardId": "096",
+      "mode": "word",
+      "text": "maximum",
+      "file": "assets/voice/096_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "096_syn",
+      "cardId": "096",
+      "mode": "syn",
+      "text": "most, highest limit",
+      "file": "assets/voice/096_syn.mp3",
+      "bytes": 14205,
+      "duration": 2.28
+    },
+    {
+      "id": "096_full",
+      "cardId": "096",
+      "mode": "full",
+      "text": "maximum. most, highest limit",
+      "file": "assets/voice/096_full.mp3",
+      "bytes": 21405,
+      "duration": 3.48
+    },
+    {
+      "id": "097_word",
+      "cardId": "097",
+      "mode": "word",
+      "text": "minimum",
+      "file": "assets/voice/097_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "097_syn",
+      "cardId": "097",
+      "mode": "syn",
+      "text": "least, lowest limit",
+      "file": "assets/voice/097_syn.mp3",
+      "bytes": 14493,
+      "duration": 2.328
+    },
+    {
+      "id": "097_full",
+      "cardId": "097",
+      "mode": "full",
+      "text": "minimum. least, lowest limit",
+      "file": "assets/voice/097_full.mp3",
+      "bytes": 20541,
+      "duration": 3.336
+    },
+    {
+      "id": "098_word",
+      "cardId": "098",
+      "mode": "word",
+      "text": "suitable",
+      "file": "assets/voice/098_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "098_syn",
+      "cardId": "098",
+      "mode": "syn",
+      "text": "right, fitting",
+      "file": "assets/voice/098_syn.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "098_full",
+      "cardId": "098",
+      "mode": "full",
+      "text": "suitable. right, fitting",
+      "file": "assets/voice/098_full.mp3",
+      "bytes": 18093,
+      "duration": 2.928
+    },
+    {
+      "id": "099_word",
+      "cardId": "099",
+      "mode": "word",
+      "text": "temporary",
+      "file": "assets/voice/099_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "099_syn",
+      "cardId": "099",
+      "mode": "syn",
+      "text": "for a short time only",
+      "file": "assets/voice/099_syn.mp3",
+      "bytes": 12045,
+      "duration": 1.92
+    },
+    {
+      "id": "099_full",
+      "cardId": "099",
+      "mode": "full",
+      "text": "temporary. for a short time only",
+      "file": "assets/voice/099_full.mp3",
+      "bytes": 18669,
+      "duration": 3.024
+    },
+    {
+      "id": "100_word",
+      "cardId": "100",
+      "mode": "word",
+      "text": "permanent",
+      "file": "assets/voice/100_word.mp3",
+      "bytes": 11757,
+      "duration": 1.872
+    },
+    {
+      "id": "100_syn",
+      "cardId": "100",
+      "mode": "syn",
+      "text": "lasting forever",
+      "file": "assets/voice/100_syn.mp3",
+      "bytes": 11325,
+      "duration": 1.8
+    },
+    {
+      "id": "100_full",
+      "cardId": "100",
+      "mode": "full",
+      "text": "permanent. lasting forever",
+      "file": "assets/voice/100_full.mp3",
+      "bytes": 18381,
+      "duration": 2.976
+    }
+  ]
+}
